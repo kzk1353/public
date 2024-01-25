@@ -1,0 +1,1829 @@
+第一章 HTML概述
+
+试题 1
+通常网页的首页被称为（）。
+
+选择一项：
+a. 主页 
+b. 网址
+c. 页面
+d. 网页
+正确答案是：主页
+
+试题 2
+网页的基本语言是（ ）。
+
+选择一项：
+a. HTML 
+b. JavaScript
+c. XML
+d. VBScript
+正确答案是：HTML
+
+试题 3
+下列属于静态网页的是（ ）。
+选择一项：
+a. index.jsp
+b. index.asp
+c. index.htm 
+d. index.php
+正确答案是：index.htm
+
+试题 4
+属于网页制作平台的是（ ）。
+选择一项：
+a. dreamweaver 
+b. cuteFTP
+c. flash
+d. photoshop
+正确答案是：dreamweaver
+
+试题 5
+实现网页交互性的核心技术是（ ）。
+正确答案是：javascript
+
+试题 6
+CSS的全称是（ ）。
+正确答案是：层叠样式表
+
+试题 7
+HTML 的中文全称是（ ）。
+正确答案是：超文本标记语言
+
+试题 8
+网页当中不可以对文字设置超链接。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 9
+站点无大小，可以大到一个网站，小到一个网页。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 10
+Dreamweaver 站点地图仅适用于本地站点。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+
+
+第二章 Dreamweaver开发工具的安装与配置
+
+试题 1
+Dreamweaver 是一个（ ）软件
+选择一项：
+a. 图像处理软件
+b. 聊天软件
+c. 网页制作软件 
+d. 动画制作软件
+正确答案是：网页制作软件
+
+试题 2
+以下那一个不是网页三剑客（）
+选择一项：
+a. word 
+b. Flash
+c. Fireworks
+d. Dreamweaver
+正确答案是：word
+
+试题 3
+在 Dreamweave 插入表格（）
+选择一项：
+a. 插入 |图像
+b. 文件 |新建
+c. 站点 |新建站点
+d. 修改 |页面属性 
+正确答案是：修改 |页面属性
+
+试题 4
+Deamweaver 中，预览页面的快捷键是（）
+选择一项：
+a. F10
+b. F5
+c. F1
+d. F12 
+正确答案是：F12
+
+试题 5
+Deamweaver 中，创建锚点可以使用（）
+选择一项：
+a. 修改菜单
+b. 插入菜单 
+c. 文本
+d. 文件
+正确答案是：插入菜单
+
+试题 6
+()和图像是构成网页的两个最基本的元素.
+正确答案是：文字
+
+试题 7
+网页中常用的图像格式有 () 、png、gif.
+正确答案是：jpg
+
+试题 8
+（）格式图像支持动画格式。
+正确答案是：gif
+
+试题 9
+网页中不能导入 word 文档。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 10
+站点名称必须为英文。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+
+
+第三章 常用页面标签
+
+试题 1
+title 标记必须包含在（ ）标记中。
+选择一项：
+a. head 
+b. body
+c. P
+d. table
+正确答案是：body
+
+试题 2
+在网页源代码中（ ）标记必不可少。
+选择一项：
+a. html 
+b. table
+c. p
+d. br
+正确答案是：html
+
+试题 3
+在 HTML 中，下面是段落标签的是（ ）。
+选择一项：
+a. html
+b. P 
+c. head
+d. body
+正确答案是：P
+
+试题 4
+下面（ ）是换行符标记。
+选择一项：
+a. br 
+b. font
+c. body
+d. p
+正确答案是：br
+
+试题 5
+在色彩的 RGB 系统中， 6 位十六进制数 000000 表示的颜色是（ ）。
+选择一项：
+a. 黑色 
+b. 白色
+c. 黄色
+d. 红色
+正确答案是：黑色
+
+试题 6
+定制表中 type 标记中的 circle 表示（ ）。
+选择一项：
+a. 方块
+b. 圆点 
+c. 圆环
+d. 字母
+正确答案是：圆点
+
+试题 7
+定制表中 type 标记中的 square表示（ ）。
+选择一项：
+a. 方块 
+b. 圆点
+c. 字母
+d. 圆环
+正确答案是：方块
+
+试题 8
+下列路径中属于绝对路径的是（ ）。
+选择一项：
+a. address.htm
+b. /Xuesheng/chengji/mingci.htm
+c. staff//telephone.htm
+d. http://www.sohu.com/index.htm 
+正确答案是：http://www.sohu.com/index.htm
+
+试题 9
+关于超链接元素 a 的说法错误的是（ ）。
+选择一项：
+a. href 属性不能用来指定到一个邮箱地址
+b. 用 name属性创建一个命名锚点，可以让链接直接跳转到下一个页面的某一章
+节，从上到下慢慢找
+c. href 属性用来指定链接到的 URL
+d. 想要访问本页的锚点，在 URL 地址的后面加一个 “ ” 和这个锚点的名字
+正确答案是：href 属性不能用来指定到一个邮箱地址
+
+试题 10
+在父窗口打开超链接的代码是（ ）。
+选择一项：
+a. URL target
+b. a href
+c. URL target
+d. URL target
+e. _parent 
+f. a href
+g. a href
+h. _top
+i. URL target
+j. _blank
+k. _self
+l. a href
+正确答案是：URL target, _top, a href, URL target, _parent, URL target, _blank, URL target, _self
+
+
+
+第四章 表格布局方式实现商城网站
+
+试题 1
+当鼠标停留在超链接上时会出现（ ）标记定义的文字。
+选择一项：
+a. href
+b. title 
+c. alt
+d. table
+正确答案是：title
+
+试题 2
+指定表格单元格中内容与表格单元格边框之间的空间大小， 需要设置表格属性 （）。
+选择一项：
+a. 边框
+b. 单元格间距
+c. 单元格填充 
+d. 宽度
+正确答案是：单元格填充
+
+试题 3
+跨多行的单元格的 HTML 代码为（ ）。
+选择一项：
+a. th colspan
+b. th rowspan
+c. td colspan
+d. td rowspan 
+正确答案是：td rowspan
+
+试题 4
+跨多列的单元格的 HTML 代码为（ ）。
+选择一项：
+a. td colspan 
+b. th colspan
+c. td rowspan
+d. th rowspan
+正确答案是：td colspan
+
+试题 5
+表示显示的边框数为（ ）个。
+选择一项：
+a. 4 
+b. 2
+c. 1
+d. 3
+正确答案是：4
+
+试题 6
+如果一个表格包括有 1 行 4 列，表格的总宽度为 699，间距为 5，填充为 0，边框为 3，每列的宽度相同，那么应将单元格定制为（ ）像素宽。
+选择一项：
+a. 136
+b. 167 
+c. 126
+d. 147
+正确答案是：167
+
+试题 7
+网页中设定表格单元格之间宽度属性是（）。
+正确答案是：cellspacing
+
+试题 8
+（） 是用来定义行；td是用来定义单元格；th是用来定义表头 。
+正确答案是：tr
+
+试题 9
+设置表格标题的 HTML 标记是（）。
+正确答案是：caption
+
+试题 10
+在 HTML 网页中，定义表单使用 （） 标签元素。
+正确答案是：form
+
+
+
+第五章 网页表单标签
+
+试题 1
+表单提交中的方式有（ ）种。
+选择一项：
+a. 3
+b. 4
+c. 1
+d. 2 
+正确答案是：2
+
+试题 2
+在 HTML 标签form action=? 中，action 表示（ ）。
+选择一项：
+a. 表单所用的脚本方式
+b. 提交的 URL 地址 
+c. 表单的形式
+d. 提交的方式
+正确答案是：表单所用的脚本方式
+
+试题 3
+在 HTML 中， form method=? ，method 表示（ ）。．
+选择一项：
+a. 表单所用的脚本方式
+b. 表单的形式
+c. 提交的方式 
+d. 提交的 URL 地址
+正确答案是：提交的方式
+
+试题 4
+增加表单的文字段的 HTML 代码的type属性是（ ）。
+选择一项：
+a. image
+b. text 
+c. submit
+d. hide
+正确答案是：text
+
+试题 5
+增加表单的隐藏域的 HTML 代码的type属性是（ ）。
+选择一项：
+a. submit
+b. image
+c. text
+d. hide 
+正确答案是：hide
+
+试题 6
+增加表单的复选框的 HTML 代码的type属性是（ ）。
+选择一项：
+a. text
+b. submit
+c. checkbox 
+d. image
+正确答案是：checkbox
+
+试题 7
+提交表单的单选按钮的 HTML 代码的type属性是（ ）。
+
+选择一项：
+a. checkbox
+b. radio 
+c. image
+d. submit
+正确答案是：radio
+
+试题 8
+增加表单的图像域的 HTML 代码的type属性是（ ）。
+选择一项：
+a. radio
+b. checkbox
+c. submit
+d. image 
+正确答案是：image
+
+试题 9
+增加表单的文本域的 HTML 代码的type属性是（ ）。
+选择一项：
+a. submit
+b. checkbox
+c. “ textarea ” 
+d. input type
+e. radio
+f. textarea name
+g. input type
+h. input type
+正确答案是：submit, textarea name, “ textarea ”, radio, checkbox
+
+试题 10
+增加表单的密码域的 HTML 代码的type属性是（ ）。
+选择一项：
+a. submit
+b. password 
+c. radio
+d. checkbox
+正确答案是：password
+
+
+
+第六章 表单标签应用实例
+
+试题 1
+如果一个表格包括有 1 行 4 列，表格的总宽度为 699，间距为 5，填充为 0，边框为 3，每列的宽度相同，那么应将单元格定制为（ ）像素宽。
+选择一项：
+a. 167 
+b. 147
+c. 126
+d. 136
+正确答案是：167
+
+试题 2
+当鼠标停留在超链接上时会出现（ ）标记定义的文字。
+选择一项：
+a. alt
+b. title 
+c. href
+d. table
+正确答案是：title
+
+试题 3
+设置列的宽度为 30，则（）标签的属性被修改。
+选择一项：
+a. td 
+b. tr
+c. table
+d. tp
+正确答案是：td
+
+试题 4
+在 HTML 语言中，下列（ ）是专属于 td、th 元素的属性。
+选择一项：
+a. bgcolor
+b. background
+c. align
+d. colspan 
+正确答案是：colspan
+
+试题 5
+在 HTML 文件中，给表格添加行的标签是（ ）。
+选择一项：
+a. td
+b. tr 
+c. th
+d. 以上都正确
+正确答案是：tr
+
+试题 6
+CSS 是利用（ ）HTML 标记构建网页布局。
+选择一项：
+a. dif
+b. dir
+c. dis
+d. div 
+正确答案是：div
+
+试题 7
+在 CSS 语言中，下列（ ）的适用对象是 “所有对象 “。
+选择一项：
+a. 背景附件 
+b. 文本排列
+c. 文本缩进
+d. 纵向排列
+正确答案是：背景附件
+
+试题 8
+下列选项中不属于 CSS 文本属性的是（ ）。
+选择一项：
+a. text-transform
+b. text-align
+c. line-height 
+d. font-size
+正确答案是：line-height
+
+试题 9
+在 CSS 中不属于添加在当前页面的形式是（ ）。
+选择一项：
+a. 内联式样式表
+b. 层叠式样式表 
+c. 链接式样式表
+d. 嵌入式样式表
+正确答案是：层叠式样式表
+
+试题 10
+在 CSS 语言中，下列（ ）是 “列表样式图像 “的语法。
+选择一项：
+a. width-space：值
+b. width ：值
+c. list-style-image ：值 
+d. height：值
+正确答案是：list-style-image ：值
+
+
+
+第七章 CSS样式表基础
+
+试题 1
+CSS 是利用（ ）HTML 标记构建网页布局。
+选择一项：
+a. dis
+b. dir
+c. div 
+d. dif
+正确答案是：div
+
+试题 2
+在 CSS 语言中，下列（ ）是 “左边框 “的语法。
+选择一项：
+a. border-left-width ：值
+b. border-top-width ：值
+c. border-right-width ：值
+d. border-left ：值 
+正确答案是：border-left ：值
+
+试题 3
+在 CSS 语言中，下列（ ）的适用对象是 “所有对象 “。
+选择一项：
+a. 文本缩进
+b. 文本排列
+c. 背景附件 
+d. 纵向排列
+正确答案是：背景附件
+
+试题 4
+下列选项中不属于 CSS 文本属性的是（ ）。
+选择一项：
+a. font-size
+b. text-align
+c. line-height 
+d. text-transform
+正确答案是：line-height
+
+试题 5
+在 CSS 语言中，下列（ ）是背景图像的属性。
+选择一项或多项：
+a. 背景位置 
+b. 背景附件 
+c. 背景重复
+d. 纵向排列
+正确答案是：背景附件, 背景位置
+
+试题 6
+CSS 中的选择器包括（ ）。
+选择一项或多项：
+a. ID 选择器 
+b. 超文本标记选择器
+c. 标签选择器 
+d. 类选择器 
+正确答案是：类选择器, 标签选择器, ID 选择器
+
+试题 7
+CSS 文本属性中，文本对齐属性的取值有（ ）。
+选择一项或多项：
+a. auto
+b. right 
+c. left 
+d. center 
+正确答案是：left, center, right
+
+试题 8
+CSS 中，盒模型的属性包括（ ）。
+选择一项或多项：
+a. margin 
+b. font
+c. padding 
+d. border 
+正确答案是：margin, padding, border
+
+试题 9
+下面有关样式表的说法正确的是（）。
+选择一项或多项：
+a. 通过样式表，用户可以使用自己的设置来覆盖浏览器的常规设置 
+b. 样式表不能重用
+c. 样式表可以用来设置字体、颜色等 
+d. 每个样式表只能链接到一个文档
+正确答案是：通过样式表，用户可以使用自己的设置来覆盖浏览器的常规设置, 样式表可以用来设置字体、颜色等
+
+试题 10
+关于边框，以下写法正确的是（）
+选择一项或多项：
+a. border-style 
+b. border-color 
+c. border-width 
+d. border-top-width 
+正确答案是：border-top-width, border-style, border-width, border-color
+
+试题 11
+下列可以更改字体大小的 CSS 属性是（ ）。
+选择一项：
+a. text-size
+b. text-style
+c. font-size 
+d. font-style
+正确答案是：font-size
+
+试题 12
+下列能够设置盒模型的内填充为 10、20、30、40（顺时针方向） 的 CSS 属性是（ ）。
+选择一项：
+a. padding:10px 20px 30px 40px 
+b. padding:5px 20px 10px
+c. padding:10px 20px
+d. padding:10px
+正确答案是：padding:10px 20px 30px 40px
+
+试题 13
+定义盒模型外边距的属性是（ ）。
+选择一项：
+a. margin 
+b. border
+c. width
+d. padding
+正确答案是：margin
+
+试题 14
+定义盒模型内边距的属性是（ ）。
+选择一项：
+a. border
+b. margin
+c. width
+d. padding 
+正确答案是：padding
+
+试题 15
+CSS 中 BOX 的 padding 属性包括的属性有（ ）。
+选择一项或多项：
+a. 上填充 
+b. 右填充 
+c. 底填充 
+d. 左填充 
+正确答案是：右填充, 上填充, 底填充, 左填充
+
+
+
+第八章 盒子模型
+
+试题 1
+嵌入背景音乐的 HTML 代码是（ ）。
+选择一项：
+a. backsound src
+b. bgsound src 
+c. bgsound url
+d. backsound url
+正确答案是：bgsound src
+
+试题 2
+导航条可以是文字链接和（ ）链接。
+选择一项：
+a. 超
+b. 文件
+c. 图像 
+d. 文件夹
+正确答案是：图像
+
+试题 3
+marquee dir=right 中的 “right ” 表示（ ）。
+选择一项：
+a. 移动文字从右到左
+b. 移动文字从上到下
+c. 移动文字从左到右 
+d. 移动文字从下到上
+正确答案是：移动文字从左到右
+
+试题 4
+指定移动文字的循环次数的 HTML 代码是（ ）。
+选择一项：
+a. marquee play
+b. marquee loop 
+c. marquee time
+d. marquee auto
+正确答案是：marquee loop
+
+试题 5
+Flash 动画文件后缀为（ ）。
+选择一项：
+a. asf
+b. swf 
+c. wmv
+d. gif
+正确答案是：swf
+
+试题 6
+设定图片边框的属性是( ) 。
+正确答案是：border
+
+试题 7
+设定图片高度的属性是（ ）。
+正确答案是：height
+
+试题 8
+为图片添加简要说明文字的属性是( ) 。
+正确答案是：alt
+
+试题 9
+在页面中实现滚动文字的标记是 () 。
+正确答案是：marquee
+
+试题 10
+指定移动文字的循环延时的属性是 () 。
+正确答案是：loop
+
+
+
+第九章 盒子模型案例讲解
+
+试题 1
+一个包含 4 个框架的框架组对应着（ ）个网页文件。
+选择一项：
+a. 3
+b. 5 
+c. 4
+d. 6
+正确答案是：5
+
+试题 2
+页面顶部为横条网站标志和广告条，下方左侧为主菜单，右侧围显示内容的布局是（ ）。
+选择一项：
+a. T 形布局
+b. 厂形布局 
+c. 三形布局
+d. 对称对比布局
+正确答案是：厂形布局
+
+试题 3
+在 HTML 语言中，“frame noresize>“ 的具体含义是（ ）。
+选择一项：
+a. 定义个别框架
+b. 背景资讯
+c. 个别框架名称
+d. 不可改变大小 
+正确答案是：不可改变大小
+
+试题 4
+关于框架，下列说法正确的是（ ）。
+选择一项：
+a. 凡是有框架的网页必定有表格
+b. 框架一经建立就不能修改
+c. 框架可以通过模板建立 
+d. 框架的内容可以修改，但大小不能修改
+正确答案是：框架可以通过模板建立
+
+试题 5
+框架集是（ ）。
+选择一项：
+a. 浏览器中多个视图的集合 
+b. 网页集合
+c. 页面中的表格
+d. 构造整个框架结构的 HTML 元素
+正确答案是：构造整个框架结构的 HTML 元素
+
+试题 6
+关于 HTML 框架，说法错误的是（ ）。
+
+选择一项：
+a. HTML 框架的使用让打印整个页面变得困难 
+b. <frame> 标签定义了如何将窗口拆分成框架
+c. 可以给不支持框架的浏览器写上 <noframes>标签
+d. HTML 框架中的各个页面是相互独立的
+正确答案是：HTML 框架的使用让打印整个页面变得困难
+
+试题 7
+frame marginheight=# 表示（ ）。
+选择一项：
+a. 框架页面边框宽度
+b. 框架页面边框高度
+c. 框架页面空白高度 
+d. 框架页面空白宽度
+正确答案是：框架页面空白高度
+
+试题 8
+frame scrolling=#表示（ ）。
+选择一项：
+a. 边框是否浮动
+b. 边框是否有滚动条 
+c. 边框是否显示边框
+d. 边框是否有颜色
+正确答案是：边框是否有滚动条
+
+试题 9
+以下关于框架显示效果的说法中，错误的是（ ）。
+选择一项：
+a. 框架默认时有滚动条
+b. 框架的边框默认可以移动 
+c. 可在 FRAME 标记中使用 marginwidth 和 marginheight 属性控制框架内容与框
+架边框之间的距离
+d. 只有所有相邻框架的边框都设置为 0，才能隐藏边框
+正确答案是：只有所有相邻框架的边框都设置为 0，才能隐藏边框
+
+试题 10
+框架页的标签名是（ ）。
+选择一项：
+a. frames
+b. frame 
+c. frameset
+d. framed
+正确答案是：frame
+
+
+
+第十章 JavaScript基础
+
+试题 1
+解释执行 JavaScript 的是（ ）。
+选择一项：
+a. 编译器 
+b. 服务器
+c. 编辑器
+d. 浏览器
+正确答案是：编译器
+
+试题 2
+DOM 的含义是（ ）。
+选择一项：
+a. 文档对象模型 
+b. 级联样式表
+c. 客户端脚本程序语言
+d. 层叠样式表
+正确答案是：文档对象模型
+
+试题 3
+关于 JavaScript 的说法错误的是（ ）。
+选择一项：
+a. 是基于对象的
+b. 是面向结构的 
+c. 具有安全性能
+d. 是一种脚本编写语言
+正确答案是：是面向结构的
+
+试题 4
+JavaScript 中的属性操作符是（ ）。
+选择一项：
+a. 逻辑操作符（ &和|）
+b. 数学操作符（ +和-）
+c. 说明操作符（
+d. 点操作符（﹒） 
+正确答案是：点操作符（﹒）
+
+试题 5
+正确定义一个数值型变量的语句是（ ）。
+
+选择一项：
+a. var a=null
+b. var *a=5
+c. var a="5"
+d. var a=5 
+正确答案是：var a=5
+
+试题 6
+关于以下内容说法正确的是？（ ）
+选择一项或多项：
+a. JavaScript 常用的类型没有 int 型 
+b. null 是属于 JavaScript 中的类型 
+c. JavaScript 是弱类型的语言 
+d. JavaScript 常用的类型包括： int、string、boolean
+正确答案是：JavaScript 是弱类型的语言, JavaScript 常用的类型没有 int 型, null 是属于 JavaScript 中的类型
+
+试题 7
+下列属于 BOM中的对象的是 ( )
+选择一项或多项：
+a. Window 
+b. Screen 
+c. History 
+d. Location 
+正确答案是：Window, Screen, History, Location
+
+试题 8
+在 JavaScript 的 DOM中向一个节点中添加另一个节点方法的是（ ）
+选择一项或多项：
+a. appendChild(); 
+b. insertBefore(); 
+c. insertAfter();
+d. appendToChild();
+正确答案是：appendChild();, insertBefore();
+
+试题 9
+有关 js 函数，描述正确的是？（ ）
+选择一项或多项：
+a. 函数是多条执行语句的封装体，只有被调用才会被运行 
+b. 如果存在两个相同名称的函数，将执行最后一个加载的函数 
+c. 有一个函数 fun(temp) ，如果此时调用 fun() ，将不能正常运行
+d. 有一个函数 fun() ，如果此时调用 fun(“abc”)，将不能正常运行
+正确答案是：函数是多条执行语句的封装体，只有被调用才会被运行, 如果存在两个相同名称的函数，将执行最后一个加载的函数
+
+试题 10
+以下哪些函数式 Window 对象提供了与定时器有关？ （ ）
+选择一项或多项：
+a. setInterval() 
+b. clearInterval() 
+c. clearTimeout() 
+d. setTimeout() 
+正确答案是：setInterval(), setTimeout(), clearInterval(), clearTimeout()
+
+试题 11
+a++的作用和下面（ ）语句一致。
+选择一项：
+a. a+2;
+b. a
+c. a+1; 
+d. a+3;
+e. a
+f. a
+g. a+4;
+h. a
+正确答案是：a+2;, a+3;, a, a+1;, a+4;
+
+试题 12
+Alert 能够帮助发现错误，通过（ ）。
+选择一项：
+a. 暂停程序的执行
+b. 指明执行路径
+c. 以上所有
+d. 显示一些变量的当前值 
+正确答案是：显示一些变量的当前值
+
+试题 13
+（ ）不是 Window 对象的方法。
+选择一项：
+a. open 
+b. write
+c. close
+d. read
+正确答案是：open
+
+试题 14
+下面说法正确的是( )
+选择一项或多项：
+a. Java是一种编译语言
+b. JaveScript 是面向对象的程序设计语言 
+c. Javascript采用弱定义类型变量检查 
+d. Javascript 是由SUN公司开发的
+正确答案是：JaveScript 是面向对象的程序设计语言, Javascript采用弱定义类型变量检查
+
+试题 15
+如何在 JavaScript 中添加注释？ ( )
+选择一项或多项：
+a. //This is a comment 
+b. This is a comment
+c. !--This is a comment--
+d. /*This is a comment*/ 
+正确答案是：//This is a comment, /*This is a comment*/
+
+
+
+期末测验
+
+试题 1
+通常网页的首页被称为（）。
+
+选择一项：
+a. 网页
+b. 主页 
+c. 页面
+d. 网址
+正确答案是：主页
+
+试题 2
+网页的基本语言是（ ）。
+
+选择一项：
+a. HTML 
+b. VBScript
+c. XML
+d. JavaScript
+正确答案是：HTML
+
+试题 3
+下列属于静态网页的是（ ）。
+选择一项：
+a. index.asp
+b. index.jsp
+c. index.php
+d. index.htm 
+正确答案是：index.htm
+
+试题 4
+属于网页制作平台的是（ ）。
+选择一项：
+a. photoshop
+b. flash
+c. dreamweaver 
+d. cuteFTP
+正确答案是：dreamweaver
+
+试题 5
+下列（ ）软件不能编辑 html 语言。
+选择一项：
+a. 记事本
+b. Dreamweaver
+c. 语言 
+d. FrontPage
+正确答案是：语言
+
+试题 6
+Dreamweaver 是一个（ ）软件
+选择一项：
+a. 动画制作软件
+b. 网页制作软件 
+c. 聊天软件
+d. 图像处理软件
+正确答案是：网页制作软件
+
+试题 7
+以下那一个不是网页三剑客（）
+选择一项：
+a. Dreamweaver
+b. word 
+c. Fireworks
+d. Flash
+正确答案是：word
+
+试题 8
+网页制作中下列不可以使用的文件命名规则 （ ）
+选择一项：
+a. 英文命名
+b. 拼音命名
+c. 中文命名 
+d. 数字命名
+正确答案是：中文命名
+
+试题 9
+在 Dreamweave 插入表格（）
+选择一项：
+a. 文件 |新建
+b. 站点 |新建站点
+c. 插入 |图像
+d. 修改 |页面属性 
+正确答案是：修改 |页面属性
+
+试题 10
+在 Dreamweave 插入的表格修改填充颜色，使用属性中的（）
+选择一项：
+a. 水平
+b. 高
+c. 背景颜色 
+d. 宽
+正确答案是：背景颜色
+
+试题 11
+添加背景音乐的 HTML 标签是（）。
+选择一项：
+a. bgm
+b. bgsound 
+c. music
+d. bgmusic
+正确答案是：bgsound
+
+试题 12
+创建空链接使用的符号是 （）
+选择一项：
+a. * 
+b. &
+c. @
+
+试题 13
+在 Dreamweaver M中,在设置各分框架属性时,参数Scroll是用来设置什么属性的：（ ）
+选择一项：
+a. 是否使用默认边框宽度
+b. 是否出现滚动条 
+c. 是否进行颜色设置
+d. 是否设置边框宽度
+正确答案是：是否出现滚动条
+
+试题 14
+title 标记必须包含在（ ）标记中。
+选择一项：
+a. head
+b. table
+c. P
+d. body 
+正确答案是：body
+
+试题 15
+在网页源代码中（ ）标记必不可少。
+选择一项：
+a. br
+b. table
+c. html 
+d. p
+正确答案是：html
+
+试题 16
+关于 HTML 文件说法错误的是（ ）。
+选择一项：
+a. 这些标签告诉浏览器怎样显示这个页面 标题信息
+b. HTML 文件必须以 .htm 为扩展名 
+c. HTML 文件是一个包含标签的文本文件
+d. HTML 文件可以用一个简单的文本编辑器创建
+正确答案是：HTML 文件必须以 .htm 为扩展名
+
+试题 17
+关于 HTML 文件说法正确的是（ ）。
+选择一项：
+a. 在 u标签之间的文本会以加粗字体显示 
+b. 在 title标签之间的是头信息
+c. HTML 标签是大小写无关的，标签b和标签B表示的意思是一样的
+d. HTML 标签都必须配对使用
+正确答案是：HTML 标签是大小写无关的，标签b和标签B表示的意思是一样的
+
+试题 18
+下面的标记中属于单标记的是（ ）。
+选择一项：
+a. 
+b.
+c.
+d.
+正确答案是：
+
+试题 19
+在 HTML 中，下面是段落标签的是（ ）。
+选择一项：
+a. head
+b. html
+c. P 
+d. body
+正确答案是：P
+
+试题 20
+HTML 语言中， body vlink=? 表示（ ）。
+选择一项：
+a. 设置链接颜色
+b. 设置背景颜色
+c. 设置已使用的链接的颜色 
+d. 设置文本颜色
+正确答案是：设置已使用的链接的颜色
+
+试题 21
+当鼠标停留在超链接上时会出现（ ）标记定义的文字。
+选择一项：
+a. table
+b. title 
+c. alt
+d. href
+正确答案是：title
+
+试题 22
+指定表格单元格中内容与表格单元格边框之间的空间大小， 需要设置表格属性 （）。
+选择一项：
+a. 单元格填充 
+b. 宽度
+c. 边框
+d. 单元格间距
+正确答案是：单元格填充
+
+试题 23
+设置列的宽度为 30，则（）标签的属性被修改。
+选择一项：
+a. table
+b. td 
+c. tr
+d. tp
+正确答案是：td
+
+试题 24
+在 HTML 文件中，可以让表格显示边框线，例如 table border = 5，5 代表边框线的
+粗细，它的单位是（ ）。
+选择一项：
+a. cm
+b. grid
+c. pixel 
+d. dot
+正确答案是：pixel
+
+试题 25
+在 HTML 语言中，下列（ ）是专属于 td、th 元素的属性。
+选择一项：
+a. background
+b. bgcolor
+c. align
+d. colspan 
+正确答案是：colspan
+
+试题 26
+下面的设置仅显示表格上下边框的是（ ）。
+选择一项：
+a. table frame
+b. table frame
+c. “ hsides “
+d. “ both “
+e. “ border “ 
+f. table frame
+g. table frame
+h. “ rhs “
+正确答案是：“ border “, table frame, “ hsides “, “ both “, “ rhs “
+
+试题 27
+关于 HTML 表格说法错误的是（）。
+选择一项：
+a. 表格和单元格的背景色同时设置
+b. 如果不指定 border 属性，表格默认宽度为 1 
+c. 表格的 width 属性可以设置为像素值或百分比
+d. 表格的 height 属性可以设置为像素值或百分比
+正确答案是：如果不指定 border 属性，表格默认宽度为 1
+
+试题 28
+下列（  ）设置能使单元格显示边框。
+选择一项：
+a. 在 tr中添加 border 属性
+b. 在 td中添加 border 属性
+c. 以上全都可以 
+d. 在 table中添加 border 属性
+正确答案是：在 table中添加 border 属性
+
+试题 29
+表单提交中的方式有（ ）种。
+选择一项：
+a. 1
+b. 4
+c. 2 
+d. 3
+正确答案是：2
+
+试题 30
+在 HTML 标签form action=? 中，action 表示（ ）。
+选择一项：
+a. 提交的方式
+b. 表单的形式
+c. 表单所用的脚本方式 
+d. 提交的 URL 地址
+正确答案是：表单所用的脚本方式
+
+试题 31
+在 HTML 中， form method=? ，method 表示（ ）。．
+选择一项：
+a. 提交的 URL 地址
+b. 提交的方式 
+c. 表单的形式
+d. 表单所用的脚本方式
+正确答案是：提交的方式
+
+试题 32
+增加表单的文字段的 HTML 代码的type属性是（ ）。
+选择一项：
+a. image
+b. text 
+c. submit
+d. hide
+正确答案是：text
+
+试题 33
+提交表单的单选按钮的 HTML 代码的type属性是（ ）。
+
+选择一项：
+a. checkbox
+b. submit
+c. image
+d. radio 
+正确答案是：radio
+
+试题 34
+CSS 是利用（ ）HTML 标记构建网页布局。
+选择一项：
+a. dif
+b. dis
+c. dir
+d. div 
+正确答案是：div
+
+试题 35
+在 CSS 语言中，下列（ ）是 “左边框 “的语法。
+选择一项：
+a. border-top-width ：值
+b. border-right-width ：值
+c. border-left ：值 
+d. border-left-width ：值
+正确答案是：border-left ：值
+
+试题 36
+在 CSS 语言中，下列（ ）的适用对象是 “所有对象 “。
+选择一项：
+a. 纵向排列
+b. 背景附件 
+c. 文本排列
+d. 文本缩进
+正确答案是：背景附件
+
+试题 37
+下列选项中不属于 CSS 文本属性的是（ ）。
+选择一项：
+a. text-align
+b. font-size
+c. line-height 
+d. text-transform
+正确答案是：line-height
+
+试题 38
+在 CSS 中不属于添加在当前页面的形式是（ ）。
+选择一项：
+a. 层叠式样式表 
+b. 内联式样式表
+c. 嵌入式样式表
+d. 链接式样式表
+正确答案是：层叠式样式表
+
+试题 39
+在 CSS 语言中，下列（ ）是 “列表样式图像 “的语法。
+选择一项：
+a. height：值
+b. width ：值
+c. width-space：值
+d. list-style-image ：值 
+正确答案是：list-style-image ：值
+
+试题 40
+下面用来更改背景颜色的 CSS 属性是（ ）。
+选择一项：
+a. text:
+b. background-color: 
+c. color:
+d. bgcolor:
+正确答案是：background-color:
+
+试题 41
+下列可以更改样式表的字体颜色的 CSS 属性是（ ）。
+选择一项：
+a. text-color
+b. color 
+c. text-color
+d. fgcolor
+正确答案是：color
+
+试题 42
+定义盒模型外边距的属性是（ ）。
+选择一项：
+a. margin 
+b. border
+c. padding
+d. width
+正确答案是：margin
+
+试题 43
+定义盒模型内边距的属性是（ ）。
+选择一项：
+a. margin
+b. padding 
+c. border
+d. width
+正确答案是：padding
+
+试题 44
+嵌入背景音乐的 HTML 代码是（ ）。
+选择一项：
+a. backsound src
+b. bgsound url
+c. backsound url
+d. bgsound src 
+正确答案是：bgsound src
+
+试题 45
+导航条可以是文字链接和（ ）链接。
+选择一项：
+a. 文件夹
+b. 超
+c. 文件
+d. 图像 
+正确答案是：图像
+
+试题 46
+标签marquee 表示（ ）。
+选择一项：
+a. 页面空白
+b. 页面属性
+c. 标题传递
+d. 移动文字 
+正确答案是：移动文字
+
+试题 47
+marquee dir=right 中的 “right ” 表示（ ）。
+选择一项：
+a. 移动文字从左到右 
+b. 移动文字从上到下
+c. 移动文字从右到左
+d. 移动文字从下到上
+正确答案是：移动文字从左到右
+
+试题 48
+指定移动文字的循环次数的 HTML 代码是（ ）。
+选择一项：
+a. marquee play
+b. marquee auto
+c. marquee time
+d. marquee loop 
+正确答案是：marquee loop
+
+试题 49
+一个包含 4 个框架的框架组对应着（ ）个网页文件。
+选择一项：
+a. 5 
+b. 6
+c. 4
+d. 3
+正确答案是：5
+
+试题 50
+框架集是（ ）。
+选择一项：
+a. 浏览器中多个视图的集合
+b. 网页集合
+c. 构造整个框架结构的 HTML 元素 
+d. 页面中的表格
+正确答案是：构造整个框架结构的 HTML 元素
+
+试题 51
+如果一个变量 var x= “5” + 5 + 5; ，则 x 的值是（ ）。
+选择一项：
+a. 555 
+b. 510
+c. NaN
+d. 15
+正确答案是：555
+
+试题 52
+下面（ ）是正确的标识符定义。
+选择一项：
+a. $ab
+b. for
+c. a7 
+d. 7a
+正确答案是：a7
+
+试题 53
+函数 parseFloat( “3.14ab”) 返回（ ）。
+选择一项：
+a. 3.14 
+b. NaN
+c. ab
+d. PI
+正确答案是：3.14
+
+试题 54
+引用一个外部的 js 文件，可以定义 script 标签的（ ）属性。
+选择一项：
+a. src 
+b. file
+c. source
+d. js
+正确答案是：src
+
+试题 55
+当鼠标移动到文字链接上时显示一个隐藏层，这个动作的触发事件应该是（ ）
+选择一项：
+a. onClick
+b. onMouseOut
+c. onDblClick
+d. onMouseOver 
+正确答案是：onMouseOver
+
+试题 56
+当鼠标移走到文字链接上时隐藏隐藏层，这个动作的触发事件应该是（ ）
+选择一项：
+a. onDblClick
+b. onMouseOver
+c. onClick
+d. onMouseOut 
+正确答案是：onMouseOut
+
+试题 57
+当单击鼠标显示一个隐藏层， 这个动作的触发事件应该是 （ ）
+选择一项：
+a. onClick 
+b. onDblClick
+c. onMouseOver
+d. onMouseOut
+正确答案是：onClick
+
+试题 58
+解释执行 JavaScript 的是（ ）。
+选择一项：
+a. 编译器 
+b. 浏览器
+c. 编辑器
+d. 服务器
+正确答案是：编译器
+
+试题 59
+DOM 的含义是（ ）。
+选择一项：
+a. 文档对象模型 
+b. 级联样式表
+c. 层叠样式表
+d. 客户端脚本程序语言
+正确答案是：文档对象模型
+
+试题 60
+关于 JavaScript 的说法错误的是（ ）。
+选择一项：
+a. 是一种脚本编写语言
+b. 是面向结构的 
+c. 具有安全性能
+d. 是基于对象的
+正确答案是：是面向结构的
+
+试题 61
+JavaScript 中的属性操作符是（ ）。
+选择一项：
+a. 说明操作符（
+b. 数学操作符（ +和-）
+c. 逻辑操作符（ &和|）
+d. 点操作符（﹒） 
+正确答案是：点操作符（﹒）
+
+试题 62
+JavaScript 变量中的标识符不能以（ ）开始。
+选择一项：
+a. $
+b. 下划线
+c. 数字 
+d. 字母
+正确答案是：$
+
+试题 63
+通常以（ ）符号表示一个 JavaScript 语句结束。
+选择一项：
+a. ）
+b. ； 
+c. 。
+d. ，
+正确答案是：；
+
+试题 64
+计算一个圆面积的正确语句是（ ）。
+选择一项：
+a. Math.PI * Math.sqr(r);
+b. area 
+c. area
+d. math.PI * r ^ 2;
+e. pi * r ^ 2;
+f. Math.PI * r ^ 2;
+g. area
+h. area
+正确答案是：pi * r ^ 2;, area, Math.PI * r ^ 2;, Math.PI * Math.sqr(r);, math.PI * r ^ 2;
+
+试题 65
+赋值语句的错误表达格式是（ ）。
+选择一项：
+a. nValue + 35.00;
+b. middleName
+c. var firstName
+d. ““;
+e. 35.00;
+f. nValue
+g. someFunction() + 35.00;
+h. nValue
+i. nValue
+j. lastName 
+正确答案是：35.00;, nValue + 35.00;, someFunction() + 35.00;, var firstName, lastName, middleName, ““;
+
+试题 66
+下列不属于一元运算符的是（ ）。
+选择一项：
+a. ++
+b. %
+c. -
+d. -- 
+正确答案是：%
+
+试题 67
+a++的作用和下面（ ）语句一致。
+选择一项：
+a. a+2;
+b. a
+c. a+3;
+d. a+4;
+e. a
+f. a+1; 
+g. a
+h. a
+正确答案是：a+2;, a+3;, a, a+1;, a+4;
+
+试题 68
+下面（ ）代表的是位运算符中非运算。
+选择一项：
+a. ^
+b. &
+c. ! 
+d. |
+正确答案是：!
+
+试题 69
+下列（ ）不属于 JavaScript 中的逻辑运算符。
+选择一项：
+a. &&
+b. ||
+c. !
+d. / 
+正确答案是：/
+
+试题 70
+下面（ ）不是关系运算符。
+选择一项：
+a. ! 
+b. <
+c. >
+
+试题 71
+实现网页交互性的核心技术是（ ）。
+正确答案是：javascript
+
+试题 72
+CSS的全称是（ ）。
+正确答案是：层叠样式表
+
+试题 73
+HTML 的中文全称是（ ）。
+正确答案是：超文本标记语言
+
+试题 74
+()和图像是构成网页的两个最基本的元素.
+正确答案是：文字
+
+试题 75
+Dreamweaver 提供了代码、拆分、()3 种视图方式.
+正确答案是：设计
+
+试题 76
+在表格属性中，当表格的边框线设为（）时，表格线不可见。
+正确答案是：0
+
+试题 77
+表格的（）属性指定了单元格中的内容与单元格边框之间的空间大小。
+正确答案是：cellpadding
+
+试题 78
+如果不希望表格宽度随窗口大小而变化， 一般应该以 （）为单位定义表格宽度。
+正确答案是：像素
+
+试题 79
+表格的标签是（） ，单元格的标签是 td 。
+正确答案是：table
+
+试题 80
+要控制单元格内容与表格框线之间的空白，应在
+标记符中使用（）属性。
+正确答案是：cellpadding
+
+试题 81
+在网页文件上右键新建文件可以建立新的网页。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 82
+网页当中不可以对文字设置超链接。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 83
+站点无大小，可以大到一个网站，小到一个网页。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 84
+网页的命名可以使用中文名字。
+选择一项：
+对 
+错
+正确答案是“错”。
+
+试题 85
+文档的标题将与文件名一起出现在文档标题栏中。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 86
+网页当中可以使用 F4 键是网页界面最大化。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 87
+站点名称必须为英文。
+选择一项：
+对 
+错
+正确答案是“错”。
+
+试题 88
+可以使用站点菜单建立相册。
+选择一项：
+对 
+错
+正确答案是“错”。
+
+试题 89
+可以通过导入将 fireworks 图像插入网页中。
+选择一项：
+对 
+错
+正确答案是“错”。
+
+试题 90
+可以通过导入将 flash 插入网页中。
+选择一项：
+对 
+错
+正确答案是“错”。
+
+试题 91
+下面选项中（ ）可以设置网页中某个标签的左边界为 5px。
+选择一项或多项：
+b. margin:0 5px; 
+a. margin:0 0 0 5px; 
+d. margin:5px 0 0 0;
+c. padding-left:5px;
+正确答案是：
+  margin:0 5px;
+  margin:0 0 0 5px;
+
+试题 92
+下面有关样式表的说法正确的是（）。
+选择一项或多项：
+a. 通过样式表，用户可以使用自己的设置来覆盖浏览器的常规设置 
+b. 样式表不能重用
+c. 每个样式表只能链接到一个文档
+d. 样式表可以用来设置字体、颜色等 
+正确答案是：
+  通过样式表，用户可以使用自己的设置来覆盖浏览器的常规设置
+  样式表可以用来设置字体、颜色等
+
+试题 93
+关于边框，以下写法正确的是（）
+选择一项或多项：
+a. border-width 
+b. border-top-width 
+c. border-style 
+d. border-color 
+正确答案是：abcd
+
+试题 94
+关于 CSS样式表功能，以下说法正确的是（）
+选择一项或多项：
+a. 灵活控制网页中文字大小、字体、颜色、间距风格及位置 
+b. 以上说法都不对
+c. 可以精确的控制网页中各元素的位置 
+d. 可以与脚本语言相结合 
+正确答案是：
+  灵活控制网页中文字大小、字体、颜色、间距风格及位置
+  可以精确的控制网页中各元素的位置
+  可以与脚本语言相结合
+
+试题 95
+关于 CSS基本语法说法正确的是（）
+选择一项或多项：
+a. 属性和属性值之间用等号链接 
+b. 在有多个属性时，用 “；”进行区分 
+c. 属性必须要包含在花括号之中 
+d. 如果一个属性有几个值，则每个属性值之间用分号分隔开 
+正确答案是：
+  在有多个属性时，用 “；”进行区分
+  属性必须要包含在花括号之中
+
+试题 96
+关于 javascript下列说法中错误的是（ ）
+选择一项或多项：
+a. Javascript 中没有对象 
+b. Javascript 只能用在浏览器中
+c. Javascript 中没有数据类型 
+d. Javascript 中没有方法 
+正确答案是：abcd
+
+试题 97
+下列说法正确的是（ ）
+选择一项或多项：
+a. 在 ie 中 window.open() 可以打开新窗口 
+b. Alert 方法可以弹出提示框 
+c. prompt 可以弹出一个对话框 
+d. Confirm 方法弹出具有确认功能的提示框 
+正确答案是：abcd
+
+试题 98
+有关 js 函数，描述正确的是？（ ）
+选择一项或多项：
+a. 函数是多条执行语句的封装体，只有被调用才会被运行 
+b. 如果存在两个相同名称的函数，将执行最后一个加载的函数 
+c. 有一个函数 fun(temp) ，如果此时调用 fun() ，将不能正常运行
+d. 有一个函数 fun() ，如果此时调用 fun(“abc”)，将不能正常运行
+正确答案是：
+  函数是多条执行语句的封装体，只有被调用才会被运行
+  如果存在两个相同名称的函数，将执行最后一个加载的函数
+
+试题 99
+以下哪些函数式 Window 对象提供了与定时器有关？ （ ）
+选择一项或多项：
+a. setTimeout() 
+b. clearTimeout() 
+c. setInterval() 
+d. clearInterval() 
+正确答案是：abcd
+
+试题 100
+下面有关 dom 描述正确的是？（ ）
+选择一项或多项：
+a. 每个 HTML 标签是一个元素节点 
+b. 整个文档是一个文档节点 
+c. 每一个 HTML 属性是一个属性节点 
+d. 包含在 HTML 元素中的文本是文本节点 
+正确答案是：abcd

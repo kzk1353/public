@@ -1,0 +1,7776 @@
+测验1：响应式网页及其元素
+
+试题 1
+＜link rel="stylesheet" type="text/css" href="site.css" media="print" /＞这个语句表示在（ ）内容的显示。
+选择一项：
+a. 移动设备上
+b. 屏幕上
+c. 打印预览下 
+d. 触摸设备
+正确答案是：打印预览下
+
+试题 2
+常用媒体特性中，（）定义输出设备中的页面最大可见区域高度及宽度。
+选择一项：
+a. device- height，device- width
+b. max- height，max- width 
+c. min- device- height，min- device- width
+d. min- width，min- height
+正确答案是：max- height，max- width
+
+试题 3
+在以下这个语句中的viewport表示屏幕的（ ）。 ＜meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"〉
+选择一项：
+a. 总大小
+b. 可视区域 
+c. 指定元素的大小
+d. 指定元素的可见大小
+正确答案是：可视区域
+
+试题 4
+媒体查询条件中，如果要排除某种设备或情形，可以用关键字（）。
+选择一项：
+a. only
+b. not 
+c. but
+d. and
+正确答案是：not
+
+试题 5
+响应式网页设计，最早是由伊桑•马卡特（Ethan Marcotte）在（）年提出的一个概念。
+选择一项：
+a. 2009
+b. 2010 
+c. 2011
+d. 2012
+正确答案是：2010
+
+试题 6
+以下哪个版本的浏览器不支持媒体查询（）。
+选择一项：
+a. IE 9.0
+b. IE 7.0 
+c. Opera 9.0
+d. Chrome 21
+正确答案是：IE 7.0
+
+试题 7
+据2017年8月第40次《中国互联网络发展状况统计报告》的统计结果，截至2017年6月，我国网民占比最多的是使用（）上网的网民。
+选择一项：
+a. 台式电脑
+b. 平板
+c. 笔记本电脑
+d. 手机 
+正确答案是：手机
+
+试题 8
+如果要求对所有媒体类型都适用，可以使用（ ）来指代所有支持的媒体类型。
+选择一项：
+a. not
+b. all 
+c. only
+d. but
+正确答案是：all
+
+试题 9
+如果在一个页面中，对于一个main的div设置了font-size为5rem，而这个main的div又在另一个container的div中，如果container也有font-size的设置5rem，那么假如当前浏览器默认的字体大小是16px，则在container中和main中的字体大小分别是（）
+选择一项：
+a. 80px,400px
+b. 16px,80px
+c. 80px,80px 
+d. 400px,400px
+正确答案是：80px,80px
+
+试题 10
+如果一个网站在不同的环境下跳转到不同的网址，那么这个网站（ ）
+选择一项：
+a. 更新和维护时相对容易
+b. 是自适应的
+c. 是响应式的
+d. 是固定布局的 
+正确答案是：是自适应的
+
+试题 11
+根据以下语句，如果当前屏幕尺寸不超过320像素时，将自动匹配（ ）这个图像。 ＜img src=“img /img/1_1280.jpg” srcset =“img/1_1280.jpg 1280w, img/1_640.jpg 640w,img/1_320.jpg 320w”/＞
+选择一项：
+a. 1_1280.jpg
+b. 1_640.jpg
+c. 1_320.jpg 
+d. 以上均不能匹配
+正确答案是：1_320.jpg
+
+试题 12
+关于以下语句中的initial-scale表示的是（） ＜meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"＞。
+选择一项：
+a. 允许用户的最大缩放值
+b. 页面的初始缩放值 
+c. 是否允许用户进行缩放操作
+d. 允许用户的最小缩放值
+正确答案是：页面的初始缩放值
+
+试题 13
+媒体查询特性中，（）定义输出设备中的屏幕方向。
+选择一项：
+a. device- height
+b. resolution
+c. orientation 
+d. device- width
+正确答案是：orientation
+
+试题 14
+以下HTML代码定义的媒体查询条件下，如果设备的屏幕方向为纵向，则页面背景颜色为（） 
+ｂody { ｂackground-color:silver ; } ＠media only screen and (orientation: landscape) { ｂody { ｂackground-color: lightblue; } }
+选择一项：
+a. 银色 
+b. 红色
+c. 浅蓝色
+d. 蓝色
+正确答案是：银色
+
+试题 15
+以下不属于"自适应”网站的缺点的是（）
+选择一项：
+a. 可以极大地保证不同环境下的显示效果 
+b. 大大地增加架构设计的复杂度
+c. 在网站维护时需要同时兼顾多个不同版本的网页
+d. 维护的工作将会呈几何级数上升
+正确答案是：可以极大地保证不同环境下的显示效果
+
+试题 16
+viewport设置的user-scalable用于设置视口是否允许缩放。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 17
+自适应网页强调"一次设计，普遍适用”。
+选择一项：
+对 
+错
+正确答案是“错”。
+
+试题 18
+自适应网页和响应式网页是同样的。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 19
+媒体查询是一种查询用户设备和设备特性的技术。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 20
+如果一个网站在不同的环境下跳转到不同的网址，那么这个网站是响应式的。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 21
+响应式图像的匹配只能根据图像的宽度。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 22
+IE 6.0支持媒体查询。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 23
+viewport设置的user-scalable为1时表示允许缩放。
+选择一项：
+对
+错 
+正确答案是“对”。
+
+试题 24
+viewport不等于网页可见区域的大小。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 25
+查询规则由媒体类型和媒体特性表达式构成。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 26
+背景颜色background-color的取值可以是（）。
+选择一项或多项：
+a. blue 
+b. landscape
+c. lightblue 
+正确答案是：lightblue, blue
+
+试题 27
+设置媒体查询条件的关键词包括（）。
+选择一项或多项：
+a. not 
+b. only 
+c. and 
+d. all 
+正确答案是：all, not, only, and
+
+试题 28
+响应式网页开发的思想有（）。
+选择一项或多项：
+a. 一次设计，普遍适用 
+b. 以台式机优先 
+c. 以移动设备优先 
+d. 设计多个网页满足不同需要
+正确答案是：一次设计，普遍适用, 以移动设备优先
+
+试题 29
+媒体查询支持的媒体特性中，定义输出设备屏幕高度相关的有（）。
+选择一项或多项：
+a. max- height
+b. max- device- height 
+c. device- height 
+d. min- device- height 
+正确答案是：max- device- height, device- height, max- height, min- device- height
+
+试题 30
+媒体查询支持的媒体特性中，输出设备的屏幕方向取值可以是（）。
+选择一项或多项：
+a. portrait 
+b. max- height
+c. max- height
+d. landscape 
+正确答案是：portrait, landscape
+
+试题 1
+以下关于媒体查询的说法，不正确的是（）。
+选择一项：
+a. 为不同终端的用户都能提供较好的浏览体验
+b. 让CSS能更精确地作用于不同的媒体类型和同一媒体的不同条件
+c. 为不同终端的用户实现不同跳转
+d. 为一些特定的输出设备定制特定的显示效果
+正确答案是：为不同终端的用户实现不同跳转
+
+试题 2
+以下语句表示当屏幕的宽度大于等于1200px时，图像宽度将显示为（ ）。 ＜img src="img/1_1280.jpg" sizes="(min-width:1200px) calc(43vw), 50vw"/>
+选择一项：
+a. 43px
+b. 当前图像原始大小的43%
+c. 当前屏幕宽度的43%
+d. 当前图像原始宽度的43%
+正确答案是：当前屏幕宽度的43%
+
+试题 3
+媒体查询条件中，如果要指定只适用于某种设备或情形，可以用关键字（）
+选择一项：
+a. only
+b. but
+c. and
+d. not
+正确答案是：only
+
+试题 4
+如果在当前的div main中设置了其字体为5em，而当前div又在另一个div的container中。如果container设置了字体大小的为5em，那么假如当前浏览器默认的字体大小是16px，这样在container中的字体大小是（ ），而在main中的字体大小就应该是（ ）。
+选择一项：
+a. 16px，80px
+b. 16px，16px
+c. 80px，400px
+d. 80px，80px
+正确答案是：80px，400px
+
+试题 5
+响应式网页往往包含多个（）语句，用于适配不同的显示条件。
+选择一项：
+a. 网格
+b. 媒体查询
+c. 地址跳转
+d. 多媒体
+正确答案是：媒体查询
+
+试题 6
+响应式网页时，在开发时一般"以（）优先”。
+选择一项：
+a. 笔记本电脑
+b. 大屏幕设备
+c. 台式电脑
+d. 移动设备
+正确答案是：移动设备
+
+试题 7
+媒体查询特性中，（）定义输出设备中的分辨率。
+
+选择一项：
+a. device- width
+b. resolution
+c. orientation
+d. device- height
+正确答案是：resolution
+
+试题 8
+常用媒体特性中，（）定义输出设备中的屏幕最小可见高度及宽度。
+选择一项：
+a. min- width，min- height
+b. min- device- height，min- device- width
+c. max- device- height，max- device- width
+d. max- height，max- width
+正确答案是：min- device- height，min- device- width
+
+试题 9
+若有以下语句，则若当前屏幕宽度为960px，则图像宽度将显示为（） ＜img src="img/1_1280.jpg" sizes="(min-width:1200px) calc(43vw), 50vw"/＞。
+
+选择一项：
+a. 480px
+b. 516px
+c. 当前屏幕宽度的43%
+d. 50px
+正确答案是：480px
+
+试题 10
+关于以下语句中的user- scalable表示的是（） ＜meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"＞。
+选择一项：
+a. 允许用户的最小缩放值
+b. 允许用户的最大缩放值
+c. 页面的初始缩放值
+d. 是否允许用户进行缩放操作
+正确答案是：是否允许用户进行缩放操作
+
+试题 11
+以下HTML代码定义的媒体查询条件下，如果设备的屏幕方向为横向，则页面背景颜色为（） 
+ｂody { ｂackground-color:silver ; } ＠media only screen and (orientation: landscape) { ｂody { ｂackground-color: lightblue; } } 
+选择一项：
+a. 银色
+b. 红色
+c. 蓝色
+d. 浅蓝色
+正确答案是：浅蓝色
+
+试题 12
+以下语句使用了srcset属性根据屏幕的（ ）来匹配显示的图像。 ＜img srcset =“img /1_1280.jpg 3x,img/1_640.jpg 2x,img/1_320.jpg 1x”/＞
+选择一项：
+a. 宽度
+b. 高度
+c. 颜色位数
+d. 像素密度
+正确答案是：像素密度
+
+试题 13
+响应式网页的核心思想，在于（）
+选择一项：
+a. 一次设计，普遍适用
+b. 普遍适用
+c. 多个网页，普遍适用
+d. 多个网页
+正确答案是：一次设计，普遍适用
+
+试题 14
+媒体查询条件中，如果要指定适用于多种情形，可以用关键字（）来连接。
+选择一项：
+a. not
+b. only
+c. but
+d. and
+正确答案是：and
+
+试题 15
+以下这个语句，表示屏幕像素密度为3倍的时候，匹配的图像是（） ＜ｉmg ｓrcset ="img/1_1280.jpg 3x,img/1_640.jpg 2x,img/1_320.jpg 1x"/＞
+选择一项：
+a. 1_320.jpg
+b. 1_640.jpg
+c. 无匹配的图像
+d. 1_1280.jpg
+正确答案是：1_1280.jpg
+
+试题 16
+viewport可以通过meta标签设置。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 17
+响应式网页设计可只使用传统固定布局的方式实现。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 18
+在移动互联网时代，传统的网页设计适合小屏幕展示。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 19
+常见设备类型的print表示打印机。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 20
+响应式网页设计最主要的动机是"如何使得页面布局适应任何的浏览窗口”。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 21
+viewport设置的user-scalable为0时表示不允许缩放。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 22
+viewport一定等于网页可见区域的大小。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 23
+媒体查询只包括media属性。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 24
+响应式网页设计已经成为当今网页开发技术的新潮流。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 25
+响应式网页对不同的使用环境可做出相应的自动调整，从而造成网页的布局和内容展示在不同环境下时可能会有所不同。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 26
+媒体查询支持的媒体特性中，定义输出设备的屏幕最大可见高度及宽度的有（）。
+选择一项或多项：
+a. device- height
+b. max- device- height
+c. max- device- width
+d. device- height
+正确答案是：max- device- height, max- device- width
+
+试题 27
+"自适应”网站的缺点在于（）。
+选择一项或多项：
+a. 在网站维护时需要同时兼顾多个不同版本的网页
+b. 维护的工作将会呈几何级数上升
+c. 网站结构将变得臃肿
+d. 大大地增加架构设计的复杂度
+正确答案是：在网站维护时需要同时兼顾多个不同版本的网页, 网站结构将变得臃肿, 维护的工作将会呈几何级数上升, 大大地增加架构设计的复杂度
+
+试题 28
+以下关于自适应网站的说法，正确的有（）。
+选择一项或多项：
+a. 可以根据检测到的不同的客户端而提供不同的浏览网页
+b. 也可以保证不同环境下的显示效果
+c. 不同终端打开的是同一个网页
+d. 不同终端打开的并非同一个网页
+正确答案是：可以根据检测到的不同的客户端而提供不同的浏览网页, 不同终端打开的并非同一个网页, 也可以保证不同环境下的显示效果
+
+试题 29
+响应式网页开发的实现方案有（）。
+选择一项或多项：
+a. 流式图像
+b. CSS媒体查询
+c. 弹性网格
+d. 流式布局
+正确答案是：CSS媒体查询, 流式布局, 弹性网格, 流式图像
+
+试题 30
+媒体查询支持的媒体特性有（）。
+选择一项或多项：
+a. min- device- width
+b. min- width
+c. min- device- height
+d. min- heigh
+正确答案是：min- device- height, min- device- width, min- width, min- heigh
+
+试题 2
+媒体查询特性中，（）定义输出设备中的屏幕方向。
+选择一项：
+a. device- height
+b. resolution
+c. device- width
+d. orientation 
+正确答案是：orientation
+
+试题 3
+以下语句使用了srcset属性根据屏幕的（ ）来匹配显示的图像。 ＜img srcset =“img /1_1280.jpg 3x,img/1_640.jpg 2x,img/1_320.jpg 1x”/＞
+选择一项：
+a. 高度
+b. 颜色位数
+c. 像素密度 
+d. 宽度
+正确答案是：像素密度
+
+试题 4
+媒体查询条件中，如果要排除某种设备或情形，可以用关键字（）。
+选择一项：
+a. and
+b. only
+c. not 
+d. but
+正确答案是：not
+
+试题 5
+在以下这个语句中的viewport表示屏幕的（ ）。 ＜meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"〉
+选择一项：
+a. 指定元素的大小
+b. 指定元素的可见大小
+c. 总大小
+d. 可视区域 
+正确答案是：可视区域
+
+试题 6
+响应式网页的核心思想，在于（）
+选择一项：
+a. 多个网页，普遍适用
+b. 普遍适用
+c. 一次设计，普遍适用 
+d. 多个网页
+正确答案是：一次设计，普遍适用
+
+试题 8
+若有以下语句，则若当前屏幕宽度为960px，则图像宽度将显示为（） ＜img src="img/1_1280.jpg" sizes="(min-width:1200px) calc(43vw), 50vw"/＞。
+
+选择一项：
+a. 当前屏幕宽度的43%
+b. 50px
+c. 480px 
+d. 516px
+正确答案是：480px
+
+试题 9
+关于以下语句中的user- scalable表示的是（） ＜meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"＞。
+选择一项：
+a. 页面的初始缩放值
+b. 是否允许用户进行缩放操作 
+c. 允许用户的最小缩放值
+d. 允许用户的最大缩放值
+正确答案是：是否允许用户进行缩放操作
+
+试题 10
+常用媒体特性中，（）定义输出设备中的屏幕最小可见高度及宽度。
+选择一项：
+a. max- device- height，max- device- width
+b. max- height，max- width
+c. min- device- height，min- device- width 
+d. min- width，min- height
+正确答案是：min- device- height，min- device- width
+
+试题 11
+如果在当前的div main中设置了其字体为5em，而当前div又在另一个div的container中。如果container设置了字体大小的为5em，那么假如当前浏览器默认的字体大小是16px，这样在container中的字体大小是（ ），而在main中的字体大小就应该是（ ）。
+选择一项：
+a. 16px，16px
+b. 16px，80px
+c. 80px，80px
+d. 80px，400px 
+正确答案是：80px，400px
+
+试题 13
+响应式网页时，在开发时一般"以（）优先”。
+选择一项：
+a. 台式电脑
+b. 大屏幕设备
+c. 笔记本电脑
+d. 移动设备 
+正确答案是：移动设备
+
+试题 16
+传统网页设计可以根据用户设备应用样式。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 17
+响应式网页设计的概念最早是2000年提出的。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 18
+meta语句中的ｕser-scalable=0表示页面不允许用户手动缩放。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 19
+响应式网页设计不适用于移动互联网时代。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 20
+响应式网页不管使用什么设备打开的都是同一个网页。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 21
+viewport设置的user-scalable为1时表示不允许缩放。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 22
+响应式网页开发只能通过弹性布局实现。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 23
+常见设备类型的print表示所有屏幕设备。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 24
+其实在CSS2中，就已经可以根据媒体类型获得不同的CSS支持。
+选择一项：
+对
+错 
+正确答案是“对”。
+
+试题 25
+响应式网页的CSS中，viewport就是视口的意思。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 26
+媒体查询支持的媒体特性中，定义输出设备中的页面最大可见区域的有（）。
+选择一项或多项：
+a. min- width
+b. max- height 
+c. max- height 
+d. min- height
+正确答案是：max- height, max- height
+
+试题 27
+媒体查询可支持的浏览器类型有（）。
+选择一项或多项：
+a. Google Chrome 
+b. FireFox 
+c. Safari 
+d. IE 
+正确答案是：Google Chrome, IE, FireFox, Safari
+
+试题 28
+媒体查询支持的媒体特性中，定义输出设备屏幕宽度相关的有（）。
+选择一项或多项：
+a. min- width
+b. min- device- width 
+c. device- width 
+d. max- width
+正确答案是：device- width, min- width, max- width, min- device- width
+
+试题 29
+媒体查询支持的媒体特性有（）。
+选择一项或多项：
+a. orientation 
+b. resolution 
+c. device- width 
+d. device- height 
+正确答案是：device- height, device- width, orientation, resolution
+
+试题 30
+媒体查询支持的媒体类型有（）。
+选择一项或多项：
+a. 打印机 
+b. %25平板电脑屏幕 
+c. 屏幕阅读等发声设备 
+d. 智能手机屏幕 
+正确答案是：打印机, 智能手机屏幕, 屏幕阅读等发声设备
+
+试题 2
+响应式网页往往包含多个（）语句，用于适配不同的显示条件。
+选择一项：
+a. 网格
+b. 地址跳转
+c. 媒体查询
+d. 多媒体
+正确答案是：媒体查询
+
+试题 3
+以下关于媒体查询的说法，不正确的是（）。
+选择一项：
+a. 为不同终端的用户实现不同跳转
+b. 为一些特定的输出设备定制特定的显示效果
+c. 让CSS能更精确地作用于不同的媒体类型和同一媒体的不同条件
+d. 为不同终端的用户都能提供较好的浏览体验
+正确答案是：为不同终端的用户实现不同跳转
+
+试题 4
+响应式网页设计，最早是由伊桑•马卡特（Ethan Marcotte）在（）年提出的一个概念。
+选择一项：
+a. 2012
+b. 2011
+c. 2010
+d. 2009
+正确答案是：2010
+
+试题 5
+以下哪个版本的浏览器不支持媒体查询（）。
+选择一项：
+a. Chrome 21
+b. IE 9.0
+c. Opera 9.0
+d. IE 7.0
+正确答案是：IE 7.0
+
+试题 6
+以下HTML代码定义的媒体查询条件下，如果设备的屏幕方向为纵向，则页面背景颜色为（） 
+ｂody { ｂackground-color:silver ; } ＠media only screen and (orientation: landscape) { ｂody { ｂackground-color: lightblue; } }
+选择一项：
+a. 蓝色
+b. 红色
+c. 银色
+d. 浅蓝色
+正确答案是：银色
+
+试题 7
+媒体查询特性中，（）定义输出设备中的分辨率。
+选择一项：
+a. device- height
+b. resolution
+c. orientation
+d. device- width
+正确答案是：resolution
+
+试题 8
+以下HTML代码定义的媒体查询条件下，如果设备的屏幕方向为横向，则页面背景颜色为（） 
+ｂody { ｂackground-color:silver ; } ＠media only screen and (orientation: landscape) { ｂody { ｂackground-color: lightblue; } } 
+选择一项：
+a. 红色
+b. 浅蓝色
+c. 银色
+d. 蓝色
+正确答案是：浅蓝色
+
+试题 9
+如果要求对所有媒体类型都适用，可以使用（ ）来指代所有支持的媒体类型。
+选择一项：
+a. only
+b. not
+c. but
+d. all
+正确答案是：all
+
+试题 11
+以下不属于"自适应”网站的缺点的是（）
+选择一项：
+a. 大大地增加架构设计的复杂度
+b. 维护的工作将会呈几何级数上升
+c. 可以极大地保证不同环境下的显示效果
+d. 在网站维护时需要同时兼顾多个不同版本的网页
+正确答案是：可以极大地保证不同环境下的显示效果
+
+试题 12
+常用媒体特性中，（）定义输出设备中的页面最大可见区域高度及宽度。
+选择一项：
+a. max- height，max- width
+b. min- width，min- height
+c. min- device- height，min- device- width
+d. device- height，device- width
+正确答案是：max- height，max- width
+
+试题 13
+关于以下语句中的initial-scale表示的是（） ＜meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"＞。
+选择一项：
+a. 允许用户的最小缩放值
+b. 是否允许用户进行缩放操作
+c. 页面的初始缩放值
+d. 允许用户的最大缩放值
+正确答案是：页面的初始缩放值
+
+试题 14
+如果在一个页面中，对于一个main的div设置了font-size为5rem，而这个main的div又在另一个container的div中，如果container也有font-size的设置5rem，那么假如当前浏览器默认的字体大小是16px，则在container中和main中的字体大小分别是（）
+选择一项：
+a. 16px,80px
+b. 80px,80px
+c. 80px,400px
+d. 400px,400px
+正确答案是：80px,80px
+
+试题 16
+当用户旋转屏幕时，纵向和横向查看的屏幕尺寸会有差异，传统固定布局的方式已经无法满足这种浏览需求了。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 17
+文件除了文件名以外还会显示文件图标，同一个类型的文件使用相同的图标。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 18
+initial-scale=1表示viewport按原比例。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 19
+"自适应”网站强调的是让同一个地址的同一个网页自动地去适应不同的显示环境。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 20
+在移动互联网时代，传统的网页设计不适合小屏幕展示。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 21
+css中的1px都等于显示设备的1px。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 22
+媒体查询条件中，如果要指定只适用于某种设备或情形，可以用关键字all。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 23
+viewport设置的user-scalable为0时表示允许缩放。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 24
+媒体查询的定义要使用@media关键字所定义的规则。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 25
+viewport设置的initial-scale属性用于设置视口是否允许缩放。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 26
+对于响应式的网站的说法，正确的有（）。
+选择一项或多项：
+a. 强调的是让同一个地址的同一个网页自动地去适应不同的显示环境
+b. 其核心思想在于"一次设计，普遍适用”
+c. 响应式网页对不同的使用环境可做出相应的自动调整，从而造成网页的布局和内容展示在不同环境下时可能会有所不同
+d. 响应式的网页不管使用什么设备，打开及显示的都是同一个地址、同一个网页
+正确答案是：强调的是让同一个地址的同一个网页自动地去适应不同的显示环境, 其核心思想在于"一次设计，普遍适用”, 响应式的网页不管使用什么设备，打开及显示的都是同一个地址、同一个网页, 响应式网页对不同的使用环境可做出相应的自动调整，从而造成网页的布局和内容展示在不同环境下时可能会有所不同
+
+试题 27
+媒体查询支持的媒体特性有（）。
+选择一项或多项：
+a. orientation
+b. max- device- height
+c. resolution
+d. max- device- width
+正确答案是：max- device- height, max- device- width, orientation, resolution
+
+试题 28
+响应式网页开发时可能使用到的技术有（）。
+选择一项或多项：
+a. 媒体查询技术
+b. 高性能的JavaScript
+c. 流式网格布局
+d. 灵活的多媒体显示
+正确答案是：媒体查询技术, 流式网格布局, 灵活的多媒体显示, 高性能的JavaScript
+
+试题 29
+媒体查询支持的媒体特性中，定义输出设备的屏幕最小可见高度及宽度的有（）。
+选择一项或多项：
+a. min- device- height
+b. device- height
+c. device- height
+d. min- device- width
+正确答案是：min- device- height, min- device- width
+
+试题 30
+媒体查询支持的媒体特性有（）。
+选择一项或多项：
+a. max- device- width
+b. max- width
+c. max- device- height
+d. max- height
+正确答案是：max- device- height, max- device- width, max- height, max- width
+
+试题 1
+媒体查询条件中，如果要指定适用于多种情形，可以用关键字（）来连接。
+选择一项：
+a. and
+b. but
+c. not
+d. only
+正确答案是：and
+
+试题 2
+以下哪个版本的浏览器不支持媒体查询（）。
+选择一项：
+a. IE 7.0
+b. Opera 9.0
+c. IE 9.0
+d. Chrome 21
+正确答案是：IE 7.0
+
+试题 3
+以下不属于"自适应”网站的缺点的是（）
+选择一项：
+a. 大大地增加架构设计的复杂度
+b. 在网站维护时需要同时兼顾多个不同版本的网页
+c. 维护的工作将会呈几何级数上升
+d. 可以极大地保证不同环境下的显示效果
+正确答案是：可以极大地保证不同环境下的显示效果
+
+试题 4
+在以下这个语句中的viewport表示屏幕的（ ）。 ＜meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"〉
+选择一项：
+a. 总大小
+b. 可视区域
+c. 指定元素的大小
+d. 指定元素的可见大小
+正确答案是：可视区域
+
+试题 7
+响应式网页时，在开发时一般"以（）优先”。
+选择一项：
+a. 笔记本电脑
+b. 大屏幕设备
+c. 台式电脑
+d. 移动设备
+正确答案是：移动设备
+
+试题 8
+以下HTML代码定义的媒体查询条件下，如果设备的屏幕方向为横向，则页面背景颜色为（） 
+ｂody { ｂackground-color:silver ; } ＠media only screen and (orientation: landscape) { ｂody { ｂackground-color: lightblue; } } 
+选择一项：
+a. 红色
+b. 银色
+c. 蓝色
+d. 浅蓝色
+正确答案是：浅蓝色
+
+试题 11
+常用媒体特性中，（）定义输出设备中的屏幕最小可见高度及宽度。
+选择一项：
+a. max- device- height，max- device- width
+b. min- device- height，min- device- width
+c. max- height，max- width
+d. min- width，min- height
+正确答案是：min- device- height，min- device- width
+
+试题 12
+常用媒体特性中，（）定义输出设备中的页面最大可见区域高度及宽度。
+选择一项：
+a. max- height，max- width
+b. min- device- height，min- device- width
+c. min- width，min- height
+d. device- height，device- width
+正确答案是：max- height，max- width
+
+试题 15
+响应式网页的核心思想，在于（）
+选择一项：
+a. 多个网页，普遍适用
+b. 一次设计，普遍适用
+c. 多个网页
+d. 普遍适用
+正确答案是：一次设计，普遍适用
+
+试题 16
+传统网页设计不能根据用户设备应用样式。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 17
+meta语句中的initial- scale用于设置页面的初始缩放值 。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 18
+媒体查询特性中，orientation定义输出设备中的显示方向。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 19
+自适应网页可能使得维护的工作将呈几何级数上升，还会大大地增加架构设计的复杂度。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 20
+IE 6支持媒体查询的定义所使用的@media定义的规则。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 21
+"自适应”网站在网站维护时可能需要同时兼顾多个不同版本的网页，维护的工作将会呈几何级数上升。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 22
+自适应网页不管使用什么设备打开的都是同一个网页。
+
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 23
+meta语句中的viewport表示屏幕的总大小。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 24
+响应式网页时，在开发时网页设计一般"以台式机优先”。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 25
+常见设备类型包括print打印机、screen电子屏幕等等。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 26
+媒体查询支持的媒体特性中，定义输出设备中的页面最小可见区域的有（）。
+选择一项或多项：
+a. max- height
+b. max- height
+c. min- height
+d. min- width
+正确答案是：min- width, min- height
+
+试题 27
+对于响应式网页和自适应的网页，以下说法正确的有（）。
+选择一项或多项：
+a. 响应式网页可以兼容不同终端的浏览
+b. 响应式更适用于所有网站页面，包括内容页
+c. 响应式网页不管使用什么设备打开的都是同一个网页
+d. 自适应网页不管使用什么设备打开的都是同一个地址
+正确答案是：
+  响应式网页可以兼容不同终端的浏览
+  响应式更适用于所有网站页面，包括内容页
+  响应式网页不管使用什么设备打开的都是同一个网页
+
+试题 28
+媒体查询支持的媒体特性中，定义输出设备的屏幕可见区域的有（）。
+选择一项或多项：
+a. max- height
+b. device- width
+c. min- height
+d. device- height
+正确答案是：device- height, device- width
+
+试题 29
+媒体查询支持的媒体类型有（）。
+选择一项或多项：
+a. print
+b. screen
+c. all
+d. speech
+正确答案是：screen, speech, print, all
+
+试题 30
+媒体查询支持的媒体特性中，输出设备的分辨率的取值可以是（）。
+选择一项或多项：
+a. 118dpcm
+b. 300dpi
+c. 96dpi
+d. landscape
+正确答案是：96dpi, 300dpi, 118dpcm
+
+试题 1
+媒体查询特性中，（）定义输出设备中的屏幕方向。
+选择一项：
+a. device- height
+b. device- width
+c. orientation
+d. resolution
+正确答案是：orientation
+
+试题 2
+媒体查询特性中，（）定义输出设备中的分辨率。
+
+选择一项：
+a. resolution
+b. device- width
+c. orientation
+d. device- height
+正确答案是：resolution
+
+试题 3
+关于以下语句中的initial-scale表示的是（） ＜meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"＞。
+选择一项：
+a. 是否允许用户进行缩放操作
+b. 页面的初始缩放值
+c. 允许用户的最大缩放值
+d. 允许用户的最小缩放值
+正确答案是：页面的初始缩放值
+
+试题 5
+如果要求对所有媒体类型都适用，可以使用（ ）来指代所有支持的媒体类型。
+选择一项：
+a. all
+b. only
+c. not
+d. but
+正确答案是：all
+
+试题 6
+响应式网页设计，最早是由伊桑•马卡特（Ethan Marcotte）在（）年提出的一个概念。
+选择一项：
+a. 2009
+b. 2011
+c. 2010
+d. 2012
+正确答案是：2010
+
+试题 7
+如果在一个页面中，对于一个main的div设置了font-size为5rem，而这个main的div又在另一个container的div中，如果container也有font-size的设置5rem，那么假如当前浏览器默认的字体大小是16px，则在container中和main中的字体大小分别是（）
+选择一项：
+a. 400px,400px
+b. 80px,80px
+c. 80px,400px
+d. 16px,80px
+正确答案是：80px,80px
+
+试题 8
+如果在当前的div main中设置了其字体为5em，而当前div又在另一个div的container中。如果container设置了字体大小的为5em，那么假如当前浏览器默认的字体大小是16px，这样在container中的字体大小是（ ），而在main中的字体大小就应该是（ ）。
+选择一项：
+a. 16px，16px
+b. 80px，400px
+c. 80px，80px
+d. 16px，80px
+正确答案是：80px，400px
+
+试题 9
+若有以下语句，则若当前屏幕宽度为960px，则图像宽度将显示为（） ＜img src="img/1_1280.jpg" sizes="(min-width:1200px) calc(43vw), 50vw"/＞。
+
+选择一项：
+a. 516px
+b. 当前屏幕宽度的43%
+c. 50px
+d. 480px
+正确答案是：480px
+
+试题 10
+以下关于媒体查询的说法，不正确的是（）。
+选择一项：
+a. 为不同终端的用户实现不同跳转
+b. 为不同终端的用户都能提供较好的浏览体验
+c. 为一些特定的输出设备定制特定的显示效果
+d. 让CSS能更精确地作用于不同的媒体类型和同一媒体的不同条件
+正确答案是：为不同终端的用户实现不同跳转
+
+试题 11
+响应式网页往往包含多个（）语句，用于适配不同的显示条件。
+选择一项：
+a. 媒体查询
+b. 地址跳转
+c. 网格
+d. 多媒体
+正确答案是：媒体查询
+
+试题 12
+关于以下语句中的user- scalable表示的是（） ＜meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"＞。
+选择一项：
+a. 页面的初始缩放值
+b. 是否允许用户进行缩放操作
+c. 允许用户的最大缩放值
+d. 允许用户的最小缩放值
+正确答案是：是否允许用户进行缩放操作
+
+试题 13
+以下HTML代码定义的媒体查询条件下，如果设备的屏幕方向为纵向，则页面背景颜色为（） 
+
+ｂody { ｂackground-color:silver ; } ＠media only screen and (orientation: landscape) { ｂody { ｂackground-color: lightblue; } }
+
+选择一项：
+a. 浅蓝色
+b. 蓝色
+c. 红色
+d. 银色
+正确答案是：银色
+
+试题 14
+以下语句使用了srcset属性根据屏幕的（ ）来匹配显示的图像。 ＜img srcset =“img /1_1280.jpg 3x,img/1_640.jpg 2x,img/1_320.jpg 1x”/＞
+选择一项：
+a. 像素密度
+b. 颜色位数
+c. 宽度
+d. 高度
+正确答案是：像素密度
+
+试题 15
+媒体查询条件中，如果要排除某种设备或情形，可以用关键字（）。
+选择一项：
+a. but
+b. only
+c. not
+d. and
+正确答案是：not
+
+试题 16
+通过媒体查询可以获取用户设备类型和设备特性。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 17
+响应式网页设计的概念最早是由谷歌提出的。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 18
+目前Chrome、Firefox等主流浏览器的新版本都支持媒体查询。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 19
+媒体查询由media属性和@media规则构成。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 20
+响应式网页的核心思想，在于“ 一次设计，普遍适用”。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 21
+css中的1px不一定等于显示设备的1px。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 22
+媒体查询条件中，如果要指定适用于多个条件，可以用关键字all来连接。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 23
+响应式网页设计可只使用流式布局的方式实现。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 24
+如果要求对所有媒体类型都适用，在媒体查询中可以使用all来指代所有支持的媒体类型。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 25
+响应式网页设计是让网页具备根据设备应用不提CSS样式的能力。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 26
+媒体查询支持的媒体特性中，定义输出设备的屏幕最大可见高度及宽度的有（）。
+选择一项或多项：
+a. max- device- width
+b. device- height
+c. max- device- height
+d. device- height
+正确答案是：max- device- height, max- device- width
+
+试题 27
+媒体查询支持的媒体特性中，定义输出设备中的页面最大可见区域的有（）。
+选择一项或多项：
+a. max- height
+b. min- height
+c. min- width
+d. max- height
+正确答案是：max- height, max- height
+
+试题 28
+媒体查询支持的媒体类型有（）。
+选择一项或多项：
+a. 智能手机屏幕
+b. 屏幕阅读等发声设备
+c. %25平板电脑屏幕
+d. 打印机
+正确答案是：打印机, 智能手机屏幕, 屏幕阅读等发声设备
+
+试题 29
+媒体查询支持的媒体特性中，输出设备的屏幕方向取值可以是（）。
+选择一项或多项：
+a. portrait
+b. landscape
+c. max- height
+d. max- height
+正确答案是：portrait, landscape
+
+试题 30
+响应式网页开发的思想有（）。
+选择一项或多项：
+a. 设计多个网页满足不同需要
+b. 一次设计，普遍适用
+c. 以移动设备优先
+d. 以台式机优先
+正确答案是：一次设计，普遍适用, 以移动设备优先
+
+
+
+测验2：响应式网页交互（JavaScript）
+
+试题 1
+prompt语句返回的值的类型默认是字符串类型。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 2
+JavaScript程序在使用前需先经过编译。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 3
+DOM结构中，属性节点总是被包含在元素节点中。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 4
+如果要获得某个节点的父节点，可以使用parentNode。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 5
+JavaScript中可以用关键字来做标识符。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 6
+JavaScript中的数组下标从0开始。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 7
+JavaScript中当窗口或页面元素失去焦点时将触发onfocus事件。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 8
+表达式101-'abc'的结果是101。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 9
+表达式101+'abc'的结果是101abc。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 10
+JavaScript中的数组不能随意扩展其大小。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 11
+JavaScript中以下结果为5的有（）。
+选择一项或多项：
+a. Math.round(5.4)
+b. Math.floor(5.4)
+c. Math.ceil(5.4)
+d. Math.floor(6.4)
+正确答案是：Math.round(5.4), Math.floor(5.4)
+
+试题 12
+JavaScript中以下结果为10的有（）。
+选择一项或多项：
+a. parseInt(10.4a)
+b. parseInt(10)
+c. Math.round(10.4)
+d. Number(10)
+正确答案是：Math.round(10.4), parseInt(10.4a), Number(10), parseInt(10)
+
+试题 13
+JavaScript中以下结果为6的有（）。
+选择一项或多项：
+a. Math.floor(6.4)
+b. Math.round(5.4)
+c. Math.round(6.4)
+d. Math.round(5.6)
+正确答案是：Math.round(5.6), Math.floor(6.4), Math.round(6.4)
+
+试题 14
+JavaScript中的String对象可用于提取子字符串的方法有（）。
+选择一项或多项：
+a. substr
+b. substring
+c. indexOf
+d. lastIndexOf
+正确答案是：substring, substr
+
+试题 15
+下面哪个属于BOM相关对象（）。
+选择一项或多项：
+a. char
+b. window
+c. history
+d. document
+正确答案是：
+  window
+  history
+  document
+
+试题 16
+JavaScript中parseInt(12a)及Number(12a)的值，分别是（ ）
+选择一项：
+a. NaN,NaN
+b. NaN,12
+c. 12,12
+d. 12,NaN
+正确答案是：12,NaN
+
+试题 17
+如果要设置函数tick()每隔5秒执行一次，则正确的代码应为（）
+选择一项：
+a. setTimeout(tick,5)
+b. setTimeout（"tick()",5000）
+c. setInterval（"tick()",5000）
+d. setInterval(tick,5)
+正确答案是：setInterval（"tick()",5000）
+
+试题 18
+JavaScript脚本的扩展名为（ ）
+选择一项：
+a. txt
+b. js
+c. html
+d. css
+正确答案是：js
+
+试题 19
+下列关于JavaScript的描述，不正确的是（ ）。
+选择一项：
+a. JavaScript是一种脚本语言，不需要编译
+b. IE、Opera等多种浏览器都支持JavaScript
+c. JavaScript既可以在客户端执行，也可以在服务器端执行
+d. JavaScript也可以简写为JSP
+正确答案是：JavaScript也可以简写为JSP
+
+试题 20
+JavaScript中的方法removeAttribute用于（ )
+选择一项：
+a. 设置任意元素节点指定的属性
+b. 创建任意元素节点指定的属性
+c. 返回任意元素节点指定的属性
+d. 删除任意元素节点指定的属性
+正确答案是：删除任意元素节点指定的属性
+
+试题 21
+下面哪个不属于BOM相关对象（）
+选择一项：
+a. window
+b. history
+c. document
+d. char
+正确答案是：char
+
+试题 22
+JavaScript中的onfocus事件不能用于下面哪种元素（ ）
+选择一项：
+a. 文本框
+b. 浏览器窗口
+c. 下拉窗口
+d. 图像
+正确答案是：图像
+
+试题 23
+JavaScript脚本程序语句“ｄocument.write(String(12+'abc'))”的输出结果为（) 。
+选择一项：
+a. 12abc
+b. NaN
+c. 12
+d. abc
+正确答案是：12abc
+
+试题 24
+以下关于JavaScript的函数，说法不正确的是（ ）
+选择一项：
+a. 函数体内也可以调用已定义的函数
+b. 函数返回值类型可能因其执行情况的不同而不同
+c. 函数定义时需声明其是否有返回值
+d. 函数定义时只需列出参数表，不需给出参数的类型
+正确答案是：函数定义时需声明其是否有返回值
+
+试题 25
+JavaScript中的onmouseover事件是在（ ）时触发
+选择一项：
+a. 鼠标经过元素所在位置
+b. 鼠标移出元素所在位置
+c. 鼠标在元素位置按下
+d. 鼠标双击元素所在位置
+正确答案是：鼠标经过元素所在位置
+
+试题 26
+下面哪个JavaScript中表达式产生的随机数是介于10-20的浮点数（ ）
+选择一项：
+a. Math.random()*10+10
+b. Math.random()+100
+c. Math.random()*10
+d. Math.random()
+正确答案是：Math.random()*10+10
+
+试题 27
+JavaScript代码“getElementsByTagName("p")”获取到的是（ ）
+选择一项：
+a. 类型为p的段落
+b. 文本为p的段落
+c. 文档中所有标签为p的对象
+d. id为p的段落
+正确答案是：文档中所有标签为p的对象
+
+试题 28
+JavaScript中Math.round(3.6)的结果是( )
+选择一项：
+a. 3
+b. 2
+c. 4
+d. 5
+正确答案是：4
+
+试题 29
+若字符串s是"Hello World"，则以下JavaScript代码“ ｄocument.write(s.toUpperCase());”输出结果是（）
+选择一项：
+a. HELLO WORLD
+b. H W
+c. hello world
+d. Hello World
+正确答案是：HELLO WORLD
+
+试题 30
+下面关于JavaScript中的逻辑类型，说法不正确的是（ ）
+选择一项：
+a. 所有关系表达式的返回值都是逻辑型
+b. 逻辑类型的值有true和false两种
+c. 逻辑型数据的输出值可能为NaN
+d. 逻辑类型通常用于比较、逻辑判断等运算中
+正确答案是：逻辑型数据的输出值可能为NaN
+
+试题 31
+JavaScript中函数的定义使用关键字（ ）
+选择一项：
+a. function
+b. new
+c. var
+d. object
+正确答案是：function
+
+试题 32
+在JavaScript中用if语句判断表达式a+b的计算结果是否NaN，正确的语句是( )
+选择一项：
+a. if((a+b) 〓NaN)
+b. if(isNaN(a+b))
+c. if((a+b)〓〓NaN)
+d. if(a+b)
+正确答案是：if(isNaN(a+b))
+
+试题 33
+在JavaScript中，关于document对象的方法，下列说法正确的是（ ）。
+选择一项：
+a. getElementById()是通过元素ID获得元素对象的方法，其返回值为单个对象
+b. getElementbytagname()是通过元素name获得元素对象的方法，其返回值为对象组
+c. getElementbyname()是通过元素ID获得元素对象的方法，其返回值为单个对象
+d. getElementByName()是通过元素name获得元素对象的方法，其返回值为单个对象
+正确答案是：getElementById()是通过元素ID获得元素对象的方法，其返回值为单个对象
+
+试题 34
+下列关于JavaScript标识符的说明，不正确的是（ ）
+选择一项：
+a. JavaScript中的标识符中不能出现预定义的运算符
+b. JavaScript中的标识符必须由字母、下划线、美元号等符号开头
+c. JavaScript中的标识符不区分大小写
+d. JavaScript中尽量不要使用预定义的保留字做标识符
+正确答案是：JavaScript中的标识符不区分大小写
+
+试题 35
+关于JavaScript中的history对象，以下的说法不正确的是（）。
+选择一项：
+a. history对象主要用于跟踪浏览器最近访问的历史URL地址列表
+b. history对象可以读出浏览器所有历史URL
+c. history对象也是window对象的子对象
+d. history对象的方法可模拟浏览器的前进、后退等操作
+正确答案是：history对象可以读出浏览器所有历史URL
+
+试题 1
+当元素失去焦点时是触发onselect事件。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 2
+Math对象的属性是一些常用的数学常量。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 3
+任何时候JavaScript都可以自动进行类型转换，所以不需要用强制类型转换。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 4
+history对象主要用于跟踪浏览器最近访问的历史URL地址列表。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 5
+网页文档只可能包含一个window对象。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 6
+ab$是合法的JavaScript标识符。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 7
+JavaScript中的数组下标从1开始。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 8
+JavaScript中使用getElementsByTagName方法可返回文档中指定标签的所有元素组成的对象数组，要获取数组的长度可通过其length属性。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 9
+JavaScript中的数组一旦声明其长度，则不能修改。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 10
+prompt语句返回的值的类型是根据用户输入而定的。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 11
+JavaScript中可用于创建DOM节点的document方法有（）。
+选择一项或多项：
+a. createAttribute()
+b. createTextNode()
+c. createElement()
+d. createComment()
+正确答案是：createComment(), createElement(), createTextNode(), createAttribute()
+
+试题 12
+关于BOM顶级对象模型的结构，下面说法正确的是（）
+选择一项或多项：
+a. window对象包含调整窗口、新建窗口、关闭窗口等操作
+b. window对象在启动浏览器载入文档的同时生成
+c. window对象在层次中最上层
+d. 网页文档只可能包含一个window对象
+正确答案是：window对象在层次中最上层, window对象包含调整窗口、新建窗口、关闭窗口等操作, window对象在启动浏览器载入文档的同时生成
+
+试题 13
+JavaScript中以下结果为5的有（）。
+选择一项或多项：
+a. Math.ceil(5.4)
+b. Math.round(6.4)
+c. Math.round(4.5)
+d. Math.round(5.4)
+正确答案是：Math.round(5.4), Math.round(4.5)
+
+试题 14
+关于JavaScript中的history对象，以下的说法正确的是（）。
+选择一项或多项：
+a. history对象可以读出浏览器所有历史URL
+b. history对象主要用于跟踪浏览器最近访问的历史URL地址列表
+c. history对象也是window对象的子对象
+d. history对象的方法可模拟浏览器的前进、后退等操作
+正确答案是：history对象也是window对象的子对象, history对象主要用于跟踪浏览器最近访问的历史URL地址列表, history对象的方法可模拟浏览器的前进、后退等操作
+
+试题 15
+关于JavaScript中于window对象的说法，正确的说法是（）。
+选择一项或多项：
+a. 当打开浏览器窗口时，将创建window对象的实例
+b. 当前页面使用框架集时，只有一个window对象实例
+c. 若对当前单个window对象操作时，可将引用window对象的代码省略
+d. window对象提供了一些产生交互行为的操作，如对话框等
+正确答案是：当打开浏览器窗口时，将创建window对象的实例, window对象提供了一些产生交互行为的操作，如对话框等, 若对当前单个window对象操作时，可将引用window对象的代码省略
+
+试题 16
+在DOM对象模型中，直接父对象为根对象window的对象中不包括（ ）。
+选择一项：
+a. history
+b. form
+c. location
+d. document
+正确答案是：form
+
+试题 17
+如果用以下JavaScript语句新建日期对象now，则now实际对应的日期是（ ） Var now〓new Date(2016,1,28);
+选择一项：
+a. 2016年2月28日
+b. 2016年3月1日
+c. 程序出错
+d. 2016年1月30日
+正确答案是：2016年2月28日
+
+试题 18
+ｄocument.write()语句用于（）。
+选择一项：
+a. 在浏览器窗口中输出指定内容
+b. 关闭浏览器窗口
+c. 在浏览器标题栏输出指定内容
+d. 在HTML文档载入时调用程序
+正确答案是：在浏览器窗口中输出指定内容
+
+试题 19
+typeof('s'))的值为（ ）
+选择一项：
+a. object
+b. boolean
+c. string
+d. number
+正确答案是：string
+
+试题 20
+下面哪个JavaScript语句的语法格式是正确的:（ ）
+
+选择一项：
+a. ｄocument.write (Hi!);
+b. write('I enjoy JavaScript '); 
+c. ｄocument.write('I enjoy JavaScript '); 
+d. echo 'I enjoy JavaScript'
+正确答案是：ｄocument.write('I enjoy JavaScript '); 
+
+
+试题 21
+下面关于JavaScript中Math对象的使用，不正确的是（ ）。
+选择一项：
+a. Math对象的属性和方法都是静态的
+b. Math对象的属性是一些常用的数学常量
+c. Math对象也可以创建实例
+d. Math对象的方法可以直接调用
+正确答案是：Math对象也可以创建实例
+
+试题 22
+如果某个ＤＯＭ节点没有对应的属性，则值为（ ）
+选择一项：
+a. undefined
+b. error
+c. NaN
+d. null
+正确答案是：null
+
+试题 23
+以下关于JavaScript的函数，说法不正确的是（ ）
+选择一项：
+a. 函数定义时需声明其是否有返回值
+b. 函数定义时只需列出参数表，不需给出参数的类型
+c. 函数体内也可以调用已定义的函数
+d. 函数返回值类型可能因其执行情况的不同而不同
+正确答案是：函数定义时需声明其是否有返回值
+
+试题 24
+下列关于JavaScript数据类型的说法，不正确的是（ ）
+选择一项：
+a. JavaScript中的变量可以具有多种数据类型，根据程序动态运行情况决定
+b. JavaScript中的整型数据和浮点型数据是严格区分的
+c. JavaScript中的整型长度与是计算机的执行环节和操作系统无关
+d. JavaScript中字符串类型采用的国际字符集Unicode
+正确答案是：JavaScript中的整型数据和浮点型数据是严格区分的
+
+试题 25
+要后退到之前的页面，可用使用BOM的history对象的（）方法。
+选择一项：
+a. go()
+b. forward()
+c. assign()
+d. back()
+正确答案是：back()
+
+试题 26
+若字符串s是"Hello World"，则以下JavaScript代码“ ｄocument.write(s.toLowerCase());”输出结果是（）
+选择一项：
+a. HELLO WORLD
+b. H W
+c. hello world
+d. Hello World
+正确答案是：hello world
+
+试题 27
+JavaScript脚本的扩展名为（ ）
+选择一项：
+a. css
+b. js
+c. html
+d. txt
+正确答案是：js
+
+试题 28
+JavaScript中下面（）方法用于设置节点的属性为特定的值。
+选择一项：
+a. setAttribute
+b. getAttribute
+c. removeAttribute
+d. createAttribute
+正确答案是：setAttribute
+
+试题 29
+要后退到之前的页面，可用使用BOM的history对象的（）方法。
+选择一项：
+a. forward()
+b. go()
+c. assign()
+d. back()
+正确答案是：back()
+
+试题 30
+下列JavaScript的DOM对象方法中，（ ）用于复制节点。
+选择一项：
+a. removeChild
+b. insertBefore
+c. appendChild
+d. cloneNode
+正确答案是：cloneNode
+
+试题 31
+JavaScript中如果要实现鼠标分别移入及移开指定区域时的图片轮换效果，可绑定（）事件。
+选择一项：
+a. onmouseup
+b. onmouseover
+c. onmouseover和onmouseout
+d. onmouseup和onmouseout
+正确答案是：onmouseover和onmouseout
+
+试题 32
+假如有一个id为usrname的文本框，则JavaScript语句"document.getElementById("usrname").value.length”输出的是（）
+选择一项：
+a. 文本框当前的数据类型
+b. 文本框当前内容的字符串长度
+c. 文本框当前的属性
+d. 文本框当前的内容
+正确答案是：文本框当前内容的字符串长度
+
+试题 33
+JavaScript中的onload事件在（ ）时触发。
+选择一项：
+a. 浏览器载入文档
+b. 窗口失去焦点
+c. 单击窗口
+d. 关闭文档
+正确答案是：浏览器载入文档
+
+试题 34
+JavaScript中使用下面哪个方法将返回单个对象（ ）
+选择一项：
+a. getElementById
+b. getElementsByTagName
+c. childNodes
+d. getElementsByName
+正确答案是：getElementById
+
+试题 35
+在DOM对象模型中，直接父对象为根对象window的对象中不包括（ ）。
+选择一项：
+a. document
+b. history
+c. form
+d. location
+正确答案是：form
+
+试题 1
+绑定页面元素事件前可通过document.getElementById先获取要操纵的元素。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 2
+DOM下，可通过document.nodeType返回节点类型。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 3
+window对象在BOM层次中最上层。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 4
+String对象的所有方法都必须要先创建实例才能使用。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 5
+若对当前单个window对象操作时，可将引用window对象的代码省略。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 6
+＜script＞标记用于界定一个JavaScript代码段。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 7
+JavaScript函数返回值类型可能因其执行情况的不同而不同。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 8
+如果一个变量或一个函数的返回值不是数值类型，在JavaScript中用undefined表示。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 9
+JavaScript中clearTimeout(timerID)取消由方法setTimeout设置的指定timerID的计时器。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 10
+Math对象的属性与方法均可以直接使用，而不用创建对象实例。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 11
+下列关于JavaScript标识符的说明，正确的是（ ）
+选择一项：
+a. JavaScript中的标识符不区分大小写
+b. 由字母、下划线、美元号、数字等符号组成
+c. JavaScript中的标识符必须由字母、下划线、美元号等符号开头
+d. JavaScript中尽量不要使用预定义的保留字做标识符
+e. JavaScript中的标识符
+正确答案是：由字母、下划线、美元号、数字等符号组成
+
+试题 12
+下面哪些是属于window对象的属性和方法（ ）。
+选择一项或多项：
+a. confirm()
+b. write()
+c. alert()
+d. prompt()
+正确答案是：
+  confirm()
+  alert()
+  prompt()
+
+试题 13
+下面哪些是属于window对象的属性和方法（ ）。
+选择一项或多项：
+a. alert()
+b. confirm()
+c. setInterval()
+d. setTimeout()
+正确答案是：abcd
+
+试题 14
+JavaScript中以下结果为10的有（）。
+选择一项或多项：
+a. Number(10)
+b. parseInt(10.4a)
+c. parseFloat(10.4a)
+d. Number(10a)
+正确答案是：parseInt(10.4a), Number(10)
+
+试题 15
+JavaScript的数据类型包括（）。
+选择一项或多项：
+a. 对象类型
+b. 数值类型
+c. 布尔类型
+d. 字符串类型
+正确答案是：字符串类型, 数值类型, 对象类型, 布尔类型
+
+试题 16
+下面哪个不属于JavaScript的优点（ ）。
+选择一项：
+a. 跨平台
+b. 开发简单
+c. 多线程运行
+d. 便于移植
+正确答案是：多线程运行
+
+试题 17
+JavaScript中语句"list.setAttribute("title","New list") ”的作用是（ ）
+选择一项：
+a. 设置元素New list的属性为title
+b. 设置元素list的title属性为New list
+c. 删除元素list的title属性
+d. 设置元素title的list属性为New list
+正确答案是：设置元素list的title属性为New list
+
+试题 18
+JavaScript中可输出parseInt("1abc")的值为（ ）。
+选择一项：
+a. 1
+b. abc
+c. NaN
+d. null
+正确答案是：1
+
+试题 19
+要显示输出"Hello!He is my friend."（含双引号），正确的脚本语句是（） 。
+选择一项：
+a. ｄocument.write('" Hello!He is my friend." ')
+b. ｄocument.write( " Hello!He is my friend.")
+c. ｄocument.write(' Hello!He is my friend.')
+d. ｄocument.write(Hello!He is my friend.)
+正确答案是：ｄocument.write('" Hello!He is my friend." ')
+
+试题 21
+如果要设置函数tick()只在10秒后执行一次，则正确的JavaScript代码应为（）。
+选择一项：
+a. setInterval(tick,10000)
+b. setInterval（"tick()",10000）
+c. setTimeout（"tick()",10000）
+d. setTimeout(tick,10000)
+正确答案是：setTimeout（"tick()",10000）
+
+试题 22
+JavaScript中typeof(true)的值是（）
+选择一项：
+a. object
+b. number
+c. string
+d. boolean
+正确答案是：boolean
+
+试题 23
+JavaScript中window对象的clearTimeout(timerID)方法的作用是（ ）。
+选择一项：
+a. 设置指定的timerID延时器
+b. 取消由方法setInterval设置的指定timerID的计时器。
+c. 取消由方法setTimeout设置的指定timerID的延时器。
+d. 设置指定的timerID计时器。
+正确答案是：取消由方法setTimeout设置的指定timerID的延时器。
+
+试题 24
+如果要设置函数tick()每隔2秒执行一次，则正确的代码应为（ ）。
+选择一项：
+a. setTimeout(tick,2000)
+b. setInterval（"tick()",2000）
+c. setInterval(tick,1000)
+d. setTimeout（"tick()",2000）
+正确答案是：setInterval（"tick()",2000）
+
+试题 25
+下列关于JavaScript中switch的描述，正确的是（ ）
+选择一项：
+a. 每个case必须包含break语句
+b. case语句的数量是有限制的
+c. default语句是可以省略的
+d. 至少应有一个case字句必须包含break
+正确答案是：default语句是可以省略的
+
+试题 26
+JavaScript表达式'300'+100的值为（ ）
+
+选择一项：
+a. 400
+b. 300100
+c. NaN
+d. 300
+正确答案是：300100
+
+试题 27
+JavaScript中String对象的split方法用于（）。
+选择一项：
+a. 分隔字符串
+b. 将字符串的小写字母转换成大写
+c. 提取子字符串
+d. 将字符串的大写字母转换成小写
+正确答案是：分隔字符串
+
+试题 28
+JavaScript中，如果要返回Date对象d是一周里的第几天（星期几），应使用（ ）
+选择一项：
+a. d.getTime()
+b. d.getDay()
+c. d.getHours()
+d. d.getDate()
+正确答案是：d.getDay()
+
+试题 30
+JavaScript中的onfocus事件不能用于下面哪种元素（ ）
+选择一项：
+a. 浏览器窗口
+b. 文本框
+c. 图像
+d. 下拉窗口
+正确答案是：图像
+
+试题 31
+若字符串mystring的值是"I am a student"，则JavaScript代码mystring.ｃharAt(9)的输出结果是（ ）。
+选择一项：
+a. udent
+b. I an a st
+c. t
+d. u
+正确答案是：u
+
+试题 32
+制作网页上的浮动广告时，需要定义一个函数，实现浮动广告层随滚动条滚动的效果，假如已经定义好了这个名为move的函数，那么最后需要做的是（ ）。
+选择一项：
+a. 捕获文档的document.onload事件，调用move函数
+b. 捕获窗口的window.onload事件，调用move函数
+c. 捕获窗口的window.onscroll事件，调用move函数
+d. 捕获文档的document.onscroll事件，调用move函数
+正确答案是：捕获文档的document.onscroll事件，调用move函数
+
+试题 33
+下面哪个JavaScript中表达式产生的随机数是介于0-100的浮点数（ ）
+选择一项：
+a. Math.random()/100
+b. Math.random()*100
+c. Math.random()
+d. Math.random()+100
+正确答案是：Math.random()*100
+
+试题 34
+JavaScript中以下结果为3的是（）
+选择一项：
+a. Math.floor(4.5)
+b. Math.round(2.5)
+c. Math.round(3.5)
+d. Math.ceil(3.5)
+正确答案是：Math.round(2.5)
+
+试题 35
+JavaScript中Math.ceil(2.6)的结果是( )
+选择一项：
+a. 4
+b. 5
+c. 2
+d. 3
+正确答案是：3
+试题 1
+DOM结构中，属性节点也有子节点。
+选择一项：
+对 
+错
+正确答案是“错”。
+
+试题 2
+JavaScript没有强制要求每条语句后添加分号作为结束，因此即使一个JavaScript语句后没有添加分号也不会影响该语句的执行。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 3
+JavaScript定义一个函数时，参数列表不能为空。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 4
+JavaScript中的NaN表示不是数字的结果。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 5
+JavaScript中disabled属性可用于文本框，也可用于单选按钮、复选按钮等。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 6
+JavaScript中浏览器事件只能绑定匿名函数。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 7
+JavaScript中，当break语句用于循环语句时，表示退出该重循环返回循环判断处 。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 8
+12a是合法的JavaScript标识符。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 9
+history对象可以读出浏览器所有历史URL。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 10
+JavaScript中window.onresize事件是在用户改变页面大小时触发。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 11
+JavaScript中关于BOM对象模型的结构，下面说法正确的是（）。
+选择一项或多项：
+a. window对象在层次中最上层
+b. window、frames、navigator等顶级对象产生于浏览器载入文档至关闭期间的不同阶段
+c. location、history等都是window对象的子对象
+d. location对象保存正在浏览文档的位置及协议、端口、路径等构成信息
+正确答案是：location、history等都是window对象的子对象, window、frames、navigator等顶级对象产生于浏览器载入文档至关闭期间的不同阶段, location对象保存正在浏览文档的位置及协议、端口、路径等构成信息, window对象在层次中最上层
+
+试题 12
+JavaScript中可用于删除DOM节点的document方法有（）。
+选择一项或多项：
+a. appendChild()
+b. removeAttribute()
+c. removeChild()
+d. removeAttributeNode()
+正确答案是：removeAttributeNode(), removeChild()
+
+试题 13
+下列关于JavaScript中数组的说法，不正确的是（ ）
+选择一项或多项：
+a. JavaScript中的数组不能存放类型不一样的元素
+b. 修改JavaScript中的数组元素必须与其之前的元素类型相同
+c. JavaScript中的数组一旦声明其长度，则不能修改
+d. JavaScript中的数组元素可以直接通过其索引来访问
+正确答案是：JavaScript中的数组一旦声明其长度，则不能修改, JavaScript中的数组不能存放类型不一样的元素, 修改JavaScript中的数组元素必须与其之前的元素类型相同
+
+试题 14
+JavaScript中，window对象的子对象navigator对象的常用属性有（）。
+选择一项或多项：
+a. userAgent
+b. appName
+c. availWidth
+d. appVersion
+正确答案是：
+  userAgent
+  appName
+  appVersion
+
+试题 15
+下面属于DOM的节点类型的是（）。
+选择一项或多项：
+a. 注释的文本内容
+b. 元素标签的文本内容
+c. 元素标签的属性
+d. 元素标签
+正确答案是：元素标签的属性, 元素标签的文本内容, 元素标签, 注释的文本内容
+
+试题 16
+JavaScript中通过数组的（）属性可获取其当前长度。
+选择一项：
+a. length
+b. name
+c. id
+d. prototype
+正确答案是：length
+
+试题 17
+JavaScript中的ｏnclick事件表示（）。
+选择一项：
+a. 鼠标移入
+b. 鼠标移出
+c. 单击
+d. 双击
+正确答案是：单击
+
+试题 18
+JavaScript中函数的定义使用关键字（ ）
+选择一项：
+a. function
+b. new
+c. object
+d. var
+正确答案是：function
+
+试题 19
+下面哪个JavaScript方法不是用于生成或插入节点的（ ）。
+选择一项：
+a. removeChild
+b. creatTextNode
+c. createElement
+d. appendChild
+正确答案是：removeChild
+
+试题 20
+下面关于JavaScript中函数的说法不正确的是（ ）
+选择一项：
+a. 既可以使用预定义的函数，也可以使用自定义的函数
+b. 在JavaScript中定义函数时必须指定返回值类型
+c. 函数可提高程序的可重用性
+d. 对于要重复使用的一段代码，最好将其编写为一个函数
+正确答案是：在JavaScript中定义函数时必须指定返回值类型
+
+试题 21
+要通过JavaScript获取表单中指定元素的个数，通常使用（）属性。
+选择一项：
+a. length
+b. value
+c. select
+d. elements
+正确答案是：length
+
+试题 23
+typeof(12)的值为（ ）
+选择一项：
+a. number
+b. object
+c. string
+d. boolean
+正确答案是：number
+
+试题 24
+JavaScript中使用下面哪个方法不会改变节点的属性集（ ）
+选择一项：
+a. setAttribute
+b. createAttribute
+c. getAttribute
+d. removeAttribute
+正确答案是：getAttribute
+
+试题 25
+下列哪个是不合法的JavaScript标识符（）
+选择一项：
+a. $a
+b. 7s
+c. _z
+d. a2
+正确答案是：7s
+
+试题 26
+JavaScript中下面（）方法用于删除节点的属性。
+选择一项：
+a. removeAttribute
+b. createAttribute
+c. getAttribute
+d. setAttribute
+正确答案是：removeAttribute
+
+试题 27
+制作网页上的浮动广告时，需要定义一个函数，实现浮动广告层随滚动条滚动的效果，假如已经定义好了这个名为move的函数，那么最后需要做的是（ ）。
+选择一项：
+a. 捕获文档的document.onload事件，调用move函数
+b. 捕获窗口的window.onscroll事件，调用move函数
+c. 捕获窗口的window.onload事件，调用move函数
+d. 捕获文档的document.onscroll事件，调用move函数
+正确答案是：捕获文档的document.onscroll事件，调用move函数
+
+试题 28
+关于JavaScript中的NaN的说法，不正确的是（ ）
+选择一项：
+a. 是JavaScript中专门定义表示特殊运算结果的一个数值量
+b. 表示不是数字的结果
+c. 变量已建立，但没有指定初始值时其值为NaN
+d. 通常用于表示一个变量或一个函数的返回值不是属于数值类型
+正确答案是：变量已建立，但没有指定初始值时其值为NaN
+
+试题 29
+JavaScript代码“getElementByID("p1")”获取到的是（ ）
+选择一项：
+a. 类型为p1的段落
+b. 文档中所有标签为p的对象
+c. 文本为p1的段落
+d. id为p1的段落
+正确答案是：id为p1的段落
+
+试题 31
+假如有一个id为usrname的文本框，则JavaScript语句"document.getElementById("usrname").value.length”输出的是（）
+选择一项：
+a. 文本框当前的内容
+b. 文本框当前的数据类型
+c. 文本框当前内容的字符串长度
+d. 文本框当前的属性
+正确答案是：文本框当前内容的字符串长度
+
+试题 32
+JavaScript中的onmouseover事件是在（ ）时触发
+选择一项：
+a. 鼠标双击元素所在位置
+b. 鼠标经过元素所在位置
+c. 鼠标在元素位置按下
+d. 鼠标移出元素所在位置
+正确答案是：鼠标经过元素所在位置
+
+试题 33
+如果要设置函数tick()只在10秒后执行一次，则正确的JavaScript代码应为（）。
+选择一项：
+a. setInterval(tick,10000)
+b. setTimeout(tick,10000)
+c. setTimeout（"tick()",10000）
+d. setInterval（"tick()",10000）
+正确答案是：setInterval(tick,10000), setTimeout（"tick()",10000）
+
+试题 34
+下面哪个不属于BOM相关对象（）
+选择一项：
+a. window
+b. char
+c. history
+d. document
+正确答案是：char
+
+试题 35
+实现类似浏览器的前进功能，可使用history对象的（）方法。
+选择一项：
+a. assign()
+b. forward()
+c. back()
+d. go()
+正确答案是：forward()
+
+试题 1
+表达式101+'abc'的结果是NaN。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 2
+JavaScript中任何变量已建立，但没有指定初始值时其值为NaN。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 3
+JavaScript函数定义时需声明其是否有返回值及返回值类型。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 4
++符号在JavaScript中既可以表示算术加法，也可以表示字符串连接的操作。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 5
+JavaScript中的NaN是JavaScript中专门定义表示特殊运算结果的一个数值量。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 6
+JavaScript中的数组元素可以直接通过其索引来访问。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 7
+window、frames、navigator等顶级对象产生于浏览器载入文档至关闭期间的不同阶段 。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 8
+JavaScript函数定义时需给出参数的类型。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 9
+Math对象的属性在使用前要先创建对象实例。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 10
+JavaScript中当窗口或页面元素失去焦点时将触发onblur事件。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 11
+下面哪些是属于window对象的属性和方法（ ）。
+选择一项或多项：
+a. confirm()
+b. open()
+c. setInterval()
+d. alert()
+正确答案是：abcd
+
+试题 12
+JavaScript中以下结果为6的有（）。
+选择一项或多项：
+a. Math.floor(6.4)
+b. Math.ceil(5.4)
+c. Math.round(5.4)
+d. Math.round(6.4)
+正确答案是：Math.ceil(5.4), Math.floor(6.4), Math.round(6.4)
+
+试题 13
+JavaScript中以下结果为10的有（）。
+选择一项或多项：
+a. Number(10)
+b. parseFloat(10.4)
+c. parseInt(10.4)
+d. Number(10.4)
+正确答案是：parseInt(10.4), Number(10)
+
+试题 14
+要使浏览器返回前一个页面，可以使用BOM中history对象的（）语句。
+选择一项或多项：
+a. history.assign(-1)
+b. history.back()
+c. history.forward()
+d. history.go(-1)
+正确答案是：history.back(), history.go(-1)
+
+试题 15
+下列关于JavaScript中数组的说法，正确的是（ ）
+选择一项或多项：
+a. 修改JavaScript中的数组元素不一定与其之前的元素类型相同
+b. JavaScript中的数组长度可以修改
+c. JavaScript中的数组能存放类型不一样的元素
+d. JavaScript中的数组元素可以直接通过其索引来访问
+正确答案是：JavaScript中的数组长度可以修改, JavaScript中的数组能存放类型不一样的元素, 修改JavaScript中的数组元素不一定与其之前的元素类型相同, JavaScript中的数组元素可以直接通过其索引来访问
+
+试题 16
+计算PI的5次方，并四舍五入取整，正确的JavaScript表达式为（ ）
+选择一项：
+a. Math.floor(Math.pow(Math.PI,5))
+b. Math.round(Math.pow(Math.PI,5))
+c. Math.floor(Math.pow(Math.PI(),5))
+d. Math.round(Math.pow(Math.PI(),5))
+正确答案是：Math.round(Math.pow(Math.PI,5))
+
+试题 17
+JavaScript中document对象的getElementById的方法是通过元素节点的（）获取并访问对象。
+选择一项：
+a. name属性
+b. class属性
+c. 标签
+d. id属性
+正确答案是：id属性
+
+试题 18
+下列关于JavaScript标识符的说明，不正确的是（ ）
+选择一项：
+a. JavaScript中的标识符中不能出现预定义的运算符
+b. JavaScript中尽量不要使用预定义的保留字做标识符
+c. JavaScript中的标识符不区分大小写
+d. JavaScript中的标识符必须由字母、下划线、美元号等符号开头
+正确答案是：JavaScript中的标识符不区分大小写
+
+试题 19
+JavaScript中下面哪个不可能是运算符typeof的返回值？
+
+选择一项：
+a. string
+b. number
+c. null
+d. object
+正确答案是：null
+
+试题 20
+JavaScript中可输出parseFloat("1abc")的值为（ ）。
+选择一项：
+a. NaN
+b. abc
+c. 1
+d. null
+正确答案是：1
+
+试题 21
+JavaScript中可输出Number("1abc")的值为（ ）。
+选择一项：
+a. NaN
+b. null
+c. 1
+d. abc
+正确答案是：NaN
+
+试题 22
+JavaScript中window对象的clearTimeout(timerID)方法的作用是（ ）。
+选择一项：
+a. 取消由方法setInterval设置的指定timerID的计时器。
+b. 设置指定的timerID计时器。
+c. 取消由方法setTimeout设置的指定timerID的延时器。
+d. 设置指定的timerID延时器。
+正确答案是：取消由方法setTimeout设置的指定timerID的延时器。
+
+试题 23
+下面关于JavaScript中break和continue的说法，错误的是（ ）
+选择一项：
+a. continue语句的作用是立即跳出循环
+b. 循环结构中可使用break或continue控制循环执行情况
+c. continue语句的作用是停止正在进行的循环，直接进入下一次循环
+d. break语句也可以用于跳出switch结构
+正确答案是：continue语句的作用是立即跳出循环
+
+试题 24
+JavaScript表达式的值为400的是（ ）
+选择一项：
+a. "300"+100
+b. "300"-100
+c. "400"-0
+d. 300+"100"
+正确答案是："400"-0
+
+试题 25
+下面哪个不属于DOM的节点类型（ ）
+选择一项：
+a. 文本
+b. 窗口
+c. 元素
+d. 属性
+正确答案是：窗口
+
+试题 26
+关于BOM顶级对象模型的结构，下面说法不正确的是（）
+选择一项：
+a. window对象包含调整窗口、新建窗口、关闭窗口等操作
+b. window对象在层次中最上层
+c. window对象包含调整窗口、新建窗口、关闭窗口等操作
+d. 网页文档只可能包含一个window对象
+正确答案是：网页文档只可能包含一个window对象
+
+试题 27
+下面关于JavaScript中的逻辑类型，说法不正确的是（ ）
+选择一项：
+a. 逻辑类型的值有true和false两种
+b. 逻辑类型通常用于比较、逻辑判断等运算中
+c. 逻辑型数据的输出值可能为NaN
+d. 所有关系表达式的返回值都是逻辑型
+正确答案是：逻辑型数据的输出值可能为NaN
+
+试题 28
+实现类似浏览器的前进功能，可使用history对象的（）方法。
+选择一项：
+a. go()
+b. forward()
+c. assign()
+d. back()
+正确答案是：forward()
+
+试题 29
+如果在JavaScript程序中单选按钮组中要设置某个选项默认被选中，则应设置其（）的值为true。
+选择一项：
+a. checked
+b. text
+c. value
+d. length
+正确答案是：checked
+
+试题 30
+JavaScript中可输出parseFloat("abc1")的值为（ ）。
+选择一项：
+a. NaN
+b. null
+c. abc
+d. 1
+正确答案是：NaN
+
+试题 31
+如果要设置函数tick()每隔5秒执行一次，则正确的代码应为（）
+选择一项：
+a. setTimeout(tick,5)
+b. setInterval(tick,5)
+c. setInterval（"tick()",5000）
+d. setTimeout（"tick()",5000）
+正确答案是：setInterval（"tick()",5000）
+
+试题 32
+下列哪个是合法的JavaScript标识符（）
+选择一项：
+a. 12$
+b. 3+s
+c. 7_s
+d. a$c
+正确答案是：a$c
+
+试题 33
+下列哪个是不合法的JavaScript标识符（）
+选择一项：
+a. _z
+b. 7s
+c. a2
+d. $a
+正确答案是：7s
+
+试题 34
+下列哪个是合法的JavaScript标识符（）
+选择一项：
+a. 7_s
+b. 12$
+c. a$c
+d. 3+s
+正确答案是：a$c
+
+试题 1
+若要对DOM元素节点设置其原本没有的属性，需要先新增属性再设置其值。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 2
+Math对象的属性和方法都是静态的。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 3
+BOM中，window对象包含调整窗口、新建窗口、关闭窗口等操作。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 4
+location对象保存正在浏览文档的位置及协议、端口、路径等构成信息
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 5
+Math对象的方法可以直接通过Math对象调用。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 6
+JavaScript中，location、history等都是window对象的子对象。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 7
+history对象的方法可模拟浏览器的前进、后退等操作。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 8
+JavaScript中，函数的参数是在函数被调用时才确定其实际数据类型。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 9
+HTML文档结构树的根节点为＜html＞
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 10
+JavaScript中clearTimeout(timerID)取消由方法setInterval设置的指定timerID的计时器。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 11
+JavaScript中以下结果为10的有（）。
+选择一项或多项：
+a. parseInt(10.4a)
+b. Number(10)
+c. Math.round(10.4)
+d. parseInt(10)
+正确答案是：Math.round(10.4), parseInt(10.4a), Number(10), parseInt(10)
+
+试题 13
+下列关于JavaScript中数组的说法，正确的是（ ）
+选择一项或多项：
+a. JavaScript中的数组元素可以直接通过其索引来访问
+b. JavaScript中的数组长度可以修改
+c. JavaScript中的数组能存放类型不一样的元素
+d. 修改JavaScript中的数组元素不一定与其之前的元素类型相同
+正确答案是：JavaScript中的数组长度可以修改, JavaScript中的数组能存放类型不一样的元素, 修改JavaScript中的数组元素不一定与其之前的元素类型相同, JavaScript中的数组元素可以直接通过其索引来访问
+
+试题 14
+JavaScript中以下结果为5的有（）。
+选择一项或多项：
+a. Math.floor(5.4)
+b. Math.round(5.4)
+c. Math.floor(6.4)
+d. Math.ceil(5.4)
+正确答案是：Math.round(5.4), Math.floor(5.4)
+
+试题 16
+关于JavaScript中的NaN的说法，不正确的是（ ）
+选择一项：
+a. 表示不是数字的结果
+b. 变量已建立，但没有指定初始值时其值为NaN
+c. 通常用于表示一个变量或一个函数的返回值不是属于数值类型
+d. 是JavaScript中专门定义表示特殊运算结果的一个数值量
+正确答案是：变量已建立，但没有指定初始值时其值为NaN
+
+试题 17
+要输出一行加粗的文字"你好”，应使用的JavaScript语句应为（ ）
+选择一项：
+a. ｄocument.write('＜br＞你好');
+b. ｄocument.write('你好');
+c. ｄocument.write('＜p＞你好＜/p＞');
+d. ｄocument.write(你好);
+正确答案是：ｄocument.write('＜br＞你好');
+
+试题 18
+JavaScript中Math.floor(3.6)的结果是( )
+选择一项：
+a. 2
+b. 4
+c. 5
+d. 3
+正确答案是：3
+
+试题 19
+下面关于JavaScript中函数的说法不正确的是（ ）
+选择一项：
+a. 函数可提高程序的可重用性
+b. 既可以使用预定义的函数，也可以使用自定义的函数
+c. 对于要重复使用的一段代码，最好将其编写为一个函数
+d. 在JavaScript中定义函数时必须指定返回值类型
+正确答案是：在JavaScript中定义函数时必须指定返回值类型
+
+试题 20
+在JavaScript中要计算2的十次方，下面表达式正确的是（ ）
+选择一项：
+a. 10^2
+b. Math.pow(10,2)
+c. 2^10
+d. Math.pow(2,10)
+正确答案是：Math.pow(2,10)
+
+试题 21
+下列选项中关于JavaScript浏览器对象中history对象的说法错误的是（ ）。
+选择一项：
+a. 应用history对象的back()方法相当于"前进”按钮，forward()方法相当于"后退”按钮
+b. 应用history对象的方法可以实现IE浏览器中"前进”和"后退”按钮的功能
+c. history对象的父对象是JavaScript浏览器对象的根对象window
+d. history对象记录了用户在一个浏览器中已经访问过的URLs
+正确答案是：应用history对象的back()方法相当于"前进”按钮，forward()方法相当于"后退”按钮
+
+试题 22
+下面哪个JavaScript表达式可以计算半径为3的圆形的面积（ ）
+选择一项：
+a. Math.PI*3^2
+b. PI*pow(2,3)
+c. Math.PI*3*3
+d. Math.PI*Math.pow(2,3)
+正确答案是：Math.PI*3*3
+
+试题 23
+JavaScript中for...in的作用是（ ）
+选择一项：
+a. 删除对象属性
+b. 新建对象
+c. 遍历对象的属性
+d. 访问对象中指定的属性
+正确答案是：遍历对象的属性
+
+试题 24
+如果在JavaScript程序中单选按钮组中要设置某个选项默认被选中，则应设置其（）的值为true。
+选择一项：
+a. checked
+b. length
+c. text
+d. value
+正确答案是：checked
+
+试题 25
+下面哪个JavaScript中表达式产生的随机数是介于-10-10的浮点数（ ）
+选择一项：
+a. Math.random()*20-10
+b. Math.random()
+c. Math.random()*10
+d. Math.random()+10
+正确答案是：Math.random()*20-10
+
+试题 26
+JavaScript中document对象的getElementByTagName的方法是通过元素节点的（）获取并访问对象。
+选择一项：
+a. 标签
+b. name属性
+c. class属性
+d. id属性
+正确答案是：标签
+
+试题 27
+浏览器及相关对象的模型结构中，最顶层对象是（）
+选择一项：
+a. window
+b. html
+c. navigator
+d. document
+正确答案是：window
+
+试题 28
+JavaScript表达式'400'-100的值为（ ）
+
+选择一项：
+a. 400100
+b. 300
+c. NaN
+d. 400
+正确答案是：300
+
+试题 29
+下列关于JavaScript中数组的说法，不正确的是（ ）
+选择一项：
+a. JavaScript中的数组元素可以直接通过其索引来访问
+b. 修改JavaScript中的数组元素必须与其之前的元素类型相同
+c. JavaScript中的数组不能存放类型不一样的元素
+d. JavaScript中的数组一旦声明其长度，则不能修改
+正确答案是：JavaScript中的数组元素可以直接通过其索引来访问
+
+试题 30
+执行下面JavaScript代码后，如果在输入提示框中输入10并点击确定，显示结果应为（）：
+
+ｖar add; ａdd = prompt("请输入加数:",""); ｄocument.write(add+10);
+
+选择一项：
+a. 10
+b. 20
+c. NaN
+d. 1010
+正确答案是：1010
+
+试题 31
+下列JavaScript的DOM对象方法中，（ ）用于删除节点。
+选择一项：
+a. insertBefore
+b. cloneNode
+c. removeChild
+d. appendChild
+正确答案是：removeChild
+
+试题 32
+下列选项中关于JavaScript浏览器对象中history对象的说法错误的是（ ）。
+选择一项：
+a. history对象记录了用户在一个浏览器中已经访问过的URLs
+b. 应用history对象的方法可以实现IE浏览器中"前进”和"后退”按钮的功能
+c. 应用history对象的back()方法相当于"前进”按钮，forward()方法相当于"后退”按钮
+d. history对象的父对象是JavaScript浏览器对象的根对象window
+正确答案是：应用history对象的back()方法相当于"前进”按钮，forward()方法相当于"后退”按钮
+
+试题 33
+下面JavaScript语句创建的Date对象，其日期值是（ ） ｖar theDate〓new Date(2009,9,1);
+选择一项：
+a. 2009年10月2日
+b. 2009年10月1日
+c. 2009年9月1日
+d. 2009年9月2日
+正确答案是：2009年10月1日
+
+试题 34
+在JavaScript中，关于document对象的方法，下列说法正确的是（ ）。
+选择一项：
+a. getElementbyname()是通过元素ID获得元素对象的方法，其返回值为单个对象
+b. getElementbytagname()是通过元素name获得元素对象的方法，其返回值为对象组
+c. getElementByName()是通过元素name获得元素对象的方法，其返回值为单个对象
+d. getElementById()是通过元素ID获得元素对象的方法，其返回值为单个对象
+正确答案是：getElementById()是通过元素ID获得元素对象的方法，其返回值为单个对象
+
+试题 35
+关于BOM顶级对象模型的结构，下面说法不正确的是（）
+选择一项：
+a. 网页文档只可能包含一个window对象
+b. window对象在层次中最上层
+c. window对象包含调整窗口、新建窗口、关闭窗口等操作
+d. window对象包含调整窗口、新建窗口、关闭窗口等操作
+正确答案是：网页文档只可能包含一个window对象
+
+试题 1
+JavaScript中getElementById是对象window的方法。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 2
+表达式101-'abc'的结果是NaN。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 3
+JavaScript中应用history对象的back()方法相当于"前进”按钮，forward()方法相当于"后退”按钮。
+
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 4
+修改JavaScript中的数组元素必须与其之前的元素类型相同 。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 5
+要使用任何一个JavaScript对象，都必须先用new创建它。
+
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 6
+history对象也是window对象的子对象。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 7
+JavaScript也可以简写为JSP
+
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 8
+当打开浏览器窗口时，将创建window对象的实例。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 9
+JavaScript中的数组不能存放类型不一样的元素。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 10
+文本节点可能有其子节点。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 11
+要使浏览器返回前一个页面，可以使用BOM中history对象的（）语句。
+选择一项或多项：
+a. history.go(-1)
+b. history.back()
+c. history.assign(-1)
+d. history.forward()
+正确答案是：history.back(), history.go(-1)
+
+试题 12
+JavaScript中的String对象可用于提取子字符串的方法有（）。
+选择一项或多项：
+a. indexOf
+b. substr
+c. lastIndexOf
+d. substring
+正确答案是：substring, substr
+
+试题 13
+JavaScript中可用于创建DOM节点的document方法有（）。
+选择一项或多项：
+a. createAttribute()
+b. createElement()
+c. createTextNode()
+d. createComment()
+正确答案是：createComment(), createElement(), createTextNode(), createAttribute()
+
+试题 14
+下面属于DOM的节点类型的是（）。
+选择一项或多项：
+a. 注释的文本内容
+b. 元素标签的文本内容
+c. 元素标签的属性
+d. 元素标签
+正确答案是：元素标签的属性, 元素标签的文本内容, 元素标签, 注释的文本内容
+
+试题 15
+下列关于JavaScript中数组的说法，不正确的是（ ）
+选择一项或多项：
+a. JavaScript中的数组元素可以直接通过其索引来访问
+b. JavaScript中的数组不能存放类型不一样的元素
+c. 修改JavaScript中的数组元素必须与其之前的元素类型相同
+d. JavaScript中的数组一旦声明其长度，则不能修改
+正确答案是：JavaScript中的数组一旦声明其长度，则不能修改, JavaScript中的数组不能存放类型不一样的元素, 修改JavaScript中的数组元素必须与其之前的元素类型相同
+
+试题 16
+下面关于JavaScript中函数的说法不正确的是（ ）
+选择一项：
+a. 函数可提高程序的可重用性
+b. 在JavaScript中定义函数时必须指定返回值类型
+c. 既可以使用预定义的函数，也可以使用自定义的函数
+d. 对于要重复使用的一段代码，最好将其编写为一个函数
+正确答案是：在JavaScript中定义函数时必须指定返回值类型
+
+试题 17
+JavaScript中可输出parseInt("1abc")的值为（ ）。
+选择一项：
+a. NaN
+b. abc
+c. null
+d. 1
+正确答案是：1
+
+试题 18
+假如有一个id为usrname的文本框，则JavaScript语句"document.getElementById("usrname").value.length”输出的是（）
+选择一项：
+a. 文本框当前的属性
+b. 文本框当前的数据类型
+c. 文本框当前的内容
+d. 文本框当前内容的字符串长度
+正确答案是：文本框当前内容的字符串长度
+
+试题 19
+制作网页上的浮动广告时，需要定义一个函数，实现浮动广告层随滚动条滚动的效果，假如已经定义好了这个名为move的函数，那么最后需要做的是（ ）。
+选择一项：
+a. 捕获窗口的window.onscroll事件，调用move函数
+b. 捕获文档的document.onscroll事件，调用move函数
+c. 捕获文档的document.onload事件，调用move函数
+d. 捕获窗口的window.onload事件，调用move函数
+正确答案是：捕获文档的document.onscroll事件，调用move函数
+
+试题 20
+JavaScript中document对象的getElementByTagName的方法是通过元素节点的（）获取并访问对象。
+选择一项：
+a. class属性
+b. name属性
+c. id属性
+d. 标签
+正确答案是：标签
+
+试题 21
+要显示输出"Hello!He is my friend."（含双引号），正确的脚本语句是（） 。
+选择一项：
+a. ｄocument.write( " Hello!He is my friend.")
+b. ｄocument.write(Hello!He is my friend.)
+c. ｄocument.write(' Hello!He is my friend.')
+d. ｄocument.write('" Hello!He is my friend." ')
+正确答案是：ｄocument.write('" Hello!He is my friend." ')
+
+试题 22
+下列哪个是不合法的JavaScript标识符（）
+选择一项：
+a. a2
+b. _z
+c. 7s
+d. $a
+正确答案是：7s
+
+试题 23
+JavaScript脚本的扩展名为（ ）
+选择一项：
+a. txt
+b. html
+c. css
+d. js
+正确答案是：js
+
+试题 24
+如果要设置函数tick()每隔2秒执行一次，则正确的代码应为（ ）。
+选择一项：
+a. setInterval(tick,1000)
+b. setTimeout（"tick()",2000）
+c. setInterval（"tick()",2000）
+d. setTimeout(tick,2000)
+正确答案是：setInterval（"tick()",2000）
+
+试题 25
+JavaScript中下面哪个不可能是运算符typeof的返回值？
+
+选择一项：
+a. null
+b. object
+c. string
+d. number
+正确答案是：null
+
+试题 26
+JavaScript中Math.floor(3.6)的结果是( )
+选择一项：
+a. 2
+b. 3
+c. 4
+d. 5
+正确答案是：3
+
+试题 27
+JavaScript中可输出parseFloat("abc1")的值为（ ）。
+选择一项：
+a. abc
+b. 1
+c. null
+d. NaN
+正确答案是：NaN
+
+试题 28
+下面哪个不属于DOM的节点类型（ ）
+选择一项：
+a. 属性
+b. 文本
+c. 元素
+d. 窗口
+正确答案是：窗口
+
+试题 29
+JavaScript中语句"list.setAttribute("title","New list") ”的作用是（ ）
+选择一项：
+a. 设置元素list的title属性为New list
+b. 设置元素title的list属性为New list
+c. 删除元素list的title属性
+d. 设置元素New list的属性为title
+正确答案是：设置元素list的title属性为New list
+
+试题 30
+下面关于JavaScript中break和continue的说法，错误的是（ ）
+选择一项：
+a. continue语句的作用是立即跳出循环
+b. break语句也可以用于跳出switch结构
+c. 循环结构中可使用break或continue控制循环执行情况
+d. continue语句的作用是停止正在进行的循环，直接进入下一次循环
+正确答案是：continue语句的作用是立即跳出循环
+
+试题 31
+要后退到之前的页面，可用使用BOM的history对象的（）方法。
+选择一项：
+a. assign()
+b. forward()
+c. go()
+d. back()
+正确答案是：back()
+
+试题 32
+JavaScript表达式的值为400的是（ ）
+选择一项：
+a. "300"-100
+b. 300+"100"
+c. "300"+100
+d. "400"-0
+正确答案是："400"-0
+
+试题 33
+下列选项中关于JavaScript浏览器对象中history对象的说法错误的是（ ）。
+选择一项：
+a. history对象记录了用户在一个浏览器中已经访问过的URLs
+b. history对象的父对象是JavaScript浏览器对象的根对象window
+c. 应用history对象的方法可以实现IE浏览器中"前进”和"后退”按钮的功能
+d. 应用history对象的back()方法相当于"前进”按钮，forward()方法相当于"后退”按钮
+正确答案是：应用history对象的back()方法相当于"前进”按钮，forward()方法相当于"后退”按钮
+
+试题 34
+JavaScript中如果要实现鼠标分别移入及移开指定区域时的图片轮换效果，可绑定（）事件。
+选择一项：
+a. onmouseup和onmouseout
+b. onmouseup
+c. onmouseover
+d. onmouseover和onmouseout
+正确答案是：onmouseover和onmouseout
+
+试题 35
+下面哪个不属于JavaScript的优点（ ）。
+选择一项：
+a. 多线程运行
+b. 开发简单
+c. 便于移植
+d. 跨平台
+正确答案是：多线程运行
+
+
+
+测验3：响应式网页框架（Bootstrap）
+
+试题 1
+固定布局中所有元素的所有宽度属性都是以像素定义的。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 2
+在Bootstrap中，网格布局的容器不需要定义为.container 类。
+
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 3
+导入Bootstrap时只需导入文件bootstrap.min.css。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 4
+Bootstrap 是基于HTML 5、CSS 3、JavaScript的。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 5
+弹性布局与流式布局的区别在于，包裹文字的布局元素的尺寸采用em为单位。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 6
+在行（.row）中可以添加列（.column），但列数之和不能超过总列数12。
+
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 7
+Boostrap中的情境文本颜色中，. text- warning 代表“成功——绿”。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 8
+Flex容器的所有子元素都自动成为容器成员，称为Flex项目（Flex item）。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 9
+.col-sm- 是Bootstrap的一种网格系统类。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 10
+在网格布局中，每个元素可占用一列或多列网格。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 11
+Flex布局现已进入CSS 3标准。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 12
+Bootstrap网页中为元素添加.lead类，可以让段落突出显示。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 13
+Boostrap中使用text-capitalize可以让英文字体首字母大写。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 14
+Bootstrap提供了压缩版（生产版）与未压缩版（开发版）两种形式的压缩包。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 15
+在Bootstrap中， jumbotorn的字体比h1还要大。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 16
+Bootstrap中可使用标签设置title属性。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 17
+通过"display:flex”可以定义一个Flex布局模块。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 18
+Flex布局和CSS Grid现都已进入CSS 3标准。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 19
+Bootstrap的网格系统中， .col-lg-类是针对大屏幕设备，即屏幕宽度大于等于1200px。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 20
+Flex布局比较适合用于小规模的布局，比如应用程序中的组件布局。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 21
+Bootstrap中，若为图片添加对（）类的调用，可以让图片支持响应式布局。
+选择一项：
+a. .img-responsive
+b. .img-thumbnail
+c. .img-rounded
+d. .img-circle
+正确答案是：.img-responsive
+
+试题 22
+Bootstrap布局中，网格中的行的类是（）。
+选择一项：
+a. table
+b. col
+c. row
+d. container
+正确答案是：row
+
+试题 23
+Bootstrap中，span class="caret"可以显示一个（）。
+选择一项：
+a. 下拉菜单按钮
+b. 清除按钮
+c. 关闭按钮
+d. 提交按钮
+正确答案是：下拉菜单按钮
+
+试题 24
+在Bootstrap中通过调用类.table-condensed可实现（）效果。
+选择一项：
+a. 条纹状表格
+b. 指针悬停背景表格
+c. 精简表格
+d. 给表格添加边框
+正确答案是：精简表格
+
+试题 25
+Bootstrap中可通过为父元素添加（）类可以清除浮动。
+选择一项：
+a. .pull-left
+b. .center-block
+c. .pull-right
+d. .clearfix
+正确答案是：.clearfix
+
+试题 26
+（）布局又称弹性盒子布局，它于2009年提出，现已进入CSS 3标准。
+选择一项：
+a. 网格
+b. Box
+c. Grid
+d. Flex
+正确答案是：Flex
+
+试题 27
+Bootstrap中，对图像添加对center-block类的应用可以（）。
+选择一项：
+a. 变成圆形
+b. 添加边框
+c. 获得圆角
+d. 居中显示
+正确答案是：居中显示
+
+试题 28
+Bootstrap中，（）可以设置文本靠右对齐。
+选择一项：
+a. text-left
+b. center
+c. text-right
+d. text-center
+正确答案是：text-right
+
+试题 29
+在Bootstrap中对列表使用（）类可使定义列表水平排列。
+选择一项：
+a. . list-inline类
+b. . list
+c. . list-unstyled
+d. . dl-horizontal
+正确答案是：. dl-horizontal
+
+试题 30
+Bootstrap中的bg- primary表示（）。
+选择一项：
+a. 情境文本色，成功——绿
+b. 情境背景色，成功——绿
+c. 情境背景色，主要——蓝
+d. 情境文本色，主要——蓝
+正确答案是：情境背景色，主要——蓝, 情境背景色，成功——绿
+
+试题 31
+以下关于各种布局方法的说明，不正确的是（）
+选择一项：
+a. 流式布局中所有元素的所有宽度属性都是以百分比定义的
+b. 固定布局中所有元素的所有宽度属性都是以像素定义的
+c. 弹性布局与流式布局的区别在于，包裹文字的布局元素的尺寸采用em为单位
+d. 混合式布局可以根据每种布局元素的性质和显示效果来选择最合适的布局方式
+正确答案是：流式布局中所有元素的所有宽度属性都是以百分比定义的
+
+试题 32
+单选题::Bootstrap的网格系统类中，（）是对应于小屏幕宽度(大于等于768px且小于992px)的设备。
+选择一项：
+a. .col-md-
+b. .col-lg-
+c. .col-xs-
+d. .col-sm-
+正确答案是：.col-sm-
+
+试题 33
+流式布局与固定布局的最大不同点在于定义网页布局元素宽度时使用（）。
+选择一项：
+a. 百分比
+b. 相对大小单位
+c. 厘米
+d. 像素
+正确答案是：百分比
+
+试题 34
+Bootstrap中表格情境背景颜色的类，success表示（）。
+选择一项：
+a. 表示一个需要注意的警告
+b. 表示一个成功的或积极的动作
+c. 表示一个危险的或潜在的负面动作
+d. 对某一特定的行或单元格应用悬停颜色
+正确答案是：表示一个成功的或积极的动作
+
+试题 35
+Bootstrap提供了带有（）等组成的基本页面结构。
+选择一项或多项：
+a. 网格系统
+b. 背景
+c. 链接样式
+d. 固定表格系统
+正确答案是：网格系统, 链接样式, 背景
+
+试题 36
+Bootstrap是一个（）、（）的前端开发框架。
+选择一项或多项：
+a. 开源
+b. 不公开
+c. 收费
+d. 免费
+正确答案是：免费, 开源
+
+试题 37
+Bootstrap提供的可重用的组件有（）。
+选择一项或多项：
+a. 弹出框
+b. 背景图像
+c. 导航
+d. 警告框
+正确答案是：警告框, 弹出框, 导航
+
+试题 1
+Flex布局比较适合用于小规模的布局，比如应用程序中的组件布局。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 2
+在Bootstrap网页中调用类.table-striped时不需要先调用类.table。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 3
+Bootstrap中缩略语使用标签< small >定义。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 4
+相对于Flex，Grid布局则在大规模的布局范围中更占优势。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 5
+Bootstrap重新定义了HTML中的h1～h6的6级标题。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 6
+可使用< abbr >标签设置title属性，当鼠标指针悬停在缩略词上时，就会显示完整内容。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 7
+可以通过"display: grid;”来定义一个网格布局的容器。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 8
+流式布局中所有元素的所有宽度属性都是以百分比定义的。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 9
+Bootstrap中网格中的行定义为.row类 
+
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 10
+Boostrap中的情境文本颜色中，. text- success 代表“成功——绿”。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 11
+在Bootstrap网格布局页面中，具体内容的页面元素应当放置在列容器（.column）内。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 12
+在Bootstrap中，如果要调整列的排列顺序，可以用offset。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 13
+Bootstrap框架中，针对小屏幕设备（屏幕宽度小于768px）的网格系统，默认将页面平分成6列。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 14
+Bootstrap提供了丰富的表格样式供开发者使用。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 15
+Bootstrap的网格系统中， .col-xs-类是针对小屏幕设备，即屏幕宽度小于768px的。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 16
+混合式布局所有元素的所有宽度属性都是以百分比定义的。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 17
+网格系统，也称为栅格系统，是通过一系列的行（row）与列（column）的组合来进行网页布局。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 18
+Flex布局也称为弹性布局（flexible box）模块，主要是为了提供一个更有效的方式对容器之间的各项内容进行布局。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 19
+Boostrap中使用text-lowercase可以让英文字体全大写。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 20
+Bootstrap中缩略语使用标签< small >定义。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 21
+在Bootstrap网页的标题内还可以添加（）类的元素，可以用来标记副标题。
+选择一项：
+a. .small
+b. .mark
+c. .h2
+d. .jumbotorn
+正确答案是：.small
+
+试题 22
+Bootstrap中，对图像添加对img-rounded类的应用可以（）。
+选择一项：
+a. 添加边框
+b. 变成圆形
+c. 获得圆角
+d. 添加阴影
+正确答案是：获得圆角
+
+试题 23
+Bootstrap中可以使用abbr标签添加()属性以在鼠标悬停时显示提示信息。
+选择一项：
+a. id
+b. class
+c. title
+d. hover
+正确答案是：title
+
+试题 24
+以下关于流式布局的说法，不正确的是（）。
+选择一项：
+a. 高度、文字大小等仍是使用像素来指定的
+b. 网页中主要的划分区域的尺寸使用百分比
+c. 使用不同设备时可能影响网页显示效果
+d. 可完全满足响应式的要求
+正确答案是：可完全满足响应式的要求
+
+试题 25
+在Bootstrap中对列表使用（）类可使列表项li从垂直排列变为水平排列
+选择一项：
+a. . dl-horizontal
+b. . list
+c. . list-inline类
+d. . list-unstyled
+正确答案是：. list-inline类
+
+试题 26
+Bootstrap布局中，col-sm-*定义的是（）。
+选择一项：
+a. 超小设备手机（<768px）下显示的
+b. 大型显示尺寸（≥1200px）的设备下显示的
+c. 小型设备，平板电脑等（≥768px且<992px）下显示的
+d. 中型显示设备（≥992px且<1200px）下显示的
+正确答案是：小型设备，平板电脑等（≥768px且<992px）下显示的
+
+试题 27
+在Bootstrap中通过调用类. table-hover可（）。
+选择一项：
+a. 条纹状表格
+b. 指针悬停背景表格
+c. 响应式表格
+d. 给表格添加边框
+正确答案是：给表格添加边框
+
+试题 28
+在Boot中使用徽章只需要把 span class="（）" 添加到链接。
+选择一项：
+a. glyphicon
+b. nav
+c. pre
+d. badge
+正确答案是：badge
+
+试题 29
+Bootstrap中，对图像添加对img-responsive类的应用可以（）。
+选择一项：
+a. 添加边框
+b. 变成圆形
+c. 获得圆角
+d. 支持响应式布局
+正确答案是：支持响应式布局
+
+试题 30
+Bootstrap布局中，最外层的容器的类是（）。
+选择一项：
+a. col
+b. row
+c. container
+d. table
+正确答案是：container
+
+试题 31
+Bootstrap中，（）类可以把列表ul项从垂直排列变成水平排列。
+选择一项：
+a. dl-horizontal
+b. list-inline
+c. ul-unstyled
+d. list-unstyled
+正确答案是：list-inline
+
+试题 32
+Bootstrap中，text-uppercase可以设置英文文本（）。
+选择一项：
+a. 全小写
+b. 首字母大写
+c. 全大写
+d. 大小写不变
+正确答案是：全大写
+
+试题 33
+Bootstrap的情境文本颜色类中，text- primary表示（）。
+选择一项：
+a. 柔和——灰
+b. 信息——蓝
+c. 成功——绿
+d. 主要——蓝
+正确答案是：主要——蓝
+
+试题 34
+Bootstrap中，调用jumbotornd时（）。
+选择一项：
+a. 需要先创建一个div，在这个div调用
+b. 直接对图像调用
+c. 直接对文字调用
+d. 对h1调用
+正确答案是：需要先创建一个div，在这个div调用
+
+试题 35
+Bootstrap提供的可重用的组件有（）。
+选择一项或多项：
+a. 图像
+b. 弹出框
+c. 警告框
+d. 导航
+正确答案是：警告框, 导航, 图像, 弹出框
+
+试题 36
+Bootstrap包含了（）等组件。
+选择一项或多项：
+a. 表格
+b. 布局
+c. 图像
+d. 导航
+正确答案是：布局, 图像, 表格, 导航
+
+试题 37
+以下说法正确的有（）。
+选择一项或多项：
+a. 目前基本所有的移动设备和主流浏览器都支持Bootstrap
+b. Bootstrap包含了十几个可重用的组件
+c. 可以自行定制 Bootstrap 的组件
+d. 目前基本所有的移动设备和主流浏览器都不支持Bootstrap
+正确答案是：
+  目前基本所有的移动设备和主流浏览器都支持Bootstrap
+  可以自行定制 Bootstrap 的组件
+  Bootstrap包含了十几个可重用的组件
+
+试题 1
+在Bootstrap中，push可以用来调整列的排列顺序。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 2
+Bootstrap的网格系统中， .col-lg-类是针对大屏幕设备，即屏幕宽度大于等于992px小于1200px。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 3
+在网格布局中，每个元素可只占用1列。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 4
+导入Bootstrap时，jquery-1.11.1.min.js要在bootstrap.min.js文件前先导入。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 5
+Bootstrap 需要为页面内容包裹一个.container或.container-fluid容器，这两种容器类可相互嵌套。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 6
+Boostrap中使用text-uppercase可以让英文字体全大写。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 7
+Boostrap中的情境文本颜色中，. text- success 代表“柔和——灰”。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 8
+Bootstrap中可对图像调用类.img-circle使得图像显示为圆角矩形。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 9
+Bootstrap的网格系统中， .col-md-类是针对中型显示设备，屏幕宽度大于等于992px小于1200px的。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 10
+在导入Bootstrap的网页中对图片添加对.img-responsive 类的调用，可以让图片支持响应式布局。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 11
+Bootstrap框架中，针对小屏幕设备（屏幕宽度小于768px）的网格系统，默认将页面最多平分成12列。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 12
+混合式布局可以根据每种布局元素的性质和显示效果来选择最合适的布局方式。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 13
+Boostrap中的情境文本颜色中，. text- muted代表“柔和——灰”。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 14
+Bootstrap 需要为页面内容包裹一个.container或.container-fluid容器。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 15
+Boostrap中的情境文本颜色中，. text- danger 代表“警告——黄”。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 16
+在网格布局中，每个元素可占用多列。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 17
+Bootstrap是一个免费、开源的前端开发框架，使用Bootstrap可以方便、快速地实现响应式网页的开发。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 18
+Boostrap中的情境文本颜色中，. text- muted代表“危险——红”。
+答案：
+正确答案是：FLASE
+
+试题 19
+在Bootstrap网格布局系统中，如果一行（.row）中包含的列（.column）大于12，多余的列所在的元素将被作为一个整体另起一行排列。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 20
+Boostrap中的情境文本颜色中，. text- muted代表“成功——绿”。
+答案：
+正确答案是：FLASE
+
+试题 21
+在Bootstrap中实现表格悬停鼠标指针实现背景效果，完整的类的调用应该是（）。
+选择一项：
+a. table table-striped
+b. table table-hover
+c. table-hover
+d. table
+正确答案是：table table-hover
+
+试题 22
+Bootstrap中，使用字体图标要先调用类（）。
+选择一项：
+a. container
+b. badge
+c. glyph
+d. glyphicon
+正确答案是：glyphicon
+
+试题 23
+Bootstrap中表格情境背景颜色的类，不正确的是（）。
+选择一项：
+a. . active表示负面的动作
+b. . danger表示危险的动作
+c. . wanning表示警告
+d. . success表示成功的动作
+正确答案是：. active表示负面的动作
+
+试题 24
+Bootstrap中以下代码实现了一个（ ）按钮。＜button type="button" class="close"＞&ｔimes;＜。
+选择一项：
+a. 关闭
+b. 提交
+c. 打开
+d. 刷新
+正确答案是：关闭
+
+试题 25
+在Bootstrap中通过调用类.table-responsive可实现（）效果。
+选择一项：
+a. 给表格添加边框
+b. 响应式表格
+c. 条纹状表格
+d. 指针悬停背景表格
+正确答案是：响应式表格
+
+试题 26
+在Bootstrap中，网格布局的容器必须先定义为（）类。。
+选择一项：
+a. .column
+b. div
+c. .row
+d. .container
+正确答案是：.container
+
+试题 27
+Bootstrap中，（）可以设置文本靠左对齐。
+选择一项：
+a. text-right
+b. text-left
+c. center
+d. text-center
+正确答案是：text-left
+
+试题 28
+Bootstrap中，通过对表格调用类（）可以让＜tbody>下的表格悬停鼠标指针实现背景效果。
+选择一项：
+a. .table-hover
+b. .table-condensed
+c. table-striped
+d. .table-responsive
+正确答案是：.table-hover
+
+试题 29
+Bootstrap中，以下哪个字体大小比h1还要大（）。
+选择一项：
+a. h0
+b. p
+c. jumbotorn
+d. h2
+正确答案是：jumbotorn
+
+试题 30
+Bootstrap布局中，col-md-*定义的是（）。
+选择一项：
+a. 中型显示设备（≥992px且<1200px）下显示的
+b. 超小设备手机（<768px）下显示的
+c. 大型显示尺寸（≥1200px）的设备下显示的
+d. 小型设备，平板电脑等（≥768px且<992px）下显示的
+正确答案是：中型显示设备（≥992px且<1200px）下显示的
+
+试题 31
+Bootstrap中，（）可以设置英文文本全小写。
+选择一项：
+a. text-lowercase
+b. text-uppercase
+c. text-capitalize
+d. text-center
+正确答案是：text-lowercase
+
+试题 32
+相对而言，（ ）布局比较适用于小规模的布局，比如应用程序中的组件布局，该布局元素已进入了CSS 3标准。
+选择一项：
+a. 盒状
+b. flex
+c. grid
+d. 网格
+正确答案是：flex
+
+试题 33
+Bootstrap中的ｉmg-ｒesponsive类可以让图片支持响应式布局，它的实现原理是（）。
+选择一项：
+a. 设置了ｗｉdth: auto;和ｈeight: auto
+b. 设置了ｍax-width: 100%和 ｈeight: auto;
+c. 设置了ｗｉdth: auto和max－height: 100%
+d. 设置了ｍax-width: 100% 和 ｈeight: 100%
+正确答案是：设置了ｍax-width: 100%和 ｈeight: auto;
+
+试题 34
+Bootstrap的情境文本颜色类中，text- muted表示（）。
+选择一项：
+a. 成功——绿
+b. 柔和——灰
+c. 主要——蓝
+d. 信息——蓝
+正确答案是：柔和——灰
+
+试题 35
+Bootstrap提供了带有（）等组成的基本页面结构。
+选择一项或多项：
+a. 链接样式
+b. 背景
+c. 图像
+d. 网格系统
+正确答案是：网格系统, 链接样式, 背景
+
+试题 36
+Bootstrap的源码是基于CSS 预处理脚本（）和 （）开发的。
+选择一项或多项：
+a. Less
+b. HTML
+c. Sass
+d. XML
+正确答案是：Less, Sass
+
+试题 37
+Bootstrap 包的内容包括（）。
+选择一项或多项：
+a. 可重用的组件
+b. 固定页面结构定义
+c. JavaScript 插件
+d. 全局的 CSS 设置
+正确答案是：可重用的组件, 全局的 CSS 设置, JavaScript 插件
+
+试题 1
+Bootstrap网格布局中，网格布局的容器必须先定义为.container类。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 2
+.col-md- 是Bootstrap的一种网格系统类。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 3
+目前的移动设备和主流浏览器中支持Bootstrap的很少。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 4
+Boostrap中使用text-capitalize可以让英文字体全大写。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 5
+Boostrap中的情境文本颜色中，. text- warning 代表“危险—红”。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 6
+Bootstrap的样式定义中关于< blockquote >标签的定义是默认居中显示的。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 7
+Bootstrap网格布局中，行必须包含在容器（.container）中，以便为其赋予合适的对齐方式和内距（padding）。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 8
+在Bootstrap网格布局中，如果不希望相邻的两个列紧靠在一起，可以用列偏移（offset）属性来实现。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 9
+Bootstrap的网格系统中， .col-md-类是针对大屏幕设备，即屏幕宽度大于等于1200px。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 10
+在Bootstrap网格系统中，浏览器会随着屏幕的大小的增减自动分为最多12列，通过一系列的行（row）与列（column）的组合来创建页面布局。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 11
+在网格布局中，每个元素可只能占用多个列。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 12
+在网格布局中，每个元素只能占用1列。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 13
+如果对预定义的Bootstrap样式没有改动只是直接调用，在部署网站的时候调用压缩版就可以了。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 14
+.col-xs- 是Bootstrap的一种网格系统类。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 15
+＜blockquote＞默认居左显示，也可以通过设置类. blockquote-reverse或者. pull-right使引用文本居右。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 16
+Boostrap中的情境文本颜色中，. text- danger 代表“成功——绿”。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 17
+Bootstrap的网格系统中， .col-sm-类是针对小屏幕设备，即屏幕宽度小于768px的。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 18
+grid是Bootstrap的一种网格系统类。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 19
+如果直接使用默认的Bootstrap样式，则只需直接调用bootstrap.min.css、jquery-1.11.1.min.js和bootstrap.min.js文件。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 20
+Boostrap中的情境文本颜色中，. text- success 代表“警告——黄”。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 21
+Bootstrap中下列哪个类起巨幕显示的作用？（ ）
+选择一项：
+a. thumbnail
+b. jumbotron
+c. page-header
+d. badge
+正确答案是：jumbotron
+
+试题 22
+Bootstrap的情境文本颜色类中，text- success表示（）。
+选择一项：
+a. 成功——绿
+b. 柔和——灰
+c. 主要——蓝
+d. 信息——蓝
+正确答案是：成功——绿
+
+试题 23
+Bootstrap中，（）类可以让列表ul移除默认样式。
+选择一项：
+a. ul-unstyled
+b. list-inline
+c. list-unstyled
+d. dl-horizontal
+正确答案是：list-unstyled
+
+试题 24
+在Bootstrap中，网格布局列数之和不能超过（）。
+选择一项：
+a. 9
+b. 11
+c. 10
+d. 12
+正确答案是：12
+
+试题 25
+Bootstrap中，text-capitalize可以设置英文文本（）。
+选择一项：
+a. 大小写不变
+b. 全大写
+c. 首字母大写
+d. 全小写
+正确答案是：首字母大写
+
+试题 26
+Bootstrap中，使用字体图标“搜索”对应的类是“glyphicon-search”，则使用这个字体图标完整的类的调用应该是（）。
+选择一项：
+a. search
+b. glyphicon-search
+c. glyphicon
+d. glyphicon glyphicon-search
+正确答案是：glyphicon glyphicon-search
+
+试题 27
+通过对表格调用Bootstrap中的类（ ）可实现条纹状表格效果。
+选择一项：
+a. table
+b. table-hover
+c. table-response
+d. table-striped
+正确答案是：table-striped
+
+试题 28
+Bootstrap中的 bg- warning表示（）。
+选择一项：
+a. 情境文本色，警告——黄
+b. 情境文本色，成功——绿
+c. 情境背景色，主要——蓝
+d. 情境背景色，警告——黄
+正确答案是：情境背景色，警告——黄
+
+试题 29
+Bootstrap中，jumbotorn可以（）。
+选择一项：
+a. 显示下标
+b. 显示超小字体
+c. 显示上标
+d. 显示超大字体
+正确答案是：显示超大字体
+
+试题 30
+Bootstrap中，dl-horizontal类可以（）。
+选择一项：
+a. 让定义列表的列表项垂直排列
+b. 让ul的列表项水平排列
+c. 让ul的列表项垂直排列
+d. 让定义列表的列表项水平排列
+正确答案是：让定义列表的列表项水平排列
+
+试题 31
+Bootstrap中表格情境背景颜色的类，danger表示（）。
+选择一项：
+a. 表示一个危险的或潜在的负面动作
+b. 表示一个成功的或积极的动作
+c. 表示一个需要注意的警告
+d. 对某一特定的行或单元格应用悬停颜色
+正确答案是：表示一个危险的或潜在的负面动作
+
+试题 32
+Bootstrap中标签address显示（）。
+选择一项：
+a. 引用文本
+b. 缩略语
+c. 地址文本
+d. 大写文本
+正确答案是：地址文本
+
+试题 33
+Bootstrap中表格情境背景颜色的类，active表示（）。
+选择一项：
+a. 表示一个成功的或积极的动作
+b. 表示一个危险的或潜在的负面动作
+c. 表示一个需要注意的警告
+d. 对某一特定的行或单元格应用悬停颜色
+正确答案是：对某一特定的行或单元格应用悬停颜色
+
+试题 34
+Bootstrap中，可以对图像添加对（）类的应用添加一些内边距和边框使其呈现缩略图的形式。
+选择一项：
+a. img-rounded
+b. img-circle
+c. img-responsive
+d. img-thumbnail
+正确答案是：img-thumbnail
+
+试题 35
+Bootstrap提供的可重用的组件有（）。
+选择一项或多项：
+a. 下拉菜单
+b. 弹出框
+c. 警告框
+d. 导航
+正确答案是：下拉菜单, 导航, 警告框, 弹出框
+
+试题 37
+Bootstrap包含了（）等组件。
+选择一项或多项：
+a. JavaScript插件
+b. 图像
+c. 表格
+d. 布局
+正确答案是：布局, JavaScript插件, 表格, 图像
+
+试题 1
+混合式布局所有元素的所有宽度属性都是以像素定义的。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 2
+Boostrap中的情境文本颜色中，. text- warning 代表“警告——黄”
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 3
+固定布局中所有元素的所有宽度属性都是以百分比定义的。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 4
+Boostrap中的情境文本颜色中，. text- muted代表代表“警告——黄”。
+答案：
+正确答案是：FLASE
+
+试题 5
+Boostrap中的情境文本颜色中，. text- danger代表“危险—红”。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 6
+网格系统（或称栅栏系统）其实是属于流式布局的。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 7
+Bootstrap的源码是基于CSS 预处理脚本Less和 Sass开发的，支持响应式设计。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 8
+Boostrap中使用徽章的类是jumbotorn。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 9
+Bootstrap中可通过调用类.center-block使得元素居中。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 10
+Boostrap中使用徽章的类是badge 。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 11
+流式布局中所有元素的所有宽度属性都是以像素定义的。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 12
+Bootstrap网页中可以使用 .center-block 类使图片水平居中显示。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 13
+Boostrap中使用text-lowercase可以让英文字体全小写。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 14
+flex是Bootstrap的一种网格系统类。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 15
+文件除了文件名以外还会显示文件图标，同一个类型的文件使用相同的图标。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 16
+在Bootstrap网格布局页面中，具体内容的页面元素可放置在行容器（.row）内。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 17
+Boostrap中的情境文本颜色中，. text- danger 代表“柔和——灰”。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 18
+盒模型的布局方式可通过display等属性控制。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 19
+Boostrap中的情境文本颜色中，. text- success 代表“危险——红”。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 20
+在Bootstrap中，如果要调整列的排列顺序，可以用列嵌套的方式。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 21
+Bootstrap中下列哪个类起徽章的作用？（ ）
+选择一项：
+a. thumbnail
+b. badge
+c. page-header
+d. jumbotron
+正确答案是：badge
+
+试题 22
+Bootstrap的情境文本颜色类中，text- warning表示（）。
+选择一项：
+a. 主要——蓝
+b. 信息——蓝
+c. 警告——黄
+d. 危险——红
+正确答案是：警告——黄
+
+试题 23
+Bootstrap网页中可使用（）类使图片水平居中显示。
+选择一项：
+a. .center
+b. .center-block
+c. .center-text
+d. .img-responsive
+正确答案是：.center-block
+
+试题 24
+如果直接使用默认的Bootstrap样式，则不需要调用以下的（）文件。。
+选择一项：
+a. bootstrap.min.css
+b. jquery-1.11.1.min.js
+c. bootstrap.min.html
+d. bootstrap.min.js
+正确答案是：bootstrap.min.html
+
+试题 25
+在Bootstrap中通过调用类. table-striped可实现（）效果。
+选择一项：
+a. 指针悬停表格
+b. 响应式表格
+c. 条纹状表格
+d. 有边框的表格
+正确答案是：条纹状表格
+
+试题 26
+固定布局下，网页容器的宽度一般以（ ）为单位。
+选择一项：
+a. 像素
+b. 百分比
+c. 厘米
+d. rem或em
+正确答案是：像素
+
+试题 27
+Bootstrap中，text-center可以设置文本（）对齐。
+选择一项：
+a. 随文字
+b. 靠左
+c. 靠右
+d. 居中
+正确答案是：居中
+
+试题 28
+Bootstrap中，span class="badge"表示显示一个（）。
+选择一项：
+a. 徽章
+b. 浏览器窗口
+c. 对话框
+d. 标签
+正确答案是：徽章
+
+试题 29
+Bootstrap中，list-inline类可以让ul的列表项（）。
+选择一项：
+a. 水平排列
+b. 垂直排列
+c. 居中对齐
+d. 移除列表默认样式
+正确答案是：水平排列
+
+试题 30
+在Bootstrap中，利用（）类还可以增加标题的大小，显示比h1标题更大的字体。
+选择一项：
+a. h2
+b. lead
+c. mark
+d. jumbotorn
+正确答案是：jumbotorn
+
+试题 31
+固定布局的缺点不包括（）
+选择一项：
+a. 如果设备的屏幕宽度大于固定布局的宽度，网页的边缘会出现一些空白
+b. 不能精确地控制每个网页元素所在的具体位置
+c. 如果设备的屏幕宽度小于固定布局的宽度，将会在浏览器底部出现一个滚动条
+d. 可能会带来不太好的用户体验
+正确答案是：如果设备的屏幕宽度小于固定布局的宽度，将会在浏览器底部出现一个滚动条
+
+试题 32
+在Bootstrap中如果要设置文本居中对齐，使用（）类。
+选择一项：
+a. . center
+b. . text-right
+c. . text-left
+d. . text-center
+正确答案是：. text-center
+
+试题 33
+Bootstrap中，哪个表示可以对图像添加的（）类使得整个图片变成圆形。
+选择一项：
+a. img-thumbnail
+b. img-rounded
+c. img-responsive
+d. img-circle
+正确答案是：img-circle
+
+试题 34
+单选题::Bootstrap的网格系统类中，（）是对应于超小屏幕宽度(<768px)的设备。
+选择一项：
+a. .col-md-
+b. .col-sm-
+c. .col-xs-
+d. .col-lg-
+正确答案是：.col-xs-
+
+试题 35
+Bootstrap提供了（）等不同形式的压缩包。
+选择一项或多项：
+a. 生产版
+b. 未压缩版
+c. 开发版
+d. 压缩版
+正确答案是：压缩版, 生产版, 未压缩版, 开发版
+
+试题 36
+以下说法正确的有（）。
+选择一项或多项：
+a. 使用Bootstrap可以方便、快速地实现响应式网页的开发
+b. Bootstrap是免费的
+c. Bootstrap是开源的
+d. Bootstrap是目前很受欢迎的前端框架
+正确答案是：abcd
+
+试题 37
+Bootstrap 包的内容包括（）。
+选择一项或多项：
+a. 可重用组件
+b. JavaScript 插件
+c. 全局的 CSS 设置
+d. 基本页面结构
+正确答案是：基本页面结构, 全局的 CSS 设置, 可重用组件, JavaScript 插件
+
+试题 1
+在Bootstrap中，pull可以用来调整列的排列顺序。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 2
+导入Bootstrap后网页中的元素都自动是响应式的，不需要调用其他类。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 3
+采用Flex布局的网页元素，称为Flex容器（Flex container）。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 4
+.col-lg-是Bootstrap的一种网格系统类。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 5
+Boostrap中的情境文本颜色中，. text- warning 代表“柔和——灰”。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 6
+＜blockquote＞默认居左显示，也可以通过设置类. blockquote-reverse或者. pull-right使引用文本居右。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 7
+Boostrap中的情境文本颜色中，. text- danger代表“危险—红”。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 8
+文件除了文件名以外还会显示文件图标，同一个类型的文件使用相同的图标。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 9
+Boostrap中的情境文本颜色中，. text- success 代表“警告——黄”。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 10
+.col-md- 是Bootstrap的一种网格系统类。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 11
+可使用< abbr >标签设置title属性，当鼠标指针悬停在缩略词上时，就会显示完整内容。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 12
+在Bootstrap中，网格布局的容器不需要定义为.container 类。
+
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 13
+Bootstrap中网格中的行定义为.row类 
+
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 14
+Bootstrap中缩略语使用标签< small >定义。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 15
+Flex容器的所有子元素都自动成为容器成员，称为Flex项目（Flex item）。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 16
+Boostrap中的情境文本颜色中，. text- muted代表“危险——红”。
+答案：
+正确答案是：FLASE
+
+试题 17
+Boostrap中的情境文本颜色中，. text- muted代表“柔和——灰”。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 18
+网格系统（或称栅栏系统）其实是属于流式布局的。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 19
+相对于Flex，Grid布局则在大规模的布局范围中更占优势。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 20
+Bootstrap中可对图像调用类.img-circle使得图像显示为圆角矩形。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 21
+Bootstrap中，对图像添加对img-thumbnail类的应用可以（）。
+选择一项：
+a. 获得圆角
+b. 添加边框
+c. 变成圆形
+d. 添加阴影
+正确答案是：添加边框
+
+试题 22
+在Bootstrap中通过调用类. table-hover可实现（）效果。
+选择一项：
+a. 有边框的表格
+b. 响应式表格
+c. 条纹状表格
+d. 指针悬停背景表格
+正确答案是：指针悬停背景表格
+
+试题 23
+Bootstrap的情境文本颜色类中，text- danger表示（）。
+选择一项：
+a. 信息——蓝
+b. 危险——红
+c. 主要——蓝
+d. 警告——黄
+正确答案是：危险——红
+
+试题 24
+Bootstrap的网格系统类中，（）是对应于屏幕宽度大于等于1200px的设备。
+选择一项：
+a. .col-md-
+b. .col-sm-
+c. .col-xs-
+d. .col-lg-
+正确答案是：.col-lg-
+
+试题 25
+Bootstrap的网格布局系统中，如果一个容器有一个属性是sm-pull-4，表示（ ）。
+选择一项：
+a. 向左浮动4列
+b. 宽度4列
+c. 向右偏移4列
+d. 向右浮动4列
+正确答案是：向左浮动4列
+
+试题 26
+以下属于Bootstrap重新定义的页面排版样式及其说明，不正确的有（）。
+选择一项：
+a. .text-uppercase类可用于把字母改成全小写
+b. .text-capitalize类可用于把字母改成全大写
+c. .text-lowercase类可用于把字母改成全大写
+d. .mark 类可用于添加标记
+正确答案是：.text-capitalize类可用于把字母改成全大写
+
+试题 27
+Bootstrap中标签blackquote显示（）。
+选择一项：
+a. 引用文本
+b. 地址文本
+c. 大写文本
+d. 缩略语
+正确答案是：引用文本
+
+试题 28
+单选题::Bootstrap的网格系统类中，（）是对应于中等屏幕宽度(大于等于992px且小于1200px)的设备。
+选择一项：
+a. .col-md-
+b. .col-xs-
+c. .col-lg-
+d. .col-sm-
+正确答案是：.col-md-
+
+试题 29
+Bootstrap中，（）可以设置文本居中对齐。
+选择一项：
+a. center
+b. text-right
+c. text-center
+d. text-left
+正确答案是：text-center
+
+试题 30
+Bootstrap中，对图像添加对img-circle类的应用可以（）。
+选择一项：
+a. 获得圆角
+b. 添加阴影
+c. 变成圆形
+d. 添加边框
+正确答案是：变成圆形
+
+试题 31
+Bootstrap中，list-unstyled类可以让ul（）。
+选择一项：
+a. 居中对齐
+b. 垂直排列
+c. 水平排列
+d. 移除列表默认样式
+正确答案是：移除列表默认样式, 居中对齐
+
+试题 32
+在Bootstrap中如果要设置文本靠右对齐，可使用（）类。。
+选择一项：
+a. . text-right
+b. . text-center
+c. . text-left
+d. .right
+正确答案是：. text-right
+
+试题 33
+Bootstrap中，（）可以设置英文文本首字母大写。
+选择一项：
+a. text-lowercase
+b. text-uppercase
+c. text-center
+d. text-capitalize
+正确答案是：text-capitalize
+
+试题 34
+Bootstrap中，让图像居中显示可以使用（）类。
+选择一项：
+a. img-responsive
+b. center-block
+c. img-circle
+d. img-rounded
+正确答案是：center-block
+
+试题 35
+Bootstrap 是基于（）的。
+选择一项或多项：
+a. JavaScript
+b. HTML4
+c. CSS3
+d. HTML5
+正确答案是：HTML5, CSS3, JavaScript
+
+试题 36
+Bootstrap 包的内容包括（）。
+选择一项或多项：
+a. 全局的 CSS 设置
+b. 不可重用的组件
+c. JavaScript 插件
+d. 基本页面结构
+正确答案是：基本页面结构, 全局的 CSS 设置, JavaScript 插件
+
+试题 37
+以下说法正确的有（）。
+选择一项或多项：
+a. Bootstrap是由Twitter开发的
+b. Bootstrap是开源的
+c. Bootstrap是免费的
+d. Bootstrap是目前很受欢迎的前端框架
+正确答案是：abcd
+
+试题 1
+Bootstrap中可使用标签设置title属性。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 2
+在网格布局中，每个元素只能占用1列。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 3
+Boostrap中使用text-lowercase可以让英文字体全大写。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 4
+Bootstrap框架中，针对小屏幕设备（屏幕宽度小于768px）的网格系统，默认将页面最多平分成12列。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 5
+混合式布局所有元素的所有宽度属性都是以百分比定义的。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 6
+在Bootstrap网格系统中，浏览器会随着屏幕的大小的增减自动分为最多12列，通过一系列的行（row）与列（column）的组合来创建页面布局。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 7
+Bootstrap网格布局中，行必须包含在容器（.container）中，以便为其赋予合适的对齐方式和内距（padding）。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 8
+流式布局中所有元素的所有宽度属性都是以百分比定义的。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 9
+Boostrap中的情境文本颜色中，. text- muted代表“成功——绿”。
+答案：
+正确答案是：FLASE
+
+试题 10
+Bootstrap重新定义了HTML中的h1～h6的6级标题。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 11
+Boostrap中的情境文本颜色中，. text- warning 代表“警告——黄”
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 12
+Bootstrap是一个免费、开源的前端开发框架，使用Bootstrap可以方便、快速地实现响应式网页的开发。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 13
+Boostrap中的情境文本颜色中，. text- danger 代表“柔和——灰”。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 14
+Bootstrap 需要为页面内容包裹一个.container或.container-fluid容器。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 16
+Bootstrap的网格系统中， .col-lg-类是针对大屏幕设备，即屏幕宽度大于等于1200px。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 18
+Bootstrap的网格系统中， .col-md-类是针对中型显示设备，屏幕宽度大于等于992px小于1200px的。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 19
+Bootstrap 是基于HTML 5、CSS 3、JavaScript的。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 20
+grid是Bootstrap的一种网格系统类。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 21
+在Bootstrap中，网格具体内容的页面元素应当放置在（）内。
+选择一项：
+a. 内距（padding）
+b. 列容器（.column）
+c. 行容器（.row）
+d. 容器（.container）
+正确答案是：列容器（.column）
+
+试题 22
+Bootstrap的网格布局系统中，默认每行有（ ）列。
+选择一项：
+a. 12
+b. 10
+c. 8
+d. 9
+正确答案是：12
+
+试题 23
+Bootstrap中的bg- danger表示（）。
+选择一项：
+a. 情境文本色，危险——红
+b. 情境文本色，成功——绿
+c. 情境背景色，成功——绿
+d. 情境背景色，危险——红
+正确答案是：情境背景色，危险——红
+
+试题 24
+在固定布局中，每个网页元素的宽度以（）指定。
+选择一项：
+a. 厘米
+b. 百分比
+c. 相对大小
+d. 像素值
+正确答案是：像素值
+
+试题 25
+Bootstrap中，（）类可以把定义列表水平排列。
+选择一项：
+a. dl-horizontal
+b. list-inline
+c. ul-unstyled
+d. list-unstyled
+正确答案是：dl-horizontal
+
+试题 26
+在Bootstrap中实现条纹状表格效果，完整的类的调用应该是（）。
+选择一项：
+a. table
+b. table table-striped
+c. striped
+d. table-striped
+正确答案是：table table-striped
+
+试题 27
+Bootstrap中表格情境背景颜色的类，warning表示（）。
+选择一项：
+a. 表示一个危险的或潜在的负面动作
+b. 表示一个需要注意的警告
+c. 表示一个成功的或积极的动作
+d. 对某一特定的行或单元格应用悬停颜色
+正确答案是：表示一个需要注意的警告
+
+试题 28
+以下关于Bootstrap中列表排版相关的类，说法不正确的是（）。
+选择一项：
+a. . dl-horizontal类可使定义列表水平排列
+b. . list-inline类可使得列表从垂直排列变为水平排列
+c. . list-unstyled类可用于移除默认样式，即去掉列表前的小黑点
+d. . dl-horizontal类是对列表元素li调用的
+正确答案是：. dl-horizontal类是对列表元素li调用的
+
+试题 29
+Bootstrap中，关闭按钮调用的类是（）。
+选择一项：
+a. times
+b. clear
+c. close
+d. caret
+正确答案是：close
+
+试题 30
+Bootstrap中的bg- success表示（）。
+选择一项：
+a. 情境背景色，成功——绿
+b. 情境文本色，成功——绿
+c. 情境文本色，主要——蓝
+d. 情境背景色，主要——蓝
+正确答案是：情境背景色，成功——绿
+
+试题 31
+固定布局的特点不包括（）
+选择一项：
+a. 可以精确地控制每个元素所在的网页中的具体位置
+b. 提供了很强的稳定性与可控性
+c. 每个网页元素的大小定义都必须指定固定的像素值
+d. 对任何设备都可以提供很好的浏览体验
+正确答案是：对任何设备都可以提供很好的浏览体验
+
+试题 32
+Bootstrap中，通过对表格调用类（）可实现响应式表格。
+选择一项：
+a. .table-responsive
+b. .table-hover
+c. .table-striped
+d. .table-condensed
+正确答案是：.table-responsive
+
+试题 33
+Bootstrap中，若为图片添加对（）类的调用，可以让图像显示为圆角矩形。
+选择一项：
+a. .img-responsive
+b. .img-circle
+c. .img-rounded
+d. .img-thumbnail
+正确答案是：.img-rounded
+
+试题 34
+Bootstrap中，下拉菜单按钮调用的类是（）。
+选择一项：
+a. close
+b. caret
+c. clear
+d. times
+正确答案是：caret
+
+试题 35
+Bootstrap提供的可重用的组件有（）。
+选择一项或多项：
+a. 图像 
+b. 下拉菜单 
+c. 导航 
+d. 弹出框 
+正确答案是：下拉菜单, 导航, 图像, 弹出框
+
+试题 36
+以下说法正确的有（）。
+选择一项或多项：
+a. Bootstrap包含了十几个可重用的组件
+b. Bootstrap不需要将页面设置为HTML 5文档类型。
+c. Bootstrap需要将页面设置为HTML 5文档类型才能使用到某些 HTML 元素和 CSS 属性。
+d. 可以自行定制 Bootstrap 的组件
+正确答案是：
+  Bootstrap包含了十几个可重用的组件
+  Bootstrap需要将页面设置为HTML 5文档类型才能使用到某些 HTML 元素和 CSS 属性。
+  可以自行定制 Bootstrap 的组件
+
+试题 37
+Bootstrap提供了带有（）等组成的基本页面结构。
+选择一项或多项：
+a. 链接样式 
+b. 背景 
+c. 固定文字
+d. 网格系统 
+正确答案是：网格系统, 链接样式, 背景
+
+试题 1
+目前的移动设备和主流浏览器中支持Bootstrap的很少。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 2
+Bootstrap框架中，针对小屏幕设备（屏幕宽度小于768px）的网格系统，默认将页面平分成6列。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 3
+流式布局中所有元素的所有宽度属性都是以像素定义的。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 4
+在Bootstrap网页中调用类.table-striped时不需要先调用类.table。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 5
+导入Bootstrap时，jquery-1.11.1.min.js要在bootstrap.min.js文件前先导入。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 6
+在Bootstrap网格布局中，如果不希望相邻的两个列紧靠在一起，可以用列偏移（offset）属性来实现。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 7
+Bootstrap的样式定义中关于< blockquote >标签的定义是默认居中显示的。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 8
+通过"display:flex”可以定义一个Flex布局模块。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 9
+Flex布局比较适合用于小规模的布局，比如应用程序中的组件布局。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 10
+固定布局中所有元素的所有宽度属性都是以像素定义的。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 11
+Bootstrap的网格系统中， .col-xs-类是针对小屏幕设备，即屏幕宽度小于768px的。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 12
+网格系统，也称为栅格系统，是通过一系列的行（row）与列（column）的组合来进行网页布局。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 13
+flex是Bootstrap的一种网格系统类。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 14
+在Bootstrap中，如果要调整列的排列顺序，可以用offset。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 15
+Flex布局也称为弹性布局（flexible box）模块，主要是为了提供一个更有效的方式对容器之间的各项内容进行布局。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 16
+在网格布局中，每个元素可占用一列或多列网格。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 17
+Bootstrap中缩略语使用标签< small >定义。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+试题 18
+如果直接使用默认的Bootstrap样式，则只需直接调用bootstrap.min.css、jquery-1.11.1.min.js和bootstrap.min.js文件。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 19
+Bootstrap的网格系统中， .col-lg-类是针对大屏幕设备，即屏幕宽度大于等于992px小于1200px。
+选择一项：
+对 
+错
+正确答案是“错”。
+
+试题 20
+在行（.row）中可以添加列（.column），但列数之和不能超过总列数12。
+
+选择一项：
+对 
+错
+正确答案是“对”。
+
+试题 21
+Bootstrap提供的图片应用的简单样式class不包括（）。
+选择一项：
+a. .img-thumbnail
+b. .img-circle
+c. .img-rounded
+d. .table-triple 
+正确答案是：.table-triple
+
+试题 22
+Bootstrap中，text-right可以设置文本（）对齐。
+选择一项：
+a. 靠左
+b. 随文字
+c. 靠右 
+d. 居中
+正确答案是：靠右
+
+试题 23
+Bootstrap中标签abbr显示（）。
+选择一项：
+a. 引用文本
+b. 大写文本
+c. 缩略语 
+d. 地址文本
+正确答案是：缩略语
+
+试题 24
+Bootstrap中，（）可以设置英文文本全大写。
+选择一项：
+a. text-center
+b. text-uppercase 
+c. text-lowercase
+d. text-capitalize
+正确答案是：text-uppercase
+
+试题 25
+在Bootstrap中通过调用类.sr-only可（）。
+选择一项：
+a. 指针悬停背景表格
+b. 条纹状表格
+c. 隐藏表格行 
+d. 给表格添加边框
+正确答案是：隐藏表格行
+
+试题 26
+Bootstrap布局中，col-lg-*定义的是（）。
+选择一项：
+a. 小型设备，平板电脑等（≥768px且<992px）下显示的
+b. 超小设备手机（<768px）下显示的
+c. 中型显示设备（≥992px且<1200px）下显示的
+d. 大型显示尺寸（≥1200px）的设备下显示的 
+正确答案是：大型显示尺寸（≥1200px）的设备下显示的
+
+试题 27
+Bootstrap中，text-lowercase可以设置英文文本（）。
+选择一项：
+a. 全大写
+b. 大小写不变
+c. 首字母大写
+d. 全小写 
+正确答案是：全小写
+
+试题 28
+在Bootstrap中，网格布局列数之和不能超过（）。
+选择一项：
+a. 12 
+b. 11
+c. 9
+d. 10
+正确答案是：12
+
+试题 29
+Bootstrap的情境文本颜色类中，text- primary表示（）。
+选择一项：
+a. 主要——蓝 
+b. 信息——蓝
+c. 成功——绿
+d. 柔和——灰
+正确答案是：主要——蓝
+
+试题 30
+Bootstrap中表格情境背景颜色的类，active表示（）。
+选择一项：
+a. 表示一个危险的或潜在的负面动作
+b. 表示一个成功的或积极的动作
+c. 对某一特定的行或单元格应用悬停颜色
+d. 表示一个需要注意的警告 
+正确答案是：对某一特定的行或单元格应用悬停颜色
+
+试题 31
+Bootstrap中，可以对图像添加对（）类的应用添加一些内边距和边框使其呈现缩略图的形式。
+选择一项：
+a. img-rounded
+b. img-responsive
+c. img-circle
+d. img-thumbnail 
+正确答案是：img-thumbnail
+
+试题 32
+在Bootstrap中，网格具体内容的页面元素应当放置在（）内。
+选择一项：
+a. 内距（padding）
+b. 列容器（.column） 
+c. 容器（.container）
+d. 行容器（.row）
+正确答案是：列容器（.column）
+
+试题 33
+Bootstrap中标签blackquote显示（）。
+选择一项：
+a. 大写文本
+b. 引用文本 
+c. 缩略语
+d. 地址文本
+正确答案是：引用文本
+
+试题 34
+Bootstrap中，调用jumbotornd时（）。
+选择一项：
+a. 直接对文字调用
+b. 直接对图像调用
+c. 对h1调用
+d. 需要先创建一个div，在这个div调用 
+正确答案是：需要先创建一个div，在这个div调用
+
+试题 35
+Bootstrap包含了（）等组件。
+选择一项或多项：
+a. 导航 
+b. 表格 
+c. 布局 
+d. 表单 
+正确答案是：布局, 表单, 表格, 导航
+
+试题 36
+以下说法正确的有（）。
+选择一项或多项：
+a. Bootstrap是免费的 
+b. Bootstrap支持响应式设计 
+c. Bootstrap是开源的 
+d. Bootstrap是目前很受欢迎的前端框架 
+正确答案是：Bootstrap支持响应式设计, Bootstrap是目前很受欢迎的前端框架, Bootstrap是免费的, Bootstrap是开源的
+
+试题 37
+Bootstrap 包的内容包括（）。
+选择一项或多项：
+a. 基本页面结构 
+b. JavaScript 插件 
+c. 全局的 CSS 设置 
+d. 固定图像
+正确答案是：基本页面结构, 全局的 CSS 设置, JavaScript 插件
+
+
+
+测验4：响应式网页框架（Bootstrap）2
+
+试题 1
+面包屑导航可以用于在网页中显示类别、标签等内容。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 2
+Bootstrap中在使用胶囊式导航的同时使用类.nav-stacked，可以让胶囊式导航项垂直堆叠。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 3
+Bootstrap的导航栏可以动态定位。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 4
+Bootstrap 中添加了class .form-inline的表单是垂直显示的。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 5
+Bootstrap 中可以定义不同的预定义按钮样式。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 6
+Bootstrap中的单选按钮组默认是在一行显示的。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 7
+默认情况下，导航栏是块级元素。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 8
+Bootstrap 中可以通过.btn- toolbar把几个按钮组结合起来。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 9
+Bootstrap 中如果需要创建一个表单，其元素并排显示的，可向form标签添加class .form-inline。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 10
+默认情况下，Bootstrap 中的input、select 和 textarea 等元素可以在一行内显示。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 11
+Bootstrap 中为了添加一个占用整个宽度的内容块，可在input元素后插入一个class="help-block"的块级元素。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 12
+Bootstrap中允许对按钮组进行大小调整。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 13
+Bootstrap 的按钮组不允许多个按钮被堆叠在同一行上。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 14
+Bootstrap中可实现标签式导航、胶囊式导航等不同形式。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 15
+Bootstrap中导航的默认形式是水平的。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 16
+Bootstrap 导航栏可以动态定位，要把导航栏显示在页面顶部则调用类（）。
+选择一项：
+a. navbar- static- top
+b. navbar
+c. navbar- fixed- top
+d. navbar- fixed- bottom
+正确答案是：navbar- static- top
+
+试题 17
+Bootstrap中如果要显示面包屑导航，则对导航中的列表调用类（）。
+选择一项：
+a. breadcrumb
+b. pills
+c. pane
+d. tabs
+正确答案是：breadcrumb
+
+试题 18
+以下哪个不是对导航列表调用的类（）。
+选择一项：
+a. breadcrumb
+b. nav- tabs
+c. nav-pills
+d. navbar-inverse
+正确答案是：navbar-inverse
+
+试题 19
+使用Bootstrap创建导航菜单需要向标签（）添加对应类的调用。
+选择一项：
+a. ul
+b. span
+c. nav
+d. li
+正确答案是：ul
+
+试题 20
+Bootstrap中如果要禁用导航中的某个项，只需对该列表项调用类（）即可。
+选择一项：
+a. abled
+b. none
+c. disabled
+d. cancel
+正确答案是：disabled
+
+试题 21
+Bootstrap中的下拉菜单可以使用哪些类（）。
+选择一项或多项：
+a. .dropup
+b. .dropdown- menu
+c. .dropdown- header
+d. .dropdown- menu- right
+正确答案是：.dropdown- header, .dropdown- menu- right, .dropup, .dropdown- menu
+
+试题 22
+Bootstrap中胶囊式导航可用相关的类有（）。
+选择一项或多项：
+a. .nav-stacked
+b. breadcrumb
+c. nav nav-pills
+d. .nav nav-tabs
+正确答案是：nav nav-pills, .nav-stacked
+
+试题 23
+Bootstrap 包含了（）消息的验证样式。
+选择一项或多项：
+a. 成功
+b. 警告
+c. 错误
+正确答案是：错误, 警告, 成功
+
+试题 24
+Bootstrap中包含了以下哪些按钮类（）。
+选择一项或多项：
+a. .btn- success
+b. .btn- warning
+c. .btn- group
+d. .btn- group- sm
+正确答案是：.btn- group, .btn- warning, .btn- success, .btn- group- sm
+
+试题 1
+在Bootstrap 水平表单中，可以把标签label和表单元素显示在同一行。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 2
+Bootstrap 可以调用类btn- group形成一个按钮组。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 3
+Bootstrap中下拉菜单的弹出方式不可改变。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 4
+Bootstrap中可以通过.disabled禁用下拉菜单的项。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 5
+Bootstrap 的表单包含了错误、警告和成功消息的验证样式。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 6
+Bootstrap中胶囊式导航对应的类是.nav nav-pills。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 7
+Bootstrap中对胶囊式导航不能添加下拉菜单。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 8
+Bootstrap的导航栏不能动态定位。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 9
+Bootstrap 中的按钮组只能水平显示。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 10
+Bootstrap 中可以通过调用active和disable定义按钮的激活及禁用状态。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 11
+如果需要在一个表单标签后放置纯文本，可使用class="form-control-static"。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 12
+Bootstrap 中添加了class="form-horizontal"的表单是水平表单。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 13
+面包屑导航是一种基于网站层次信息的显示方式。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 14
+Bootstrap 的按钮组允许多个按钮被堆叠在同一行上。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 15
+水平表单是Bootstrap表单的默认形式。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 16
+Bootstrap表单中，最好把向所有的文本元素 添加 class ="（）"。
+选择一项：
+a. form-control
+b. form
+c. control
+d. form-group
+正确答案是：form-control
+
+试题 17
+Bootstrap表单中，最好把标签和控件放在一个带有class为（）的div中。
+选择一项：
+a. input
+b. form
+c. form-group
+d. group
+正确答案是：form-group
+
+试题 18
+Bootstrap创建胶囊式导航菜单调用的类是（）。
+选择一项：
+a. nav
+b. nav- justified
+c. nav- pills
+d. nav- tabs
+正确答案是：nav- pills
+
+试题 19
+在Bootstrap中如需使用下拉菜单，只需通过添加对类（）的调用。
+选择一项：
+a. dropdown-toggle
+b. toggle
+c. data-toggle
+d. dropdown
+正确答案是：dropdown-toggle
+
+试题 20
+默认情况下，Bootstrap 中的input、select 和 textarea 等元素的宽度是（）。
+选择一项：
+a. 10%
+b. 80%
+c. 50%
+d. 100%
+正确答案是：100%
+
+试题 21
+以下关于Bootstrap各种导航栏的对应的类，正确的是（）。
+选择一项或多项：
+a. 面包屑导航.breadcrumb
+b. 标签页导航.nav-tabs
+c. 胶囊式导航.nav nav-pills
+d. 标签页导航.nav-stacked
+正确答案是：胶囊式导航.nav nav-pills, 标签页导航.nav-tabs, 面包屑导航.breadcrumb
+
+试题 22
+Bootstrap表单的按钮组类型有（）。
+选择一项或多项：
+a. 基本
+b. 警告
+c. 成功
+d. 默认
+正确答案是：默认, 基本, 成功, 警告
+
+试题 23
+默认情况下（即垂直表单中），Bootstrap 中的（）均为100% 宽度。
+选择一项或多项：
+a. select
+b. input
+c. textarea
+正确答案是：input, select, textarea
+
+试题 24
+Bootstrap中包含了以下哪些按钮类（）。
+选择一项或多项：
+a. ..btn- group- vertical
+b. .btn- toolbar
+c. .btn- warning
+d. .btn- group
+正确答案是：.btn- group, .btn- warning, ..btn- group- vertical, .btn- toolbar
+
+试题 1
+Bootstrap中的每个下拉菜单实际上是一个列表。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 2
+Bootstrap中，可通过.navbar-fixed-top把导航栏始终固定在页面底部。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 3
+垂直表单是Bootstrap表单的默认形式。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 4
+Bootstrap 的表单只有成功的验证样式。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 5
+Bootstrap 中使用内联表单时，可以对表单控件设置一个宽度。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 6
+Bootstrap中胶囊式导航对应的类是.nav nav-tabs。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 7
+默认情况下，Bootstrap 中的input、select 和 textarea 等元素的宽度是100%。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 8
+Bootstrap 表单控件可以在输入框 input 上设置一个块级帮助文本。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 9
+Bootstrap 中当viewport小于 768px 时，内联表单的元素也会恢复独占一行的样式。。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 10
+Bootstrap 中使用输入框组，可以向基于文本的输入框添加作为前缀和后缀的文本或按钮。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 11
+Bootstrap的导航栏中也可以添加表单元素或字符串等。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 12
+Bootstrap中标签式导航对应的类是.nav nav-pills。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 13
+Bootstrap中可实现各种形式的导航栏。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 14
+Bootstrap中的“dropdown-menu”类表示下拉菜单。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 15
+Bootstrap中，可通过.navbar-fixed-top把导航栏始终固定在页面顶部。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 16
+Bootstrap下对一系列单选框引用class为（）可控制它们显示在同一行上。
+选择一项：
+a. form-horizontal
+b. inline
+c. radio-inline
+d. radio
+正确答案是：radio-inline
+
+试题 17
+Bootstrap 导航栏可以动态定位，要把导航栏始终固定在页面顶部则调用类（）。
+选择一项：
+a. navbar
+b. navbar- fixed- top
+c. navbar- fixed- bottom
+d. navbar- static- top
+正确答案是：navbar- fixed- top
+
+试题 18
+Bootstrap下如果需要创建一个水平表单，可向表单标签添加class="()" 。
+选择一项：
+a. form-inline
+b. form-group
+c. form-control
+d. form-horizontal
+正确答案是：form-horizontal
+
+试题 19
+Bootstrap要求导航菜单显示胶囊式标签页，并以垂直方向堆叠排列，则调用的类是（）。
+选择一项：
+a. nav- justified
+b. nav- tabs
+c. nav- pills nav- stacked
+d. nav- pills
+正确答案是：nav- pills nav- stacked
+
+试题 20
+使用Bootstrap设置下拉菜单项时，需要向标签（）添加对应类的调用。
+选择一项：
+a. nav
+b. ul
+c. li
+d. span
+正确答案是：li
+
+试题 21
+Bootstrap中关于内联表单的说法正确的有（）。
+选择一项或多项：
+a. 需要添加对类.form-horizontal的引用
+b. 所有元素是是向左对齐的
+c. 标签是并排的
+d. 所有元素是内联的
+正确答案是：
+  所有元素是是向左对齐的
+  标签是并排的
+  所有元素是内联的
+
+试题 22
+以下关于Bootstrap表单对应的类，说法正确的有（）。
+选择一项或多项：
+a. 内联表单.form-horizontal
+b. 水平表单.form-horizontal
+c. 水平表单.form-inline
+d. 内联表单.form-inline
+正确答案是：内联表单.form-inline, 水平表单.form-horizontal
+
+试题 23
+Bootstrap 下拉菜单实现步骤包括（）。
+选择一项或多项：
+a. 添加按钮属性
+b. 设置列表项
+c. 列表项不需设置为超链接形式
+d. 添加下拉菜单所显示的列表ul
+正确答案是：添加按钮属性, 添加下拉菜单所显示的列表ul, 设置列表项
+
+试题 24
+以下关于Bootstrap中的面包屑导航，正确的说法有（）。
+选择一项或多项：
+a. 面包屑导航（Breadcrumbs）是一种基于网站层次信息的显示方式
+b. Bootstrap 中的面包屑导航是一个简单的带有 .breadcrumb class 的列表
+c. 面包屑导航可以表示当前页面在导航层次结构内的位置
+d. 面包屑导航可以显示发布日期、类别或标签等信息
+正确答案是：面包屑导航（Breadcrumbs）是一种基于网站层次信息的显示方式, 面包屑导航可以表示当前页面在导航层次结构内的位置, Bootstrap 中的面包屑导航是一个简单的带有 .breadcrumb class 的列表, 面包屑导航可以显示发布日期、类别或标签等信息
+
+试题 1
+Bootstrap中的每个下拉菜单实际上是一个表单。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 2
+在Bootstrap 水平表单中，标签label和表单元素不显示在同一行。。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 3
+面包屑导航可用于显示当前页面在导航层次结构里的位置。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 4
+Bootstrap中标签式导航对应的类是.nav nav-tabs。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 5
+Bootstrap中可通过对列表调用.breadcrumb的类实现面包屑导航。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 6
+Bootstrap中没有面包屑导航的定义。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 7
+如果需要在一个表单标签后放置纯文本，可使用class="form-control-static"。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 8
+Bootstrap中允许对按钮组进行大小调整。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 9
+默认情况下，Bootstrap 中的input、select 和 textarea 等元素可以在一行内显示。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 10
+Bootstrap中对胶囊式导航不能添加下拉菜单。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 11
+Bootstrap 的按钮组允许多个按钮被堆叠在同一行上。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 12
+面包屑导航是一种基于网站层次信息的显示方式。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 13
+默认情况下，导航栏是块级元素。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 14
+Bootstrap的导航栏不能动态定位。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 15
+Bootstrap 中可以通过调用active和disable定义按钮的激活及禁用状态。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 16
+Bootstrap 中还可以通过类（）创建一个带有黑色背景白色文本。
+选择一项：
+a. navbar- static- top
+b. navbar-inverse
+c. navbar- fixed- bottom
+d. navbar- fixed- top
+正确答案是：navbar-inverse
+
+试题 17
+使用Bootstrap创建导航栏需要向标签（）添加对应类的调用。
+选择一项：
+a. ul
+b. li
+c. ol
+d. nav
+正确答案是：nav
+
+试题 18
+Bootstrap中的导航菜单nav类默认宽度是占窗口的（）。
+选择一项：
+a. 30%
+b. 10%
+c. 100%
+d. 50%
+正确答案是：100%
+
+试题 19
+Bootstrap 导航栏可以动态定位，要把导航栏始终固定在页面底部则调用类（）。
+选择一项：
+a. navbar- static- top
+b. navbar- fixed- bottom
+c. navbar
+d. navbar- fixed- top
+正确答案是：navbar- fixed- bottom
+
+试题 20
+Bootstrap创建标签页式导航菜单调用的类是（）。
+选择一项：
+a. nav
+b. nav- pills
+c. nav- tabs
+d. nav- justified
+正确答案是：nav- tabs
+
+试题 21
+Bootstrap中关于表单的说法正确的有（）。
+选择一项或多项：
+a. 垂直表单是Bootstrap表单的默认形式
+b. 需要向父form元素添加对相关类的引用
+c. Bootstrap 提供了3种类型的表单布局：垂直表单（默认）、内联表单和水平表单
+d. 使用Bootstrap，通过一些简单的 HTML 标签和扩展的类，即可创建出不同样式的表单
+正确答案是：需要向父form元素添加对相关类的引用, 垂直表单是Bootstrap表单的默认形式, Bootstrap 提供了3种类型的表单布局：垂直表单（默认）、内联表单和水平表单, 使用Bootstrap，通过一些简单的 HTML 标签和扩展的类，即可创建出不同样式的表单
+
+试题 22
+以下关于Bootstrap导航的基本样式的说法，正确的是（）。
+选择一项或多项：
+a. 可使用nav创建导航栏
+b. 导航的默认形式是水平的
+c. 如果要禁用导航中的某个项，只需对该列表项li调用类 .disabled即可
+d. 在Bootstrap中也提供了相应的类.nav，能方便地实现各种导航栏
+正确答案是：可使用nav创建导航栏, 在Bootstrap中也提供了相应的类.nav，能方便地实现各种导航栏, 如果要禁用导航中的某个项，只需对该列表项li调用类 .disabled即可
+
+试题 23
+Bootstrap中的下拉菜单可以使用哪些类（）。
+选择一项或多项：
+a. .dropdown- menu- right
+b. .dropdown
+c. .dropup
+d. .pull- right
+正确答案是：
+  .dropdown
+  .dropdown- menu- right
+  .dropup
+  .pull- right
+
+试题 24
+Bootstrap基础表单有（）。
+选择一项或多项：
+a. 垂直表单
+b. 内联表单
+c. 水平表单
+正确答案是：垂直表单, 内联表单, 水平表单
+
+试题 1
+Bootstrap中下拉菜单的弹出方式不可改变。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 2
+Bootstrap 中的按钮组只能水平显示。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 3
+Bootstrap的导航栏可以动态定位。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 4
+Bootstrap 表单控件可以在输入框 input 上设置一个块级帮助文本。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 5
+在Bootstrap 水平表单中，可以把标签label和表单元素显示在同一行。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 6
+Bootstrap 中当viewport小于 768px 时，内联表单的元素也会恢复独占一行的样式。。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 7
+Bootstrap中没有面包屑导航的定义。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 8
+Bootstrap 可以调用类btn- group形成一个按钮组。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 9
+在Bootstrap 水平表单中，标签label和表单元素不显示在同一行。。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 10
+面包屑导航可以用于在网页中显示类别、标签等内容。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 11
+Bootstrap 的表单只有成功的验证样式。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 12
+水平表单是Bootstrap表单的默认形式。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 13
+Bootstrap中的每个下拉菜单实际上是一个表单。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 14
+Bootstrap 中为了添加一个占用整个宽度的内容块，可在input元素后插入一个class="help-block"的块级元素。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 15
+Bootstrap 中添加了class="form-horizontal"的表单是水平表单。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 16
+以下哪个不是对导航栏nav调用的类（）。
+选择一项：
+a. navbar-inverse
+b. dropdown
+c. navbar- fixed- top
+d. navbar- fixed- bottom
+正确答案是：dropdown
+
+试题 17
+Bootstrap下对一系列复选框引用class为（）可控制它们显示在同一行上。
+选择一项：
+a. checkbox-inline
+b. form-horizontal
+c. inline
+d. checkbox
+正确答案是：checkbox-inline
+
+试题 18
+Bootstrap下如果需要创建一个表单，它的所有元素是内联的，向左对齐的，标签是并排的，可向表单标签添加class="()" 。
+选择一项：
+a. form-inline
+b. form
+c. form-group
+d. inline
+正确答案是：form-inline
+
+试题 19
+（）表单是Bootstrap表单的默认形式。
+选择一项：
+a. 复合
+b. 内联
+c. 垂直
+d. 水平
+正确答案是：垂直
+
+试题 20
+Bootstrap中的导航菜单nav类默认是（）显示的。
+选择一项：
+a. 标签页式
+b. 水平
+c. 垂直
+d. 堆叠
+正确答案是：垂直
+
+试题 21
+Bootstrap中包含了以下哪些按钮类（）。
+选择一项或多项：
+a. .btn- success
+b. .btn- group
+c. .btn- group- lg
+d. .btn- toolbar
+正确答案是：.btn- group, .btn- toolbar, .btn- success, .btn- group- lg
+
+试题 22
+Bootstrap中导航栏的定位可以实现为（）。
+选择一项或多项：
+a. 随着页面一起滚动，始终在页面底部
+b. 在页面静态的顶部
+c. 静态定位
+d. 随着页面一起滚动，始终在页面顶部
+正确答案是：随着页面一起滚动，始终在页面顶部, 随着页面一起滚动，始终在页面底部, 在页面静态的顶部, 静态定位
+
+试题 23
+Bootstrap中标签页导航可用相关的类有（）。
+选择一项或多项：
+a. .nav nav-pills
+b. .nav-justified
+c. .nav-stacked
+d. .nav nav-tabs
+正确答案是：.nav nav-tabs, .nav-justified
+
+试题 24
+Bootstrap中可以实现的导航样式有（）。
+选择一项或多项：
+a. 标签页式导航
+b. 基本样式
+c. 胶囊式导航
+d. 面包屑导航
+正确答案是：基本样式, 标签页式导航, 胶囊式导航, 面包屑导航
+
+试题 1
+Bootstrap 的按钮组不允许多个按钮被堆叠在同一行上。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 2
+Bootstrap中胶囊式导航对应的类是.nav nav-tabs。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 3
+Bootstrap中的单选按钮组默认是在一行显示的。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 4
+Bootstrap中胶囊式导航对应的类是.nav nav-pills。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 5
+Bootstrap 中可以定义不同的预定义按钮样式。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 6
+Bootstrap的导航栏中也可以添加表单元素或字符串等。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 7
+默认情况下，Bootstrap 中的input、select 和 textarea 等元素的宽度是100%。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 8
+垂直表单是Bootstrap表单的默认形式。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 9
+Bootstrap 中使用内联表单时，可以对表单控件设置一个宽度。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 10
+Bootstrap中标签式导航对应的类是.nav nav-tabs。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 11
+Bootstrap中，可通过.navbar-fixed-top把导航栏始终固定在页面顶部。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 12
+Bootstrap中可实现各种形式的导航栏。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 13
+Bootstrap中的每个下拉菜单实际上是一个列表。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 14
+Bootstrap中，可通过.navbar-fixed-top把导航栏始终固定在页面底部。
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 15
+Bootstrap中可通过对列表调用.breadcrumb的类实现面包屑导航。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 16
+（）表单是Bootstrap表单的默认形式。
+选择一项：
+a. 复合
+b. 内联
+c. 水平
+d. 垂直
+正确答案是：垂直
+
+试题 17
+在Bootstrap中如需使用下拉菜单，只需通过添加对类（）的调用。
+选择一项：
+a. toggle
+b. dropdown
+c. dropdown-toggle
+d. data-toggle
+正确答案是：dropdown-toggle
+
+试题 18
+Bootstrap要求导航菜单显示胶囊式标签页，并以垂直方向堆叠排列，则调用的类是（）。
+选择一项：
+a. nav- pills
+b. nav- tabs
+c. nav- pills nav- stacked
+d. nav- justified
+正确答案是：nav- pills nav- stacked
+
+试题 19
+Bootstrap创建胶囊式导航菜单调用的类是（）。
+选择一项：
+a. nav- pills
+b. nav- tabs
+c. nav- justified
+d. nav
+正确答案是：nav- pills
+
+试题 21
+使用Bootstrap创建基本表单的步骤包括（）。
+选择一项：
+a. 把标签和控件放在一个带有class为form-group的 div 中
+b. "form-control"
+c. "form"。
+d. 向所有的文本元素添加 class
+e. 向父 form 元素添加 role
+正确答案是："form"。, "form-control"
+
+试题 22
+以下关于Bootstrap导航的基本样式的说法，正确的是（）。
+选择一项或多项：
+a. 导航默认宽度占窗口的100%
+b. 可使用nav创建导航栏
+c. 在Bootstrap中也提供了相应的类.nav，能方便地实现各种导航栏
+d. 导航的默认形式是垂直的
+正确答案是：可使用nav创建导航栏, 在Bootstrap中也提供了相应的类.nav，能方便地实现各种导航栏, 导航的默认形式是垂直的, 导航默认宽度占窗口的100%
+
+试题 23
+Bootstrap 导航菜单实现步骤包括（）。
+选择一项或多项：
+a. 列表项不需设置为超链接形式
+b. 对需要增加下拉菜单的导航项
+c. 添加下拉菜单所显示的列表ul
+d. 设置列表项
+正确答案是：对需要增加下拉菜单的导航项, 添加下拉菜单所显示的列表ul, 设置列表项
+
+试题 24
+Bootstrap中关于内联表单的说法正确的有（）。
+选择一项或多项：
+a. 可以把标签label和表单元素显示在同一行
+b. 向标签添加对类.control-label的引用
+c. 需要向父form元素添加对类.form-horizontal的引用
+d. 把标签和控件放在一个带有对类.form-group引用的 div 中
+正确答案是：abcd
+
+
+
+综合练习题
+
+（一）选择题
+1．如果一个网站在不同的环境下跳转到不同的网址，那么这个网站（ C ）。
+A．是响应式的
+B．是固定布局的
+C．是自适应的
+D．更新和维护时相对容易
+
+2．<link rel="stylesheet" type="text/css" href="site.css" media="print" />这个语句表示在（ C ）内容的显示。
+A．屏幕上
+B．移动设备上
+C．打印预览下
+D．触摸设备上
+
+3．以下条件表示在（ A ）时背景颜色的显示设置。@media screen and (max-width: 300px) {body { background-color:lightblue; }}
+A．屏幕的宽度最大不超过 300 像素
+B．屏幕的宽度小于 300 像素
+C．屏幕的宽度最少不超过 300 像素
+D．屏幕的宽度最少为 300 像素
+
+4．如果要求对所有媒体类型都适用，可以使用（ C ）来指代所有支持的媒体类型。
+A．not
+B．only
+C．all
+D．but
+
+5．以下媒体查询条件表示（ B ）。@media only screen and (orientation: portrait) {body { background-color: lightblue; }}
+A．设备方向为水平时显示指定的背景颜色
+B．设备方向为垂直时显示指定的背景颜色
+C．设备分辨率低时显示指定的背景颜色
+D．设备分辨率高时显示指定的背景颜色
+
+6．在以下这个语句中的 viewport 表示屏幕的（ A ）。<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0">
+A．可视区域
+B．总大小
+C．指定元素的大小
+D．指定元素的可见大小
+
+7．以下语句使用了 srcset 属性根据屏幕的（ D ）来匹配显示的图像。<img srcset ="img/1_1280.jpg 3x,img/1_640.jpg 2x,img/1_320.jpg 1x"/>
+A．宽度
+B．高度
+C．颜色位数
+D．像素密度
+
+8．根据以下语句，如果当前屏幕尺寸不超过 320 像素时，将自动匹配（ C ）这个图像。<img src="img/img/1_1280.jpg""srcset ="img/1_1280.jpg 1280w, img/1_640.jpg 640w,img/1_320.jpg320w"/>
+A．1_1280.jpg
+B．1_640.jpg
+C．1_320.jpg
+D．以上均不能匹配
+
+9．以下语句表示当屏幕的宽度大于等于 1200px 时，图像宽度将显示为（ B ）。<img src="img/1_1280.jpg" sizes="(min-width:1200px) calc(43vw),50vw"/>
+A．43px
+B．当前屏幕宽度的 43%
+C．当前图像原始宽度的 43%
+D．当前图像原始大小的 43%
+
+10．如果在当前的 div main 中设置了其字体为 5em，而当前 div 又在另一个 div 的 container 中。如果 container 设置了字体大小的为 5em，那么假如当前浏览器默认的字体大小是 16px，这样在 container 中的字体大小是（ D ），而在 main 中的字体大小就应该是（ D ）。
+A．16px，16px
+B．16px，80px
+C．80px，80px
+D．80px，400px
+
+11. 如果在当前的 div main 中设置了其字体为 5rem，而当前 div 又在另一个 div 中 container 中。如果 container 设置了字体大小的为 5rem，那么假如当前浏览器默认的字体大小是 16px，这样在 container 中的字体大小是（ C ），而在 main 中的字体大小就应该是（ C ）。 
+A．16px，16px
+B．16px，80px
+C．80px，80px
+D．80px，400px
+
+12. 媒体查询要使用（B）来定义。
+A. @script
+B. @media
+C. @style
+D. css/style
+
+13. 响应式要求在开发页面时，以（ D ）优先。
+A. 桌面设备（如 PC 等）
+B. 服务器端
+C. 客户端
+D. 移动设备
+
+14. 以下哪个关于响应式网页的说法，错误的是：（ D ）
+A. 一次设计，普遍适用
+B. 响应式网页往往包含多个媒体查询语句
+C. 可在不同的终端下都达到较好的浏览体验
+D. 响应式网页中必须包含响应式图像
+
+15. 以下哪个是响应式的框架（ C ）
+A. Ajax
+B. jQuery
+C. Bootstrap
+D. Prototype
+
+16．在 DOM 对象模型中，直接父对象为根对象 window 的对象中不包括（ D ）。
+A．history
+B．document 
+C．location
+D．form
+
+17．下面的 JavaScript 代码段，其输出结果是（ B ）。var mystring=”I am a student”;a=mystring.charAt(9);document.write(a);
+A．I an a st
+B．u 
+C．udent
+D．t
+
+18．在 HTML 中，运行下面的 JavaScript 代码，则在弹出的提示框中显示的消息内容为（ B ）。<script language=”javascript”>x=3;y=2;z=(x+2)/y;alert(z);</script>
+A．2
+B．2.5 
+C．32/2
+D．16
+
+19．制作网页上的浮动广告时，需要定义一个函数，实现浮动广告层随滚动条滚动的效果，假如已经定义好了这个名为 move 的函数，那么最后需要做的是（ B ）。
+A．捕获窗口的 window.onscroll 事件，调用 move 函数
+B．捕获文档的 document.onscroll 事件，调用 move 函数
+C．捕获窗口的 window.onload 事件，调用 move 函数
+D．捕获文档的 document.onload 事件，调用 move 函数
+
+20．下列选项中关于 JavaScript 浏览器对象中 history 对象的说法错误的是（ D ）。
+A．history 对象记录了用户在一个浏览器中已经访问过的 URLs
+B．history 对象的父对象是 JavaScript 浏览器对象的根对象 window
+C．应用 history 对象的方法可以实现 IE 浏览器中“前进”和“后退”按钮的功能
+D．应用 history 对象的 back()方法相当于“前进”按钮，forward()方法相当于“后退”按钮
+
+21．在 HTML 页面上包含如下所示的 JavaScript 代码，要实现打开页面时弹出对话框显示“张三”，则下划线处应填写的代码为（ D ）。<html> <head> <script language="javascript"> var studentList = new Array(); studentList['一班'] = ['张三','李四']; alert(_____________); // 在此处填写代码 </script> </head></html>
+A．studentList[0][0]
+B．studentList[0]['张三']
+C．studentList['一班']['张三']
+D．studentList['一班'][0]
+
+22．假设今天是 2006 年 4 月 1 日星期六，请问下列 Javascript 代码在页面上输出的结果是（ C ）。var time=new Date();document.write(time.getDate());
+A．2006
+B．4 
+C．1
+D．6
+
+23．分析下面创建按钮控件的 HTML 代码，当单击此按钮后产生的结果是（ C ）。<INPUT TYPE="button" VALUE="ok"onClick="this.style.background=’red’">
+A．按钮中的文字显示红色
+B．页面中的文字显示红色
+C．页面中的背景色显示红色
+D．按钮的背景色显示红色
+
+24．在 HTML 页面中，包含如下所示的文本框对象，要实现当文本框获得鼠标焦点时，清空文本框的内容，则可以在下划线处添加的代码是（ ）。<INPUT TYPE="text" name="uname" value=" 王 鸿 " size="20"onFoucs="__C_"/>
+A．this.value="
+B．Value=" 
+C．this.value=""
+D．Value="
+
+25．在 JavaScript 中，关于 document 对象的方法，下列说法正确的是（ A ）。
+A．getElementById()是通过元素 ID 获得元素对象的方法，其返回值为单个对象
+B．getElementByName()是通过元素 name 获得元素对象的方法，其返回值为单个对象
+C．getElementbyid()是通过元素 ID 获得元素对象的方法，其返回值为单个对象
+D．getElementbyname()是通过元素 name 获得元素对象的方法，其返回值为对象组
+
+26. 有如下 JavaScript 代码：<script type="text/javascript">var sub1=prompt("请输入第 1 个数：");var sub2=prompt("请输入第 2 个数：");var sum=sub1+sub2;document.write(sum);</script>若在两个对话框中依次输入 10 和 20，则最后网页上的输出是（ D ）
+A．10
+B．20 
+C．30
+D．1020
+
+27. 以下表达式中，哪个表达式的值为 false（ B ）
+A．'2' = = 2
+B．'2' = = = 2 
+C．2= =2
+D．2= = =2
+
+28. 下面哪个表达式的值是 5 ( C )
+A．Math.floor(4.6)
+B．Math.round(4.2)
+C．Math.ceil(4.2)
+D．Math.ceil(5.2)
+
+29. 下面哪个不属于 DOM 的节点类型（D ）
+A．属性
+B．文本
+C．元素
+D．窗口
+
+30. 如果某个节点没有对应的属性，则输出值为（A ）
+A．null
+B．NaN
+C．error
+D．undefined
+
+31．固定布局下，网页容器的宽度一般以（ B ）为单位。
+A．百分比
+B．像素 
+C．rem 或 em
+D．厘米
+
+32．Bootstrap 的网格布局系统中，默认每行有（ D ）列。
+A．9
+B．10 
+C．11
+D．12
+
+33．Bootstrap 的网格布局系统中，如果一个容器有一个属性是sm-pull-4，表示（ C ）。
+A．宽度 4 列
+B．向右偏移 4 列 
+C．向左浮动 4 列
+D．向右浮动 4 列
+
+34．Bootstrap 的网格布局系统的显示中，超小显示设备手机（<768px）的列宽设置的类名前缀为（A ）。
+A．col-xs-*
+B．col-sm-* 
+C．col-lg-*
+D．col-md-*
+
+35．相对而言，（ B ）布局比较适用于小规模的布局，比如应用程序中的组件布局，该布局元素已进入了 CSS 3 标准。
+A．盒状
+B．flex
+C．grid
+D．网格
+
+36．img-responsive 类可以让图片支持响应式布局，它的实现原理是（ A ）。
+A．设置了 max-width: 100%;和 height: auto;
+B．设置了 max-width: 100%; 和 height: 100%;
+C．设置了 width: auto;和 max¬-height: 100%;
+D．设置了 width: auto;和 height: auto;
+
+37．下列哪个类起徽章的作用？（ C ）
+A．page-header
+B．jumbotron
+C． badge
+D．thumbnail3
+
+8．下列哪个类起巨幕显示的作用？（ B ）
+A．page-header
+B．jumbotron
+C． badge
+D．thumbnail3
+
+9．通过对表格调用类（ B ）可实现条纹状表格效果。
+A．table
+B．table-striped
+C． table-response
+D．table-hover
+
+40．以下代码实现了一个（ B ）按钮。<button type="button" class="close">&times;</button>
+A．打开
+B．关闭 
+C．刷新
+D．提交
+
+41. 以下哪个不属于网格布局的优点（ D ）
+A．可以为展示内容提供顺序性、创意性和和谐性
+B．方便用户更容易找到需要的信息
+C．用户可以方便地添加新的内容，而不会轻易破坏网页原本的结构
+D．以像素为单位，精确地控制每个网页元素所在的具体位置
+
+42. Bootstrap 网格布局系统中，对大于 1200 像素的桌面显示设备起作用的是（ D ）
+A．col- xs- *
+B．col- sm- * 
+C．col- md- *
+D．col- lg-*
+
+43. 在使用 Bootstrap 网格布局的网页中，若有如下代码：<div class="row"> <div class="col-md-6">col1</div> <div class="col-md-6 ">col2</div></div>则以下说法中错误的是（ A ）
+A．该设置适用于小于 768 像素的超小设备
+B．这个网格行中共设置了两个单元格
+C．这个网格行中每个单元格跨越 6 列
+D．这个网格行中没有设置列偏移
+
+44. 对导入了 Bootstrap 的网页中的图像调用.img-rounded 类，则图像将呈现（ D ）显示。
+A．圆形
+B．三角形 
+C．矩形
+D．圆角矩形
+
+45. 调用类.table-hover 可以让<tbody>下的表格实现（ D ）效果。
+A．条纹背景
+B．显示边框 
+C．隐藏列
+D．鼠标指针悬停
+
+46．Bootstrap 插件全部依赖于（ B ）。
+A．JavaScript
+B．jQuery 
+C．Angular JS
+D． NodeJS
+
+47．表单元素要加上什么类，才能给表单添加圆角属性和阴影效果？（ A ）
+A．form-group
+B．form-horizontal
+C． form-inline
+D．form-control
+
+48．用 JavaScript 怎样让轮播图从第 2 个图片开始播放？（ C ）
+A．$('.carousel').carousel()
+B．$('.carousel').carousel(0)
+C．$('.carousel').carousel(1)
+D．$('.carousel').carousel(2)
+
+49．如何让轮播图在页面切换时有动画？（ C ）
+A．添加 in 类
+B．添加 fade 类
+C．添加 active 类
+D．添加 slide 类
+
+50．关于轮播图说法正确的是（ C ）。
+A．轮播图的页面切换索引从 1 开始
+B．下一页实现方式为 data-slide-to="prev"
+C．可以使用 carousel-caption 类为图片添加描述
+D．上一页实现方式为 data-slide-to="-1"
+
+51．修改轮播图的页面切换的时间间隔是通过以下哪个属性？（ A ）
+A．data- interval
+B．data- pause 
+C．data- wrap
+D．data-time
+
+52．表单中的<div class="input-group">是定义了一个（ B ）。
+A．按钮组
+B．输入框组 
+C．列表组
+D．面板组
+
+53．以下定义了一个胶囊式导航的是（ B ）。
+A．class="nav nav-tabs"
+B．class="nav nav-pills nav-justified"
+C．class="breadcrumb"
+D．class="pagination pagination-lg"
+
+54． 如 果 一 个 导 航 栏 定 义 为 class="navbar navbar-defaultnavbar-fixed-top"，则滚动页面时，这个导航栏（ A ）。
+A．始终保持在页面顶部
+B．始终保持在页面底部
+C．随着页面滚动位置而定
+D．在随机位置出现
+
+55．如果一个导航栏的定义为<nav class="navbar navbar-inverse navbar-fixed-bottom"role="navigation">，则关于这个导航栏，以下说法正确的是（ C ）。
+A．这个导航栏将以默认样式显示
+B．这个导航栏始终保持在页面顶部显示
+C．这个导航栏始终保持在页面底部显示
+D．这个导航栏的位置将随着页面滚动发生改变
+
+56．要定义 Bootstrap 的缩略图，class="thumbnail"可以定义在（ B ）。
+A．<img>
+B．<a> 
+C．<nav>
+D．<p>
+
+57．以下哪个 Bootstap 组件使用时可以不需要另外定义触发？（ D ）
+A．popover
+B．tooltip 
+C．modal
+D．well
+
+58．输入框组想加上图标，可以实现对表单控件的扩展的类是（ B ）。
+A．.input-group-btn
+B．.input-group-addon
+C．form-control
+D．input-group-extra
+
+59．标签页垂直方向堆叠排列，需要添加的类是（ D ）。
+A．nav-vertical
+B．nav-tabs
+C．nav-pills
+D．nav-stacked
+60．可以把导航固定在顶部的类是（ A ）。
+A．navbar-fixed-top
+B．navbar-fixed-bottom
+C．navbar-static-top
+D．navbar-inverse
+
+61．模态框提供了哪些尺寸？（ D ）
+A．modal-xs，modal-sm，modal-md，modal-lg
+B．modal-sm，modal-md，modal-lg
+C．modal-xs，modal-sm
+D．modal-sm，modal-lg
+
+62．关闭 modal 的按钮应该加什么属性？（ A ）
+A．data-dismiss='modal'
+B．data-toggle='modal'
+C．data-spy='modal'
+D．data-hide='true'
+
+63．下列不属于 panel 的组成要素的是（ D ）。
+A．panel-heading
+B．panel-body 
+C．panel-footer
+D．panel-content
+
+64．对于 tooltip 的元素，data-placement 的作用是（ B ）。
+A．工具提示条的显示大小
+B．工具提示条的显示位置
+C．工具提示条的显示动画
+D．工具提示条的显示颜色
+
+65．怎样为进度条创建条纹效果？（ C ）
+A．添加类 progress-bar-striped
+B．添加类 progress-bar
+C．添加类 progress-striped
+D．添加类 progressBar-striped
+
+66．滚动监听哪个属性可以设置滚动条距离顶端的位置距离？（ A ）
+A．data-offsetY
+B．data-offset
+C．data-spy
+D．data-dismiss
+
+67．怎样让 tooltips 通过点击事件弹出？（ D ）
+A．data- placement="click"
+B．data- delay="click"
+C．data- title="click"
+D．data-trigger="click"
+
+68．下列说法正确的是（ B ）。
+A．button 组件能同时支持工具提示和控制模态框
+B．不要在同一个元素上同时使用多个插件的 data 属性
+C．使用 Bootstrap 插件不需要引用 jQuery
+D．Bootstrap 插件不可以单个引入
+
+69．怎样只关闭警告框的 data-API？（ B ）
+A．$(document).off('.data-api')
+B．$(document).off('.alert-data-api')
+C．$(document).off('.data-api.alert')
+D．$(document).off('.alert.data-api')
+
+70．关于分页组件说法错误的是（ C ）。
+A．使用 pagination 类来实现
+B．.pagination-lg、.pagination-sm 类提供了额外可供选择的尺寸
+C．.disabled 类不可用于翻页中的链接
+D．previous 类和 next 类可以表示上一页、下一页
+
+
+
+（二） 判断题（ √ ）
+
+1. 网页代码中的 script language="JavaScript"是用于指定脚本语言的类型为 JavaScript。（ × ）
+
+2. getElementById 是对象 window 的方法。（ × ）3.要使用任何一个 JavaScript 对象，都必须先用 new 创建它。（ × ）
+
+4. String 对象的所有方法都必须要先创建实例才能使用。（ × ）
+
+5. JavaScript 中的数组不能随意扩展其大小。（ × ）
+
+6. removeAttribute 方法用于移除元素节点。（ × ）
+
+7. parseInt(12a12)的结果是 1212。（ √ ）
+
+8. cloneNode 方法用于复制节点自身，而不复制其子节点。（ √ ）
+
+9.当窗口或页面元素失去焦点时将触发 onblur 事件。（ √ ）
+
+10.如果一个变量没有赋值，则这个变量的值为 undefined。（ √ ）
+
+11.媒体查询可以让 CSS 能更精确地作用于不同的媒体类型和同一媒体的不同条件。（ × ）
+
+12.媒体查询可支持 IE 8 版本。（ √ ）
+
+13.媒体查询条件中的 orientation 表示输出设备中的屏幕方向。（ × ）
+
+14. 媒体查询条件“@media screen and (max-width:720px)”表示适用于浏览器窗口不小于 720 像素的显示。（ √ ）
+
+15. 由于现有设备的屏幕像素密度越来越高，CSS 中的像素不一定跟屏幕的物理像素一致。（ × ）
+
+16. 相对大小单位 rem 是相对于其当前所在元素的父元素来计算的。（ √ ）
+
+17.在设置响应式网页图像时，可以根据屏幕像素密度显示不同的图像文件。（ √ ）
+
+18.jQuery 实际上是一个 JavaScript 工具库，通过封装一些 JavaScript 函数得到一整套定义好的方法，以提高开发效率。（ × ）
+
+19.Bootstrap 框架实际是一个定义好的 css 文件。（ × ）
+
+20.调用 Bootstrap 中的.img-rounded 可以让图像显示为圆形。（ √ ）
+
+21.Bootstrap 提供了一些常规的页面排版样式可供使用，例如标题、段落等。（ √ ）
+
+22.通过调用 Bootstrap 的.table-stripe 可让表格实现条纹状效果。（ × ）
+
+23.固定布局中，每个网页元素的宽度通过百分比来指定。（ × ）
+
+24.固定布局对各种不同大小的屏幕显示都是一样的。（ √ ）
+
+25.网格布局主要是通过一系列的行和列的组合来进行网页布局。（ √ ）
+
+26.Bootstrap 网格布局中一共有 12 列。（ × ）
+
+27. Bootstrap 网格布局中每个网页元素只能占据一列。（ √ ）
+
+28.Flex 布局又称为弹性盒子布局，现已进入 CSS3 的标准。（ √ ）
+
+29.在 Bootstrap 中，网格布局的容器必须事先定义为.container 类。（ × ）
+
+30.Bootstrap 网格系统不支持列的嵌套。
+
+
+
+
+复习题参考（多项选择题）
+
+1、下面属于 DOM 的节点类型的是（ ）
+A、元素标签的属性
+B、元素标签的文本 内容
+C、元素标签
+D、注释的文本内容
+参考答案: ABCD
+
+2、JavaScript 中以下结果为 6 的有（）
+A、Math.ceil(5.4)
+B、Math.round(5.4)
+C、Math.floor(6.4)
+D、Math.round(6.4)
+参考答案: ACD
+
+3、下面哪些是属于 window 对象的属性和方法（ ）
+A、alert()
+B、confirm()
+C、prompt()
+D、write()
+参考答案: ABC
+
+4、关于 JavaScript 中 window 对象的说法，正确的说法是（）
+A、当打开浏览器窗口时，将创建 window 对象的实例
+B、window 对象提供了一些产生交互行为的操作，如对话框等
+C、当前页面使用框架集时，只有一个 window 对象实例
+D、若对当前单个 window 对象操作时，可将引用 window 对象的代码省略
+参考答案: ABD
+
+5、下列关于 JavaScript 中数组的说法，不正确的是（ ）
+A、JavaScript 中的数组一旦声明其长度，则不能修改
+B、JavaScript 中的数组不能存放类型不一样的元素
+C、修改 JavaScript 中的数组元素必须与其之前的元素类型相同
+D、JavaScript 中的数组元素可以直接通过其索引来访问
+参考答案: ABC
+
+6、下面哪个属于 BOM 相关对象（）
+A、window
+B、document
+C、history
+D、char
+参考答案: ABC
+
+7、关于 BOM 顶级对象模型的结构，下面说法正确的是（）
+A、window 对象在层次中最上层
+B、window 对象包含调整窗口、新建窗口、关闭窗口等操作
+C、window 对象在启动浏览器载入文档的同时生成
+D、网页文档只可能包含一个 window 对象
+参考答案: ABC
+
+8、关于 JavaScript 中的 history 对象，以下的说法正确的是（）
+A、history 对象也是 window 对象的子对象
+B、history 对象主要用于跟踪浏览器最近访问的历史 URL 地址列表
+C、history 对象可以读出浏览器所有历史 URL
+D、history 对象的方法可模拟浏览器的前进、后退等操作
+参考答案: ABD
+
+9、要使浏览器返回前一个页面，可以使用 BOM 中 history 对象的（）语句。
+A、history.back()
+B、history.forward()
+C、history.go(-1)
+D、history.assign(-1)
+参考答案: AC
+
+10、JavaScript 中关于 BOM 对象模型的结构，下面说法正确的是（）
+A、location、history 等都是 window 对象的子对象
+B、window、frames、navigator 等顶级对象产生于浏览器载入文档至关闭期间的不同阶段
+C、location 对象保存正在浏览文档的位置及协议、端口、路径等构成信息
+D、window 对象在层次中最上层
+参考答案: ABCD
+
+11、响应式网页开发的实现方案包括（）
+A、CSS 媒体查询
+B、弹性网格
+C、弹性布局
+D、流式图像
+参考答案: ABCD
+
+12、响应式网页开发时可能使用到的技术有（）
+A、媒体查询技术
+B、流式网格布局
+C、灵活的多媒体显示
+D、高性能的 JavaScript
+参考答案: ABCD
+
+13、对于响应式的网站的说法，正确的有（）
+A、强调的是让同一个地址的同一个网页自动地去适应不同的显示环境
+B、其核心思想在于"一次设计，普遍适用”
+C、响应式的网页不管使用什么设备，打开及显示的都是同一个地址、同一个网页
+D、响应式网页对不同的使用环境可做出相应的自动调整，从而造成网页的布局和内容展示在不同环境下
+时可能会有所不同。
+参考答案: ABCD
+
+14、对于响应式网页和自适应的网页，以下说法正确的有（）
+A、响应式网页不管使用什么设备打开的都是同一个网页
+B、自适应网页不管使用什么设备打开的都是同一个网页
+C、自适应网页也可以兼容不同终端的浏览
+D、响应式更适用于所有网站页面，包括内容页
+参考答案: AD
+
+15、"自适应”网站的缺点在于（）
+A、可以极大地保证不同环境下的显示效果
+B、在网站维护时需要同时兼顾多个不同版本的网页
+C、维护的工作将会呈几何级数上升
+D、大大地增加架构设计的复杂度
+参考答案: BCD
+
+16、媒体查询条件的组合可使用（）来定义。
+A、all
+B、only
+C、not
+D、and
+参考答案: ABCD
+
+17、媒体查询中可用于定义输出设备屏幕或页面可见高度的特性有（）
+A、device- height
+B、max- height
+C、max- device- height
+D、min- device- height
+参考答案: ABCD
+
+18、媒体查询可以（）
+A、让 CSS 能更精确地作用于不同的媒体类型和同一媒体的不同条件
+B、为一些特定的输出设备定制特定的显示效果
+C、为不同终端的用户都能提供较好的浏览体验
+D、为不同终端的用户实现不同跳转
+参考答案: ABC
+
+19、响应式图像的匹配可根据（）
+A、屏幕像素密度
+B、屏幕宽度
+C、屏幕显示方向
+D、屏幕高度
+参考答案: AB
+
+20、媒体查询可用于检测的媒体特性包括（）
+A、device- height，device- width
+B、max- height，max- width
+C、min- width，min- height
+D、orientation
+参考答案: ABCD
+
+
+
+单选 响应式网页设计最早是由Ethan Marcotte在（B）年提出的。
+ A. 2009
+ B. 2010
+ C. 2011
+ D. 2012
+
+单选 如果一个网站在不同的环境下跳转到不同的网址，那么这个网站（C）
+ A. 是响应式的
+ B. 是固定布局的
+ C. 是自适应的
+ D. 更新和维护时相对容易
+
+单选 响应式要求在开发页面时，以（D）优先。
+ A. 桌面设备（如PC等）
+ B. 服务器端
+ C. 客户端
+ D. 移动设备
+
+单选 <link rel="stylesheet" type="text/css" href="site.css" media="print" />
+这个语句表示在（C）下内容的显示。
+
+ A. 屏幕上
+ B. 移动设备上
+ C. 打印预览下
+ D. 触摸设备上
+
+单选 以下条件表示在（A）时背景颜色的显示设置。
+@media screen and (max-width: 300px) {
+    body {
+        background-color:lightblue;
+    }
+}
+ A. 屏幕的宽度最大不超过300像素
+ B. 屏幕的宽度小于300像素
+ C. 屏幕的宽度最少不超过300像素
+ D. 屏幕的宽度最少为300像素
+
+单选 媒体查询要使用（B）来定义
+ A. @script
+ B. @media
+ C. @style
+ D. css/style
+
+单选 媒体查询类型中的print表示（D）
+ A. 显示屏幕
+ B. 语音朗诵设备
+ C. 投影设备
+ D. 打印设备
+
+单选 如果要求对所有媒体类型都适用，可以使用（C）来指代所有支持的媒体类型
+ A. not
+ B. only
+ C. all
+ D. but
+
+单选 以下媒体查询条件表示（B）
+@media only screen and (orientation: portrait) {
+    body {
+        background-color: lightblue;
+    }
+}
+ A. 设备方向为水平时显示指定的背景颜色
+ B. 设备方向为垂直时显示指定的背景颜色
+ C. 设备分辨率低时显示指定的背景颜色
+ D. 设备分辨率高时显示指定的背景颜色
+
+单选 在以下这个语句中的viewport表示屏幕的（A）
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+ A. 可视区域
+ B. 总大小
+ C. 指定元素的大小
+ D. 指定元素的可见大小
+
+单选 如果在当前的div main中设置了其字体为5rem，而当前div又在另一个div中container中。如果container设置了字体大小的为5rem，那么假如当前浏览器默认的字体大小是16px，这样在container中的字体大小是（），而在main中的字体大小就应该是（A）。
+ A. 80px,80px
+ B. 16px,16px
+ C. 80px,400px
+ D. 16px,400px
+
+单选 以下语句使用了srcset属性根据屏幕的（D）来匹配显示的图像
+<img srcset ="img/1_1280.jpg 3x,img/1_640.jpg 2x,img/1_320.jpg 1x"/>
+ A. 宽度
+ B. 高度
+ C. 颜色位数
+ D. 像素密度
+
+单选 如果在当前的div main中设置了其字体为5em，而当前div又在另一个div中container中。如果container设置了字体大小的为5em，那么假如当前浏览器默认的字体大小是16px，这样在container中的字体大小是（），而在main中的字体大小就应该是（D）。
+ A. 16px，16px
+ B. 16px，80px
+ C. 80px，80px
+ D. 80px，400px
+
+单选 以下语句表示当屏幕的宽度大于等于1200px时，图像宽度将显示为（B）
+<img src="img/1_1280.jpg" sizes="(min-width:1200px) calc(43vw), 50vw"/>
+ A. 43px
+ B. 当前屏幕宽度的43%
+ C. 当前图像原始宽度的43%
+ D. 当前图像原始大小的43%
+
+单选 根据以下语句，如果当前屏幕尺寸不超过320像素时，将自动匹配（C）这个图像。
+<img src="img/img/1_1280.jpg""  srcset ="img/1_1280.jpg 1280w,img/1_640.jpg 640w,img/1_320.jpg 320w"/>
+ A. 1_1280.jpg
+ B. 1_640.jpg
+ C. 1_320.jpg
+
+单选 在固定布局中，每个网页元素的宽度都必须指定为（B）像素值
+ A. 相对比例的
+ B. 固定大小的
+ C. 相对大小的
+ D. 可变的
+
+单选 以下代码实现的布局方式是（D）
+#div1 {
+ width:200rem;
+ padding-top: 1rem;
+ text-indent: 2em;
+ …
+}
+ A. 固定布局
+ B. 混合布局
+ C. 流式布局
+ D. 弹性布局
+
+单选 在列式网格中，每个元素占用（D）网格。
+ A. 一列
+ B. 固定大小的
+ C. 一列或多列
+ D. 不以列为单位计算
+
+单选 现在页面布局的方式主要是基于（B）的布局方式，一般通过display、float、position等属性控制布局页面。
+ A. 网格模型
+ B. 盒子模型
+ C. 弹性页面
+ D. 弹性盒子
+
+单选 在DreamweaverCC的流体网格模板中，在屏幕宽度超过768像素时网页被划分为（C）列。
+ A. 4
+ B. 8
+ C. 12
+ D. 16
+
+单选 以下关于flex布局的说法，不正确的是（D）
+ A. 我们可通过类似display: flex;这样的语句，把容器声明为弹性盒子布局
+ B. 采用flex布局的元素，称为flex容器，它的所有子元素都自动成为容器成员，称为flex项目
+ C. 弹性布局模块的大小是未知或者动态变化的，且弹性布局是与方向无关的
+ D. 相对于网格布局，flex弹性布局更适合用于大规模的布局
+
+单选 flex容器中的main start指的是（A）
+ A. 主轴的开始位置与边框的交叉点
+ B. 主轴的结束位置与边框的交叉点
+ C. 交叉轴的开始位置与边框的交叉点
+ D. 交叉轴的结束位置与边框的交叉点
+
+单选 以下代码中的 flex-flow属性设置了（C）
+.flex-container {
+  display: flex; /*定义弹性布局元素 */
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+ A. 子元素的排列方式
+ B. 子元素的换行方式
+ C. 子元素的排列方式和换行方式
+ D. 如何分配伸缩容器的剩余空间
+
+单选 下列在HTML中加载外部JavaScript脚本文件a.js的正确方式是 B
+ A. ＜script link="a.js"＞
+ B. ＜script src="a.js"＞
+ C. ＜script file="a.js"＞
+ D. ＜style link="a.js"＞
+
+单选 要获得元素当前指定属性的值，可以使用（D）方法。
+ A. hasAttribute
+ B. setAttribute
+ C. removeAttribute
+ D. getAttribute
+
+单选 (A）事件是指将处理事件的JavaScript语句代码直接指定为HTML元素的事件属性值。
+ A. 静态绑定
+ B. 动态绑定
+ C. 随机绑定
+ D. 执行时绑定
+
+单选 表单对象的（C）事件将在提交表单时触发。
+ A. onreset
+ B. onclick
+ C. onsubmit
+ D. ondbclick
+
+单选 document.write()语句用于（A）
+ A. 在浏览器窗口中输出指定内容
+ B. 在HTML文档载入时调用程序
+ C. 关闭浏览器窗口
+ D. 在浏览器标题栏输出指定内容
+
+单选 假如有一个id为usrname的文本框，则语句“varv=document.getElementById("usrname").value.length”保存的是（B）
+ A. 文本框当前的内容
+ B. 文本框当前内容的字符串长度
+ C. 文本框当前的属性
+ D. 文本框当前的数据类型
+
+单选 BOM对象体系的顶层是（B）对象。
+ A. document
+ B. window
+ C. html
+ D. navigator
+
+单选 DOM树的根节点是(A)
+ A. document
+ B. window
+ C. html
+ D. navigator
+
+单选 关闭当前浏览器窗口的语句可以是（C）
+ A. window.open()
+ B. window.confirm()
+ C. window.close()
+ D. window.focus()
+
+单选 以下关于DOM树的论述，哪一个不正确(D)
+ A. 只有一个根节点
+ B. 除根节点外，每个节点只有一个父节点
+ C. 元素节点可以包含子节点
+ D. 文本节点可以包含子节点
+
+单选 .form-control 类的 <input>、<textarea> 和 <select> 元素都将被默认设置宽度属性为 width: (  A )
+ A. 100%
+ B. 50%
+ C. 33.33%
+ D. 66.67%
+
+单选 使用BootStrap时如果有这样的图像设置：<img src="1.jpg" class="img-circle">。则图像将被显示为（C）
+ A. 矩形
+ B. 圆角矩形
+ C. 圆形
+ D. 三角形
+
+单选 BootStrap是由()公司的两位设计师开发的，在2011年作为开源产品发布。C
+ A. Google
+ B. Baidu
+ C. Twitter
+ D. Facebook
+
+单选 为了减少样式文件的大小，如果使用未修改的BootStrap样式表，直接导入（B）文件即可。
+ A. bootstrap.css
+ B. bootstrap.min.css
+ C. bootstrap.min.js
+ D. bootstrap.js
+
+单选 在调用bootstrap.js之前必须先调用（C），因为Bootstrap框架中的插件都是以jQuery为基础的。
+ A. bootstrap.css
+ B. bootstrap.min.css
+ C. jquery.js
+ D. html5shiv.js
+
+单选 以下哪个不属于BootStrap框架的特点（D）
+ A. 移动设备优先
+ B. 响应式设计
+ C. 开源、免费
+ D. 支持所有的浏览器
+
+单选 BootStrap框架本身不包含以下哪项内容（D）
+ A. 基本结构（网格系统、链接样式、背景等）
+ B. 全局CSS样式
+ C. JavaScritp插件
+ D. 可视化编辑器
+
+单选 BootStrap中显式定义的媒体查询的断点不包括（A）
+ A. 小于768px
+ B. 介于768px到992px
+ C. 介于992px到1200px
+ D. 大于1200px
+
+单选 若有这样的一组代码:
+＜ol class="breadcrumb">
+    ＜li><a href="#">Home</a></li＞
+    ＜li><a href="#">2013</a></li＞
+    ＜li class="active">十一月</li＞
+＜/ol＞
+以上代码将显示一组（B）导航。
+ A. 标签页式
+ B. 面包屑
+ C. 垂直
+ D. 下拉菜单
+
+单选 Bootstrap默认的网格系统为（D）列。
+ A. 4
+ B. 6
+ C. 8
+ D. 12
