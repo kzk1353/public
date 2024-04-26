@@ -38,6 +38,7 @@
         47,
         48,
         49,
+        50,
         52,
         60,
         62,
@@ -55,7 +56,6 @@
         "ar",
         "tr",
         "ru",
-        "tw",
         "cn"
     ],
     "regional_hideworld": false,
@@ -67,6 +67,6 @@
     "showlowestprice": true,
     "showlowestprice_onwishlist": false,
     "showregionalprice": "always",
-    "version": "3.0.0",
+    "version": "3.1.1",
     "version_show": true
 }
