@@ -1,0 +1,1026 @@
+形成性考核
+
+试题 1
+以下哪个不属于操作系统？
+选择一项：
+a. Linux
+b. Windows
+c. MacOS
+d. Oracle
+正确答案是：Oracle
+
+试题 2
+以下描述正确的是？
+选择一项：
+a. Linux就是批处理系统
+b. 批处理系统可以同时执行多个任务
+c. Windows是批处理操作系统
+d. 批处理系统出现早于分时系统
+正确答案是：批处理系统出现早于分时系统
+
+试题 3
+以下哪个是移动操作系统？
+选择一项：
+a. Windows2003
+b. Android
+c. Linux
+d. WindowsXP
+正确答案是：Android
+
+试题 4
+Linux最早发布于哪一年？
+选择一项：
+a. 1992
+b. 1991
+c. 1990
+d. 1993
+正确答案是：1991
+
+试题 5
+第一个企业版的Linux是哪一个？
+选择一项：
+a. CentOS
+b. Ubuntu
+c. Debian
+d. RedHat
+正确答案是：RedHat
+
+试题 6
+以下哪个不是内核的组成部分？
+选择一项：
+a. 系统调用接口
+b. 驱动程序
+c. 进程管理
+d. C语言编译器
+正确答案是：C语言编译器
+
+试题 7
+Linux下常用文本编辑工具是？
+选择一项：
+a. Notepad
+b. DreamWeaver
+c. EditPlus
+d. VIM
+正确答案是：VIM
+
+试题 8
+Linux的终端软件英文名称是什么？
+选择一项：
+a. console
+b. cmd
+c. terminal
+d. background
+正确答案是：terminal
+
+试题 9
+下载安装软件的命令是什么？
+选择一项：
+a. sudo
+b. setup
+c. apt-getinstall
+d.  vim-version
+正确答案是：apt-getinstall
+
+试题 10
+以下哪些是Linux操作系统的特点？
+选择一项或多项：
+a. 开放性
+b. 低廉性
+c. 广泛性
+d. 灵活性
+正确答案是：开放性, 灵活性, 低廉性, 广泛性
+
+试题 1
+修改密码的命令是？
+选择一项：
+a. update
+b.  passwd
+c. password
+d. change
+正确答案是： passwd
+
+试题 2
+进入某一文件夹的命令是？
+选择一项：
+a.  help
+b.  ll
+c. cd
+d.  ls
+正确答案是：cd
+
+试题 3
+列表显示所有文件的命令是？
+选择一项：
+a. cd
+b.  pwd
+c. echo
+d. ls
+正确答案是：ls
+
+试题 4
+打印信息的命令是？
+选择一项：
+a. ls
+b. pwd
+c. echo
+d. ll
+正确答案是：echo
+
+试题 5
+列表显示文件详细信息的命令是？
+选择一项：
+a. ll
+b. cd
+c. help
+d. ls
+正确答案是：ll
+
+试题 6
+ 查看”当前工作目录“的完整路径？
+选择一项：
+a. echo
+b. cd
+c. \h
+d.  pwd
+正确答案是： pwd
+
+试题 7
+查看系统当前运行所有程序的命令是？
+选择一项：
+a. top
+b. list
+c.  ls
+d. show
+正确答案是：top
+
+试题 8
+系统配置文件一般放在哪个目录下？
+选择一项：
+a. etc
+b. tmp
+c.  usr
+d. dev
+正确答案是：etc
+
+试题 9
+增加用户的命令是？
+选择一项：
+a.  deluser
+b. appenduser
+c. insertuser
+d. adduser
+正确答案是：adduser
+
+试题 10
+以下哪些描述是手机root后会产生的？
+选择一项或多项：
+a. 可以任意安装软件
+b. 获取最高用户权限和增加系统风险
+c. 可以提高打印速度
+d. 可以提升网络连接速度
+正确答案是：获取最高用户权限和增加系统风险, 可以任意安装软件
+
+试题 1
+vi应该在哪个模式下来输入文件内容？
+选择一项：
+a. 编辑工作模式
+b. 操作工作模式
+c. 命令工作模式
+d. 输入工作模式
+正确答案是：编辑工作模式
+
+试题 2
+从命令模式切换到编辑模式应该使用哪个命令？
+选择一项：
+a. a
+b. o
+c.  i
+d. u
+正确答案是： i
+
+试题 3
+删除当前行应该使用哪个命令？
+选择一项：
+a. del
+b. dl
+c. dd
+d. dt
+正确答案是：dd
+
+试题 4
+撤消上一行操作应该使用哪个命令？
+选择一项：
+a. u
+b. a
+c. o
+d.  i
+正确答案是：u
+
+试题 5
+复制当前行使用哪个命令？
+选择一项：
+a. yy
+b. cp
+c. ps
+d. p
+正确答案是：yy
+
+试题 6
+粘贴应该使用哪个命令？
+选择一项：
+a. ps
+b. p
+c. yy
+d. cp
+正确答案是：p
+
+试题 7
+使用哪个命令可以显示vi中的行号？
+选择一项：
+a.  :number
+b.  :setnumber
+c.  :shownumber
+d.  :show
+正确答案是： :setnumber
+
+试题 8
+在查找替换命令中，使用哪个符号来分隔要查找和替换的关键字？
+选择一项：
+a.  ,
+b. /
+c.  |
+d.  \
+正确答案是：/
+
+试题 9
+保存并退出vi的命令是哪个？
+选择一项：
+a.  :w
+b.  :wq
+c.  :q!
+d.  :q
+正确答案是： :wq
+
+试题 10
+在命令模式移动光标可以使用哪些键？
+选择一项或多项：
+a. a
+b. k
+c. 上箭头
+d. l
+正确答案是：k, l
+
+试题 1
+C语言头文件一般以什么名称结尾？
+选择一项：
+a. a
+b. c
+c. h
+d. f
+正确答案是：h
+
+试题 2
+C语言库文件一般以什么名称结尾？
+选择一项：
+a. h
+b.  so
+c. c
+d. a
+正确答案是： so
+
+试题 3
+gcc在编译时，使用哪个参数来设置输出的文件名？
+选择一项：
+a. o
+b. c
+c.  e
+d.  i
+正确答案是：o
+
+试题 4
+man命令查找Linux系统命令的用法应该使用哪个子命令？
+选择一项：
+a. ２
+b. ３
+c. ４
+d. １
+正确答案是：１
+
+试题 5
+man命令查找C语言函数用法应该使用哪个子命令？
+选择一项：
+a. １
+b. ４
+c. ２
+d. ３
+正确答案是：３
+
+试题 6
+使用gcc经过预编译后的文件一般以什么名称结尾？
+选择一项：
+a. a
+b. o
+c.  i
+d.  u
+正确答案是： i
+
+试题 7
+使用gcc编译后的目标文件一般以什么名称结尾？
+选择一项：
+a.  i
+b. a
+c.  o
+d. u
+正确答案是： o
+
+试题 8
+以下哪些操作系统属于类Unix操作系统？
+选择一项或多项：
+a.  Linux
+b. Windows
+c. dos
+d. BSD和MacOS
+正确答案是： Linux, BSD和MacOS
+
+试题 9
+在Linux系统中，（　　　　）是指用户用来系统交互的设备、包括显示器、键盘和鼠标。
+选择一项：
+A. PC
+B. 主机
+C. 终端
+D. 程序
+正确答案是：终端
+
+试题 10
+[root@localhost ~]# useradd ptname和[root@localhost ~]# passwd ptname所表示的是（　　　　）
+选择一项：
+A. 添加一个ptname用户，密码是passwd
+B. 添加一个ptname用户，同时确定用户为ptname
+C. 添加一个ptname用户，密码是ptname
+D. 添加一个ptname用户，无密码
+正确答案是：添加一个ptname用户，密码是ptname
+
+试题 1
+程序的顺序执行具有顺序性、封闭性和（　　　　）
+选择一项：
+A. 多分支性
+B. 系统性
+C. 程序性
+D. 可再现性
+正确答案是：可再现性
+
+试题 2
+程序的并发执行具有间断生、不可再现性和（　　　　）
+选择一项：
+A. 重复性
+B. 可测试性
+C. 循环性
+D. 没有封闭性
+正确答案是：没有封闭性
+
+试题 3
+以下关于进程说法错误的是（　　　　）
+选择一项：
+A. 一个进程可以顺序执行多个程序
+B. 一个程序不可以对应多个进程
+C. 进程是一个可并发执行的程序在一个数据集上的一次运行
+D. 进行就是程序的一次运行过程
+正确答案是：一个程序不可以对应多个进程
+
+试题 4
+进程已经分配到了除ＣＰＵ之外的所有资源，这时的时程状态称为（　　　）
+选择一项：
+A. 控制态
+B. 就绪态
+C. 运行态
+D. 等待态
+正确答案是：就绪态
+
+试题 5
+可以使用（　　　　）查看记录进程ＰＣＢ中相关的信息
+选择一项：
+A. pt
+B. ps
+C. pf
+D. pd
+正确答案是：ps
+
+试题 6
+对单个进程中多条执行线索的支持，这些执行线索称为（　　　）
+选择一项：
+A. 线程
+B. 程序
+C. 进程
+D. 软件
+正确答案是：线程
+
+试题 7
+Linux中用于释放内存页，从而增加空闲页的数量，是由（）程序实现的。
+选择一项：
+a. delete
+b. kswaped
+c. swaped
+d. key
+正确答案是：kswaped
+
+试题 8
+虚拟存储技术是有机的将内存和外存结合起来，充当（）
+选择一项：
+a. 虚拟内存
+b. 外存
+c. 主存
+d. 内存
+正确答案是：虚拟内存
+
+试题 9
+Linux中实际使用的存储管理技术是（）
+选择一项：
+a. 分区虚拟存储管理
+b. 页式虚拟存储管理
+c. 段页式虚拟存储管理
+d. 段式虚拟存储管理
+正确答案是：页式虚拟存储管理
+
+试题 10
+存储管理方案有（）
+选择一项或多项：
+a. 段页式存储管理
+b. 分区存储管理
+c. 段式存储管理
+d. 页式存储管理
+正确答案是：分区存储管理, 页式存储管理, 段式存储管理, 段页式存储管理
+
+试题 1
+Linux中用于释放内存页，从而增加空闲页的数量，是由（）程序实现的。
+选择一项：
+a. kswaped
+b. delete
+c. key
+d. swaped
+正确答案是：kswaped
+
+试题 2
+虚拟存储技术是有机的将内存和外存结合起来，充当（）
+选择一项：
+a. 虚拟内存
+b. 内存
+c. 主存
+d. 外存
+正确答案是：虚拟内存
+
+试题 3
+Linux中实际使用的存储管理技术是（）
+选择一项：
+a. 页式虚拟存储管理
+b. 段式虚拟存储管理
+c. 段页式虚拟存储管理
+d. 分区虚拟存储管理
+正确答案是：页式虚拟存储管理
+
+试题 4
+存储管理方案有（）
+选择一项或多项：
+a. 段页式存储管理
+b. 分区存储管理
+c. 段式存储管理
+d. 页式存储管理
+正确答案是：分区存储管理, 页式存储管理, 段式存储管理, 段页式存储管理
+
+试题 5
+在分区存储管理中，内存划分方式有（）
+选择一项或多项：
+a. 分段式分区
+b. 固定分区
+c. 动态分区
+d. 随机分区
+正确答案是：固定分区, 动态分区
+
+试题 6
+页式存储管理的特点有（）
+选择一项或多项：
+a. 存储利用率最低
+b. 对逻辑上统一的一类信息不方便查找和共享
+c. 页的大小因系统而异和可以非连续存放
+d. 内存利用率最低
+正确答案是：页的大小因系统而异和可以非连续存放, 对逻辑上统一的一类信息不方便查找和共享
+
+试题 7
+交换分区中包含专用的文件系统
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 8
+在虚拟存储管理的实现过程中，因为外存也被看做虚拟内存的一部分，所以存放在外存中的程序也可以被执行
+选择一项：
+对
+错
+正确答案是“错”。
+
+试题 9
+虚拟存储技术最大的优势就是扩展了计算机系统可使用的内存空间。
+选择一项：
+对
+错
+正确答案是“对”。
+
+试题 10
+虚拟存储中因为内存空间的扩展，所以将整个程序全放置到内存中，从而加快了运行速度。
+选择一项：
+对
+错
+正确答案是“错”。
+
+
+
+综合练习题
+（一）单项选择（每题只有一个正确答案）
+1、( )是计算机系统中最基本的软件，可直接管理和控制计算机的资源，合理地调度资源，使之得到充分的利用，并为用户使用这些资源提供一个方便的操作环境和良好的用户界面。
+A、 操作系统
+B、 数据库
+C、 PS
+D、 办公软件
+答案为: A
+
+2、操作系统的功能有处理器管理、存储器管理、设备管理、文件管理和（    ）
+A、 资源管理
+B、 语言管理
+C、 程序管理
+D、 用户管理
+答案为: D
+
+3、（    ）是指在内存中存在多个作业，同时处于运行状态，共享系统资源。
+A、 多道批处理操作系统
+B、 分时操作系统
+C、 实时操作系统
+答案为: B
+
+4、Linux操作系统具有很高的安全性与稳定性、具体强大的TCP/IP支持、具有良好的可移埴性和（    ）
+A、 容易使用
+B、 界面良好	
+C、 编程复杂
+D、 源代码公开
+答案为: D
+
+5、Linux的基本系统由３个主要部份组成（    ）
+A、 内核、程序和shell
+B、 内核、软件和shell
+C、 内核、shell和文件系统
+D、 内核、文件系统和程序
+答案为: C
+
+6、在Linux系统中，（    ）是指用户用来系统交互的设备、包括显示器、键盘和鼠标。
+A、 主机	
+B、 终端
+C、 PC
+D、 程序
+答案为: B
+
+7、[root@localhost ~]# useradd ptname和[root@localhost ~]# passwd ptname所表示的是（    ） 
+A、 添加一个ptname用户，密码是ptname
+B、 添加一个ptname用户，同时确定用户为ptname
+C、 添加一个ptname用户，密码是passwd
+D、 添加一个ptname用户，无密码
+答案为: A
+
+8、进入home目录，使用＂打印工作目录＂查看的是（    ）
+A、 [ptname@localhost ~]$ ls
+B、 [ptname@localhost ~]$ pwd
+C、 [ptname@localhost ~]$ passwd
+D、 [ptname@localhost ~]$ ls -l
+答案为: B
+
+9、使用ls命令检查 home 目录下所有文件信息（    ）
+A、 [ptname@localhost ~]$ ls
+B、 [ptname@localhost ~]$ ls –a
+C、 [ptname@localhost ~]$ ls –al
+D、 [ptname@localhost ~]$ ls –ff
+答案为: C
+
+10、[ptname@localhost ~]$ mkdir a_zhous表示（    ）
+A、 在home 目录创建一个a_zhous目录
+B、 在home 目录创建一个a_zhous文件
+C、 在home 目录创建一个a_zhous目录和文件
+D、 在home 目录创建一个mkdir目录
+答案为: A
+
+11、把home 目录下所有以“_a1”结尾的文件移动到“a_zhous”目录中的是（    ）
+A、 [ptname@localhost a_zhous]$ mv ~/*_a1 a_zhous/
+B、 [ptname@localhost a_zhous]$ ls ~/*_a1 a_zhous/
+C、 [ptname@localhost a_zhous]$ dw ~/*_a1 a_zhous/
+D、 [ptname@localhost a_zhous]$ dd ~/*_a1 a_zhous/
+答案为: A
+
+12、[ptname@localhost ~]$ df所表示的是（    ）
+A、 获取文件系统总的总空间
+B、 获取文件系统总的剩余空间
+C、 获取文件系统总的已使用空间
+D、 获取文件系统总的不能使用的空间
+答案为: A
+
+13、创建一个名为words的文件是（    ）
+A、 [ptname@localhost ~]$ cj words
+B、 [ptname@localhost ~]$ v words
+C、 [ptname@localhost ~]$ mm words
+D、 [ptname@localhost ~]$ vim words
+答案为: D
+
+14、快速的查看某个文件的最后几行是（    ）
+A、 [ptname@localhost ~]$ head words
+B、 [ptname@localhost ~]$ form words
+C、 [ptname@localhost ~]$ end words
+D、 [ptname@localhost ~]$ tail words
+答案为: D
+
+15、Linux系统转化为至多12个虑拟控制台，系统启动时默认在前面几个控制台上启动1个图形控制台和（    ）个字符控制台。
+A、 6
+B、 7
+C、 8
+D、 9
+答案为: A
+
+16、在字符控制台界面，用exit命令或（    ）键即可退出系统。
+A、 ctrl+a
+B、 ctrl+b
+C、 ctrl+c
+D、 ctrl+d
+答案为: D
+
+17、Shell启动完成后，显示命令提示符，提示用户可以输入命令了，对于普通用户，系统的默认提示符是$，对物root用户，系统的默认提示符是（    ）
+A、 c:\
+B、 $
+C、 #
+D、 %
+答案为: C
+
+18、[root@localhost ~]# who -q表示的是（　　）
+A、 显示登录的用户名和用户数
+B、 显示各列的标题
+C、 显示用户数
+D、 以上都对
+答案为: A
+
+19、文件abc*是的是（　　）
+A、 以abc开始的字符串
+B、 以abc结尾的字符串
+C、 以abc开始，后面是一个字符的字符串
+D、 以abc开始，前在面是一个字符的字符串
+答案为: C
+
+20、echo ch[146-9]显示的是（　　）
+A、 显示的是文件ch146-ch155
+B、 显示的是文件ch1、ch4、ch6、ch7、ch8、ch9文件
+C、 显示的是文件ch14和ch9文件
+D、 以上都不对
+答案为: D
+
+21、Linux系统支持的目录文件是（　　）
+A、 －
+B、 d
+C、 l
+D、 p
+答案为: B
+
+22、某文件类型和权限字符串是drwxr-x---表示的是（　　）
+A、 表明是一个目录文件，所有用户有读、写和执行的权限
+B、 表明是一个目录文件，其它用户有读、写和执行的权限
+C、 表明是一个目录文件，用户组有读、写和执行的权限
+D、 表明是一个目录文件，属主有读、写和执行的权限
+答案为: D
+
+23、文件创建时默认权限可执行文件是777，非可执行文件的默认权限是（　　）
+A、 777
+B、 644
+C、 664
+D、 755
+答案为: B
+
+24、创建、删除目录的是（　　）
+A、 pwd/cd
+B、 ls
+C、 mkdir/rmdir
+D、 id
+答案为: C
+
+25、[root@localhost ~]# mkdir temp，[root@localhost ~]# cp *.o temp表示的是（　　）
+A、 将*.0的文件全部从mkdir中删除
+B、 将*.0的文件全部从temp中删除
+C、 将*.0的文件全部复制到mkdir
+D、 将*.0的文件全部复制到temp
+答案为: D
+
+26、删除文件a.out的是（　　）
+A、 [root@localhost ~]# rm a.out
+B、 [root@localhost ~]# mv a.out
+C、 [root@localhost ~]# ls a.out
+D、 [root@localhost ~]# wc a.out
+答案为: A
+
+27、在poem文件中搜索and，并显示匹配的行（　　）
+A、 [root@localhost ~]# grep and poem
+B、 [root@localhost ~]# grep poem and
+C、 [root@localhost ~]# grep -c and poem
+D、 [root@localhost ~]# grep -v and poem
+答案为: A
+
+28、关于执行[root@localhost ~]# cat afile和[root@localhost ~]# cat < afile说法错误的是（　　）
+A、 两个cat命令的功能是等效的，但执行方式却不同
+B、 第1个cat带有一个文件参数afile，直接读取afile文件
+C、 第2个cat没带任何参数，运行时在读stdin文件，然后重定向到afile文件
+D、 两个cat命令的功能不等效，但执行方式相同
+答案为: D
+
+29、命令〉〉文件，命令〉文件的说法正确的是（　　）
+A、 两个都是标准重定向功能效果一样
+B、 他们的区别在于第一个操作是附加输出重定向是会保留文件内原有的内容
+C、 他们的区别在于第二个操作是附加输出重定向是会保留文件内原有的内容
+D、 他们的区别在于第二个操标准重定向是会保留文件内原有的内容
+答案为: B
+
+30、vi的启动过程是先建立一个编辑缓冲区，若指定文件存在，则将其内容读到编辑缓冲区中，若指定文件不存在，则（　　）
+A、 建立此文件	
+B、 强行退出
+C、 出错
+D、 关机
+答案为: A
+
+31、进入输入模式的方法是按insert键，编辑完成后可用（　　）将修改后的内容保存到文件中并退出vi
+A、 :q
+B、 :q!
+C、 :wq
+D、 :exit
+答案为: C
+
+32、删除文本，每按一下x键或delete键就会删除一个字符，若要删除的文本较多时，可以使用（　　）删除光标所在的行。
+A、 dd
+B、 dw
+C、 d$
+D、 J
+答案为: A
+
+33、撤销上一个命令所做的修改，恢复到命令执行前的样子其中，撤销上一个命令所做的修改是u，撤销最近针对一行所做的全部修改是（　）
+A、 f
+B、 F
+C、 U
+D、 u
+答案为: C
+
+34、要在一个大文件中查找某个字符串，从光标处向后搜索与指定模式匹配的字符串是（　　）
+A、 /
+B、 ?
+C、 #
+D、 $
+答案为: A
+
+35、[root@localhost ~]# gcc -o hello1 hello.c和[root@localhost ~]# ./hello1表示的是（　　）
+A、 编译、生成可执行文件hello1,并运行hello1
+B、 编译、生成可执行文件hello1,并运行hello
+C、 编译、生成可执行文件hello,并运行hello1
+D、 编译、生成可执行文件hello,并运行hello
+答案为: A
+
+36、程序的顺序执行具有顺序性、封闭性和（    ）
+A、 系统性
+B、 程序性
+C、 多分支性
+D、 可再现性
+答案为: D
+
+37、程序的并发执行具有间断生、不可再现性和（    ）
+A、 没有封闭性
+B、 循环性	
+C、 重复性
+D、 可测试性
+答案为: A
+
+38、以下关于进程说法错误的是（    ）
+A、 进程是一个可并发执行的程序在一个数据集上的一次运行
+B、 进行就是程序的一次运行过程
+C、 一个进程可以顺序执行多个程序
+D、 一个程序不可以对应多个进程
+答案为: C
+
+39、进程已经分配到了除ＣＰＵ之外的所有资源，这时的时程状态称为（　　　）
+A、 运行态	
+B、 等待态
+C、 就绪态
+D、 控制态
+答案为: C
+
+40、可以使用（    ）查看记录进程ＰＣＢ中相关的信息
+A、 ps
+B、 pf 			
+C、 pd
+D、 pt
+答案为: A
+
+41、对单个进程中多条执行线索的支持，这些执行线索称为（　　　）
+A、 程序
+B、 线程
+C、 进程
+D、 软件
+答案为: B
+
+42、操作系统中用于管理内在空间的模块称为内存管理模块，它负责内存的全部管理工作，可以完成存储空间的分配、存储地址的变换、存储空间的保护和（    ）
+A、 存储空间的扩充 		
+B、 存储空间的删除
+C、 存储地址的的扩充
+D、 存储地址的删除
+答案为: A
+
+43、虚拟存储器的原理是用外存模拟内存，实现内存空间的扩充，程序的（    ）性使虚拟存储成为可能
+A、 全局
+B、 局部
+C、 部份
+D、 所有
+答案为: B
+
+44、Ext文件系统是专为Linux系统设计的一簇文件系统，以下是一个日志文件系统的是（    ）
+A、 Ext2
+B、 Ext3
+C、 windows7
+D、 windows
+答案为: B
+
+45、Ext文件的逻辑结构是无结构的流式文件，使得Linux系统可以（    ）
+A、 把目录、设备当文件来处理
+B、 把目录、设备当程序来处理
+C、 把目录、设备当软件来处理
+D、 把目录、设备当语言来处理
+答案为: A
+
+46、在Linux系统中，每个设备都对应一个设备文件，位于（    ）目录下
+A、 /dev
+B、 /tty
+C、 /sda
+D、 /loop
+答案为: A
+
+47、当网卡从网络上接收到流入的数据包时，此时CPU应该知道有数据包到了，CPU立即响应处理这个过程我们称为（ ）
+A、 中断     
+B、 调用
+C、 测试
+D、 应答
+答案为: A
+
+48、操作系统接口的功能就是提供一个用户使用系统的界面，根据服务对象的不同，操作系统的接口可以划分为两类，一是供用户使用的用户级接口中，二是（    ）
+A、 设计接口
+B、 程序级接口	
+C、 交互级接口
+D、 图形级接口
+答案为: B
+
+49、Linux系统的命令行接口是由Shell提供的方本方式的界面，也称为（    ）界面
+A、 程序
+B、 Ｘ
+C、 Shell
+D、 Bell
+答案为: C
+
+50、关于Shell语言错误的是（    ）
+A、 Shell语言是一种解释性语言
+B、 Shell语言是基于字符串的语言
+C、 Shell语言是命令级语言
+D、 Shell语言是要编译后才能执行的语言
+答案为: D
+
+51、通过按：alt+ctrl+F1或者alt+F1是提（    ）
+A、 转换到虚拟终端 1（tty1）
+B、 转换到虚拟终端 2（tty2）
+C、 转换到虚拟终端 3（tty3）
+D、 转换到虚拟终端 4（tty4）
+答案为: A
+
+52、获取工作站当前所有登陆者信息（    ）
+A、 [root@localhost ~]# users
+B、 [root@localhost ~]# user
+C、 [root@localhost ~]# addusers
+D、 [root@localhost ~]# ls
+答案为: A
+
+53、[ptname@localhost ~]$ find -atime -2是（    ）
+A、 查找10小时数内修改过的文件
+B、 查找12小时数内修改过的文件
+C、 查找2小时数内修改过的文件
+D、 查找48小时数内修改过的文件
+答案为: D
+
+54、[ptname@localhost~]$ find /var -name "*.log" 2> /dev/null是（）
+A、 在目录/var查找以.2结尾的文件
+B、 在目录/var查找以.log结尾的文件
+C、 在目录/var查找以.name结尾的文件
+D、 在目录/var查找以.varg结尾的文件
+答案为: B
+
+55、[ptname@localhost ~]$ find . -size +1000c –print是（　　）
+A、 查找当前目录大于10K的文件
+B、 查找当前目录大于100K的文件
+C、 查找当前目录大于1000K的文件
+D、 查找当前目录大于1K的文件
+答案为: B
+
+56、[ptname@localhost ~]$ tar cvf /tmp/backetc.tar /etc是（　）
+A、 隐藏/etc 目录下的文件到/tmp目录下名为backetc
+B、 修改/etc 目录下的文件到/tmp目录下名为backetc
+C、 保存/etc 目录下的文件到/tmp目录下名为backetc
+D、 删除/etc 目录下的文件到/tmp目录下名为backetc
+答案为: C
+
+57、[root@localhost ~]# ifconfig eth0表示的是（ ）
+A、 配置eth0网卡
+B、 显示eth0网卡相关信息
+C、 测试eth0网卡通否
+D、 关闭eth0多卡
+答案为: B
+
+58、[root@localhost ~]# ping 192.168.2.1表示的是
+A、 测试与主机192.168.2.1的连通情况
+B、 测试与主机192.168.2.1的主机名
+C、 测试与主机192.168.2.1的DNS
+D、 测试与主机192.168.2.1的邮件服务
+答案为: A
+
+59、Linux将磁盘分为IDE（即PATA）和SCSI（SCSI、SATA、USB）两大类。如果加载了U盘，以下可能显示正确的是（ ）
+A、 hdb、hdc
+B、 e：	
+C、 sdb、sdc
+D、 f：
+答案为: C
+
+60、[root@localhost ~]# mount -t auto -o ro /de/cdrom /media/cdrom
+A、 把光驱加载到/media/cdrom目录下
+B、 把光驱加载到/home目录下
+C、 把U加载到/media/cdrom目录下
+D、 把U加载到/home目录下
+答案为: A
+
+61、[root@localhost ~]# mount -o loop something.iso /mnt/iso是（ ）
+A、 中止光盘映像文件something.iso加载
+B、 删除光盘映像文件something.iso
+C、 卸载光盘映像文件something.iso
+D、 把光盘映像文件something.iso加载到/mnt/iso目录下
+答案为: D
+
+62、[root@localhost ~]# gzip -v *.c表示（ ）
+A、 删除当前目录下的每个.c文件
+B、 复制当前目录下的每个.c文件
+C、 压缩当前目录下的每个.c文件
+D、 解压当前目录下的每个.c文件
+答案为: C
+
+63、如有一个安装包名为foo-1.0-1.fc19.i686.rpm如果要安装此包的是（ ）
+A、 [root@localhost ~]# rpm -ivh foo-1.0-1.fc19.i686.rpm
+B、 [root@localhost ~]# add -ivh foo-1.0-1.fc19.i686.rpm
+C、 [root@localhost ~]# aj -ivh foo-1.0-1.fc19.i686.rpm
+D、 [root@localhost ~]# qa -ivh foo-1.0-1.fc19.i686.rpm
+答案为: A
+
+64、[root@localhost ~]# rpm -qa | grep gcc表示的是
+A、 查询安装了哪些与gcc相关的软件包
+B、 查询安装了哪些与rpm相关的软件包
+C、 查询安装了哪些与grep相关的软件包
+D、 查询安装了哪些与root相关的软件包
+答案为: A
+
+65、[ptname@localhost ~]$ alias cls=‘clear’ [ptname@localhost ~]$ alias [ptname@localhost ~]$ cls 所表示的是（    ）
+A、 创建一个alias，可以使用cls的字符，执行系统能clear 命令
+B、 创建一个alias，可以使用alias的字符，清除屏幕功能
+C、 创建一个alias，可以使用cls 的字符，执行系统能alias命令
+D、 以上都不对
+答案为: A
+
+66、Linux系统是面向各种应用环境的，有着多种运行模式，在不同的运行模式提供的系统功能也不同，系统通常工作在1-5级，2级支持多用启，3级支持网络网络，5级支持图形界面，服务器系统的默认启动级别是( )
+A、 1
+B、 2
+C、 3
+D、 4
+答案为: C
+
+67、[root@localhost ~]# shutdown10 "shutdown"表述正确的是（ ）
+A、 所有登录用户的屏幕上都会出现root发出的关机"shutdown“提示信息
+B、 10分钟后，所有登录用户的屏幕上都会出现root发出的关机"shutdown“提示信息
+C、 直接关机
+D、 10分钟后，关机后再开机
+答案为: B
+
+68、添加新用户zhoudake77，到2018年底终止的是（ ）
+A、 [root@localhost ~]# useradd 2018-12-31 zhoudake77
+B、 [root@localhost ~]# useradd 2018-12-31 zhoudake77
+C、 [root@localhost ~]# useradd -g 2018-12-31 zhoudake77
+D、 [root@localhost ~]# useradd -e 2018-12-31 zhoudake77
+答案为: D
+
+69、[root@localhost ~]# passwd -x10 zhoudake77表示的是（ ）
+A、 设置zhoudake77口令的有效为10小时
+B、 设置zhoudake77口令的有效为10天
+C、 设置zhoudake77口令的有效为10个月
+D、 以上都不对
+答案为: B
+
+70、删除用启zhoudake77,不保留其主目录和邮箱的是（ ）
+A、 [root@localhost ~]# userdel -r zhoudake77
+B、 [root@localhost ~]# userdel zhoudake77
+C、 [root@localhost ~]# del -r zhoudake77
+D、 [root@localhost ~]# del zhoudake77
+答案为: B
