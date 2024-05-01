@@ -3,24 +3,32 @@
     "key": "F6",
     "action": "prevtab",
     "sites": "",
-    "sitesArray": [""]
+    "sitesArray": [
+      ""
+    ]
   },
   {
     "key": "F7",
     "action": "nexttab",
     "sites": "",
-    "sitesArray": [""]
+    "sitesArray": [
+      ""
+    ]
   },
   {
     "key": "F8",
     "action": "closetab",
     "sites": "",
-    "sitesArray": [""]
+    "sitesArray": [
+      ""
+    ]
   },
   {
     "key": "F9",
     "action": "reopentab",
     "sites": "",
-    "sitesArray": [""]
+    "sitesArray": [
+      ""
+    ]
   }
 ]
