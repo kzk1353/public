@@ -147,7 +147,7 @@
                 "moreDes": "I_open newfront",
                 "morePinned": "unpinned",
                 "morePosition": "right",
-                "moreTarget": "newback"
+                "moreTarget": "newfront"
             },
             {
                 "action": "I_search",
@@ -156,7 +156,7 @@
                 "moreIsearch": "sgoogleimage",
                 "morePinned": "unpinned",
                 "morePosition": "chrome",
-                "moreTarget": "newback"
+                "moreTarget": "newfront"
             },
             {
                 "action": "I_save",
@@ -180,10 +180,10 @@
                 "moreDes": "",
                 "morePinned": "unpinned",
                 "morePosition": "chrome",
-                "moreTarget": "newback"
+                "moreTarget": "newfront"
             },
             {
-                "action": "L_copyurl",
+                "action": "G_bookmark",
                 "direct": "U"
             },
             {
@@ -199,8 +199,8 @@
                 "moreDes": "New tab & Background",
                 "morePinned": "unpinned",
                 "morePosition": "left",
-                "moreTarget": "newback",
-                "moreTsearch": "sbaidu"
+                "moreTarget": "newfront",
+                "moreTsearch": "sbing"
             },
             {
                 "action": "T_search",
@@ -208,8 +208,8 @@
                 "moreDes": "New tab & Front",
                 "morePinned": "unpinned",
                 "morePosition": "right",
-                "moreTarget": "newback",
-                "moreTsearch": "swiki"
+                "moreTarget": "newfront",
+                "moreTsearch": "sgoogle"
             },
             {
                 "action": "T_search",
@@ -217,8 +217,8 @@
                 "moreDes": "",
                 "morePinned": "unpinned",
                 "morePosition": "chrome",
-                "moreTarget": "newback",
-                "moreTsearch": "sgoogle"
+                "moreTarget": "newfront",
+                "moreTsearch": "sbaidu"
             },
             {
                 "action": "T_search",
@@ -226,8 +226,8 @@
                 "moreDes": "",
                 "morePinned": "unpinned",
                 "morePosition": "chrome",
-                "moreTarget": "newback",
-                "moreTsearch": "sbing",
+                "moreTarget": "newfront",
+                "moreTsearch": "swiki",
                 "whitelist": []
             }
         ]
