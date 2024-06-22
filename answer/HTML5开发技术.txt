@@ -1,0 +1,1462 @@
+在HTML5中，哪个元素用于组合标题元素？（ ）
+选择一项：
+a.headings
+b.header
+c.group
+d.hgroup
+正确答案是：hgroup
+
+HTML5中不再支持下面哪个元素？（ ）
+选择一项：
+a.menu
+b.font
+c.q
+d.ins
+正确答案是：font
+
+新的HTML5全局属性，"contenteditable"用于：（ ）
+选择一项：
+a.返回内容在字符串中首次出现的位置。
+b.从服务器升级内容。
+c.规定元素的上下文菜单。该菜单会在用户点击右键点击元素时出现。
+d.规定元素内容是否是可编辑的。
+正确答案是：规定元素内容是否是可编辑的。
+
+在HTML5中，哪个属性用于规定输入字段是必填的？（ ）
+选择一项：
+a.placeholder
+b.formvalidate
+c.required
+d.validate
+正确答案是：required
+
+编写manifest文件中的注释是：（ ）
+选择一项：
+a.以‘#’开头的单行注释
+b.以的多行注释
+c.以//开头的单行注释
+d.以/* */的多行注释
+正确答案是：以‘#’开头的单行注释
+
+以下哪些属性是原HTML4中适应元素为body的，而现被HTML5废除并使用CSS样式表所替代
+选择一项或多项：
+a.link
+b.text
+c.alink
+d.clear
+正确答案是：alink, link, text
+
+input属性中HTML5新增哪些属性？
+选择一项或多项：
+a.type
+b.required
+c.list
+d.width
+正确答案是：list, width, required
+
+HTML5从标记语言的功能提升到下一代Web语言的开发框架，他集成了（ ）、CSS3和JavaScript的Web应用框架。
+答案：
+正确答案是：HTML
+
+要确保适用于Safari 浏览器，视频文件必须是MPEG4类型。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+html5不区分大小写、标记结束符及属性是否加引号。
+选择一项：
+对
+错
+正确正确答案是“对”。
+在HTML5中，哪个元素用于组合标题元素？（ ）
+选择一项：
+a.group
+b.header
+c.headings
+d.hgroup
+正确答案是：hgroup
+
+HTML5中不再支持下面哪个元素？（ ）
+选择一项：
+a.font
+b.q
+c.ins
+d.menu
+正确答案是：font
+
+新的HTML5全局属性，"contenteditable"用于：（ ）
+选择一项：
+a.从服务器升级内容。
+b.返回内容在字符串中首次出现的位置。
+c.规定元素内容是否是可编辑的。
+d.规定元素的上下文菜单。该菜单会在用户点击右键点击元素时出现。
+正确答案是：规定元素内容是否是可编辑的。
+
+在HTML5中，哪个属性用于规定输入字段是必填的？（ ）
+选择一项：
+a.placeholder
+b.formvalidate
+c.validate
+d.required
+正确答案是：required
+
+编写manifest文件中的注释是：（ ）
+选择一项：
+a.以/* */的多行注释
+b.以‘#’开头的单行注释
+c.以//开头的单行注释
+d.以的多行注释
+正确答案是：以‘#’开头的单行注释
+
+以下哪些属性是原HTML4中适应元素为body的，而现被HTML5废除并使用CSS样式表所替代
+选择一项或多项：
+a.clear
+b.text
+c.link
+d.alink
+正确答案是：alink, link, text
+
+input属性中HTML5新增哪些属性？
+选择一项或多项：
+a.type
+b.required
+c.width
+d.list
+正确答案是：list, width, required
+
+HTML5从标记语言的功能提升到下一代Web语言的开发框架，他集成了（ ）、CSS3和JavaScript的Web应用框架。
+答案：
+正确答案是：HTML
+
+要确保适用于Safari 浏览器，视频文件必须是MPEG4类型。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+html5不区分大小写、标记结束符及属性是否加引号。
+选择一项：
+对
+错
+正确正确答案是“对”。
+新的HTML5全局属性，"contenteditable"用于：（ ）
+选择一项：
+a.规定元素内容是否是可编辑的。
+b.返回内容在字符串中首次出现的位置。
+c.规定元素的上下文菜单。该菜单会在用户点击右键点击元素时出现。
+d.从服务器升级内容。
+正确答案是：规定元素内容是否是可编辑的。
+
+在HTML5中，哪个属性用于规定输入字段是必填的？（ ）
+选择一项：
+a.validate
+b.formvalidate
+c.placeholder
+d.required
+正确答案是：required
+
+编写manifest文件中的注释是：（ ）
+选择一项：
+a.以/* */的多行注释
+b.以‘#’开头的单行注释
+c.以//开头的单行注释
+d.以的多行注释
+正确答案是：以‘#’开头的单行注释
+
+以下哪些属性是原HTML4中适应元素为body的，而现被HTML5废除并使用CSS样式表所替代
+选择一项或多项：
+a.link
+b.clear
+c.alink
+d.text
+正确答案是：alink, link, text
+
+input属性中HTML5新增哪些属性？
+选择一项或多项：
+a.width
+b.required
+c.list
+d.type
+正确答案是：list, width, required
+
+HTML5从标记语言的功能提升到下一代Web语言的开发框架，他集成了（ ）、CSS3和JavaScript的Web应用框架。
+答案：
+正确答案是：HTML
+
+要确保适用于Safari 浏览器，视频文件必须是MPEG4类型。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+html5不区分大小写、标记结束符及属性是否加引号。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+编写manifest文件中的注释是：（ ）
+选择一项：
+a.以‘#’开头的单行注释
+b.以/* */的多行注释
+c.以的多行注释
+d.以//开头的单行注释
+正确答案是：以‘#’开头的单行注释
+
+以下哪些属性是原HTML4中适应元素为body的，而现被HTML5废除并使用CSS样式表所替代
+选择一项或多项：
+a.text
+b.clear
+c.link
+d.alink
+正确答案是：alink, link, text
+
+input属性中HTML5新增哪些属性？
+选择一项或多项：
+a.width
+b.list
+c.required
+d.type
+正确答案是：list, width, required
+
+HTML5从标记语言的功能提升到下一代Web语言的开发框架，他集成了（ ）、CSS3和JavaScript的Web应用框架。
+答案：
+正确答案是：HTML
+
+要确保适用于Safari 浏览器，视频文件必须是MPEG4类型。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+html5不区分大小写、标记结束符及属性是否加引号。
+选择一项：
+对
+错
+正确正确答案是“对”。
+编写manifest文件中的注释是：（ ）
+选择一项：
+a.以//开头的单行注释
+b.以‘#’开头的单行注释
+c.以的多行注释
+d.以/* */的多行注释
+正确答案是：以‘#’开头的单行注释
+
+以下哪些属性是原HTML4中适应元素为body的，而现被HTML5废除并使用CSS样式表所替代
+选择一项或多项：
+a.text
+b.clear
+c.link
+d.alink
+正确答案是：alink, link, text
+
+input属性中HTML5新增哪些属性？
+选择一项或多项：
+a.list
+b.type
+c.width
+d.required
+正确答案是：list, width, required
+
+HTML5从标记语言的功能提升到下一代Web语言的开发框架，他集成了（ ）、CSS3和JavaScript的Web应用框架。
+答案：
+正确答案是：HTML
+
+要确保适用于Safari 浏览器，视频文件必须是MPEG4类型。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+html5不区分大小写、标记结束符及属性是否加引号。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+context.arc（）方法用于绘制圆形，一般其中的第几个参数决定圆形的半径
+选择一项：
+a.1
+b.3
+c.2
+d.4
+正确答案是：3
+
+下列哪项不是HTML5的新特性（ ）
+选择一项：
+a.兼容性
+b.合理性
+c.有插件
+d.安全性
+正确答案是：有插件
+
+下列不是html5主要功能的是（ ）
+选择一项：
+a.Vector Scalable Graphics
+b.Web Origin Concept
+c.MathML
+d.Cross-document
+正确答案是：MathML
+
+以下哪项不属于Html5中input标签新增的输入类型（）。
+选择一项：
+a.radio
+b.email
+c.url
+d.number
+正确答案是：radio
+
+在HTML5中可以省略全部标记的元素是（）
+选择一项：
+a.option
+b.body
+c.img
+d.hr
+正确答案是：body
+
+HTML5中新增哪些form属性
+选择一项或多项：
+a.autocomplete
+b.name
+c.novalidate
+d.action
+正确答案是：autocomplete, novalidate
+
+根据现有的标准，把HTML5的元素按优先等级定义为（）
+选择一项或多项：
+a.结构性元素
+b.级块性元素
+c.行内语义类元素
+d.交互性元素
+正确答案是：结构性元素, 级块性元素, 行内语义类元素, 交互性元素
+
+HTML5增加了（ ）元素、article元素、nav元素和aside元素等结构元素。
+答案：
+正确答案是：Section
+
+HTML5中DOCTYPE声明不用区分大小写，也不用区分单引号双引号。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+在HTML5页面中添加canvas元素，必须定义canvas元素的id属性值以便接下来的调用。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+context.arc（）方法用于绘制圆形，一般其中的第几个参数决定圆形的半径
+选择一项：
+a.2
+b.4
+c.3
+d.1
+正确答案是：3
+
+下列哪项不是HTML5的新特性（ ）
+选择一项：
+a.合理性
+b.兼容性
+c.有插件
+d.安全性
+正确答案是：有插件
+
+下列不是html5主要功能的是（ ）
+选择一项：
+a.MathML
+b.Web Origin Concept
+c.Cross-document
+d.Vector Scalable Graphics
+正确答案是：MathML
+
+以下哪项不属于Html5中input标签新增的输入类型（）。
+选择一项：
+a.url
+b.email
+c.radio
+d.number
+正确答案是：radio
+
+在HTML5中可以省略全部标记的元素是（）
+选择一项：
+a.hr
+b.option
+c.body
+d.img
+正确答案是：body
+
+HTML5中新增哪些form属性
+选择一项或多项：
+a.novalidate
+b.name
+c.action
+d.autocomplete
+正确答案是：autocomplete, novalidate
+
+根据现有的标准，把HTML5的元素按优先等级定义为（）
+选择一项或多项：
+a.交互性元素
+b.级块性元素
+c.行内语义类元素
+d.结构性元素
+正确答案是：结构性元素, 级块性元素, 行内语义类元素, 交互性元素
+
+HTML5增加了（ ）元素、article元素、nav元素和aside元素等结构元素。
+答案：
+正确答案是：Section
+
+HTML5中DOCTYPE声明不用区分大小写，也不用区分单引号双引号。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+在HTML5页面中添加canvas元素，必须定义canvas元素的id属性值以便接下来的调用。
+选择一项：
+对
+错
+正确正确答案是“对”。
+哪一个不是HTML5新增的语义化标记元素_______。
+选择一项：
+a.article
+b.head
+c.section
+d.aside
+正确答案是：head
+
+HTML5中将DOCTYPE分为几种（ ）
+选择一项：
+a.2
+b.3
+c.4
+d.1
+正确答案是：3
+
+用来标示有序列表的标签是_____
+选择一项：
+a.ul
+b.ol
+c.li
+d.dl
+正确答案是：ol
+
+以下标签不是负责组织HTML文档基本结构的是？
+选择一项：
+a.《title》
+b.《head》
+c.《html》
+d.《body》
+正确答案是：《title》
+
+以下哪项不是HTML5新增的form元素？（ ）
+选择一项：
+a.keygen
+b.output
+c.novalidate
+d.datalist
+正确答案是：novalidate
+
+HTML5中新增哪些form属性
+选择一项或多项：
+a.action
+b.autocomplete
+c.novalidate
+d.name
+正确答案是：autocomplete, novalidate
+
+《head》 和《/head》标记表示的是文档头部信息，一般包括标题和（ ）信息，该部分信息不会显示在页面正文中。
+答案：
+正确答案是：主题
+
+（ ）元素是一个可以用作页面导航的链接组，其中的导航元素链接到其他页面或当前页面的其他部分。
+答案：
+正确答案是：nav
+
+html5不再支持frame框架，同时也废除了frameset、frame、noframes这三个元素。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+在HTML5的语法中：html、head、body可以完全省略。
+选择一项：
+对
+错
+正确正确答案是“对”。
+哪一个不是HTML5新增的语义化标记元素_______。
+选择一项：
+a.section
+b.head
+c.aside
+d.article
+正确答案是：head
+
+HTML5中将DOCTYPE分为几种（ ）
+选择一项：
+a.1
+b.2
+c.3
+d.4
+正确答案是：3
+
+用来标示有序列表的标签是_____
+选择一项：
+a.li
+b.ol
+c.dl
+d.ul
+正确答案是：ol
+
+以下标签不是负责组织HTML文档基本结构的是？
+选择一项：
+a.《title》
+b.《body》
+c.《html》
+d.《head》
+正确答案是：《title》
+
+以下哪项不是HTML5新增的form元素？（ ）
+选择一项：
+a.datalist
+b.output
+c.keygen
+d.novalidate
+正确答案是：novalidate
+
+HTML5中新增哪些form属性
+选择一项或多项：
+a.novalidate
+b.action
+c.name
+d.autocomplete
+正确答案是：autocomplete, novalidate
+
+《head》 和《/head》标记表示的是文档头部信息，一般包括标题和（ ）信息，该部分信息不会显示在页面正文中。
+答案：
+正确答案是：主题
+
+（ ）元素是一个可以用作页面导航的链接组，其中的导航元素链接到其他页面或当前页面的其他部分。
+答案：
+正确答案是：nav
+
+html5不再支持frame框架，同时也废除了frameset、frame、noframes这三个元素。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+在HTML5的语法中：html、head、body可以完全省略。
+选择一项：
+对
+错
+正确正确答案是“对”。
+Canvas 用于填充颜色的属性是：（ ）
+选择一项：
+a.fillRect
+b.StrokeRect
+c.lineWidth 线条宽度
+d.fillStyle 填充色
+正确答案是：fillStyle 填充色
+
+创建Range用的是哪个方法：（ ）
+选择一项：
+a.cloneRange();
+b.document.createRange();
+c.deleteContents();
+d.toString();
+正确答案是：document.createRange();
+
+Canvas图形，需要在正中间的位置填充线性渐变色，使用addColorStop(X,"#0000ff"); 其中X的值是多少？（ ）
+选择一项：
+a.0.5
+b.50%
+c.1/2
+d.50
+正确答案是：0.5
+
+cxt.arc(100,100,100,0,Math.PI*2,true) Canvas绘制圆形的arc方法中，参数说明的是：（ ）
+选择一项：
+a.圆心X坐标，圆心Y坐标，圆半径，开始角度，结束角度，是否顺时针
+b.圆半径，圆心X坐标，圆心Y坐标，开始角度，结束角度，是否顺时针
+c.圆心Y坐标，圆心X坐标，圆半径，开始角度，结束角度，是否顺时针
+d.圆心X坐标，圆心Y坐标，圆半径，开始角度，结束角度，是否逆时针
+正确答案是：圆心X坐标，圆心Y坐标，圆半径，开始角度，结束角度，是否顺时针
+
+Canvas绘制线条时用下面哪个方法设置起点坐标：（ ）
+选择一项：
+a.moveTo
+b.startTo
+c.lineTo
+d.beginTo
+正确答案是：lineTo
+
+如果要在Canvas中创建阴影效果，需要用到以下哪些属性
+选择一项或多项：
+a.shadowOffsetY
+b.shadowOffsetX
+c.shadowColor
+d.shadowBlur
+正确答案是：shadowOffsetX, shadowOffsetY, shadowBlur, shadowColor
+
+以下是Canvas的方法是________
+选择一项或多项：
+a.fill（）
+b.controller（）
+c.getContext（）
+d.stroke（）
+正确答案是：getContext（）, fill（）, stroke（）
+
+HTML5提供了视频内容的标准接口，规定使用（ ）标记来描述和播放视频。
+答案：
+正确答案是：video
+
+Canvas绘制图形，可以使用createRadialGradient()方法创建一个线性渐变。
+选择一项：
+对
+错
+正确正确答案是“错”。
+
+Canvas依赖分辨率，不支持事件处理器，文本渲染能力弱，能够以.png或.jpg格式保存结果图像，最适合图像密集型的游戏。
+选择一项：
+对
+错
+正确正确答案是“对”。
+在HTML5中，哪个元素用于组合标题元素？（ ）
+选择一项：
+a.headings
+b.header
+c.group
+d.hgroup
+正确答案是：hgroup
+HTML5中不再支持下面哪个元素？（ ）
+选择一项：
+a.menu
+b.font
+c.q
+d.ins
+正确答案是：font
+新的HTML5全局属性，"contenteditable"用于：（ ）
+选择一项：
+a.返回内容在字符串中首次出现的位置。
+b.从服务器升级内容。
+c.规定元素的上下文菜单。该菜单会在用户点击右键点击元素时出现。
+d.规定元素内容是否是可编辑的。
+正确答案是：规定元素内容是否是可编辑的。
+在HTML5中，哪个属性用于规定输入字段是必填的？（ ）
+选择一项：
+a.placeholder
+b.formvalidate
+c.required
+d.validate
+正确答案是：required
+编写manifest文件中的注释是：（ ）
+选择一项：
+a.以‘#’开头的单行注释
+b.以的多行注释
+c.以//开头的单行注释
+d.以/* */的多行注释
+正确答案是：以‘#’开头的单行注释
+以下哪些属性是原HTML4中适应元素为body的，而现被HTML5废除并使用CSS样式表所替代
+选择一项或多项：
+a.link
+b.text
+c.alink
+d.clear
+正确答案是：alink, link, text
+input属性中HTML5新增哪些属性？
+选择一项或多项：
+a.type
+b.required
+c.list
+d.width
+正确答案是：list, width, required
+HTML5从标记语言的功能提升到下一代Web语言的开发框架，他集成了（ ）、CSS3和JavaScript的Web应用框架。
+答案：
+正确答案是：HTML
+要确保适用于Safari 浏览器，视频文件必须是MPEG4类型。
+选择一项：
+对
+错
+正确正确答案是“对”。
+html5不区分大小写、标记结束符及属性是否加引号。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+在HTML5中，哪个元素用于组合标题元素？（ ）
+选择一项：
+a.group
+b.header
+c.headings
+d.hgroup
+正确答案是：hgroup
+HTML5中不再支持下面哪个元素？（ ）
+选择一项：
+a.font
+b.q
+c.ins
+d.menu
+正确答案是：font
+新的HTML5全局属性，"contenteditable"用于：（ ）
+选择一项：
+a.从服务器升级内容。
+b.返回内容在字符串中首次出现的位置。
+c.规定元素内容是否是可编辑的。
+d.规定元素的上下文菜单。该菜单会在用户点击右键点击元素时出现。
+正确答案是：规定元素内容是否是可编辑的。
+在HTML5中，哪个属性用于规定输入字段是必填的？（ ）
+选择一项：
+a.placeholder
+b.formvalidate
+c.validate
+d.required
+正确答案是：required
+编写manifest文件中的注释是：（ ）
+选择一项：
+a.以/* */的多行注释
+b.以‘#’开头的单行注释
+c.以//开头的单行注释
+d.以的多行注释
+正确答案是：以‘#’开头的单行注释
+以下哪些属性是原HTML4中适应元素为body的，而现被HTML5废除并使用CSS样式表所替代
+选择一项或多项：
+a.clear
+b.text
+c.link
+d.alink
+正确答案是：alink, link, text
+input属性中HTML5新增哪些属性？
+选择一项或多项：
+a.type
+b.required
+c.width
+d.list
+正确答案是：list, width, required
+HTML5从标记语言的功能提升到下一代Web语言的开发框架，他集成了（ ）、CSS3和JavaScript的Web应用框架。
+答案：
+正确答案是：HTML
+要确保适用于Safari 浏览器，视频文件必须是MPEG4类型。
+选择一项：
+对
+错
+正确正确答案是“对”。
+html5不区分大小写、标记结束符及属性是否加引号。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+新的HTML5全局属性，"contenteditable"用于：（ ）
+选择一项：
+a.规定元素内容是否是可编辑的。
+b.返回内容在字符串中首次出现的位置。
+c.规定元素的上下文菜单。该菜单会在用户点击右键点击元素时出现。
+d.从服务器升级内容。
+正确答案是：规定元素内容是否是可编辑的。
+在HTML5中，哪个属性用于规定输入字段是必填的？（ ）
+选择一项：
+a.validate
+b.formvalidate
+c.placeholder
+d.required
+正确答案是：required
+编写manifest文件中的注释是：（ ）
+选择一项：
+a.以/* */的多行注释
+b.以‘#’开头的单行注释
+c.以//开头的单行注释
+d.以的多行注释
+正确答案是：以‘#’开头的单行注释
+以下哪些属性是原HTML4中适应元素为body的，而现被HTML5废除并使用CSS样式表所替代
+选择一项或多项：
+a.link
+b.clear
+c.alink
+d.text
+正确答案是：alink, link, text
+input属性中HTML5新增哪些属性？
+选择一项或多项：
+a.width
+b.required
+c.list
+d.type
+正确答案是：list, width, required
+HTML5从标记语言的功能提升到下一代Web语言的开发框架，他集成了（ ）、CSS3和JavaScript的Web应用框架。
+答案：
+正确答案是：HTML
+要确保适用于Safari 浏览器，视频文件必须是MPEG4类型。
+选择一项：
+对
+错
+正确正确答案是“对”。
+html5不区分大小写、标记结束符及属性是否加引号。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+编写manifest文件中的注释是：（ ）
+选择一项：
+a.以‘#’开头的单行注释
+b.以/* */的多行注释
+c.以的多行注释
+d.以//开头的单行注释
+正确答案是：以‘#’开头的单行注释
+以下哪些属性是原HTML4中适应元素为body的，而现被HTML5废除并使用CSS样式表所替代
+选择一项或多项：
+a.text
+b.clear
+c.link
+d.alink
+正确答案是：alink, link, text
+input属性中HTML5新增哪些属性？
+选择一项或多项：
+a.width
+b.list
+c.required
+d.type
+正确答案是：list, width, required
+HTML5从标记语言的功能提升到下一代Web语言的开发框架，他集成了（ ）、CSS3和JavaScript的Web应用框架。
+答案：
+正确答案是：HTML
+要确保适用于Safari 浏览器，视频文件必须是MPEG4类型。
+选择一项：
+对
+错
+正确正确答案是“对”。
+html5不区分大小写、标记结束符及属性是否加引号。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+编写manifest文件中的注释是：（ ）
+选择一项：
+a.以//开头的单行注释
+b.以‘#’开头的单行注释
+c.以的多行注释
+d.以/* */的多行注释
+正确答案是：以‘#’开头的单行注释
+以下哪些属性是原HTML4中适应元素为body的，而现被HTML5废除并使用CSS样式表所替代
+选择一项或多项：
+a.text
+b.clear
+c.link
+d.alink
+正确答案是：alink, link, text
+input属性中HTML5新增哪些属性？
+选择一项或多项：
+a.list
+b.type
+c.width
+d.required
+正确答案是：list, width, required
+HTML5从标记语言的功能提升到下一代Web语言的开发框架，他集成了（ ）、CSS3和JavaScript的Web应用框架。
+答案：
+正确答案是：HTML
+要确保适用于Safari 浏览器，视频文件必须是MPEG4类型。
+选择一项：
+对
+错
+正确正确答案是“对”。
+html5不区分大小写、标记结束符及属性是否加引号。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+context.arc（）方法用于绘制圆形，一般其中的第几个参数决定圆形的半径
+选择一项：
+a.1
+b.3
+c.2
+d.4
+正确答案是：3
+下列哪项不是HTML5的新特性（ ）
+选择一项：
+a.兼容性
+b.合理性
+c.有插件
+d.安全性
+正确答案是：有插件
+下列不是html5主要功能的是（ ）
+选择一项：
+a.Vector Scalable Graphics
+b.Web Origin Concept
+c.MathML
+d.Cross-document
+正确答案是：MathML
+以下哪项不属于Html5中input标签新增的输入类型（）。
+选择一项：
+a.radio
+b.email
+c.url
+d.number
+正确答案是：radio
+在HTML5中可以省略全部标记的元素是（）
+选择一项：
+a.option
+b.body
+c.img
+d.hr
+正确答案是：body
+HTML5中新增哪些form属性
+选择一项或多项：
+a.autocomplete
+b.name
+c.novalidate
+d.action
+正确答案是：autocomplete, novalidate
+根据现有的标准，把HTML5的元素按优先等级定义为（）
+选择一项或多项：
+a.结构性元素
+b.级块性元素
+c.行内语义类元素
+d.交互性元素
+正确答案是：结构性元素, 级块性元素, 行内语义类元素, 交互性元素
+HTML5增加了（ ）元素、article元素、nav元素和aside元素等结构元素。
+答案：
+正确答案是：Section
+HTML5中DOCTYPE声明不用区分大小写，也不用区分单引号双引号。
+选择一项：
+对
+错
+正确正确答案是“对”。
+在HTML5页面中添加canvas元素，必须定义canvas元素的id属性值以便接下来的调用。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+context.arc（）方法用于绘制圆形，一般其中的第几个参数决定圆形的半径
+选择一项：
+a.2
+b.4
+c.3
+d.1
+正确答案是：3
+下列哪项不是HTML5的新特性（ ）
+选择一项：
+a.合理性
+b.兼容性
+c.有插件
+d.安全性
+正确答案是：有插件
+下列不是html5主要功能的是（ ）
+选择一项：
+a.MathML
+b.Web Origin Concept
+c.Cross-document
+d.Vector Scalable Graphics
+正确答案是：MathML
+以下哪项不属于Html5中input标签新增的输入类型（）。
+选择一项：
+a.url
+b.email
+c.radio
+d.number
+正确答案是：radio
+在HTML5中可以省略全部标记的元素是（）
+选择一项：
+a.hr
+b.option
+c.body
+d.img
+正确答案是：body
+HTML5中新增哪些form属性
+选择一项或多项：
+a.novalidate
+b.name
+c.action
+d.autocomplete
+正确答案是：autocomplete, novalidate
+根据现有的标准，把HTML5的元素按优先等级定义为（）
+选择一项或多项：
+a.交互性元素
+b.级块性元素
+c.行内语义类元素
+d.结构性元素
+正确答案是：结构性元素, 级块性元素, 行内语义类元素, 交互性元素
+HTML5增加了（ ）元素、article元素、nav元素和aside元素等结构元素。
+答案：
+正确答案是：Section
+HTML5中DOCTYPE声明不用区分大小写，也不用区分单引号双引号。
+选择一项：
+对
+错
+正确正确答案是“对”。
+在HTML5页面中添加canvas元素，必须定义canvas元素的id属性值以便接下来的调用。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+哪一个不是HTML5新增的语义化标记元素_______。
+选择一项：
+a.article
+b.head
+c.section
+d.aside
+正确答案是：head
+HTML5中将DOCTYPE分为几种（ ）
+选择一项：
+a.2
+b.3
+c.4
+d.1
+正确答案是：3
+用来标示有序列表的标签是_____
+选择一项：
+a.ul
+b.ol
+c.li
+d.dl
+正确答案是：ol
+以下标签不是负责组织HTML文档基本结构的是？
+选择一项：
+a.《title》
+b.《head》
+c.《html》
+d.《body》
+正确答案是：《title》
+以下哪项不是HTML5新增的form元素？（ ）
+选择一项：
+a.keygen
+b.output
+c.novalidate
+d.datalist
+正确答案是：novalidate
+HTML5中新增哪些form属性
+选择一项或多项：
+a.action
+b.autocomplete
+c.novalidate
+d.name
+正确答案是：autocomplete, novalidate
+《head》 和《/head》标记表示的是文档头部信息，一般包括标题和（ ）信息，该部分信息不会显示在页面正文中。
+答案：
+正确答案是：主题
+（ ）元素是一个可以用作页面导航的链接组，其中的导航元素链接到其他页面或当前页面的其他部分。
+答案：
+正确答案是：nav
+html5不再支持frame框架，同时也废除了frameset、frame、noframes这三个元素。
+选择一项：
+对
+错
+正确正确答案是“对”。
+在HTML5的语法中：html、head、body可以完全省略。
+选择一项：
+对
+错
+正确正确答案是“对”。
+哪一个不是HTML5新增的语义化标记元素_______。
+选择一项：
+a.section
+b.head
+c.aside
+d.article
+正确答案是：head
+HTML5中将DOCTYPE分为几种（ ）
+选择一项：
+a.1
+b.2
+c.3
+d.4
+正确答案是：3
+用来标示有序列表的标签是_____
+选择一项：
+a.li
+b.ol
+c.dl
+d.ul
+正确答案是：ol
+以下标签不是负责组织HTML文档基本结构的是？
+选择一项：
+a.《title》
+b.《body》
+c.《html》
+d.《head》
+正确答案是：《title》
+以下哪项不是HTML5新增的form元素？（ ）
+选择一项：
+a.datalist
+b.output
+c.keygen
+d.novalidate
+正确答案是：novalidate
+HTML5中新增哪些form属性
+选择一项或多项：
+a.novalidate
+b.action
+c.name
+d.autocomplete
+正确答案是：autocomplete, novalidate
+《head》 和《/head》标记表示的是文档头部信息，一般包括标题和（ ）信息，该部分信息不会显示在页面正文中。
+答案：
+正确答案是：主题
+（ ）元素是一个可以用作页面导航的链接组，其中的导航元素链接到其他页面或当前页面的其他部分。
+答案：
+正确答案是：nav
+html5不再支持frame框架，同时也废除了frameset、frame、noframes这三个元素。
+选择一项：
+对
+错
+正确正确答案是“对”。
+在HTML5的语法中：html、head、body可以完全省略。
+选择一项：
+对
+错
+正确正确答案是“对”。
+
+Canvas 用于填充颜色的属性是：（ ）
+选择一项：
+a.fillRect
+b.StrokeRect
+c.lineWidth 线条宽度
+d.fillStyle 填充色
+正确答案是：fillStyle 填充色
+创建Range用的是哪个方法：（ ）
+选择一项：
+a.cloneRange();
+b.document.createRange();
+c.deleteContents();
+d.toString();
+正确答案是：document.createRange();
+Canvas图形，需要在正中间的位置填充线性渐变色，使用addColorStop(X,"#0000ff"); 其中X的值是多少？（ ）
+选择一项：
+a.0.5
+b.50%
+c.1/2
+d.50
+正确答案是：0.5
+cxt.arc(100,100,100,0,Math.PI*2,true) Canvas绘制圆形的arc方法中，参数说明的是：（ ）
+选择一项：
+a.圆心X坐标，圆心Y坐标，圆半径，开始角度，结束角度，是否顺时针
+b.圆半径，圆心X坐标，圆心Y坐标，开始角度，结束角度，是否顺时针
+c.圆心Y坐标，圆心X坐标，圆半径，开始角度，结束角度，是否顺时针
+d.圆心X坐标，圆心Y坐标，圆半径，开始角度，结束角度，是否逆时针
+正确答案是：圆心X坐标，圆心Y坐标，圆半径，开始角度，结束角度，是否顺时针
+Canvas绘制线条时用下面哪个方法设置起点坐标：（ ）
+选择一项：
+a.moveTo
+b.startTo
+c.lineTo
+d.beginTo
+正确答案是：lineTo
+如果要在Canvas中创建阴影效果，需要用到以下哪些属性
+选择一项或多项：
+a.shadowOffsetY
+b.shadowOffsetX
+c.shadowColor
+d.shadowBlur
+正确答案是：shadowOffsetX, shadowOffsetY, shadowBlur, shadowColor
+以下是Canvas的方法是________
+选择一项或多项：
+a.fill（）
+b.controller（）
+c.getContext（）
+d.stroke（）
+正确答案是：getContext（）, fill（）, stroke（）
+HTML5提供了视频内容的标准接口，规定使用（ ）标记来描述和播放视频。
+答案：
+正确答案是：video
+Canvas绘制图形，可以使用createRadialGradient()方法创建一个线性渐变。
+选择一项：
+对
+错
+正确正确答案是“错”。
+Canvas依赖分辨率，不支持事件处理器，文本渲染能力弱，能够以.png或.jpg格式保存结果图像，最适合图像密集型的游戏。
+选择一项：
+对
+错
+正确正确答案是“对”。
+在HTML5中，哪个元素用于组合标题元素？（ ）
+选择一项：
+a. header
+b. headings
+c. hgroup 
+d. group
+正确答案是：hgroup
+
+HTML5中不再支持下面哪个元素？（ ）
+选择一项：
+a. menu
+b. font 
+c. q
+d. ins
+正确答案是：font
+
+新的 HTML5 全局属性，"contenteditable" 用于： （ ）
+选择一项：
+a. 规定元素内容是否是可编辑的。  
+b. 从服务器升级内容。 
+c. 返回内容在字符串中首次出现的位置。
+d. 规定元素的上下文菜单。该菜单会在用户点击右键点击元素时出现。 
+正确答案是：规定元素内容是否是可编辑的。 
+
+在 HTML5 中，哪个属性用于规定输入字段是必填的？ （ ）
+选择一项：
+a. validate 
+b. formvalidate 
+c. placeholder 
+d. required  
+正确答案是：required 
+
+编写manifest文件中的注释是：（ ）
+选择一项：
+a. 以//开头的单行注释
+b. 以‘#’开头的单行注释 
+c. 以的多行注释
+d. 以/* */的多行注释
+正确答案是：以‘#’开头的单行注释
+
+以下哪些属性是原HTML4中适应元素为body的，而现被HTML5废除并使用CSS样式表所替代
+选择一项或多项：
+a. clear
+b. text 
+c. link 
+d. alink 
+正确答案是：alink, link, text
+
+input属性中HTML5新增哪些属性？
+选择一项或多项：
+a. required 
+b. type
+c. width 
+d. list 
+正确答案是：list, width, required
+
+HTML5从标记语言的功能提升到下一代Web语言的开发框架，他集成了（ ）、CSS3和JavaScript的Web应用框架。
+答案：
+HTML
+正确答案是：HTML
+
+要确保适用于Safari 浏览器，视频文件必须是MPEG4类型。
+选择一项：
+对 
+错
+正确正确答案是“对”。
+
+html5不区分大小写、标记结束符及属性是否加引号。
+选择一项：
+对 
+错
+正确正确答案是“对”。
+context.arc（）方法用于绘制圆形，一般其中的第几个参数决定圆形的半径
+选择一项：
+a. 1
+b. 2
+c. 3 
+d. 4
+正确答案是：3
+
+下列哪项不是HTML5的新特性（ ）
+选择一项：
+a. 有插件 
+b. 兼容性
+c. 合理性
+d. 安全性
+正确答案是：有插件
+
+下列不是html5主要功能的是（ ）
+选择一项：
+a. Web Origin Concept
+b. Vector Scalable Graphics
+c. Cross-document
+d. MathML 
+正确答案是：MathML
+
+以下哪项不属于Html5中input标签新增的输入类型（）。
+选择一项：
+a. radio 
+b. email
+c. number
+d. url
+正确答案是：radio
+
+在HTML5中可以省略全部标记的元素是（）
+选择一项：
+a. hr
+b. img
+c. body 
+d. option
+正确答案是：body
+
+HTML5中新增哪些form属性
+选择一项或多项：
+a. autocomplete 
+b. name
+c. novalidate 
+d. action
+正确答案是：autocomplete, novalidate
+
+根据现有的标准，把HTML5的元素按优先等级定义为（）
+选择一项或多项：
+a. 行内语义类元素 
+b. 结构性元素 
+c. 交互性元素 
+d. 级块性元素 
+正确答案是：结构性元素, 级块性元素, 行内语义类元素, 交互性元素
+
+HTML5增加了（ ）元素、article元素、nav元素和aside元素等结构元素。
+答案：
+Section
+正确答案是：Section
+
+HTML5中DOCTYPE声明不用区分大小写，也不用区分单引号双引号。
+选择一项：
+对 
+错
+正确正确答案是“对”。
+
+在HTML5页面中添加canvas元素，必须定义canvas元素的id属性值以便接下来的调用。
+选择一项：
+对 
+错
+正确正确答案是“对”。
+哪一个不是HTML5新增的语义化标记元素_______。
+选择一项：
+a. head 
+b. article
+c. aside
+d. section
+正确答案是：head
+
+HTML5中将DOCTYPE分为几种（ ）
+选择一项：
+a. 1
+b. 2
+c. 4
+d. 3 
+正确答案是：3
+
+用来标示有序列表的标签是_____
+选择一项：
+a. ul
+b. ol 
+c. dl
+d. li
+正确答案是：ol
+
+以下标签不是负责组织HTML文档基本结构的是？
+选择一项：
+a. 《body》
+b. 《head》
+c. 《title》 
+d. 《html》
+正确答案是：《title》
+
+以下哪项不是HTML5新增的form元素？（ ）
+选择一项：
+a. datalist
+b. output
+c. keygen
+d. novalidate 
+正确答案是：novalidate
+
+HTML5中新增哪些form属性
+选择一项或多项：
+a. name
+b. action
+c. novalidate 
+d. autocomplete 
+正确答案是：autocomplete, novalidate
+
+《head》 和《/head》标记表示的是文档头部信息，一般包括标题和（ ）信息，该部分信息不会显示在页面正文中。
+答案：
+主题
+正确答案是：主题
+
+
+（ ）元素是一个可以用作页面导航的链接组，其中的导航元素链接到其他页面或当前页面的其他部分。
+答案：
+nav
+正确答案是：nav
+
+html5不再支持frame框架，同时也废除了frameset、frame、noframes这三个元素。
+选择一项：
+对 
+错
+正确正确答案是“对”。
+
+在HTML5的语法中：html、head、body可以完全省略。
+选择一项：
+对 
+错
+正确正确答案是“对”。
+Canvas 用于填充颜色的属性是：（ ）
+选择一项：
+a. fillRect
+b. fillStyle 填充色 
+c. StrokeRect
+d. lineWidth 线条宽度
+正确答案是：fillStyle 填充色
+
+创建Range用的是哪个方法：（ ）
+选择一项：
+a. cloneRange();
+b. document.createRange(); 
+c. toString();
+d. deleteContents();
+正确答案是：document.createRange();
+
+Canvas图形，需要在正中间的位置填充线性渐变色，使用addColorStop(X,"#0000ff"); 其中X的值是多少？（ ）
+选择一项：
+a. 1/2
+b. 0.5 
+c. 50
+d. 50%
+正确答案是：0.5
+
+cxt.arc(100,100,100,0,Math.PI*2,true) Canvas绘制圆形的arc方法中，参数说明的是：（ ）
+选择一项：
+a. 圆半径，圆心X坐标，圆心Y坐标，开始角度，结束角度，是否顺时针
+b. 圆心Y坐标，圆心X坐标，圆半径，开始角度，结束角度，是否顺时针
+c. 圆心X坐标，圆心Y坐标，圆半径，开始角度，结束角度，是否顺时针 
+d. 圆心X坐标，圆心Y坐标，圆半径，开始角度，结束角度，是否逆时针
+正确答案是：圆心X坐标，圆心Y坐标，圆半径，开始角度，结束角度，是否顺时针
+
+Canvas绘制线条时用下面哪个方法设置起点坐标：（ ）
+选择一项：
+a. moveTo
+b. lineTo 
+c. beginTo
+d. startTo
+正确答案是：lineTo
+
+如果要在Canvas中创建阴影效果，需要用到以下哪些属性
+选择一项或多项：
+a. shadowBlur 
+b. shadowColor 
+c. shadowOffsetX 
+d. shadowOffsetY 
+正确答案是：shadowOffsetX, shadowOffsetY, shadowBlur, shadowColor
+
+以下是Canvas的方法是________
+选择一项或多项：
+a. fill（） 
+b. stroke（） 
+c. controller（）
+d. getContext（） 
+正确答案是：getContext（）, fill（）, stroke（）
+
+HTML5提供了视频内容的标准接口，规定使用（ ）标记来描述和播放视频。
+答案：
+video
+正确答案是：video
+
+Canvas绘制图形，可以使用 createRadialGradient()方法创建一个线性渐变。
+选择一项：
+对
+错 
+正确正确答案是“错”。
+
+Canvas依赖分辨率，不支持事件处理器，文本渲染能力弱，能够以 .png 或 .jpg 格式保存结果图像，最适合图像密集型的游戏。
+选择一项：
+对 
+错
+正确正确答案是“对”。
+

@@ -1,0 +1,2378 @@
+PHP网站可称为_____。
+选择一项：
+a.网络应用程序
+b.桌面应用程序
+c.PHP应用程序
+d.Web应用程序
+正确答案是：Web应用程序
+
+PHP指的是_____。
+选择一项：
+a.Personal Home Page
+b.Personal Hypertext Processor
+c.Private Home Page
+d.PHP: Hypertext Preprocessor
+正确答案是：PHP: Hypertext Preprocessor
+
+PHP服务器脚本由_____分隔符包围。
+选择一项：
+a.<?php … ?>
+b.<?php> ... </?>
+c.<&> ... </&>
+d.<script> ... </script>
+正确答案是：<?php … ?>
+
+PHP网页文件的文件扩展名为_____。
+选择一项：
+a.CLASS
+b.EXE
+c.PHP
+d.BAT
+正确答案是：PHP
+
+客户端脚本语言通过编程为HTML页面添加动态内容，与用户完成交互。以下_____不是客户端脚本语言。
+选择一项：
+a.JavaScript
+b.Jscript
+c.AppScript
+d.VBScript
+正确答案是：AppScript
+
+Web服务器编程技术种类很多，以下_____不是常用的Web服务器编程技术。
+选择一项：
+a.ASP
+b.PHP
+c.VBF
+d.JSP
+正确答案是：VBF
+
+下列说法的是_____。
+选择一项：
+a.PHP网页可访问Oracle、SQL Server、Sybase及其他的多种数据库
+b.PHP网页不能使用集成化的编辑器编写
+c.PHP网页只能使用纯文本编辑器编写
+d.PHP网页可直接在浏览器中显示
+正确答案是：PHP网页可访问Oracle、SQL Server、Sybase及其他的多种数据库
+
+关于PHP，下列说法错误的是_____。
+选择一项：
+a.开发PHP网页所使用的的脚本语言是PHP。
+b.PHP网页，运行时在客户端可查看到真实的PHP源代码。
+c.网页中的PHP代码同html标记符一样，必须用分隔符“<”和“>”将其括起来。
+d.PHP和html可混合编程。
+正确答案是：PHP网页，运行时在客户端可查看到真实的PHP源代码。
+
+下列哪些是PHP的配置文件?
+选择一项：
+a.php_mysqli.dll
+b.php.exe
+c.php.ini
+d.php_mysql.dll
+正确答案是：php.ini
+
+<?php
+phpinfo();
+?>
+以上代码的功能是
+选择一项：
+a.跳转到网页phpinfo()
+b.输出变量phpinfo()
+c.定义函数phpinfo()
+d.查看PHP服务器的配置信息
+正确答案是：查看PHP服务器的配置信息
+
+下列哪个才是apache的配置文件?
+选择一项：
+a.mysql.exe
+b.apache.exe
+c.php.ini
+d.httpd.conf
+正确答案是：httpd.conf
+
+PHP配置文件的文件名为____________。
+选择一项：
+a.php.ini-production
+b.php.ini-development
+c.php.ini
+d.php.config
+正确答案是：php.ini
+
+PHP代码可以放在独立的PHP文件中，使用时可以用include或require包含到当前代码中。
+选择一项：
+对
+错
+正确答案是“对”。
+
+Web应用程序是一种典型的C/S（Client/Server即客户机/服务器）结构。
+选择一项：
+对
+错
+正确答案是“错”。
+
+客户端脚本语言通过编程为HTML页面添加动态内容，包含了脚本的HTML代码通常称为动态网页，即DHTML（DynamicHTML，动态HTML）
+选择一项：
+对
+错
+正确答案是“对”。
+
+PHP是一种免费、开源的WEB技术，它通常与Linux、Apache和MySQL等开源软件自由组合，形成简单、安全、低成本和部署灵活的开发平台。
+选择一项：
+对
+错
+正确答案是“对”。
+
+使用AJAX，可以异步在后台与服务器进行数据交换，并使用服务器响应来更新部分网页。
+选择一项：
+对
+错
+正确答案是“对”。
+
+PHP跟C#.net语言一样,只能运行在windows操作系统平台上。
+选择一项：
+对
+错
+正确答案是“错”。
+
+PHP跟ASP一样,只能应用IIS架设服务器。
+选择一项：
+对
+错
+正确答案是“错”。
+
+PHP是微软公司开发的,应用于设计网页的语言。
+选择一项：
+对
+错
+正确答案是“错”。
+
+PHP网站可称为_____。
+选择一项：
+a.网络应用程序
+b.桌面应用程序
+c.PHP应用程序
+d.Web应用程序
+正确答案是：Web应用程序
+
+PHP指的是_____。
+选择一项：
+a.Personal Hypertext Processor
+b.Personal Home Page
+c.PHP: Hypertext Preprocessor
+d.Private Home Page
+正确答案是：PHP: Hypertext Preprocessor
+
+PHP服务器脚本由_____分隔符包围。
+选择一项：
+a.<?php> ... </?>
+b.<script> ... </script>
+c.<?php … ?>
+d.<&> ... </&>
+正确答案是：<?php … ?>
+
+PHP网页文件的文件扩展名为_____。
+选择一项：
+a.EXE
+b.BAT
+c.PHP
+d.CLASS
+正确答案是：PHP
+
+客户端脚本语言通过编程为HTML页面添加动态内容，与用户完成交互。以下_____不是客户端脚本语言。
+选择一项：
+a.VBScript
+b.AppScript
+c.Jscript
+d.JavaScript
+正确答案是：AppScript
+
+Web服务器编程技术种类很多，以下_____不是常用的Web服务器编程技术。
+选择一项：
+a.VBF
+b.JSP
+c.PHP
+d.ASP
+正确答案是：VBF
+
+下列说法的是_____。
+选择一项：
+a.PHP网页不能使用集成化的编辑器编写
+b.PHP网页只能使用纯文本编辑器编写
+c.PHP网页可访问Oracle、SQL Server、Sybase及其他的多种数据库
+d.PHP网页可直接在浏览器中显示
+正确答案是：PHP网页可访问Oracle、SQL Server、Sybase及其他的多种数据库
+
+关于PHP，下列说法错误的是_____。
+选择一项：
+a.开发PHP网页所使用的的脚本语言是PHP。
+b.网页中的PHP代码同html标记符一样，必须用分隔符“<”和“>”将其括起来。
+c.PHP网页，运行时在客户端可查看到真实的PHP源代码。
+d.PHP和html可混合编程。
+正确答案是：PHP网页，运行时在客户端可查看到真实的PHP源代码。
+
+下列哪些是PHP的配置文件?
+选择一项：
+a.php_mysqli.dll
+b.php.ini
+c.php.exe
+d.php_mysql.dll
+正确答案是：php.ini
+
+<?php
+phpinfo();
+?>
+以上代码的功能是
+选择一项：
+a.定义函数phpinfo()
+b.跳转到网页phpinfo()
+c.输出变量phpinfo()
+d.查看PHP服务器的配置信息
+正确答案是：查看PHP服务器的配置信息
+
+下列哪个才是apache的配置文件?
+选择一项：
+a.mysql.exe
+b.php.ini
+c.apache.exe
+d.httpd.conf
+正确答案是：httpd.conf
+
+PHP配置文件的文件名为____________。
+选择一项：
+a.php.ini-development
+b.php.ini-production
+c.php.config
+d.php.ini
+正确答案是：php.ini
+
+PHP代码可以放在独立的PHP文件中，使用时可以用include或require包含到当前代码中。
+选择一项：
+对
+错
+正确答案是“对”。
+
+Web应用程序是一种典型的C/S（Client/Server即客户机/服务器）结构。
+选择一项：
+对
+错
+正确答案是“错”。
+
+客户端脚本语言通过编程为HTML页面添加动态内容，包含了脚本的HTML代码通常称为动态网页，即DHTML（DynamicHTML，动态HTML）
+选择一项：
+对
+错
+正确答案是“对”。
+
+PHP是一种免费、开源的WEB技术，它通常与Linux、Apache和MySQL等开源软件自由组合，形成简单、安全、低成本和部署灵活的开发平台。
+选择一项：
+对
+错
+正确答案是“对”。
+
+使用AJAX，可以异步在后台与服务器进行数据交换，并使用服务器响应来更新部分网页。
+选择一项：
+对
+错
+正确答案是“对”。
+
+PHP跟C#.net语言一样,只能运行在windows操作系统平台上。
+选择一项：
+对
+错
+正确答案是“错”。
+
+PHP跟ASP一样,只能应用IIS架设服务器。
+选择一项：
+对
+错
+正确答案是“错”。
+
+PHP是微软公司开发的,应用于设计网页的语言。
+选择一项：
+对
+错
+正确答案是“错”。
+
+PHP中应该如何声明变量?
+选择一项：
+a.采用var开头后面跟变量名
+b.采用$号开头后面跟变量名
+c.采用declare开头后面跟变量名
+d.直接写出变量名就可以
+正确答案是：采用$号开头后面跟变量名
+
+字符串定界符用什么符号表示
+选择一项：
+a.<<<
+b.>>
+c.>
+d.<<
+正确答案是：<<<
+
+$a=(3>5) ? (‘yes’) : (‘no’); a的值为_____。
+选择一项：
+a.yes
+b.no
+c.0
+d.1
+正确答案是：no
+
+执行下面的代码后，输出结果为_____。
+$x=12;
+$x++；
+echo $x++;
+选择一项：
+a.12
+b.14
+c.13
+d.11
+正确答案是：13
+
+PHP中的循环控制语句，下列说法的是_____。
+选择一项：
+a.for循环中的三个表达式都可以省略
+b.while循环与do…while循环的作用完全一样，没有任何区别
+c.do…while循环中的循环条件可以写在do关键字后面
+d.foreach循环只能用于数组或对象，用于遍历数组或对象中的成员
+正确答案是：foreach循环只能用于数组或对象，用于遍历数组或对象中的成员
+
+下列说法的是_____。
+选择一项：
+a.call_user_func（）调用回调函数时不能用数组作为参数
+b.可以将自定义函数名作为参数传递给另一个函数
+c.call_user_func_array（）函数只能将数组作为参数传递给回调函数
+d.PHP函数的参数个数是固定不变的
+正确答案是：可以将自定义函数名作为参数传递给另一个函数
+
+下面程序的运行结果是_____。
+<?php
+$A=”Hello”;
+function print_A()
+{
+$A=”php mysql!!”;
+Global $A;
+echo $A;
+}
+echo $A;
+print_A();
+?>
+选择一项：
+a.Hellophp mysql!!
+b.php mysql!!
+c.Hello
+d.HelloHello
+正确答案是：HelloHello
+
+执行下面的代码后，输出结果为_____。
+class test {
+public $data;
+}
+$x=new test();
+$x->data=99;
+$y=$x;
+$y->data=9;
+echo $x->data;
+选择一项：
+a.0
+b.9
+c.null
+d.99
+正确答案是：9
+
+执行下面的代码后，输出结果为_____。
+$x=array(1,2,3,4);echo array_pop($x);
+选择一项：
+a.1
+b.3
+c.4
+d.2
+正确答案是：4
+
+运行下面的PHP代码，输出结果为_____。
+$s=’12345’; $s[$s[1]]=’2’; echo $s;
+选择一项：
+a.12345
+b.12245
+c.11345
+d.22345
+正确答案是：12245
+
+关于赋值语句"$a[]=6”下列说法的是_____。
+选择一项：
+a.在数组末尾添加一个数组元素，值为6
+b.当前元素值修改为6
+c.将数组最后一个元素修改为6
+d.创建一个有6个元素的数组
+正确答案是：在数组末尾添加一个数组元素，值为6
+
+$str = "My name is Jack, and what is your name?";
+echo substr_count ($str,“name”);
+程序的输出结果为
+选择一项：
+a.2
+b.1
+c.4
+d.3
+正确答案是：2
+
+执行完$strUser = "12345678"以后，strUser 是_____类型。
+选择一项：
+a.布尔型变量
+b.整数变量
+c.字符串变量
+d.单精度变量
+正确答案是：字符串变量
+
+使用_____语句可以立即从FOR 循环中退出。
+选择一项：
+a.Exit
+b.Exit sub
+c.Loop
+d.</sub>
+正确答案是：Exit
+
+php 语言中计算字符串长度函数是
+选择一项：
+a.Strlen
+b.Chr
+c.Mid
+d.Asc
+正确答案是：Strlen
+
+静态变量是特殊的局部变量，用set关键字进行声明。
+选择一项：
+对
+错
+正确答案是“错”。
+
+PHP中有一种特殊用法可以改变变量的名称。在变量名称之前加一个"$”符号，即可将变量的值作为变量名称。
+选择一项：
+对
+错
+正确答案是“对”。
+
+PHP的短标记模式为: <?php ?> 。
+选择一项：
+对
+错
+正确答案是“错”。
+
+33%66 的结果为 0.5。
+选择一项：
+对
+错
+正确答案是“错”。
+
+100==='100' 该表达式返回的值为true 。
+选择一项：
+对
+错
+正确答案是“错”。
+
+以下函数中用于判断是否为数组的函数为_____。
+选择一项：
+a.is_double()
+b.is_array()
+c.is_object()
+d.is_long()
+正确答案是：is_array()
+
+从队列数组队头删除数据可以使用_____函数。
+选择一项：
+a.array_unshift()
+b.array_push()
+c.array_pop()
+d.array_shift()
+正确答案是：array_shift()
+
+使用_____函数可以求得数组的大小。
+选择一项：
+a.Conut()
+b.Count()
+c.$ _CONUT[“名称”]
+d.$ _COUNT[“名称”]
+正确答案是：Count()
+
+下列说法的是_____。
+选择一项：
+a.数组的键可以是字符串
+b.数组的键必须是连续的
+c.数组中的元素类型必须一致
+d.数组的键必须为数字，且从0开始
+正确答案是：数组的键可以是字符串
+
+php 内置数组_____可以获取服务器内变量信息。
+选择一项：
+a.$ _SERVER
+b.FORM
+c.$ _GET
+d.POST
+正确答案是：$ _GET
+
+将数组保存到一维数组的元素中可以创建二维数组，通过类似操作可创建多维数组。
+选择一项：
+对
+错
+正确答案是“对”。
+
+range()函数只可以返回包含指定范围内的数值数组。
+选择一项：
+对
+错
+正确答案是“错”。
+
+在PHP中，函数之外的变量称为全局变量，其作用范围为当前PHP文件。
+选择一项：
+对
+错
+正确答案是“对”。
+
+PHP中一个数组由多个元素组成，每个元素又包含键名和值。其中键名就是数组元素的下标，下标可以是整数或字符串。
+选择一项：
+对
+错
+正确答案是“对”。
+
+在省略下标时，PHP总是在数组末尾添加新的数组元素，数组下标为最大键值加1。若数组中还没有元素或现有元素键值均为字符串，则新添加的数组元素下标为1。
+选择一项：
+对
+错
+正确答案是“错”。
+
+PHP允许把字符串当作以字符为元素值的数组进行访问。
+选择一项：
+对
+错
+正确答案是“对”。
+
+PHP数组的下标默认从1开始 。
+选择一项：
+对
+错
+正确答案是“错”。
+
+for 循环只能用于对数组进行处理。
+选择一项：
+对
+错
+正确答案是“错”。
+
+array_search() 与in_array()函数均可用来查询数组中元素的值。
+选择一项：
+对
+错
+正确答案是“错”。
+
+在返回数组中的所有值，可以使用array_value()函数。
+选择一项：
+对
+错
+正确答案是“对”。
+
+current()和pos()均可返回数组中的当前单元。
+选择一项：
+对
+错
+正确答案是“错”。
+
+在返回数组中的所有值，可以使用array_keys()函数。
+选择一项：
+对
+错
+正确答案是“错”。
+
+下列说法不的是_____。
+选择一项：
+a.function是定义函数的关键字
+b.函数定义和调用可以出现在不同的PHP文件中
+c.函数可以没有返回值
+d.函数的定义必须出现在函数调用之前
+正确答案是：函数的定义必须出现在函数调用之前
+
+函数test定义如下，错误调用函数的语句是_____。
+function test($a,$b=-1){ Return $a+$b; }
+选择一项：
+a.echo test(1,2);
+b.$b=test(10);
+c.test1,31
+d.$a=test(1,2);
+正确答案是：test1,31
+
+在下面的代码中，第2个test()输出结果为_____。
+<?php
+function test(){
+static $n=5;
+$n++;
+echo $n;
+}
+$n=10;
+test();
+test();
+选择一项：
+a.12
+b.6
+c.7
+d.11
+正确答案是：7
+
+调用函数时，_____情况下不能给函数的参数赋常量?
+选择一项：
+a.当函数只有一个参数时
+b.当参数有默认值时
+c.当参数是布尔值时
+d.当参数是通过引用传递时
+正确答案是：当参数是通过引用传递时
+
+自定义函数中，返回函数值的关键字是_____。
+选择一项：
+a.returns
+b.return
+c.back
+d.close
+正确答案是：returns
+
+function keep_track()
+{
+STATIC $count=5;
+echo $count++."";
+}
+Keep_track();
+Keep_track();
+Keep_track();
+这段代码输出的值为
+选择一项：
+a.5,5,5
+b.6,7,5
+c.6,5,7
+d.5,6,7
+正确答案是：5,6,7
+
+在同一个PHP文件中，函数的调用和函数定义出现的先后顺序应该是函数定义在前，函数调用在后，否则会出错。
+选择一项：
+对
+错
+正确答案是“错”。
+
+函数内部的变量是局部变量，其作用范围只能在函数内部，函数参数则不是局部变量。
+选择一项：
+对
+错
+正确答案是“错”。
+
+函数名应该是合法的PHP标识符，与变量名没有区别。
+选择一项：
+对
+错
+正确答案是“错”。
+
+在定义函数参数时，参数变量名之前使用"$”符号可声明参数进行引用传递，即将实参的地址传递给形参。
+选择一项：
+对
+错
+正确答案是“错”。
+
+函数内部的局部变量在函数调用时被创建，函数调用结束后变量则被释放。
+选择一项：
+对
+错
+正确答案是“对”。
+
+php中，函数默认按值传递参数。
+选择一项：
+对
+错
+正确答案是“对”。
+
+PHP中调用类方法的符号是
+选择一项：
+a.->
+b.&&
+c.**
+d.<-
+正确答案是：->
+
+PHP中 类的属性含义的是
+选择一项：
+a.类的属性实质就是类中的方法
+b.类的属性实质就是名
+c.类的属性实质就是类中的变量
+d.类的属性实质就是类的子类
+正确答案是：类的属性实质就是类中的变量
+
+下列说法的是_____。
+选择一项：
+a.只有将类的实例对象赋值给变量，才能使用对象
+b.如果没有定义类的构造函数，则无法创建类的对象
+c.无论何种情况，在类外部都不能通过对象用"->”访问私有属性
+d.如果没有任何到对象的引用，则对象的析构函数会被引用
+正确答案是：如果没有任何到对象的引用，则对象的析构函数会被引用
+
+类test的定义如下，$x是类test的对象，则4个选项中，的是_____。
+class test{ const no=’111’ }
+选择一项：
+a.echo test::no
+b.echo $x.no
+c.echo $x->no
+d.echo test->no
+正确答案是：echo test::no
+
+类test的定义如下，$x是类test的对象，则4个选项中，的是_____。
+选择一项：
+a.$x->a=1;
+b.$x.a=1;
+c.$x.b=1;
+d.$x->b=1;
+正确答案是：$x->b=1;
+
+PHP中 最终类应该用哪个关键字进行修饰?
+选择一项：
+a.final
+b.没有最终类
+c.extends
+d.new
+正确答案是：final
+
+PHP中类的继承是通过哪个关键字来实现的?
+选择一项：
+a.interface
+b.final
+c.extends
+d.private
+正确答案是：extends
+
+哪个方法可以实现 PHP中类的自动加载功能?
+选择一项：
+a.extends
+b.implements
+c.interfaces
+d.__autoload()
+正确答案是：__autoload()
+
+判断某个类是否存在的函数为
+选择一项：
+a.is_dir
+b.interface_existd
+c.class_exists
+d.file_exists
+正确答案是：class_exists
+
+PHP中的构造函数为
+选择一项：
+a.跟类名相同
+b.__destruct
+c.__autoload
+d.__construct
+正确答案是：__construct
+
+以下哪个关键字用于表示类的析构函数?
+选择一项：
+a.__construct
+b.__destruct
+c.析构函数就是类的别名
+d.__autoload
+正确答案是：__destruct
+
+判断某类中是否存在指定的方法应该选择哪个函数?
+选择一项：
+a.interface_exists
+b.class_exists
+c.method_exists
+d.file_exists
+正确答案是：method_exists
+
+在PHP中，使用abstract关键字声明抽象方法，抽象方法可以有函数原型和函数体。
+选择一项：
+对
+错
+正确答案是“对”。
+
+PHP的构造函数为 __destruct() ;。
+选择一项：
+对
+错
+正确答案是“错”。
+
+implements 用于实现PHP中类的继承。
+选择一项：
+对
+错
+正确答案是“错”。
+
+self 是指向父类的指针,主要用于调用父类的构造函数。
+选择一项：
+对
+错
+正确答案是“错”。
+
+使用关键字 final 修饰的类,可以被继承。
+选择一项：
+对
+错
+正确答案是“错”。
+
+PHP的析构函数是必须要有的。
+选择一项：
+对
+错
+正确答案是“错”。
+
+PHP中的类访问修饰符,默认为public 。
+选择一项：
+对
+错
+正确答案是“对”。
+
+PHP中的类支持多继承。
+选择一项：
+对
+错
+正确答案是“错”。
+
+打开文件后，不可以从文件中_____。
+选择一项：
+a.读一行
+b.读一个字符
+c.读一个单词
+d.读多行
+正确答案是：读多行
+
+下列说法的是_____。
+选择一项：
+a.如果没有设置任何文件大小限制，则可上传超大文件
+b.上传的文件保存在临时目录中，可随时访问
+c.可从全局变量$ _FILES中获得上传文件的信息
+d.要启用PHP文件上传，必须设置upload_tmp_dir
+正确答案是：可从全局变量$ _FILES中获得上传文件的信息
+
+要查看文件创建时间，可使用下面的_____选项中的函数。
+选择一项：
+a.fileatime()
+b.filectime()
+c.filetype()
+d.filemtime()
+正确答案是：filectime()
+
+在实现上传文件表单时，表单编码方式应使用_____。
+选择一项：
+a.image/gif
+b.multipart/form-data
+c.application/octet-stream
+d.text/plain
+正确答案是：multipart/form-data
+
+下列说法的是_____。
+选择一项：
+a.r+模式打开文件时，只能从文件中读出数据
+b.w+模式打开文件时，只能向文件中写入数据
+c.在执行文件操作时，都必须先执行fopen（）函数将其打开
+d.x+模式不能打开已存在的文件
+正确答案是：x+模式不能打开已存在的文件
+
+使用函数_____来检查此文件是否是上传文件。
+选择一项：
+a.is_uploaded_file()
+b.uploaded_file()
+c.move_file()
+d.move_uploaded_file()
+正确答案是：is_uploaded_file()
+
+php中哪个函数用于读取整个文件?
+选择一项：
+a.fgets()
+b.readfile()
+c.fgetss()
+d.fread()
+正确答案是：readfile()
+
+PHP对目录进行操作时,先用哪个函数对操作目录进行是否存在的判断?
+选择一项：
+a.is_dir
+b.file_exists
+c.fopen
+d.fclose
+正确答案是：is_dir
+
+php向文本文件写入内容,应该采用哪个文件操作函数?
+选择一项：
+a.fclose()
+b.file()
+c.fopen()
+d.fwrite()
+正确答案是：fwrite()
+
+PHP的文件上传功能,需要在php.ini配置当中,开启哪项功能?
+选择一项：
+a.以上都不
+b.display_errors = on
+c.file_uploads=on
+d.short_open_tag = On
+正确答案是：file_uploads=on
+
+PHP中检测某文件是否存在的函数为:
+选择一项：
+a.is_dir
+b.file_exists
+c.get_class
+d.class_exists
+正确答案是：file_exists
+
+PHP对文件进行操作是,先用哪个函数对操作文件进行是否存在的判断?
+选择一项：
+a.fopen
+b.f_getc
+c.file_exists
+d.fclose
+正确答案是：file_exists
+
+PHP提供了一些常用文件属性函数，能够根据给定的文件名得到文件的相关属性，这些函数的参数都是文件$file类型。
+选择一项：
+对
+错
+正确答案是“对”。
+
+file函数一定要使用fopen函数打开文件，才能将读出文件的全部内容放入一个数组，文件每行数据为一个数组元素值。
+选择一项：
+对
+错
+正确答案是“错”。
+
+文件读写都在文件指针位置进行，读出或写入n个字节时，文件指针向前移动n个字节。
+选择一项：
+对
+错
+正确答案是“错”。
+
+fgetc()函数用于从打开的文件中读入一行数据。
+选择一项：
+对
+错
+正确答案是“错”。
+
+CSV文件指文件中的数据用分隔符分隔,可以使用fgetcsv()函数读取CSV文件并解析数据。
+选择一项：
+对
+错
+正确答案是“对”。
+
+PHP的文件操作函数rewind() 用于把文件位置指针设为文件流的结尾。
+选择一项：
+对
+错
+正确答案是“错”。
+
+php中可以使用method=post的方式进行文件上传。
+选择一项：
+对
+错
+正确答案是“错”。
+
+下列说法的是_____。
+选择一项：
+a.在表单中可使用get或post方式提交数据
+b.GET方式是指在浏览器地址栏中输入数据
+c.上述说明均不
+d.POST方式是指通过HTML表单提交数据的方式
+正确答案是：在表单中可使用get或post方式提交数据
+
+在浏览器地址栏中输入带参数的URL的数据提交方法是_____。
+选择一项：
+a.session
+b.cookie
+c.get
+d.post
+正确答案是：get
+
+下列说法不的是_____。
+选择一项：
+a.$ _REQUEST包含了$ _GET、$ _POST和$ _COOKIE中的数据
+b.Cookie方式向服务器提交的数据保存在$ _COOKIE中
+c.GET方式向服务器提交的数据保存在$ _GET中
+d.POST方式向服务器提交的数据保存在$ _POST中
+正确答案是：Cookie方式向服务器提交的数据保存在$ _COOKIE中
+
+下述说法不的是_____。
+选择一项：
+a.在使用send()方法发送请求之前，应先使用open()方法打开服务器连接
+b.所有浏览器均支持XMLHttpRequest对象，创建方法也相同
+c.服务器端响应处理函数应设置为XMLHttpRequest对象的onreadystatechange属性值
+d.XMLHttpRequest对象可使用get或post方式向服务器提交数据
+正确答案是：所有浏览器均支持XMLHttpRequest对象，创建方法也相同
+
+下列说法的是_____。
+选择一项：
+a.Cookie在客户端创建并保存在客户端Cookie文件中
+b.Session和Cookie作用类似，可以替换使用
+c.Cookie若未设置过期时间，则会一直有效，直到用户离开网站时才失效
+d.Session在服务器端创建并保存在服务器端Session文件中
+正确答案是：Cookie若未设置过期时间，则会一直有效，直到用户离开网站时才失效
+
+php 的_____集合可取得客户端以个get 方式递交的数据。
+选择一项：
+a.from
+b.cookie
+c.form
+d.$ _GET
+正确答案是：$ _GET
+
+cookie的值存储在_____。
+选择一项：
+a.服务器端
+b.程序中
+c.客户端
+d.硬盘中
+正确答案是：客户端
+
+SESSION会话的值存储在_____。
+选择一项：
+a.硬盘上
+b.服务器端
+c.网页中
+d.客户端
+正确答案是：服务器端
+
+cookies_____属性表明cookie 由哪个网站产生或读取。
+选择一项：
+a.Domain
+b.Set
+c.Name
+d.Value
+正确答案是：Name
+
+读取post方法传递的表单元素值的方法是:
+选择一项：
+a.$ _post["名称"]
+b.$POST["名称"]
+c.$ _POST["名称"]
+d.$post["名称"]
+正确答案是：$ _POST["名称"]
+
+php 内置数组_____接受表单Post方式提交的数据
+选择一项：
+a.$ _POST
+b.$ _GET
+c.POST
+d.SEND
+正确答案是：$ _POST
+
+以下哪些是PHP的会话控制技术?
+选择一项：
+a.Cookie
+b.Session
+c.Server
+d.Application
+正确答案是：Session
+
+PHP中的 $ _GET['参数名'],表示什么含义?
+选择一项：
+a.发送参数给其它页面
+b.接收用POST方式发送过来的参数
+c.接收URL传递过来的参数
+d.以上说法都不
+正确答案是：接收URL传递过来的参数
+
+在PHP中，客户端浏览器的数据可以使用GET方式提交到服务器，使用GET方式上传的数据，用户是不可能在浏览器地址栏中看到的。
+选择一项：
+对
+错
+正确答案是“错”。
+
+PHP中的Session用于在客户端保存用户的"会话”状态。一个用户从访问网站的第一个网页开始到离开网站，称为一个会话。
+选择一项：
+对
+错
+正确答案是“错”。
+
+表单数据中包括隐藏表单,PHP也会接收不到隐藏表单中的数据。
+选择一项：
+对
+错
+正确答案是“错”。
+
+html表单发送数据,默认按 post 方式进行发送。
+选择一项：
+对
+错
+正确答案是“错”。
+
+使用get和post传递表单值没有什么区别,可以随便选择一种使用。
+选择一项：
+对
+错
+正确答案是“错”。
+
+<form id="form1" name="form1" method="" action="">，默认的method使用get进行值传递。
+选择一项：
+对
+错
+正确答案是“对”。
+
+session与cookie只是名称不同,实质上没有什么区别,均可用于实现用户登录等功能。
+选择一项：
+对
+错
+正确答案是“错”。
+
+PHP如果要实现网站常见的翻页功能,mysql中的哪个子句是必不可少的?
+选择一项：
+a.having
+b.using
+c.limit
+d.order
+正确答案是：limit
+
+下列哪些关键字表示右外连接?
+选择一项：
+a.left join
+b.inner join
+c.right join
+d.using
+正确答案是：right join
+
+mysql 中的 group by 语句的功能是
+选择一项：
+a.批量导入
+b.分组
+c.排序
+d.模糊查询
+正确答案是：分组
+
+mysql int数据类型当中所占用字节数最小的为
+选择一项：
+a.smallint
+b.bigint
+c.int
+d.tinyint
+正确答案是：tinyint
+
+为了使用PDO访问MySQL数据库，下列选项中不是必须执行的步骤是_____。
+选择一项：
+a.启用extension=php_pdo_mysql.dll
+b.设置extension_dir指定扩展函数库路径
+c.启用extension=php_pdo.dll
+d.启用extension=php_pdo_odbc.dll
+正确答案是：启用extension=php_pdo_odbc.dll
+
+下列说法的是_____。
+选择一项：
+a.使用PDO对象exec()方法可以执行SQL命令删除记录
+b.使用PDO对象exec()方法可以执行SQL命令添加记录
+c.使用PDO对象exec()方法可以执行SQL命令查询记录，返因查询结果集
+d.使用PDO对象exec()方法可以执行SQL命令修改记录
+正确答案是：使用PDO对象exec()方法可以执行SQL命令查询记录，返因查询结果集
+
+如果想取得最近一条查询的信息,应该使用哪个函数_____。
+选择一项：
+a.mysql_insert_id()
+b.mysql_stat
+c.mysql_info
+d.mysql_free_result
+正确答案是：mysql_info
+
+关于mysql_select_db的作用描述的是_____。
+选择一项：
+a.连接并选取数据库
+b.连接并打开数据库
+c.连接数据库
+d.选取数据库
+正确答案是：选取数据库
+
+mysql哪些命令可以用于切换数据库?
+选择一项：
+a.use 数据库名
+b.user 数据库名
+c.show databases
+d.use database 数据库名
+正确答案是：use 数据库名
+
+在mysql的like 结构中允许使用两种类型的通配符,除了_ ,还有哪个?
+选择一项：
+a.&
+b.@
+c.#
+d.%
+正确答案是：%
+
+php哪个函数用于向mysql数据库发送指令?
+选择一项：
+a.mysql_select_db
+b.mysql_query
+c.mysql_connect
+d.mysql_fetch_field
+正确答案是：mysql_query
+
+mysql_free_result($result);本行代码的含义是
+选择一项：
+a.释放变量resut,以节约服务器资源
+b.占用服务器运行进程
+c.断开PHP与mysql数据库的连接
+d.重新启动PHP与mysql数据库的连接
+正确答案是：释放变量resut,以节约服务器资源
+
+<?php
+include("conn.php");
+mysql_query("set names gb2312");
+mysql_select_db("test");
+$sqlstr="delete from sanguo";
+$result=mysql_query($sqlstr,$conn);
+?>
+阅读以上代码,请问该代码的功能是
+选择一项：
+a.向sanguo中添加记录
+b.向sanguo中修改记录
+c.向sanguo中删除记录
+d.向sanguo中查看记录
+正确答案是：向sanguo中删除记录
+
+在PDO中连接指定的数据库服务器后，可以建立新的数据库，但不可以建立数据表。
+选择一项：
+对
+错
+正确答案是“错”。
+
+PDO对象的exec方法可执行非查询的SQL命令，包括插入、删除、修改命令。
+选择一项：
+对
+错
+正确答案是“对”。
+
+MySQL安装时,默认的字符集是gb2312。
+选择一项：
+对
+错
+正确答案是“错”。
+
+mysql中的limit 关键字可以限制结果集中记录的个数。
+选择一项：
+对
+错
+正确答案是“对”。
+
+如果A表有三列字段,B表有两列字段,它们之间是不能进行联合的。
+选择一项：
+对
+错
+正确答案是“对”。
+
+MySQL可以建立个用户,但每个用户的权限一样,仅是名称不一样而已。
+选择一项：
+对
+错
+正确答案是“错”。
+
+PHP网站可称为_____。
+选择一项：
+a. 网络应用程序
+b. PHP应用程序
+c. Web应用程序 
+d. 桌面应用程序
+正确答案是：Web应用程序
+
+PHP指的是_____。
+选择一项：
+a. Personal Hypertext Processor
+b. Personal Home Page
+c. Private Home Page
+d. PHP: Hypertext Preprocessor 
+正确答案是：PHP: Hypertext Preprocessor
+
+PHP服务器脚本由_____分隔符包围。
+选择一项：
+a. <?php … ?> 
+b. <script> ... </script>
+c. <&> ... </&>
+d. <?php> ... </?>
+正确答案是：<?php … ?>
+
+PHP网页文件的文件扩展名为_____。
+选择一项：
+a. PHP 
+b. BAT
+c. EXE
+d. CLASS
+正确答案是：PHP
+
+客户端脚本语言通过编程为HTML页面添加动态内容，与用户完成交互。以下_____不是客户端脚本语言。
+选择一项：
+a. VBScript
+b. Jscript
+c. AppScript 
+d. JavaScript
+正确答案是：AppScript
+
+Web服务器编程技术种类很多，以下_____不是常用的Web服务器编程技术。
+选择一项：
+a. PHP
+b. ASP
+c. JSP
+d. VBF 
+正确答案是：VBF
+
+下列说法的是_____。
+选择一项：
+a. PHP网页不能使用集成化的编辑器编写
+b. PHP网页可直接在浏览器中显示
+c. PHP网页可访问Oracle、SQL Server、Sybase及其他的多种数据库 
+d. PHP网页只能使用纯文本编辑器编写
+正确答案是：PHP网页可访问Oracle、SQL Server、Sybase及其他的多种数据库
+
+关于PHP，下列说法错误的是_____。
+选择一项：
+a. PHP和html可混合编程。
+b. 网页中的PHP代码同html标记符一样，必须用分隔符“<”和“>”将其括起来。
+c. 开发PHP网页所使用的的脚本语言是PHP。
+d. PHP网页，运行时在客户端可查看到真实的PHP源代码。 
+正确答案是：PHP网页，运行时在客户端可查看到真实的PHP源代码。
+
+下列哪些是PHP的配置文件?
+选择一项：
+a. php.exe
+b. php_mysqli.dll
+c. php_mysql.dll
+d. php.ini 
+正确答案是：php.ini
+
+<?php
+phpinfo();
+?>
+以上代码的功能是
+选择一项：
+a. 输出变量phpinfo()
+b. 查看PHP服务器的配置信息 
+c. 跳转到网页phpinfo()
+d. 定义函数phpinfo()
+正确答案是：查看PHP服务器的配置信息
+
+下列哪个才是apache的配置文件?
+选择一项：
+a. php.ini
+b. mysql.exe
+c. httpd.conf 
+d. apache.exe
+正确答案是：httpd.conf
+
+PHP配置文件的文件名为____________。
+选择一项：
+a. php.ini 
+b. php.ini-development
+c. php.ini-production
+d. php.config
+正确答案是：php.ini
+
+PHP代码可以放在独立的PHP文件中，使用时可以用include或require包含到当前代码中。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+Web应用程序是一种典型的C/S（Client/Server即客户机/服务器）结构。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+客户端脚本语言通过编程为HTML页面添加动态内容，包含了脚本的HTML代码通常称为动态网页，即DHTML（DynamicHTML，动态HTML）
+选择一项：
+对 
+错
+正确答案是“对”。
+
+PHP是一种免费、开源的WEB技术，它通常与Linux、Apache和MySQL等开源软件自由组合，形成简单、安全、低成本和部署灵活的开发平台。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+使用AJAX，可以异步在后台与服务器进行数据交换，并使用服务器响应来更新部分网页。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+PHP跟C#.net语言一样,只能运行在windows操作系统平台上。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+PHP跟ASP一样,只能应用IIS架设服务器。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+PHP是微软公司开发的,应用于设计网页的语言。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+PHP中应该如何声明变量?
+选择一项：
+a. 采用$号开头后面跟变量名 
+b. 采用declare开头后面跟变量名
+c. 采用var开头后面跟变量名
+d. 直接写出变量名就可以
+正确答案是：采用$号开头后面跟变量名
+
+字符串定界符用什么符号表示
+选择一项：
+a. <<< 
+b. <<
+c. >
+d. >>
+正确答案是：<<<
+
+$a=(3>5) ? (‘yes’) : (‘no’); a的值为_____。
+选择一项：
+a. no 
+b. 0
+c. yes
+d. 1
+正确答案是：no
+
+执行下面的代码后，输出结果为_____。
+$x=12;
+$x++；
+echo $x++;
+选择一项：
+a. 11
+b. 14
+c. 13 
+d. 12
+正确答案是：13
+
+PHP中的循环控制语句，下列说法的是_____。
+选择一项：
+a. while循环与do…while循环的作用完全一样，没有任何区别
+b. do…while循环中的循环条件可以写在do关键字后面
+c. foreach循环只能用于数组或对象，用于遍历数组或对象中的成员 
+d. for循环中的三个表达式都可以省略
+正确答案是：foreach循环只能用于数组或对象，用于遍历数组或对象中的成员
+
+下列说法的是_____。
+选择一项：
+a. 可以将自定义函数名作为参数传递给另一个函数 
+b. call_user_func（）调用回调函数时不能用数组作为参数
+c. call_user_func_array（）函数只能将数组作为参数传递给回调函数
+d. PHP函数的参数个数是固定不变的
+正确答案是：可以将自定义函数名作为参数传递给另一个函数
+
+下面程序的运行结果是_____。
+<?php
+$A=”Hello”;
+function print_A()
+{
+$A=”php mysql!!”;
+Global $A;
+echo $A;
+}
+echo $A;
+print_A();
+?>
+选择一项：
+a. HelloHello 
+b. Hello
+c. php mysql!!
+d. Hellophp mysql!!
+正确答案是：HelloHello
+
+执行下面的代码后，输出结果为_____。
+class test {
+public $data;
+}
+$x=new test();
+$x->data=99;
+$y=$x;
+$y->data=9;
+echo $x->data;
+选择一项：
+a. 0
+b. null
+c. 99
+d. 9 
+正确答案是：9
+
+执行下面的代码后，输出结果为_____。
+$x=array(1,2,3,4);echo array_pop($x);
+选择一项：
+a. 1
+b. 4 
+c. 2
+d. 3
+正确答案是：4
+
+运行下面的PHP代码，输出结果为_____。
+$s=’12345’; $s[$s[1]]=’2’; echo $s;
+选择一项：
+a. 11345
+b. 22345
+c. 12245 
+d. 12345
+正确答案是：12245
+
+关于赋值语句"$a[]=6”下列说法的是_____。
+选择一项：
+a. 将数组最后一个元素修改为6
+b. 创建一个有6个元素的数组
+c. 当前元素值修改为6
+d. 在数组末尾添加一个数组元素，值为6 
+正确答案是：在数组末尾添加一个数组元素，值为6
+
+$str = "My name is Jack, and what is your name?";
+echo substr_count ($str,“name”);
+程序的输出结果为
+选择一项：
+a. 4
+b. 2 
+c. 3
+d. 1
+正确答案是：2
+
+执行完$strUser = "12345678"以后，strUser 是_____类型。
+选择一项：
+a. 单精度变量
+b. 布尔型变量
+c. 整数变量
+d. 字符串变量 
+正确答案是：字符串变量
+
+使用_____语句可以立即从FOR 循环中退出。
+选择一项：
+a. Exit 
+b. Exit sub
+c. </sub>
+d. Loop
+正确答案是：Exit
+
+php 语言中计算字符串长度函数是
+选择一项：
+a. Asc
+b. Mid
+c. Strlen 
+d. Chr
+正确答案是：Strlen
+
+静态变量是特殊的局部变量，用set关键字进行声明。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+PHP中有一种特殊用法可以改变变量的名称。在变量名称之前加一个"$”符号，即可将变量的值作为变量名称。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+PHP的短标记模式为: <?php ?> 。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+33%66 的结果为 0.5。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+100==='100' 该表达式返回的值为true 。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+以下函数中用于判断是否为数组的函数为_____。
+选择一项：
+a. is_array() 
+b. is_double()
+c. is_object()
+d. is_long()
+正确答案是：is_array()
+
+从队列数组队头删除数据可以使用_____函数。
+选择一项：
+a. array_unshift()
+b. array_shift() 
+c. array_push()
+d. array_pop()
+正确答案是：array_shift()
+
+使用_____函数可以求得数组的大小。
+选择一项：
+a. $ _COUNT[“名称”]
+b. Count() 
+c. $ _CONUT[“名称”]
+d. Conut()
+正确答案是：Count()
+
+下列说法的是_____。
+选择一项：
+a. 数组中的元素类型必须一致
+b. 数组的键可以是字符串 
+c. 数组的键必须是连续的
+d. 数组的键必须为数字，且从0开始
+正确答案是：数组的键可以是字符串
+
+php 内置数组_____可以获取服务器内变量信息。
+选择一项：
+a. $ _GET 
+b. $ _SERVER
+c. POST
+d. FORM
+正确答案是：$ _GET
+
+将数组保存到一维数组的元素中可以创建二维数组，通过类似操作可创建多维数组。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+range()函数只可以返回包含指定范围内的数值数组。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+在PHP中，函数之外的变量称为全局变量，其作用范围为当前PHP文件。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+PHP中一个数组由多个元素组成，每个元素又包含键名和值。其中键名就是数组元素的下标，下标可以是整数或字符串。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+在省略下标时，PHP总是在数组末尾添加新的数组元素，数组下标为最大键值加1。若数组中还没有元素或现有元素键值均为字符串，则新添加的数组元素下标为1。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+PHP允许把字符串当作以字符为元素值的数组进行访问。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+PHP数组的下标默认从1开始 。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+for 循环只能用于对数组进行处理。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+array_search() 与in_array()函数均可用来查询数组中元素的值。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+在返回数组中的所有值，可以使用array_value()函数。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+current()和pos()均可返回数组中的当前单元。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+在返回数组中的所有值，可以使用array_keys()函数。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+下列说法不的是_____。
+选择一项：
+a. 函数定义和调用可以出现在不同的PHP文件中
+b. 函数可以没有返回值
+c. 函数的定义必须出现在函数调用之前 
+d. function是定义函数的关键字
+正确答案是：函数的定义必须出现在函数调用之前
+
+函数test定义如下，错误调用函数的语句是_____。
+function test($a,$b=-1){ Return $a+$b; }
+选择一项：
+a. echo test(1,2);
+b. test1,31 
+c. $b=test(10);
+d. $a=test(1,2);
+正确答案是：test1,31
+
+在下面的代码中，第2个test()输出结果为_____。
+<?php
+function test(){
+static $n=5;
+$n++;
+echo $n;
+}
+$n=10;
+test();
+test();
+选择一项：
+a. 12
+b. 11
+c. 7 
+d. 6
+正确答案是：7
+
+调用函数时，_____情况下不能给函数的参数赋常量?
+选择一项：
+a. 当函数只有一个参数时
+b. 当参数是通过引用传递时 
+c. 当参数是布尔值时
+d. 当参数有默认值时
+正确答案是：当参数是通过引用传递时
+
+自定义函数中，返回函数值的关键字是_____。
+选择一项：
+a. close
+b. returns 
+c. return
+d. back
+正确答案是：returns
+
+function keep_track()
+{
+STATIC $count=5;
+echo $count++."";
+}
+Keep_track();
+Keep_track();
+Keep_track();
+这段代码输出的值为
+选择一项：
+a. 5,6,7 
+b. 6,5,7
+c. 5,5,5
+d. 6,7,5
+正确答案是：5,6,7
+
+在同一个PHP文件中，函数的调用和函数定义出现的先后顺序应该是函数定义在前，函数调用在后，否则会出错。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+函数内部的变量是局部变量，其作用范围只能在函数内部，函数参数则不是局部变量。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+函数名应该是合法的PHP标识符，与变量名没有区别。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+在定义函数参数时，参数变量名之前使用"$”符号可声明参数进行引用传递，即将实参的地址传递给形参。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+函数内部的局部变量在函数调用时被创建，函数调用结束后变量则被释放。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+php中，函数默认按值传递参数。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+PHP中调用类方法的符号是
+选择一项：
+a. -> 
+b. **
+c. <-
+d. &&
+正确答案是：->
+
+PHP中 类的属性含义的是
+选择一项：
+a. 类的属性实质就是类中的变量 
+b. 类的属性实质就是名
+c. 类的属性实质就是类中的方法
+d. 类的属性实质就是类的子类
+正确答案是：类的属性实质就是类中的变量
+
+下列说法的是_____。
+选择一项：
+a. 无论何种情况，在类外部都不能通过对象用"->”访问私有属性
+b. 只有将类的实例对象赋值给变量，才能使用对象
+c. 如果没有任何到对象的引用，则对象的析构函数会被引用 
+d. 如果没有定义类的构造函数，则无法创建类的对象
+正确答案是：如果没有任何到对象的引用，则对象的析构函数会被引用
+
+类test的定义如下，$x是类test的对象，则4个选项中，的是_____。
+class test{ const no=’111’ }
+选择一项：
+a. echo test::no 
+b. echo $x->no
+c. echo $x.no
+d. echo test->no
+正确答案是：echo test::no
+
+类test的定义如下，$x是类test的对象，则4个选项中，的是_____。
+选择一项：
+a. $x->b=1; 
+b. $x.b=1;
+c. $x->a=1;
+d. $x.a=1;
+正确答案是：$x->b=1;
+
+PHP中 最终类应该用哪个关键字进行修饰?
+选择一项：
+a. new
+b. final 
+c. extends
+d. 没有最终类
+正确答案是：final
+
+PHP中类的继承是通过哪个关键字来实现的?
+选择一项：
+a. extends 
+b. interface
+c. final
+d. private
+正确答案是：extends
+
+哪个方法可以实现 PHP中类的自动加载功能?
+选择一项：
+a. implements
+b. __autoload() 
+c. extends
+d. interfaces
+正确答案是：__autoload()
+
+判断某个类是否存在的函数为
+选择一项：
+a. class_exists 
+b. is_dir
+c. interface_existd
+d. file_exists
+正确答案是：class_exists
+
+PHP中的构造函数为
+选择一项：
+a. __construct 
+b. __autoload
+c. __destruct
+d. 跟类名相同
+正确答案是：__construct
+
+以下哪个关键字用于表示类的析构函数?
+选择一项：
+a. __destruct 
+b. __construct
+c. 析构函数就是类的别名
+d. __autoload
+正确答案是：__destruct
+
+判断某类中是否存在指定的方法应该选择哪个函数?
+选择一项：
+a. interface_exists
+b. class_exists
+c. method_exists 
+d. file_exists
+正确答案是：method_exists
+
+在PHP中，使用abstract关键字声明抽象方法，抽象方法可以有函数原型和函数体。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+PHP的构造函数为 __destruct() ;。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+implements 用于实现PHP中类的继承。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+self 是指向父类的指针,主要用于调用父类的构造函数。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+使用关键字 final 修饰的类,可以被继承。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+PHP的析构函数是必须要有的。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+PHP中的类访问修饰符,默认为public 。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+PHP中的类支持多继承。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+打开文件后，不可以从文件中_____。
+选择一项：
+a. 读一个单词
+b. 读一行
+c. 读一个字符
+d. 读多行 
+正确答案是：读多行
+
+下列说法的是_____。
+选择一项：
+a. 如果没有设置任何文件大小限制，则可上传超大文件
+b. 上传的文件保存在临时目录中，可随时访问
+c. 要启用PHP文件上传，必须设置upload_tmp_dir
+d. 可从全局变量$ _FILES中获得上传文件的信息 
+正确答案是：可从全局变量$ _FILES中获得上传文件的信息
+
+要查看文件创建时间，可使用下面的_____选项中的函数。
+选择一项：
+a. filectime() 
+b. fileatime()
+c. filemtime()
+d. filetype()
+正确答案是：filectime()
+
+在实现上传文件表单时，表单编码方式应使用_____。
+选择一项：
+a. application/octet-stream
+b. multipart/form-data 
+c. text/plain
+d. image/gif
+正确答案是：multipart/form-data
+
+下列说法的是_____。
+选择一项：
+a. r+模式打开文件时，只能从文件中读出数据
+b. x+模式不能打开已存在的文件 
+c. w+模式打开文件时，只能向文件中写入数据
+d. 在执行文件操作时，都必须先执行fopen（）函数将其打开
+正确答案是：x+模式不能打开已存在的文件
+
+使用函数_____来检查此文件是否是上传文件。
+选择一项：
+a. uploaded_file()
+b. move_file()
+c. move_uploaded_file()
+d. is_uploaded_file() 
+正确答案是：is_uploaded_file()
+
+php中哪个函数用于读取整个文件?
+选择一项：
+a. fgets()
+b. readfile() 
+c. fgetss()
+d. fread()
+正确答案是：readfile()
+
+PHP对目录进行操作时,先用哪个函数对操作目录进行是否存在的判断?
+选择一项：
+a. fclose
+b. is_dir 
+c. file_exists
+d. fopen
+正确答案是：is_dir
+
+php向文本文件写入内容,应该采用哪个文件操作函数?
+选择一项：
+a. fopen()
+b. fclose()
+c. fwrite() 
+d. file()
+正确答案是：fwrite()
+
+PHP的文件上传功能,需要在php.ini配置当中,开启哪项功能?
+选择一项：
+a. short_open_tag = On
+b. display_errors = on
+c. 以上都不
+d. file_uploads=on 
+正确答案是：file_uploads=on
+
+PHP中检测某文件是否存在的函数为:
+选择一项：
+a. get_class
+b. file_exists 
+c. class_exists
+d. is_dir
+正确答案是：file_exists
+
+PHP对文件进行操作是,先用哪个函数对操作文件进行是否存在的判断?
+选择一项：
+a. file_exists 
+b. fclose
+c. f_getc
+d. fopen
+正确答案是：file_exists
+
+PHP提供了一些常用文件属性函数，能够根据给定的文件名得到文件的相关属性，这些函数的参数都是文件$file类型。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+file函数一定要使用fopen函数打开文件，才能将读出文件的全部内容放入一个数组，文件每行数据为一个数组元素值。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+文件读写都在文件指针位置进行，读出或写入n个字节时，文件指针向前移动n个字节。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+fgetc()函数用于从打开的文件中读入一行数据。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+CSV文件指文件中的数据用分隔符分隔,可以使用fgetcsv()函数读取CSV文件并解析数据。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+PHP的文件操作函数rewind() 用于把文件位置指针设为文件流的结尾。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+php中可以使用method=post的方式进行文件上传。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+下列说法的是_____。
+选择一项：
+a. 上述说明均不
+b. 在表单中可使用get或post方式提交数据 
+c. GET方式是指在浏览器地址栏中输入数据
+d. POST方式是指通过HTML表单提交数据的方式
+正确答案是：在表单中可使用get或post方式提交数据
+
+在浏览器地址栏中输入带参数的URL的数据提交方法是_____。
+选择一项：
+a. post
+b. get 
+c. session
+d. cookie
+正确答案是：get
+
+下列说法不的是_____。
+选择一项：
+a. POST方式向服务器提交的数据保存在$ _POST中
+b. $ _REQUEST包含了$ _GET、$ _POST和$ _COOKIE中的数据
+c. GET方式向服务器提交的数据保存在$ _GET中
+d. Cookie方式向服务器提交的数据保存在$ _COOKIE中 
+正确答案是：Cookie方式向服务器提交的数据保存在$ _COOKIE中
+
+下述说法不的是_____。
+选择一项：
+a. 在使用send()方法发送请求之前，应先使用open()方法打开服务器连接
+b. 所有浏览器均支持XMLHttpRequest对象，创建方法也相同 
+c. XMLHttpRequest对象可使用get或post方式向服务器提交数据
+d. 服务器端响应处理函数应设置为XMLHttpRequest对象的onreadystatechange属性值
+正确答案是：所有浏览器均支持XMLHttpRequest对象，创建方法也相同
+
+下列说法的是_____。
+选择一项：
+a. Cookie在客户端创建并保存在客户端Cookie文件中
+b. Session和Cookie作用类似，可以替换使用
+c. Cookie若未设置过期时间，则会一直有效，直到用户离开网站时才失效 
+d. Session在服务器端创建并保存在服务器端Session文件中
+正确答案是：Cookie若未设置过期时间，则会一直有效，直到用户离开网站时才失效
+
+php 的_____集合可取得客户端以个get 方式递交的数据。
+选择一项：
+a. cookie
+b. form
+c. from
+d. $ _GET 
+正确答案是：$ _GET
+
+cookie的值存储在_____。
+选择一项：
+a. 硬盘中
+b. 程序中
+c. 客户端 
+d. 服务器端
+正确答案是：客户端
+
+SESSION会话的值存储在_____。
+选择一项：
+a. 网页中
+b. 客户端
+c. 硬盘上
+d. 服务器端 
+正确答案是：服务器端
+
+cookies_____属性表明cookie 由哪个网站产生或读取。
+选择一项：
+a. Domain
+b. Value
+c. Name 
+d. Set
+正确答案是：Name
+
+读取post方法传递的表单元素值的方法是:
+选择一项：
+a. $POST["名称"]
+b. $post["名称"]
+c. $ _post["名称"]
+d. $ _POST["名称"] 
+正确答案是：$ _POST["名称"]
+
+php 内置数组_____接受表单Post方式提交的数据
+选择一项：
+a. POST
+b. $ _GET
+c. $ _POST 
+d. SEND
+正确答案是：$ _POST
+
+以下哪些是PHP的会话控制技术?
+选择一项：
+a. Cookie
+b. Session 
+c. Server
+d. Application
+正确答案是：Session
+
+PHP中的 $ _GET['参数名'],表示什么含义?
+选择一项：
+a. 接收用POST方式发送过来的参数
+b. 接收URL传递过来的参数 
+c. 发送参数给其它页面
+d. 以上说法都不
+正确答案是：接收URL传递过来的参数
+
+在PHP中，客户端浏览器的数据可以使用GET方式提交到服务器，使用GET方式上传的数据，用户是不可能在浏览器地址栏中看到的。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+PHP中的Session用于在客户端保存用户的"会话”状态。一个用户从访问网站的第一个网页开始到离开网站，称为一个会话。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+表单数据中包括隐藏表单,PHP也会接收不到隐藏表单中的数据。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+html表单发送数据,默认按 post 方式进行发送。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+使用get和post传递表单值没有什么区别,可以随便选择一种使用。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+<form id="form1" name="form1" method="" action="">，默认的method使用get进行值传递。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+session与cookie只是名称不同,实质上没有什么区别,均可用于实现用户登录等功能。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+PHP如果要实现网站常见的翻页功能,mysql中的哪个子句是必不可少的?
+选择一项：
+a. limit 
+b. order
+c. having
+d. using
+正确答案是：limit
+
+下列哪些关键字表示右外连接?
+选择一项：
+a. inner join
+b. right join 
+c. using
+d. left join
+正确答案是：right join
+
+mysql 中的 group by 语句的功能是
+选择一项：
+a. 模糊查询
+b. 排序
+c. 批量导入
+d. 分组 
+正确答案是：分组
+
+mysql int数据类型当中所占用字节数最小的为
+选择一项：
+a. tinyint 
+b. int
+c. smallint
+d. bigint
+正确答案是：tinyint
+
+为了使用PDO访问MySQL数据库，下列选项中不是必须执行的步骤是_____。
+选择一项：
+a. 设置extension_dir指定扩展函数库路径
+b. 启用extension=php_pdo_odbc.dll 
+c. 启用extension=php_pdo_mysql.dll
+d. 启用extension=php_pdo.dll
+正确答案是：启用extension=php_pdo_odbc.dll
+
+下列说法的是_____。
+选择一项：
+a. 使用PDO对象exec()方法可以执行SQL命令删除记录
+b. 使用PDO对象exec()方法可以执行SQL命令修改记录
+c. 使用PDO对象exec()方法可以执行SQL命令查询记录，返因查询结果集 
+d. 使用PDO对象exec()方法可以执行SQL命令添加记录
+正确答案是：使用PDO对象exec()方法可以执行SQL命令查询记录，返因查询结果集
+
+如果想取得最近一条查询的信息,应该使用哪个函数_____。
+选择一项：
+a. mysql_insert_id()
+b. mysql_stat
+c. mysql_free_result
+d. mysql_info 
+正确答案是：mysql_info
+
+关于mysql_select_db的作用描述的是_____。
+选择一项：
+a. 连接并打开数据库
+b. 连接数据库
+c. 连接并选取数据库
+d. 选取数据库 
+正确答案是：选取数据库
+
+mysql哪些命令可以用于切换数据库?
+选择一项：
+a. user 数据库名
+b. show databases
+c. use database 数据库名
+d. use 数据库名 
+正确答案是：use 数据库名
+
+在mysql的like 结构中允许使用两种类型的通配符,除了_ ,还有哪个?
+选择一项：
+a. &
+b. % 
+c. @
+d. #
+正确答案是：%
+
+php哪个函数用于向mysql数据库发送指令?
+选择一项：
+a. mysql_fetch_field
+b. mysql_select_db
+c. mysql_connect
+d. mysql_query 
+正确答案是：mysql_query
+
+mysql_free_result($result);本行代码的含义是
+选择一项：
+a. 占用服务器运行进程
+b. 重新启动PHP与mysql数据库的连接
+c. 释放变量resut,以节约服务器资源 
+d. 断开PHP与mysql数据库的连接
+正确答案是：释放变量resut,以节约服务器资源
+
+<?php
+include("conn.php");
+mysql_query("set names gb2312");
+mysql_select_db("test");
+$sqlstr="delete from sanguo";
+$result=mysql_query($sqlstr,$conn);
+?>
+阅读以上代码,请问该代码的功能是
+选择一项：
+a. 向sanguo中修改记录
+b. 向sanguo中删除记录 
+c. 向sanguo中添加记录
+d. 向sanguo中查看记录
+正确答案是：向sanguo中删除记录
+
+在PDO中连接指定的数据库服务器后，可以建立新的数据库，但不可以建立数据表。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+PDO对象的exec方法可执行非查询的SQL命令，包括插入、删除、修改命令。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+MySQL安装时,默认的字符集是gb2312。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+mysql中的limit 关键字可以限制结果集中记录的个数。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+如果A表有三列字段,B表有两列字段,它们之间是不能进行联合的。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+MySQL可以建立个用户,但每个用户的权限一样,仅是名称不一样而已。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+mysql 中 auto_increment自动增长列的,初始值只能从 1 开始。
+选择一项：
+对
+错 
+正确答案是“错”。
