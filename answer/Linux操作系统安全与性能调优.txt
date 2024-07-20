@@ -1,0 +1,395 @@
+企业信息安全框架不包含下面哪一项（）
+选择一项：
+a. 管理安全和运行安全
+b. 数据安全
+c.  物理安全
+d. 硬件安全
+正确答案是：硬件安全
+
+以下哪一项属于采用面向内容的过滤技术（）
+选择一项：
+a. ＵＦＯ
+b. ＤＶＰ
+c. ＣＶＰ
+d. ＵＦＰ
+正确答案是：ＣＶＰ
+
+数据安全是对信息在数据收集、处理、存储、检索、传输、交换、显示、扩散等过程中的保护。以下哪种不属于数据安全范畴（）。
+选择一项：
+a. 信息的机密性
+b. 信息的完整性
+c. 信息的可控性
+d. 信息的不可否性
+正确答案是：信息的可控性
+
+采用认证、鉴别、PKI等技术，最主要是为了防范什么（）
+选择一项：
+a. 信息抵赖
+b. 信息泄密
+c. 信息破坏
+d.  信息伪造
+正确答案是： 信息伪造
+
+机房管理、信息验证、加扰处理、电磁屏蔽和容错等措施，属于哪种安全（）
+选择一项：
+a. 运行安全
+b. 管理安全
+c. 物理安全
+d. 数据安全
+正确答案是：物理安全
+
+VPN技术的含义是（）
+选择一项：
+a. 私有密码
+b. 虚拟密码
+c. 虚拟专用网络
+d. 虚拟保护序列
+正确答案是：虚拟专用网络
+
+运行安全是指对网络与信息系统的运行过程和运行状态的保护。请选择相关符合的任务（）
+选择一项或多项：
+a.  信息验证
+b. 实施防火墙
+c. 建立硬件评估体系
+d.  部署漏洞扫描
+正确答案是： 部署漏洞扫描, 实施防火墙
+
+内容安全主要涉及以下哪几个方面（）
+选择一项或多项：
+a. 信息的机密性
+b. 信息的时效性
+c. 信息的真实性
+d. 信息的传播速度
+正确答案是：信息的真实性, 信息的机密性
+
+管理安全侧重以下哪几方面（）
+选择一项或多项：
+a. 安全制度，安全培训
+b. 安装监控摄像
+c. 增加人员
+d. 权限分离
+正确答案是：权限分离, 安全制度，安全培训
+
+对Linux系统的安全设定包括哪几项（）
+选择一项或多项：
+a. 隐藏重要资料
+b. 限制远程存取
+c. 修补安全漏洞
+d. 取消不必要的服务
+正确答案是：取消不必要的服务, 限制远程存取, 隐藏重要资料, 修补安全漏洞
+比对passwd和shadow是否一致（）
+选择一项：
+a. last
+b. who
+c. lastdb
+d. pwck
+正确答案是：pwck
+
+在日志消息的8个级别中，“4WARNING”表示（）
+选择一项：
+a. 错误事件
+b. 系统不可用
+c. 调试信息
+d. 警告事件
+正确答案是：警告事件
+
+在LINUX系统中，为了在一个可控制的范围内给普通用户jerry赋予管理员帐号如root的部分权限，最合适的方式是（）。
+选择一项：
+a. 将jerry用户的UID改为0
+b. su
+c. 将jerry用户加入到wheel组
+d. sudo
+正确答案是：sudo
+
+针对admin组的用户配置sudo权限时，配置项第一列中需要使用（）形式表示
+选择一项：
+a. admin
+b. :admin
+c. ＠admin
+d. ％admin
+正确答案是：％admin
+
+命令：[root@localhost~]#chage-d0zhangsan的含义是什么（）
+选择一项：
+a. zhangsan下次登陆需更改密码
+b.  锁定zhangsan的密码
+c. 取消zhangsan的密码
+d. 禁用密码
+正确答案是：zhangsan下次登陆需更改密码
+
+在RHEL5系统的命令界面中，若设置环境变量（）的值为60，则当用户超过60秒没有任何操作时，将自动注销当前所在的命令终端。
+选择一项：
+a. TMOUT
+b.  IDLE_TTL
+c. TTL
+d. TIMEOUT
+正确答案是：TMOUT
+
+以下哪个是内核及公共消息日志文件（）
+选择一项：
+a. /var/log/cron
+b.  /var/log/dmesg
+c. /var/log/messages
+d. /var/log/maillog
+正确答案是：/var/log/messages
+
+/var/log/wtmp存储记录的哪一类日志（）
+选择一项：
+a. 当前登录的每个用户的详细信息
+b. 用户登录、注销及系统开、关机事件
+c. 最近的用户登录事件
+d. 与用户验证相关的安全性事件
+正确答案是：用户登录、注销及系统开、关机事件
+
+用ac命令查看每个用户登录系统的时间,会列出当天一个个用户的时间总和的命令是哪一个（）。
+选择一项：
+a. ac-f
+b. users
+c. finger
+d. ac-p
+正确答案是：ac-p
+
+进行系统账户清理时，以下哪几种方式可以考虑应用（）
+选择一项或多项：
+a. 锁定账号文件/etc/password
+b. 锁定长期不使用的账号
+c. 删除无用的账号
+d.  将非登录用户的Shell设为/sbin/bash
+正确答案是：锁定长期不使用的账号, 删除无用的账号
+在通过调整BIOS引导设置来增强linux系统安全的措施中，以下哪些项是不必要的（）
+选择一项：
+a. 禁止从其他设备（光盘、U盘、网络）引导系统
+b. 将安全级别设为setup，并设置管理员密码
+c. 将第一引导设备设为当前系统所在硬盘
+d. 将主板电池做跳线设置
+正确答案是：将主板电池做跳线设置
+
+在RedHat企业版5上，如何设置禁用重启热键Ctrl+Alt+Del（）
+选择一项：
+a. [root@localhost~]#vi/etc/inittab……#startoncontrol-alt-delete#exec/sbin/shutdown-rnow“Control-Alt-Deletepressed”
+b.  [root@localhost~]#vi/etc/init/control-alt-delete.conf……#startoncontrol-alt-delete#exec/sbin/shutdown-rnow“Control-Alt-
+c. [root@localhost~]#vi/etc/init/control-alt-delete.conf……#ca::ctrlaltdel:/sbin/shutdown-t3-rnow
+d.  [root@localhost~]#vi/etc/inittab……#ca::ctrlaltdel:/sbin/shutdown-t3-rnow
+正确答案是： [root@localhost~]#vi/etc/inittab……#ca::ctrlaltdel:/sbin/shutdown-t3-rnow
+
+使用grub-md5-crypt命令的作用是（）
+选择一项：
+a. 获得加密字串
+b. 检查密码安全性
+c. 设置密码的机密度
+d. 使用的是RSA算法生成字串
+正确答案是：获得加密字串
+
+限制root只在安全终端登录，修改哪个配置文件（）
+选择一项：
+a. /etc/securetty
+b. /etc/grub
+c. /etc/grub
+d. /usr/etc/secure
+正确答案是：/etc/securetty
+
+修改系统登陆提示时，哪一项是显示本机登录提示（）
+选择一项：
+a. /etc/issue
+b.  /etc/local/issue
+c.  /etc/issue.net
+d. /etc/network/issue.net
+正确答案是：/etc/issue
+
+管理员在grub.conf文件中的第一个“title……”行之前添加了密码设置，则在（）情况下需要提供密码。
+选择一项：
+a. 开机进入系统之前
+b.  从图形模式切换到单用户模式
+c. 开机时修改grub引导参数
+d. 进入linux系统
+正确答案是：开机时修改grub引导参数
+
+减少开放终端个数，在企业版5中如何操作（）
+选择一项：
+a. [root@localhost~]#vi/etc/sysconfig/init……//省略部分内容ACTIVE_CONSOLES=/dev/tty[456]
+b.  [root@localhost~]#vi/etc/inittab……#Rungettysinstandardrunlevels#1:2345:respawn:/sbin/mingettytty1#2:2345:respawn:/sbin/mingettytty2#3:2345:respawn:/sbin/mingettytty34:2345:respawn:/sbin/mingettytty45:2345:respawn:/sbin/mingettytty56:2345:respawn:/sbin/mingettytty6
+c. #reboot
+d.  [root@localhost~]#vi/etc/sysconfig/init#Rungettysinstandardrunlevels#1:2345:respawn:/sbin/mingettytty1#2:2345:respawn:/sbin/mingettytty2#3:2345:respawn:/sbin/mingettytty34:2345:respawn:/sbin/mingettytty45:2345:respawn:/sbin/mingettytty56:2345:respawn:/sbin/mingettytty6
+正确答案是： [root@localhost~]#vi/etc/inittab……#Rungettysinstandardrunlevels#1:2345:respawn:/sbin/mingettytty1#2:2345:respawn:/sbin/mingettytty2#3:2345:respawn:/sbin/mingettytty34:2345:respawn:/sbin/mingettytty45:2345:respawn:/sbin/mingettytty56:2345:respawn:/sbin/mingettytty6
+
+在重新启动Linux系统的同时把内存中的信息写入硬盘,应使用（）命令实现
+选择一项：
+a. #reboot
+b.  #halt
+c. #reboot
+d. #shutdown–rnow
+正确答案是：#shutdown–rnow
+
+从后台启动进程,应在命令的结尾加上符号（）
+选择一项：
+a. $
+b. @
+c. #
+d. &;
+正确答案是：&;
+
+构建基于密钥对验证的SSH服务时，服务器端默认的密钥库文件是（）
+选择一项：
+a. id.rsa
+b. id_rsa.pub
+c.  know_hosts
+d.  authorized_keys
+正确答案是： authorized_keys
+在远程管理linux服务器时，以下（）方式采用加密的数据传输
+选择一项：
+a. rlogin
+b.  rsh
+c.  ssh
+d. telnet
+正确答案是： ssh
+
+若需要禁止root用户以SSH方式登陆到服务器，可以在服务器上的sshd_config文件中作()设置。
+选择一项：
+a. AllowSuperLoginno
+b. RootEnableno
+c. DenyRootyes
+d. PermitRootLoginno
+正确答案是：PermitRootLoginno
+
+在RHEL5系统环境中，通过密钥对验证方式加强SSH登录的安全时，应该将客户机生成的公钥文件内容添加到服务器端目标用户的（）文件中。
+选择一项：
+a. ~/.ssh/authorized_keys
+b.  ~/.ssh/id_rsa
+c. ~/.ssh/known_hosts
+d. ~/.ssh/id_rsa.pub
+正确答案是：~/.ssh/authorized_keys
+
+在RHEL4系统中，使用ssh-keygen命令创建用户密钥对文件时，以下()是常用的加密算法
+选择一项：
+a. RSA
+b. MD5
+c. SHA
+d. SSH1
+正确答案是：RSA
+
+在RHEL5系统中，设置TCPWrappers策略对vsftpd服务进行访问控制。若在/etc/hosts.allow文件中设置了“vsftpd:192.168.1.2”,在/etc/hosts.deny文件中设置了“vsftpd:192.168.1.2,192.168.1.3”,则以下说法正确的是()。
+选择一项：
+a. 只有IP为192.168.1.3主机允许访问该FTP服务器
+b.  除了192.168.1.2和192.168.1.3以外的主机都允许访问该FTP服务器
+c. 任何主机都不允许访问该FTP服务器
+d. 除了192.168.1.3以外的主机都允许访问该FTP服务器
+正确答案是：除了192.168.1.3以外的主机都允许访问该FTP服务器
+
+使用makemenuconfig命令配置内核时，如果需要将一个功能编译为模块，应选择下面的状态（）。
+选择一项：
+a. [M]
+b.  [#]
+c.  [*]
+d. []
+正确答案是：[M]
+
+在RHEL5系统中重新编译Linux内核，执行“makemenuconfig”步骤后保存的内核配置文件名默认为（）。
+选择一项：
+a. .config-2.6.28.8
+b. kernel.cfg
+c. makefile
+d. .config
+正确答案是：.config
+
+LIDS的含义是（）
+选择一项：
+a. 本地入侵检测系统
+b. Linux用户检测系统
+c. Linux入侵检测系统
+d. 网络入侵检测系统
+正确答案是：Linux入侵检测系统
+
+在RHEL5系统中，通过TCPWrappers机制加强对应用服务的访问控制时，使用的主要配置文件包括（）。
+选择一项或多项：
+a. /etc/hosts.allow
+b. /etc/host.conf
+c.  /etc/tcpd.conf
+d. /etc/hosts.deny
+正确答案是：/etc/hosts.allow, /etc/hosts.deny
+
+如何找到一个影响服务器性能的问题，可以能过以下子系统进行分析（    ）
+选择一项或多项：
+A. CPU瓶颈
+B. 网络瓶颈
+C. 内存瓶颈
+D. 磁盘瓶颈
+正确答案是：CPU瓶颈, 内存瓶颈, 磁盘瓶颈, 网络瓶颈
+在RHEL5系统中，为了在一个可控制的范围内给普通用户jerry赋予管理员帐号如root的部分权限，最合适的方式是（）。
+选择一项：
+a.  将jerry用户的UID改为0
+b. sudo
+c. su
+d. 将jerry用户加入到wheel组
+正确答案是：sudo
+
+使用chattr命令的（）选项，可以将指定的文件设置为不可修改、不可删除、不可移动。
+选择一项：
+a. －a
+b. －i
+c. ＋a
+d. ＋i
+正确答案是：＋i
+
+在/etc/fstab文件中指定的文件系统加载参数中,（）参数一般用于CD-ROM等移动设备
+选择一项：
+a. rw和ro
+b. sw
+c. defaults
+d. noauto
+正确答案是：noauto
+
+下面关于i节点描述错误的是（）
+选择一项：
+a.  i节点能描述文件占用的块数
+b. i节点和文件是一一对应的
+c. 通过i节点实现文件的逻辑结构和物理结构的转换
+d.  i节点描述了文件大小和指向数据块的指针
+正确答案是：i节点和文件是一一对应的
+
+下列关于/etc/fstab文件描述,正确的是（）
+选择一项：
+a.  CD_ROM和软盘必须是自动加载的
+b.  fstab文件中描述的文件系统不能被卸载
+c. fstab文件只能描述属于linux的文件系统
+d. 启动时按fstab文件描述内容加载文件系统
+正确答案是：启动时按fstab文件描述内容加载文件系统
+
+对特殊权限粘滞位（stiky）的描述错误的是（）
+选择一项：
+a. set位和粘滞位的作用是一样的
+b. 可用chmod命令设置
+c. 设置粘滞位权限后，即便用户和对目录有写入权限，也不能删除该目录中其他用户的文件
+d. sticky表示为文件其它用户执行权限位上的t或T
+正确答案是：set位和粘滞位的作用是一样的
+
+显示锁定文件的状态的命令是（）
+选择一项：
+a. lsattr+i
+b.  lsattr-a
+c. lsattr-
+d. chattr–i
+正确答案是： lsattr-a
+
+使用加密文件系统（EFS）用到的命令是（）
+选择一项或多项：
+a. dmsetup
+b. modprobedm-crypt
+c. dmsetup
+d. cryptsetup
+正确答案是：cryptsetup, modprobedm-crypt
+
+有关set位的描述，正确的是（）
+选择一项或多项：
+a. suid权限位的设定：chmodu+sFile...或chmod2nnnfilename...
+b.  设置完set权限后，任何用户在执行此可执行文件的过程中，将获得该文件属主、属组的身份
+c. sgid权限位的设定：chmodG+sFile...或chmod4nnnfilename...
+d. set位权限有两部分组成：suid和sgid,分别对应可执行行文件属主和属组的身份
+正确答案是： 设置完set权限后，任何用户在执行此可执行文件的过程中，将获得该文件属主、属组的身份, set位权限有两部分组成：suid和sgid,分别对应可执行行文件属主和属组的身份
+
+以下不是CPU性能调整选项的是（）
+选择一项：
+A. 确认系统性能问题是CPU引起的，而不是其他子系统
+B. 使用ps-ef命令来确认后台没有运行不必要的程序，使用cron来安排在非高峰时段运行
+C. 在基于SMP的机器，尝试使用swap绑定进程到CPU,确保进程不会在处理器之间跳跃
+D. 使用top识别非关键性CPU密集型程序，使用renice修改优先级
+正确答案是：在基于SMP的机器，尝试使用swap绑定进程到CPU,确保进程不会在处理器之间跳跃

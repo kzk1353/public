@@ -1,0 +1,1368 @@
+下面关于Java程序的描述中，错误的是（ ）
+选择一项：
+a. .class格式的文件是用来运行的
+b. Java程序运行时，必须经过编译和运行两个步骤。
+c. 不同操作系统上的Java虚拟机是相同的
+d. .java格式的源文件是用来编译的
+正确答案是：不同操作系统上的Java虚拟机是相同的
+
+下面关于path和classpath的说法中，错误的是（ ）
+选择一项：
+a. 只要设置了classpath这个环境变量系统就不会再在当前目录下查询某个类
+b. path用来指定java虚拟机(JVM)所在的目录
+c. 在dos命令行中，classpath和path环境变量的查看与配置的方式不相同
+d. classpath用来指定我们自己所写的或要用到的类文件(.jar文件)所在的目录
+正确答案是：在dos命令行中，classpath和path环境变量的查看与配置的方式不相同
+
+下列关于main方法的描述中，正确的是（ ）
+选择一项或多项：
+a. main方法可以保证Java程序独立运行
+b. 一个Java程序不一定要有main方法
+c. 在Java程序中，必须要有main方法
+d. 一个Java程序的主方法是main方法
+正确答案是：main方法可以保证Java程序独立运行, 一个Java程序的主方法是main方法, 一个Java程序不一定要有main方法
+
+JDK安装的时候不可以修改安装目录。
+选择一项：
+对
+错
+正确答案是“错”。
+
+Java核心源码包存放在JDK安装目录的bin目录下。
+选择一项：
+对
+错
+正确答案是“错”。
+下列关于注释作用的描述中，错误的是（）
+选择一项：
+a. 会参与编译
+b. 可以对程序进行说明
+c. 帮助整理编程思路
+d. 可以帮助调试程序
+正确答案是：会参与编译
+
+表达式7%（-3）的运算结果为（ ）
+选择一项：
+a. 1
+b. -2
+c. -1
+d. 2
+正确答案是：1
+
+下列选项中，用于引入包的关键字是（ ）
+选择一项：
+a. import
+b. static
+c. package
+d. class
+正确答案是：import
+请阅读下面的程序
+public class Test{
+ public static void main(String[] args) {  
+     int x;
+     int y;
+     for (x = 1, y = 1; x <= 100; x++) {
+        if (y >= 20) {
+           break;
+        }
+        if (y % 3 == 1) {
+           y += 3;
+           continue;
+        }
+        y -= 5;
+     }
+     System.out.println("x=" + x + ",y=" + y);
+ }
+}
+下列选项中，哪一个是程序的运行结果（  ）
+选择一项：
+a. x=8,y=22
+b. x=22,y=8
+c. x=3,y=0
+d. x=0,y=3
+正确答案是：x=8,y=22
+
+请阅读下面的程序
+public class Test{
+ public static void main(String[] args) {
+  int a[ ] = { 2, 0, 4, 1, 8, 3, 5 };
+  int temp;
+  for (int i = 0; i < a.length - 1; i++) {
+   for (int j = a.length - 1; j > i; j--) {
+    if (a[j] < a[j - 1]) {
+     temp = a[j];
+     a[j] = a[j - 1];
+     a[j - 1] = temp;
+    }
+   }
+  }
+  for (Integer i : a) {
+   System.out.print(i);
+  }
+ }
+}
+下列选项中，哪个是程序的运行结果（）
+选择一项：
+a. 8543210
+b. 0123458
+c. 2041835
+d. 以上答案都不对
+正确答案是：0123458
+
+关于continue语句的使用范围，下列说法正确的是（ ）
+选择一项：
+a. continue语句可以在循环语句中使用
+b. continue语句可以在选择语句中使用
+c. 不输出任何内容
+d. continue语句可以在条件语句中使用
+正确答案是：continue语句可以在循环语句中使用
+
+下列有关数组中元素位置交换的描述，错误的是（ ）
+选择一项：
+a. 位置交换的过程中需要借助一个中间变量
+b. 位置交换后数组的角标顺序发生了改变
+c. 位置交换后数组的角标顺序不会发生改变
+d. 位置交换的过程至少需要三步
+正确答案是：位置交换后数组的角标顺序发生了改变
+
+下列关于default语句的说法中，正确的是（ ）
+选择一项或多项：
+a. default不是swicth语句中必须的。
+b. 一般情况下，default放置在switch语句的最后面。
+c. default代表的是默认要执行的语句，也就是没有匹配就执行default。
+d. 在switch语句中，default必须存在。
+正确答案是：default不是swicth语句中必须的。, default代表的是默认要执行的语句，也就是没有匹配就执行default。, 一般情况下，default放置在switch语句的最后面。
+
+下列关于方法重载的说法中，正确的是（ ）
+选择一项或多项：
+a. 形式参数的个数相同，数据类型顺序不同。
+b. 形式参数的个数不同。
+c. 形式参数的个数不同，数据类型不同。
+d. 形式参数的个数相同，数据类型不同。
+正确答案是：形式参数的个数不同。, 形式参数的个数不同，数据类型不同。, 形式参数的个数相同，数据类型不同。, 形式参数的个数相同，数据类型顺序不同。
+
+关键字是编程语言里事先定义好并赋予了特殊含义的单词。
+选择一项：
+对
+错
+正确答案是“对”。
+
+字符类型变量所占存储空间为2个字节。
+选择一项：
+对
+错
+正确答案是“对”。
+
+‘\u0000’表示一个空白字符。
+选择一项：
+对
+错
+正确答案是“对”。
+
+continue语句用在循环语句中，它的作用是终止本次循环，执行下一次循环。
+选择一项：
+对
+错
+正确答案是“对”。
+
+以下标识符中，不合法的是（ ）
+选择一项：
+a. user
+b. $inner
+c. login_1
+d. class
+正确答案是：class
+
+下列选项中，不属于基本数据类型的是（ ）
+选择一项：
+a. String
+b. char
+c. short
+d. boolean
+正确答案是：String
+请阅读下面的代码
+String s1=new String(“abc”);
+String s2=s1.intern();
+String s3=”abc”;
+System.out.println(s1==s2);
+System.out.println(s2==s3);
+System.out.println(s1==s3);
+下列选项中，程序的输出结果为（）
+选择一项：
+a. false true false
+b. false false false
+c. false true true
+d. false false true
+正确答案是：false true false
+
+下面选项中不是面向对象的特征的是（ ）
+选择一项：
+a. 继承
+b. 重构
+c. 封装
+d. 多态
+正确答案是：重构
+
+float类型成员变量的默认初始化值是（ ）
+选择一项：
+a. false
+b. null
+c. 0
+d. 0.0F
+正确答案是：0.0F
+
+下列关键字中，用于创建类的实例对象的是（ ）
+选择一项：
+a. class
+b. new
+c. private
+d. void
+正确答案是：new
+
+class Demo{  
+   Demo(){
+   }
+}
+上述代码中定义了一个Demo类，下列构造方法可以存在于Demo类中的是 （    ）
+ 
+选择一项：
+a. public Demo(){}
+b. private Demo(){}
+c. Demo(int age,String name)(){}
+d. Demo(){}
+正确答案是：Demo(int age,String name)(){}
+
+请阅读下面的程序，程序的运行结果是（）。
+class Person {
+ String name;
+ int age;
+ public Person() {}
+ public Person(String n, int a) {
+  name = n;
+  age = a;
+ }
+ public void show() {
+  System.out.print(name + "---" + age +"    ");
+ }
+}
+public class Test {
+ public static void main(String[] args) {
+  Person p1 = new Person();
+  p1.show();
+  Person p2 = new Person("周星驰", 27);
+  p2.show();
+ }
+}
+选择一项：
+a. null---0周星驰---27
+b. null---27周星驰---27
+c. 周星驰---0null---27
+d. 周星驰---27null---27
+正确答案是：null---0周星驰---27
+
+下列关于this关键字的说法中，错误的是（ ）
+选择一项：
+a. this可以解决成员变量与局部变量重名问题
+b. this相当于一个引用，可以通过它调用成员方法与属性
+c. this可以出现在任何方法中
+d. this出现在成员方法中，代表的是调用这个方法的对象
+正确答案是：this可以出现在任何方法中
+
+静态方法运行时，在哪个内存区域中（ ）
+选择一项：
+a. 栈内存
+b. 堆内存
+c. 方法区
+d. 寄存器
+正确答案是：栈内存
+
+下列关于封装的描述中，正确的是（ ）
+选择一项或多项：
+a. 封装能提高代码的复用性
+b. 封装隐藏了程序的实现细节，同时对外提供了特定的访问方式
+c. 方法和类都可以称为封装体
+d. 以上说法均错误
+正确答案是：方法和类都可以称为封装体, 封装隐藏了程序的实现细节，同时对外提供了特定的访问方式, 封装能提高代码的复用性
+
+下列关于构造方法和普通方法的描述中，正确的是（ ）
+选择一项或多项：
+a. 构造方法中不能指定参数，而普通方法可以指定参数
+b. 在同一个类中，构造方法必须位于普通方法之前
+c. 构造方法不能指定返回值类型，普通方法可以指定返回值类型
+d. 构造方法能够在实例对象的同时进行初始化
+正确答案是：构造方法不能指定返回值类型，普通方法可以指定返回值类型, 构造方法能够在实例对象的同时进行初始化
+
+Person p1 = new Person();Person p2 = p1;这两句代码创建了回答
+个对象。
+正确答案是：2
+
+定义一个类，需要使用回答
+关键字。
+正确答案是：class
+
+在类中声明的变量称为成员变量，在方法中声明的变量称为局部变量。
+选择一项：
+对
+错
+正确答案是“对”。
+
+创建对象时，jvm会找到对应的.java文件，通过.java文件创建对象。
+选择一项：
+对
+错
+正确答案是“错”。
+
+只要为一个类定义了成员变量，则系统会在这个类的准备阶段或创建这个类的实例时进行默认初始化，初始化值根据其类型决定。
+选择一项：
+对
+错
+正确答案是“对”。
+
+类中可以定义成员变量和成员方法，其中成员变量用于描述对象的特征，成员方法用于描述对象的行为。
+选择一项：
+对
+错
+正确答案是“对”。
+
+静态变量可以被类和对象调用。
+选择一项：
+对
+错
+正确答案是“对”。
+
+Java中可以通过this关键字解决成员变量与局部变量名称冲突问题。
+选择一项：
+对
+错
+正确答案是“对”。
+
+如果在一个类中没有定义构造方法，那么系统会自动为这个类创建一个默认的构造方法。
+选择一项：
+对
+错
+正确答案是“对”。
+
+垃圾回收机制保证了Java程序不会出现内存溢出。
+选择一项：
+对
+错
+正确答案是“错”。
+final修饰符不可以修饰如下哪个内容（ ）
+选择一项：
+a. 方法
+b. 接口
+c. 类
+d. 变量
+正确答案是：接口
+
+下列关于super关键字的说法中，正确的是（ ）
+选择一项：
+a. super关键字是在子类对象内部指代其父类对象的引用
+b. 子类通过super关键字只能调用父类的方法，而不能调用父类的属性
+c. 子类通过super关键字只能调用父类的属性，而不能调用父类的方法
+d. super关键字不仅可以指代子类的直接父类，还可以指代父类的父类
+正确答案是：super关键字是在子类对象内部指代其父类对象的引用
+
+如果父类的方法是静态的，则子类的方法被（ ）修饰才能覆盖父类的静态方法 。
+选择一项：
+a. final
+b. protected
+c. private
+d. static
+正确答案是：static
+
+下列关于接口的说法中，错误的是（ ）
+选择一项：
+a. 接口中定义的方法默认使用“public abstract”来修饰
+b. 接口中的所有方法都是抽象方法
+c. 接口中定义的变量可以被修改
+d. 接口中的变量默认使用“public static final”来修饰
+正确答案是：接口中定义的变量可以被修改
+
+以下关于继承的描述，说法正确的是（ ）
+选择一项：
+a. 子类可以继承父类的私有的属性和方法
+b. 子类继承父类的所有属性和方法
+c. 子类可以继承父类的公有的属性和方法
+d. 创建子类对象时，父类的所有构造方法都会被执行
+正确答案是：子类可以继承父类的公有的属性和方法
+
+阅读下段代码，
+class Dog
+{
+ public String name;
+ Dog(String name){
+      this.name =name; 
+ }
+}
+public class Demo1
+{
+ public static void main(String[] args){
+      Dog dog1 = new Dog("xiaohuang");
+   Dog dog2 = new Dog("xiaohuang");
+        String s1 = dog1.toString();
+   String s2 = dog2.toString();
+   String s3 = "xiaohuang";
+   String s4 = "xiaohuang";
+ }
+}
+返回值为true的是（   ）
+选择一项：
+a. dog1.equals(dog2)
+b. s1.equals(s2)
+c. s3.equals(s4)
+d. dog1==dog2
+正确答案是：s3.equals(s4)
+
+下列程序运行结果是（  ）
+public class Demo {
+ public static void main(String[] args) {
+  Demo demo = new Demo();
+  demo.show(new Car() {
+   public void run() {
+    System.out.println("demo run");
+   }
+  });
+ }
+ public void show(Car c) {
+  c.run();
+ }
+}
+abstract class Car {
+ public void run() {
+  System.out.println("car run...");
+ }
+}
+选择一项：
+a. car run
+b. demo run
+c. 无结果
+d. 程序编译报错
+正确答案是：demo run
+
+下列选项中，哪个是子类重写父类方法时，必须与父类方法一致的（ ）
+选择一项或多项：
+a. 函数名
+b. 参数列表
+c. 返回值类型
+d. 修饰符
+正确答案是：返回值类型, 函数名, 参数列表
+
+若Animal 是Cat,Dog的父类，则下列选项中，正确的是（ ）
+选择一项或多项：
+a. Cat cat=(Cat)new Dog();
+b. Cat cat=(Cat)new Animal();
+c. Animal animal=new Dog();
+d. Animal animal=new Cat();
+正确答案是：Animal animal=new Cat();, Animal animal=new Dog();
+
+一个类如果要实现一个接口，可以通过关键字回答
+来实现这个接口。
+正确答案是：implements
+
+Java中任何类都直接或间接继承了Object类。
+选择一项：
+对
+错
+正确答案是“对”。
+
+子类重写父类的方法时，重写的方法可以与父类被重写的方法名、参数列表以及返回值类型不相同。
+选择一项：
+对
+错
+正确答案是“错”。
+
+super调用父类构造方法的代码必须位于子类构造方法的第一行。
+选择一项：
+对
+错
+正确答案是“对”。
+
+instanceof关键字可以用于判断一个对象是否为某个类(或接口)的实例或者子类实例。
+选择一项：
+对
+错
+正确答案是“对”。
+
+父类的引用指向自己子类的对象是多态的一种体现形式。
+选择一项：
+对
+错
+正确答案是“对”。
+阅读下列代码
+import java.io.*;
+public class Example{
+public static void main(String[] args) throws Exception {
+OutputStream out = new FileOutputStream("itcast.txt ", true);
+  String str = "欢迎你!";
+  byte[] b = str.getBytes();
+  for (int i = 0; i < b.length; i++) {
+   out.______(b[i]);
+  }
+  out.close();
+ }
+}
+请说出下划线上，填写的方法名称(   )
+选择一项：
+a. read()
+b. write()
+c. close()
+d. available()
+正确答案是：write()
+
+Java流被分为字节流、字符流两大流类，两者都作为（ ）类的直接子类。
+选择一项：
+a. Throwable
+b. Exception
+c. Object
+d. 以上都不是
+正确答案是：Object
+
+下列选项中，不属于FileReader类的方法的是（ ）
+选择一项：
+a. read()
+b. close()
+c. toString()
+d. readLine()
+正确答案是：readLine()
+
+下列关于FileWriter的说法正确的是（ ）
+选择一项或多项：
+a. FileWriter用于直接向文件中读取字符
+b. FileWriter在指定写入的文件不存在时会抛出异常
+c. FileWriter是OutputStreamWriter类的子类
+d. 使用FileWriter(StringfileName,booleanappend)构造方法，设置append参数值为true可以实现在文件中追加内容的效果
+正确答案是：FileWriter是OutputStreamWriter类的子类, 使用FileWriter(StringfileName,booleanappend)构造方法，设置append参数值为true可以实现在文件中追加内容的效果
+
+下列有关转换流的说法错误的有（ ）
+选择一项或多项：
+a. 可以指定字节流和字符流之间转换的字符集
+b. OutputStreamWriter是OutputStream的子类
+c. InputStreamReader使用了缓冲区技术
+d. OutputStreamWriter是字符流通向字节流的桥梁
+正确答案是：InputStreamReader使用了缓冲区技术, OutputStreamWriter是OutputStream的子类
+
+下面关于File类的常用方法说法正确的是（ ）
+选择一项或多项：
+a. list()：返回一个字符串数组，该字符串命名此抽象路径名表示的目录中的文件和目录
+b. mkdir()：创建由这个抽象路径名命名的目录
+c. isDirectory()：测试这个抽象路径名表示的文件是否为目录
+d. delete()：直接删除这个抽象路径名表示的文件或目录（不会出现异常）
+正确答案是：list()：返回一个字符串数组，该字符串命名此抽象路径名表示的目录中的文件和目录, mkdir()：创建由这个抽象路径名命名的目录, isDirectory()：测试这个抽象路径名表示的文件是否为目录
+
+IO流通常都是成对出现的，即回答
+流和输出流一起使用。
+正确答案是：输入
+
+File类delete()方法的返回值是回答
+类型。（答案写中文）
+正确答案是：布尔
+
+IO流有很多种，按照数据传输方向的不同可分为输入流和输出流。
+选择一项：
+对
+错
+正确答案是“对”。
+
+FileReader字符输入流可以用于从文件中直接读取字符。
+选择一项：
+对
+错
+正确答案是“对”。
+下列关于进程和线程的说法中，错误的是（ ）
+选择一项：
+a. 操作系统中每个独立执行的程序都可称之为一个进程
+b. 线程和进程一样，是由CPU同时执行的
+c. 操作系统中的每一个进程中都至少存在一个线程
+d. 线程和进程一样，是由CPU轮流执行的
+正确答案是：线程和进程一样，是由CPU同时执行的
+
+下列关于线程状态转换的描述中，错误的是（ ）
+选择一项：
+a. 运行状态下的线程调用wait()方法可以使其进入到阻塞状态
+b. 线程失去CPU使用权后会从运行状态转换成就绪状态
+c. 死亡状态下的线程调用start()方法可以使其重新进入就绪状态
+d. 线程获得CPU使用权后会从就绪状态转换成运行状态
+正确答案是：死亡状态下的线程调用start()方法可以使其重新进入就绪状态
+
+下列属于定义同步代码块的关键字的是（ ）
+选择一项：
+a. synchronized
+b. abstract
+c. volatile
+d. goto
+正确答案是：synchronized
+
+阅读下列的程序
+public class Demo extends Thread implements Runnable{      -----①
+ public void run(){ 
+  System.out.println("this is run()"); 
+ } 
+ 
+ public static void main(String args[]){ 
+  Thread thread=new Thread(new Demo());          -----②
+  thread.start(); 
+ } 
+}
+下列关于程序运行结果的说法中，正确的是（  ）
+选择一项：
+a. ①行出现编译错误
+b. ②行出现编译错误
+c. 出现运行错误
+d. 程序正常执行输出this is run()
+正确答案是：程序正常执行输出this is run()
+
+同步代码块的作用是（ ）
+选择一项或多项：
+a. 保证多线程访问数据的安全
+b. 同步代码块可以避免线程的随机性
+c. 保证同步代码块中只有一个线程运行
+d. 同步代码块提高了线程的运行速度
+正确答案是：保证多线程访问数据的安全, 保证同步代码块中只有一个线程运行
+
+Java多线程中，以下关于解决死锁的说法正确的是（ ）
+选择一项或多项：
+a. 避免一个进程等待序列（P1，P2，...Pn），其中P1等待P2占有的某一资源，...Pn等待P1占有的某一资源，可以避免死锁
+b. 使用打破循环等待条件的方法不能避免线程死锁
+c. 打破互斥条件，即允许进程同时访问某些资源
+d. 打破不可抢占条件，即允许进程强行从某些资源占有者那里夺取资源
+正确答案是：避免一个进程等待序列（P1，P2，...Pn），其中P1等待P2占有的某一资源，...Pn等待P1占有的某一资源，可以避免死锁, 打破互斥条件，即允许进程同时访问某些资源, 打破不可抢占条件，即允许进程强行从某些资源占有者那里夺取资源
+
+notify()方法唤醒等待线程后，该线程会立即被CPU执行。
+选择一项：
+对
+错
+正确答案是“错”。
+
+多线程操作共享资源一定会导致线程的安全问题。
+选择一项：
+对
+错
+正确答案是“错”。
+
+被synchronized关键字修饰的方法称为同步方法。
+选择一项：
+对
+错
+正确答案是“对”。
+
+Java多线程中，如果进程所获得的资源在未使用完毕之前，资源申请者不能强行地从资源占有者手中夺取资源，而只能由该资源的占有者进程自行释放，就一定会出现死锁。
+选择一项：
+对
+错
+正确答案是“错”。
+下列目录中，哪一个是用来存放JDK核心源代码的（ ）
+选择一项：
+a. jre目录
+b. lib目录
+c. include目录
+d. src目录
+正确答案是：src目录
+
+Java属于以下哪种语言（ ）
+选择一项：
+a. 以上都不对
+b. 高级语言
+c. 机器语言
+d. 汇编语言
+正确答案是：高级语言
+
+阅读下列代码
+public class Example {
+ public static void main(String[] args) {
+  int[] srcArray = { 11, 12, 13, 14 };
+  int[] destArray = { 21, 22, 23, 24 };
+  System.arraycopy(srcArray, 1, destArray, 2, 2);
+  for (int i = 0; i < destArray.length; i++) {
+   System.out.print(destArray[i] + " ");
+  }
+ }
+}
+下列选项中，程序的运行结果是（   ）
+选择一项：
+a. 21221213
+b. 21221112
+c. 21111224
+d. 发生数组角标越界异常
+正确答案是：21221213
+
+下面哪个方法可以实现获取字符在某个字符串中第一次出现的索引（ ）
+选择一项：
+a. boolean endsWith(String suffix)
+b. int lastIndexOf(int ch)
+c. char charAt(int index)
+d. int indexOf(int ch)
+正确答案是：int indexOf(int ch)
+
+下列是Math类中的一些常用方法，其中用于获取大于等于0.0且小于1.0的随机数的方法是（ ）
+选择一项：
+a. random()
+b. sin()
+c. abs()
+d. pow()
+正确答案是：random()
+
+下面关于静态同步方法说法错误的是（ ）
+选择一项：
+a. 静态方法必须使用class对象来同步。
+b. 静态同步方法和以当前类为同步监视器的同步代码块不能同时执行。
+c. 一个类中的多个同步静态方法可以同时被多个线程执行。
+d. 对于静态的同步方法而言，该方法的同步监视器不是this，而是该类本身。
+正确答案是：一个类中的多个同步静态方法可以同时被多个线程执行。
+
+下列选项中，属于布尔常量的是（ ）
+选择一项：
+a. true
+b. null
+c. 2e3f
+d. 198
+正确答案是：true
+
+下列选项中，用于引入包的关键字是（ ）
+选择一项：
+a. package
+b. import
+c. static
+d. class
+正确答案是：import
+
+下列字符串常量中，哪一个是错误的（ ）
+选择一项：
+a. "12"12"
+b. "12'12"
+c. ""
+d. "abc"
+正确答案是："12"12"
+
+阅读下列代码
+System.out.println(“Hello” + 9 + 1);
+下列选项中，哪个是正确的输出结果（ ）
+选择一项：
+a. Hello91
+b. Compilation fails
+c. Hello10
+d. An exceptionis thrown at runtime
+正确答案是：Hello91
+
+请阅读下面的程序
+public class SwitchDemo{
+ public static void main(String[] args) {
+       char c = ‘B’;
+       switch(c){
+             case ‘A’:
+                    System.out.println(“优”);
+                    break;
+             case ‘B’:
+                    System.out.println(“良”);
+                    break;
+             case ‘C’:
+                    System.out.println(“差”);
+                    break;
+          }
+     }
+}
+下列选项中，哪一个才是程序的运行结果（  ）
+选择一项：
+a. 优
+b. 良
+c. 差
+d. 编译失败
+正确答案是：良
+
+阅读下面程序片段 
+switch (i) {
+case 1:
+ System.out.println("message1");
+case 2:
+ System.out.println("message2");
+case 3:
+     System.out.println("message3");
+     break;
+}
+请说当变量i的值为多少时，程序只输出“message 3”。（ ）
+选择一项：
+a. 1
+b. 2
+c. 3
+d. 4
+正确答案是：3
+
+请阅读下面的程序
+public class Example  {                                                            
+  public static void main(String[] args) {                                      
+   int x = 1;                                                                            
+   do {                                                                                   
+    x++;                                                                        
+   } while (x <= 4);                                                                            
+  System.out.println("x = " + x);                                                               
+  }                                                                                                          
+} 
+程序的运行结果是（）
+选择一项：
+a. 3
+b. 4
+c. 5
+d. 6
+正确答案是：5
+
+请阅读下面的程序
+public class Test{
+  public static void main(String[] args) {
+   int grade =76;           // 定义学生成绩
+   if (grade > 80) {         // 满足条件 grade > 80
+      System.out.println("成绩为优");
+   } else if (grade > 70) {// 不满足条件 grade > 80 ，但满足条件 grade > 70
+      System.out.println("成绩为良");
+   } else if (grade > 60) {
+      // 不满足条件 grade > 70 ，但满足条件 grade > 60 
+      System.out.println("成绩为中");
+  } else {
+      // 不满足条件 grade > 60 
+      System.out.println("成绩为差");
+  }
+ }
+}
+程序的运行结果是（）
+选择一项：
+a. 成绩为优
+b. 成绩为良
+c. 成绩为中
+d. 成绩为差
+正确答案是：成绩为良
+
+请阅读下面的程序
+public class Test {
+ public static void main(String[] args) {
+     int i = 0;
+     int count = 0;
+       do {
+        if (!(i + "").contains("4")) {
+          count++;
+        }
+          i++;
+     } while (i < 500);
+     System.out.println("一共有：" + count);
+     }
+}                                                                                          
+下列选项中，哪一个是程序运行后count的值（   ）
+选择一项：
+a. 322
+b. 323
+c. 324
+d. 325
+正确答案是：324
+
+下面关于方法定义的描述中，正确的是（ ）
+选择一项：
+a. 方法是对功能代码块的封装
+b. 当方法没有返回值时，返回值类型可以不写
+c. 当方法没有返回值时，不能有return语句
+d. 方法是不可以没有参数的
+正确答案是：方法是对功能代码块的封装
+
+请阅读下面的代码
+String s1=new String("abc");
+String s2=s1.intern();
+String s3="abc";
+System.out.println(s1==s2);
+System.out.println(s2==s3);
+System.out.println(s1==s3);
+下列选项中，程序的输出结果为（ ）
+选择一项：
+a. false false true
+b. false false false
+c. false true false
+d. false true true
+正确答案是：false true false
+
+下面哪个修饰符不可以修饰接口中的成员变量（ ）
+选择一项：
+a. public
+b. final
+c. private
+d. static
+正确答案是：private
+
+函数重写与函数重载的相同之处是（ ）
+选择一项：
+a. 权限修饰符
+b. 返回值类型
+c. 函数名
+d. 形参列表
+正确答案是：函数名
+
+final修饰符修饰方法时，不能和以下哪个修饰符共用（ ）
+选择一项：
+a. synchronized
+b. abstract
+c. public
+d. static
+正确答案是：abstract
+
+下列选项中，会导致线程进入死亡状态的是（ ）
+选择一项或多项：
+a. 线程抛出一个未捕获的异常
+b. 线程的run()方法正常执行完毕
+c. 线程执行过程中出现错误
+d. 线程调用了sleep()方法
+正确答案是：线程的run()方法正常执行完毕, 线程抛出一个未捕获的异常, 线程执行过程中出现错误
+
+同步代码块的作用是（ ）
+选择一项或多项：
+a. 保证多线程访问数据的安全
+b. 同步代码块可以避免线程的随机性
+c. 同步代码块提高了线程的运行速度
+d. 保证同步代码块中只有一个线程运行
+正确答案是：保证多线程访问数据的安全, 保证同步代码块中只有一个线程运行
+
+下列关于方法重载的说法中，正确的是（ ）
+选择一项或多项：
+a. 方法名相同，参数的类型排列顺序不同可以形成方法重载。
+b. 方法名相同，返回值类型不同，可以形成方法重载。
+c. 方法名相同，参数的类型不同可以形成方法重载。
+d. 方法名相同，参数个数不同可以形成方法重载。
+正确答案是：方法名相同，参数个数不同可以形成方法重载。, 方法名相同，参数的类型不同可以形成方法重载。, 方法名相同，参数的类型排列顺序不同可以形成方法重载。
+
+下列关于构造方法和普通方法的描述中，正确的是（ ）
+选择一项或多项：
+a. 构造方法中不能指定参数，而普通方法可以指定参数
+b. 在同一个类中，构造方法必须位于普通方法之前
+c. 构造方法能够在实例对象的同时进行初始化
+d. 构造方法不能指定返回值类型，普通方法可以指定返回值类型
+正确答案是：构造方法不能指定返回值类型，普通方法可以指定返回值类型, 构造方法能够在实例对象的同时进行初始化
+
+以下关于super关键字的说法中，正确的是（ ）
+选择一项或多项：
+a. super关键字可以调用父类的成员方法
+b. super关键字可以调用父类的构造方法
+c. super()与this()可以同时存在于同一个构造方法中
+d. super()与this()不能同时存在于同一个构造方法中
+正确答案是：super()与this()不能同时存在于同一个构造方法中, super关键字可以调用父类的成员方法, super关键字可以调用父类的构造方法
+
+若Animal 是Cat,Dog的父类，则下列选项中，正确的是（ ）
+选择一项或多项：
+a. Animal animal=new Dog();
+b. Cat cat=(Cat)new Dog();
+c. Animal animal=new Cat();
+d. Cat cat=(Cat)new Animal();
+正确答案是：Animal animal=new Cat();, Animal animal=new Dog();
+
+下列关于IO流的描述中，正确的有哪些（ ）
+选择一项或多项：
+a. 按照数据传输方向的不同又可分为输入流和输出流。
+b. 字节流的输入输出流分别用java.io.InputStream和java.io.OutputStream表示。
+c. 字符流的输入输出流分别用java.io.Reader和java.io.Writer表示。
+d. 按照操作数据的不同，可以分为字节流和字符流。
+正确答案是：按照操作数据的不同，可以分为字节流和字符流。, 按照数据传输方向的不同又可分为输入流和输出流。, 字节流的输入输出流分别用java.io.InputStream和java.io.OutputStream表示。, 字符流的输入输出流分别用java.io.Reader和java.io.Writer表示。
+
+Java中一个类最多可以继承回答
+个类。
+正确答案是：一
+
+Java提供了一个关键字回答
+，可以判断一个对象是否为某个类(或接口)的实例或者子类实例。
+正确答案是：instanceof
+
+IO流通常都是成对出现的，即回答
+流和输出流一起使用。
+正确答案是：输入
+
+在Java中，类名的首字母要求大写。
+选择一项：
+对
+错
+正确答案是“对”。
+
+死锁就是两个线程在运行时都在等待对方的锁。
+选择一项：
+对
+错
+正确答案是“对”。
+
+在进行自增（++）和自减（--）的运算时，如果运算符（++或--）放在操作数的前面则是先进行自增或自减运算，再进行其它运算。
+选择一项：
+对
+错
+正确答案是“对”。
+
+Java中的常量是固定不变的值。
+选择一项：
+对
+错
+正确答案是“对”。
+
+continue语句用在循环语句中，它的作用是终止本次循环，执行下一次循环。
+选择一项：
+对
+错
+正确答案是“对”。
+
+当break语句出现在嵌套循环中的内层循环时，就无法跳出循环。
+选择一项：
+对
+错
+正确答案是“错”。
+
+for循环语句一般用在循环次数未知的情况下。
+选择一项：
+对
+错
+正确答案是“错”。
+
+定义一个方法时，其访问修饰符、返回值类型、方法名的顺序可以互换。
+选择一项：
+对
+错
+正确答案是“错”。
+
+面向对象的特点主要可以概括为封装性、继承性和重载性。
+选择一项：
+对
+错
+正确答案是“错”。
+
+只能在构造方法中使用this调用其它的构造方法，不能在成员方法中使用。
+选择一项：
+对
+错
+正确答案是“错”。
+下面关于path和classpath的说法中，错误的是（ ）
+选择一项：
+a. path用来指定java虚拟机(JVM)所在的目录
+b. classpath用来指定我们自己所写的或要用到的类文件(.jar文件)所在的目录
+c. 在dos命令行中，classpath和path环境变量的查看与配置的方式不相同
+d. 只要设置了classpath这个环境变量系统就不会再在当前目录下查询某个类
+正确答案是：在dos命令行中，classpath和path环境变量的查看与配置的方式不相同
+
+下面选项中，完全面向对象的编程语言是（ ）
+选择一项：
+a. COBOL
+b. FORTRAN
+c. JAVA
+d. C
+正确答案是：JAVA
+
+下列关于JDK、JRE和JVM关系的描述中，正确的是（ ）。
+选择一项：
+a. JRE中包含了JDK，JDK中包含了JVM。
+b. JDK中包含了JRE，JVM中包含了JRE。
+c. JRE中包含了JDK，JVM中包含了JRE。
+d. JDK中包含了JRE，JRE中包含了JVM。
+正确答案是：JDK中包含了JRE，JRE中包含了JVM。
+
+StringBuffer类的append()方法的返回值类型是（ ）
+选择一项：
+a. StringBuffer
+b. String
+c. StringBuilder
+d. void
+正确答案是：StringBuffer
+
+下列是Random类的一些常用方法，其中能获得指定范围随机数的方法是（ ）
+选择一项：
+a. nextInt(int n)
+b. nextInt()
+c. nextBoolean()
+d. nextLong()
+正确答案是：nextInt(int n)
+
+下列是Math类中的一些常用方法，其中用于获取大于等于0.0且小于1.0的随机数的方法是（ ）
+选择一项：
+a. random()
+b. pow()
+c. sin()
+d. abs()
+正确答案是：random()
+
+下列关于System类的描述中，错误的是（ ）
+选择一项：
+a. System类中定义了许多方法，但是没有定义字段
+b. System类中提供了获取当前系统属性的方法
+c. System类是final关键字修饰的类，它不能被其他类所继承
+d. System类不能被实例化
+正确答案是：System类中定义了许多方法，但是没有定义字段
+
+JDBC驱动器也称为JDBC驱动程序，它的提供者是（ ）
+选择一项：
+a. ORACLE
+b. SUN
+c. 数据库厂商
+d. ISO
+正确答案是：数据库厂商
+
+下列选项中，正确关闭数据库资源的顺序是（ ）
+选择一项：
+a. preparedSatement.close()
+b. resultSet.close()
+c. connection.close()
+d. statement.close()
+正确答案是：resultSet.close()
+
+下列关于线程状态转换的描述中，错误的是（ ）
+选择一项：
+a. 线程失去CPU使用权后会从运行状态转换成就绪状态
+b. 运行状态下的线程调用wait()方法可以使其进入到阻塞状态
+c. 线程获得CPU使用权后会从就绪状态转换成运行状态
+d. 死亡状态下的线程调用start()方法可以使其重新进入就绪状态
+正确答案是：死亡状态下的线程调用start()方法可以使其重新进入就绪状态
+
+JAVA中调用Thread类的sleep()方法后，当前线程状态如何转换（ ）
+选择一项：
+a. 由运行状态进入等待状态
+b. 由阻塞状态进入运行状态
+c. 由阻塞状态进入等待状态
+d. 由运行状态进入阻塞状态
+正确答案是：由运行状态进入阻塞状态
+
+关于表达式1234/1000 * 1000的运算结果，下列哪个选项是正确的（ ）
+选择一项：
+a. 1000
+b. 以上都不对
+c. 1234
+d. 1234.0
+正确答案是：1000
+
+以下标识符中，不合法的是（ ）
+选择一项：
+a. user
+b. login_1
+c. class
+d. $inner
+正确答案是：class
+
+下列选项中，不属于赋值运算符的是（ ）
+选择一项：
+a. ==
+b. =
+c. *=
+d. -=
+正确答案是：==
+
+下列选项中，不属于比较运算符的是（ ）
+选择一项：
+a. ==
+b. <=
+c. =
+d. <
+正确答案是：=
+
+请阅读下面的程序
+public class Test{
+ public static void main(String[] args) {
+        int x = 3;
+        if (x > 5) {
+               System.out.println("a");
+        } else {
+               System.out.println("b");
+        }
+    }
+ }
+程序的运行结果是（ ）
+选择一项：
+a. true
+b. false
+c. a
+d. b
+正确答案是：b
+
+请阅读下面的程序
+public class SwitchDemo{
+ public static void main(String[] args) {
+       char c = ‘B’;
+       switch(c){
+             case ‘A’:
+                    System.out.println(“优”);
+                    break;
+             case ‘B’:
+                    System.out.println(“良”);
+                    break;
+             case ‘C’:
+                    System.out.println(“差”);
+                    break;
+          }
+     }
+}
+下列选项中，哪一个才是程序的运行结果（  ）
+选择一项：
+a. 优
+b. 良
+c. 差
+d. 编译失败
+正确答案是：良
+
+请阅读下面的程序。
+class WhileDemo{
+ public static void main(String[] args) {
+  int n = 5;
+  while (n < 10) {
+       System.out.print否;
+       n++;
+  }
+ }
+}
+下列选项中，哪一个是程序运行的结果（  ）
+选择一项：
+a. 无输出
+b. 输出56789
+c. 死循环
+d. 编译错误
+正确答案是：输出56789
+
+请阅读下面的程序
+public class Test {
+ public static void main(String[] args) {
+     int i = 0;
+     int count = 0;
+       do {
+        if (!(i + "").contains("4")) {
+          count++;
+        }
+          i++;
+     } while (i < 500);
+     System.out.println("一共有：" + count);
+     }
+}                                                                                          
+下列选项中，哪一个是程序运行后count的值（   ）
+选择一项：
+a. 322
+b. 323
+c. 324
+d. 325
+正确答案是：324
+
+请阅读下面的代码 
+class A{
+   int x;
+   static int y;
+   void fac(String s){
+         System.out.println(“字符串：”+s);
+   }
+}
+下列选项中描述正确的是（   ）
+选择一项：
+a. x,y和s都是成员变量
+b. x是实例变量，y是类变量，s是局部变量
+c. x和y是实例变量，s是参数
+d. x,y和s都是实例变量
+正确答案是：x是实例变量，y是类变量，s是局部变量
+
+下列关于default语句的说法中，正确的是（ ）
+选择一项或多项：
+a. default代表的是默认要执行的语句，也就是没有匹配就执行default。
+b. 在switch语句中，default必须存在。
+c. 一般情况下，default放置在switch语句的最后面。
+d. default不是swicth语句中必须的。
+正确答案是：default不是swicth语句中必须的。, default代表的是默认要执行的语句，也就是没有匹配就执行default。, 一般情况下，default放置在switch语句的最后面。
+
+下列关于静态代码块的描述中，正确的是（ ）
+选择一项或多项：
+a. 静态代码块随着类的加载而加载
+b. 静态代码块指的是被static关键字修饰的代码块
+c. 每次创建对象时，类中的静态代码块都会被执行一次
+d. 使用静态代码块可以实现类的初始化
+正确答案是：静态代码块指的是被static关键字修饰的代码块, 静态代码块随着类的加载而加载, 使用静态代码块可以实现类的初始化
+
+当子类B继承父类A时,下面描述正确的是？（ ）
+选择一项或多项：
+a. 创建类B的对象可以调用类A中的public修饰的成员变量
+b. 创建类B的对象可以调用类A中的private修饰的成员变量
+c. 创建类B的对象可以调用类A中的public修饰的成员方法
+d. 创建类B的对象可以调用类A中的private修饰的成员方法
+正确答案是：创建类B的对象可以调用类A中的public修饰的成员变量, 创建类B的对象可以调用类A中的public修饰的成员方法
+
+下列遍历方式中，哪些可以用来遍历List集合（ ）
+选择一项或多项：
+a. get()和length()方法结合实现
+b. Iterator迭代器实现
+c. get()和size()方法结合实现
+d. 增强for循环实现
+正确答案是：Iterator迭代器实现, 增强for循环实现, get()和size()方法结合实现
+
+以下关于字节流的说法正确的是（ ）
+选择一项或多项：
+a. InputStream和OutputStream这两个类都是抽象类，不能被实例化
+b. 以上都正确
+c. 所有的字节输入流都继承自InputStream
+d. 在计算机中，无论是文本、图片、音频还是视频，所有文件都是以二进制(字节)形式存在的
+正确答案是：在计算机中，无论是文本、图片、音频还是视频，所有文件都是以二进制(字节)形式存在的, 所有的字节输入流都继承自InputStream, InputStream和OutputStream这两个类都是抽象类，不能被实例化, 以上都正确
+
+在Thread类中提供了一个回答
+方法来实现线程插队。
+正确答案是：join
+
+用于比较两个整数不相等的运算符是回答。
+正确答案是：!
+
+在Java中的跳转语句有回答
+语句和continue语句。
+正确答案是：break
+
+构造方法没有返回值类型，因此不能使用回答
+语句。
+正确答案是：return
+
+JDK安装的时候不可以修改安装目录。
+选择一项：
+对
+错
+正确答案是“错”。
+
+main()函数是java程序的执行入口。
+选择一项：
+对
+错
+正确答案是“对”。
+
+Java语言有三种技术平台，分别是JavaSE、JavaME、JavaEE。
+选择一项：
+对
+错
+正确答案是“对”。
+
+死锁就是两个线程在运行时都在等待对方的锁。
+选择一项：
+对
+错
+正确答案是“对”。
+
+在Java中，小数会被默认是double类型的值。
+选择一项：
+对
+错
+正确答案是“对”。
+
+System.out.println(‘a’ + 0);语句的输出结果是a0。
+选择一项：
+对
+错
+正确答案是“错”。
+
+Java中有一种特殊的赋值运算叫做三元运算，它和if-else语句类似。
+选择一项：
+对
+错
+正确答案是“对”。
+
+多维数组实际上就是数组中嵌套着数组，数组中的元素还是一个数组。
+选择一项：
+对
+错
+正确答案是“对”。
+
+垃圾回收机制保证了Java程序不会出现内存溢出。
+选择一项：
+对
+错
+正确答案是“错”。
+
+类只支持单继承，不允许多重继承，C类不可以既继承A类又B类。
+选择一项：
+对
+错
+正确答案是“对”。
+
+匿名内部类就是一个没有类名的内部类。
+选择一项：
+对
+错
+正确答案是“对”。
