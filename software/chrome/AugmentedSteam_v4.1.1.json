@@ -8,6 +8,7 @@
       "url": "https://www.google.com/search?q=[ID]+[NAME]"
     }
   ],
+  "collection_banner_notowned": false,
   "community_default_tab": "",
   "confirmdeletecomment": true,
   "context_bartervg": false,
@@ -65,9 +66,11 @@
     64,
     65,
     66,
-    67
+    67,
+    68
   ],
   "exfgls": true,
+  "friends_append_nickname": false,
   "group_steamgifts": true,
   "hideactivelistings": false,
   "hideannouncementcomments": false,
@@ -95,13 +98,14 @@
   "homepage_tab_selection": "remember",
   "horizontalscrolling": true,
   "installsteam": "hide",
-  "itad_import_library": false,
-  "itad_import_wishlist": false,
+  "itad_sync_library": true,
+  "itad_sync_notes": false,
+  "itad_sync_wishlist": true,
   "keepssachecked": true,
   "language": "schinese",
   "mp4video": false,
   "oneclickremovewl": false,
-  "openinnewtab": false,
+  "openinnewtab": true,
   "override_price": "CNY",
   "profile_astats": true,
   "profile_astatsnl": true,
