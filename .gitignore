@@ -1,3 +1,6 @@
+/package.json
+/package-lock.json
+/node_modules
 /node/names.txt
 /JoyToKey/JoyToKey.log
 /~$笔记.xlsx
