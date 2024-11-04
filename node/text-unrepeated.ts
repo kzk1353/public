@@ -380,16 +380,22 @@ let run = (filePath = process.argv[2]) => {
             cacheQA ||= new CacheQA();
 
             if (line) {
-              cacheQA.lineS ??= lineNumber; // QA首行
+              isNaN(cacheQA.lineS) && (cacheQA.lineS = lineNumber); // QA首行
               cacheQA.texts.push(line);
             } else {
-              cacheQA.lineE ??= lineNumber - 1; // QA末行
+              isNaN(cacheQA.lineE) && (cacheQA.lineE = lineNumber - 1); // QA末行
 
               let Q = cacheQA.texts[0];
               let A = cacheQA.texts[cacheQA.texts.length - 1];
 
-              if (QA[Q]) {
-                // console.log('重复', cache.lineS, '~', cache.lineE, question);
+              if (QA[Q] && QA[Q] === A) {
+                // console.log(
+                //   '重复',
+                //   cacheQA.lineS,
+                //   '~',
+                //   cacheQA.lineE,
+                //   question,
+                // );
               } else {
                 QA[Q] = A; // 保存题目与答案
 
