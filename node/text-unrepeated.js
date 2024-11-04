@@ -329,12 +329,10 @@ let FilePlus = class {
   }
 };
 
-// console.log('输入 r: 还原文件');
-// console.log('输入文件路径: 去重');
-let run = (fileName = process.argv[2]) => {
-  if (!fileName) return console.error('请输入文件名');
+let run = (filePath = process.argv[2]) => {
+  if (!filePath) return console.error('请输入文件路径');
 
-  return new FilePlus(fileName)
+  return new FilePlus(filePath)
     .then(async (e) => {
       await e.modify(async (ws) => {
         /* 写入临时文件 */
@@ -382,7 +380,22 @@ let run = (fileName = process.argv[2]) => {
       return e;
     })
     .then((e) => {
-      console.log(99, e);
+      console.log('输入 a: 再次执行');
+      console.log('输入 r: 还原文件');
+      question('请输入:').then((res) => {
+        switch (res) {
+          case 'a':
+            run(filePath);
+            break;
+
+          case 'r':
+            e.restore();
+            break;
+
+          default:
+            break;
+        }
+      });
     });
 };
 
