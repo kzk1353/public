@@ -17,11 +17,25 @@ let colors = {
 };
 
 /**控制台 */
-let log = (title: string, msg = '') => {
+let log = (title: keyof typeof colors, msg = '') => {
   let start = colors[title] || '';
   let end = '\x1B[0m';
   let _title = `${start}${title}${end}`;
   console.log(`${_title}: ${msg}`);
+};
+
+/**命令行 */
+let question = (str = '') => {
+  return new Promise<string>((resolve) => {
+    let rl = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout,
+    });
+    rl.question(str, (answer) => {
+      rl.close();
+      resolve(answer);
+    });
+  });
 };
 
 /**忽略文件 */
@@ -117,45 +131,32 @@ let makeDir = (dir: string, base = __dirname) => {
   });
 };
 
-/**命令行 */
-let question = (str = '') => {
-  return new Promise<string>((resolve) => {
-    let rl = readline.createInterface({
-      input: process.stdin,
-      output: process.stdout,
-    });
-    rl.question(str, (answer) => {
-      rl.close();
-      resolve(answer);
-    });
-  });
-};
-
 let FilePlus = class {
-  constructor(_path: string | string[] = process.argv.slice(2)) {
-    this._getPath(_path);
+  constructor(arg: string | string[] = process.argv.slice(2)) {
+    this._getPath(arg);
   }
 
-  DIR: string;
-  FILE: string;
-  FILE_BASE_NAME: string;
-  FILE_EXT_NAME: string;
+  DIR = '';
+  FILE = '';
+  FILE_BASE_NAME = '';
+  FILE_EXT_NAME = '';
 
   /**获取路径 */
-  _getPath(_path: string | Array<string>) {
-    if (!_path) return console.error('请输入文件路径');
+  _getPath(arg: string | Array<string>) {
+    if (!arg) return console.error('请输入文件路径');
 
-    let str = _path instanceof Array ? _path.join(' ') : _path; //支持路径有空格
+    let _path = arg instanceof Array ? arg.join(' ') : arg; //支持路径有空格
+    let cwd = process.cwd();
 
     // 判断是否为绝对路径
-    if (path.isAbsolute(str)) {
-      this.FILE = str;
+    if (path.isAbsolute(_path)) {
+      this.FILE = _path;
     } else {
-      this.FILE = path.join(__dirname, str);
+      this.FILE = path.join(cwd, _path);
     }
 
-    this.FILE_BASE_NAME = path.basename(str);
-    this.FILE_EXT_NAME = path.extname(str);
+    this.FILE_BASE_NAME = path.basename(_path);
+    this.FILE_EXT_NAME = path.extname(_path);
     this.DIR = path.dirname(this.FILE);
   }
 
@@ -164,7 +165,7 @@ let FilePlus = class {
     return this;
   }
 
-  _stats: fs.Stats;
+  _stats?: fs.Stats;
 
   /**读取文件 */
   getStat() {
@@ -222,7 +223,7 @@ let FilePlus = class {
     let targetParse = path.parse(target);
     let targetDir = targetParse.ext ? targetParse.dir : target;
 
-    let src;
+    let src: string;
     let isAbsolute = path.isAbsolute(target);
     if (isAbsolute) {
       src = targetDir;
@@ -296,7 +297,7 @@ let FilePlus = class {
           console.log();
           question('请输入还原目录编号:')
             .then((answer) => {
-              let dir = dirs[answer];
+              let dir = dirs[Number(answer)];
               if (dir) {
                 sourcePath = dir.path;
                 log('还原目录', sourcePath);
@@ -365,38 +366,38 @@ let run = (filePath = process.argv[2]) => {
     .then(async (e) => {
       await e.modify(async (ws) => {
         /* 写入临时文件 */
-        let QA = {};
+        let QA: Record<string, string> = {};
 
-        let Cache = class {
-          lineS = null;
-          lineE = null;
-          texts = [];
+        let CacheQA = class {
+          lineS = NaN;
+          lineE = NaN;
+          texts: string[] = [];
         };
-        let cache;
+        let cacheQA: InstanceType<typeof CacheQA> | null = null;
 
         await e.readline({
           onLine: (line, lineNumber, isDone) => {
-            cache ||= new Cache();
+            cacheQA ||= new CacheQA();
 
             if (line) {
-              cache.lineS ??= lineNumber; // QA首行
-              cache.texts.push(line);
+              cacheQA.lineS ??= lineNumber; // QA首行
+              cacheQA.texts.push(line);
             } else {
-              cache.lineE ??= lineNumber - 1; // QA末行
+              cacheQA.lineE ??= lineNumber - 1; // QA末行
 
-              let Q = cache.texts[0];
-              let A = cache.texts[cache.texts.length - 1];
+              let Q = cacheQA.texts[0];
+              let A = cacheQA.texts[cacheQA.texts.length - 1];
 
               if (QA[Q]) {
                 // console.log('重复', cache.lineS, '~', cache.lineE, question);
               } else {
                 QA[Q] = A; // 保存题目与答案
 
-                cache.texts.forEach((i) => ws.write(i + '\n')); // 写入临时文件
+                cacheQA.texts.forEach((i) => ws.write(i + '\n')); // 写入临时文件
                 if (!isDone) ws.write('\n'); // 换行
               }
 
-              cache = null; // 清除缓存
+              cacheQA = null; // 清除缓存
             }
           },
 
