@@ -329,56 +329,61 @@ let FilePlus = class {
   }
 };
 
+// console.log('输入 r: 还原文件');
+// console.log('输入文件路径: 去重');
 let run = (fileName = process.argv[2]) => {
   if (!fileName) return console.error('请输入文件名');
 
-  /**时间 */ let backupTime = Date.now();
-  /**临时文件路径 */ let tempFile;
+  return new FilePlus(fileName)
+    .then(async (e) => {
+      await e.modify(async (ws) => {
+        /* 写入临时文件 */
+        let QA = {};
 
-  new FilePlus(fileName).then((e) => {
-    return e.modify(async (ws) => {
-      /* 写入临时文件 */
-      let QA = {};
+        let Cache = class {
+          lineS = null;
+          lineE = null;
+          texts = [];
+        };
+        let cache;
 
-      let Cache = class {
-        lineS = null;
-        lineE = null;
-        texts = [];
-      };
-      let cache;
+        await e.readline({
+          onLine: (line, lineNumber, isDone) => {
+            cache ||= new Cache();
 
-      await e.readline({
-        onLine: (line, lineNumber, isDone) => {
-          cache ||= new Cache();
-
-          if (line) {
-            cache.lineS ??= lineNumber; // QA首行
-            cache.texts.push(line);
-          } else {
-            cache.lineE ??= lineNumber - 1; // QA末行
-
-            let question = cache.texts[0];
-            let answer = cache.texts[cache.texts.length - 1];
-
-            if (QA[question]) {
-              // console.log('重复', cache.lineS, '~', cache.lineE, question);
+            if (line) {
+              cache.lineS ??= lineNumber; // QA首行
+              cache.texts.push(line);
             } else {
-              QA[question] = answer; // 保存题目与答案
+              cache.lineE ??= lineNumber - 1; // QA末行
 
-              cache.texts.forEach((i) => ws.write(i + '\n')); // 写入临时文件
-              if (!isDone) ws.write('\n'); // 换行
+              let Q = cache.texts[0];
+              let A = cache.texts[cache.texts.length - 1];
+
+              if (QA[Q]) {
+                // console.log('重复', cache.lineS, '~', cache.lineE, question);
+              } else {
+                QA[Q] = A; // 保存题目与答案
+
+                cache.texts.forEach((i) => ws.write(i + '\n')); // 写入临时文件
+                if (!isDone) ws.write('\n'); // 换行
+              }
+
+              cache = null; // 清除缓存
             }
+          },
 
-            cache = null; // 清除缓存
-          }
-        },
+          onClose() {
+            ws.end(); // 写入完成后关闭流
+          },
+        });
+      }, true);
 
-        onClose() {
-          ws.end(); // 写入完成后关闭流
-        },
-      });
-    }, true);
-  });
+      return e;
+    })
+    .then((e) => {
+      console.log(99, e);
+    });
 };
 
-run('aa.txt');
+run();
