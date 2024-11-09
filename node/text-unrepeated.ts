@@ -133,7 +133,11 @@ let makeDir = (dir: string, base = __dirname) => {
 
 let FilePlus = class {
   constructor(arg: string | string[] = process.argv.slice(2)) {
-    this._getPath(arg);
+    if (arg) {
+      this._getPath(arg);
+    } else {
+      console.error('请输入文件路径');
+    }
   }
 
   DIR = '';
@@ -142,9 +146,7 @@ let FilePlus = class {
   FILE_EXT_NAME = '';
 
   /**获取路径 */
-  _getPath(arg: string | Array<string>) {
-    if (!arg) return console.error('请输入文件路径');
-
+  _getPath(arg: string | string[]) {
     let _path = arg instanceof Array ? arg.join(' ') : arg; //支持路径有空格
     let cwd = process.cwd();
 
@@ -358,11 +360,9 @@ let FilePlus = class {
   }
 };
 
-let run = (filePath = process.argv[2]) => {
-  if (!filePath) return console.error('请输入文件路径');
-
-  let filePlus = new FilePlus(filePath).create();
-  return filePlus
+let run = (filePath?: string) => {
+  new FilePlus(filePath)
+    .create()
     .then(async (e) => {
       await e.modify(async (ws) => {
         /* 写入临时文件 */
@@ -385,22 +385,23 @@ let run = (filePath = process.argv[2]) => {
             } else {
               isNaN(cacheQA.lineE) && (cacheQA.lineE = lineNumber - 1); // QA末行
 
-              let Q = cacheQA.texts[0];
-              let A = cacheQA.texts[cacheQA.texts.length - 1];
+              /* 只有存在QA时才触发, 避免QA内异常换行问题 */
+              if (cacheQA.texts.length > 2) {
+                let Q = cacheQA.texts[0];
+                let A = cacheQA.texts[cacheQA.texts.length - 1];
 
-              if (QA[Q] && QA[Q] === A) {
-                // console.log(
-                //   '重复',
-                //   cacheQA.lineS,
-                //   '~',
-                //   cacheQA.lineE,
-                //   question,
-                // );
-              } else {
-                QA[Q] = A; // 保存题目与答案
+                // 当答案不存在时
+                if (QA[Q] !== A) {
+                  // 如果问题存在但答案不相同
+                  if (QA[Q]) {
+                    console.log('重复', cacheQA.lineS, '~', cacheQA.lineE, Q);
+                  } else {
+                    QA[Q] = A; // 保存题目与答案
+                  }
 
-                cacheQA.texts.forEach((i) => ws.write(i + '\n')); // 写入临时文件
-                if (!isDone) ws.write('\n'); // 换行
+                  cacheQA.texts.forEach((i) => ws.write(i + '\n')); // 写入临时文件
+                  if (!isDone) ws.write('\n'); // 换行
+                }
               }
 
               cacheQA = null; // 清除缓存
