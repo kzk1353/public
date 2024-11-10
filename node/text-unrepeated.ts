@@ -360,6 +360,22 @@ let FilePlus = class {
   }
 };
 
+/** 判断答案是否一致 */
+let isAnswerEqual = (answerS?: string, answerT?: string): boolean => {
+  if (!answerS) return false;
+  if (!answerT) return false;
+
+  let reg = /答案[是：:]*([^。]+)/;
+
+  let answerSMatch = answerS.match(reg);
+  if (!answerSMatch) return false;
+
+  let answerTMatch = answerT.match(reg);
+  if (!answerTMatch) return false;
+
+  return answerSMatch[1] === answerTMatch[1];
+};
+
 let run = (filePath?: string) => {
   new FilePlus(filePath)
     .create()
@@ -388,14 +404,14 @@ let run = (filePath?: string) => {
 
               /* 只有存在QA时才触发, 避免QA内异常换行问题 */
               if (cacheQA.texts.length > 2) {
-                let Q = cacheQA.texts[0].replace(' ', '');
-                let A = cacheQA.texts[cacheQA.texts.length - 1].replace(
+                let Q = cacheQA.texts[0].replaceAll(' ', '');
+                let A = cacheQA.texts[cacheQA.texts.length - 1].replaceAll(
                   ' ',
                   '',
                 );
 
                 // 当问题的答案不存在时
-                if (QA[Q] !== A) {
+                if (!isAnswerEqual(QA[Q], A)) {
                   // 如果问题存在但答案不相同
                   if (QA[Q]) {
                     console.log('重复', cacheQA.lineS, '~', cacheQA.lineE, Q);
