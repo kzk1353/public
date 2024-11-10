@@ -365,9 +365,10 @@ let run = (filePath?: string) => {
     .create()
     .then(async (e) => {
       await e.modify(async (ws) => {
-        /* 写入临时文件 */
+        /** 问题答案映射 */
         let QA: Record<string, string> = {};
 
+        /** 问题答案缓存 */
         let CacheQA = class {
           lineS = NaN;
           lineE = NaN;
@@ -387,10 +388,13 @@ let run = (filePath?: string) => {
 
               /* 只有存在QA时才触发, 避免QA内异常换行问题 */
               if (cacheQA.texts.length > 2) {
-                let Q = cacheQA.texts[0];
-                let A = cacheQA.texts[cacheQA.texts.length - 1];
+                let Q = cacheQA.texts[0].replace(' ', '');
+                let A = cacheQA.texts[cacheQA.texts.length - 1].replace(
+                  ' ',
+                  '',
+                );
 
-                // 当答案不存在时
+                // 当问题的答案不存在时
                 if (QA[Q] !== A) {
                   // 如果问题存在但答案不相同
                   if (QA[Q]) {
