@@ -825,6 +825,14 @@ c.制定实施计划
 d.设计电子商务系统
 答案是：设计电子商务系统
 
+系统实施与发布的主要工作不包括（ ） 。
+选择一项：
+a. 完成实施准备 
+b. 实施组织机构的建立
+c. 设计电子商务系统
+d. 制定实施计划
+答案是：完成实施准备
+
 在 HTML中，字体标记符包括（ ）。
 选择一项或多项：
 a.< I >
@@ -2871,14 +2879,6 @@ c. 个人型
 d. 基本信息型
 答案是：基本信息型, 电子商务型, 多媒体广告型
 
-系统实施与发布的主要工作不包括（ ） 。
-选择一项：
-a. 完成实施准备 
-b. 实施组织机构的建立
-c. 设计电子商务系统
-d. 制定实施计划
-答案是：完成实施准备
-
 SET协议提供安全保证的支付方式是（ ）。
 选择一项：
 a. 电子现金
@@ -4599,12 +4599,12 @@ c. 站内风格的统一
 d. 字体的使用
 正确答案是：色调, 简繁, 字体的使用, 站内风格的统一
 
-下面程序段执行完毕，页面上显示内容是什么？（ ） <% 
- Dim strTemp 
- strTemp="user_name"  
-Session(strTemp)="张三" 
-Session("strTemp")="李四" 
- Response.Write Session("user_name") 
+下面程序段执行完毕，页面上显示内容是什么？（ ） <%
+	DimstrTemp
+	strTemp="user_name"
+	Session(strTemp)="张三"
+	Session("strTemp")="李四"
+	Response.WriteSession("user_name")
 %>
 选择一项：
 a. 语法有错，无法正常输出
@@ -5554,11 +5554,11 @@ d. 导航栏
 
 下面Session对象的使用中可以正确执行的是（ ）。
 选择一项：
-a. <%Session.ScriptTimeout=20 %>
-b. <% Response.Write("Session.SessionID") %>
-c. <%Session=nothing%> 
-d. <% Session.Timeout = 40 %>
-正确答案是：<% Session.Timeout = 40 %>
+a. <%Session.ScriptTimeout=20%>
+b. <%Response.Write("Session.SessionID")%>
+c. <%Session=nothing%>
+d. <%Session.Timeout=40%>
+正确答案是：<%Session.Timeout=40%>
 
 使用字体标记（ ）可以设置文字的字体、大小和颜色。
 选择一项：
