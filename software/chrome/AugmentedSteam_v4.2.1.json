@@ -67,7 +67,8 @@
     65,
     66,
     67,
-    68
+    68,
+    70
   ],
   "exfgls": true,
   "friends_append_nickname": false,
@@ -154,7 +155,7 @@
   "show_early_access": true,
   "show_es_homepagetabs": true,
   "show_itad_button": false,
-  "show_package_info": false,
+  "show_package_info": true,
   "show_players_info": true,
   "show_profile_link_images": "gray",
   "show_progressbar": true,
@@ -166,7 +167,6 @@
   "showastatslink": true,
   "showbartervg": false,
   "showcompletionistme": false,
-  "showdeckcompat": false,
   "showdrm": true,
   "showemptywishlist": true,
   "showhltb": true,
@@ -220,7 +220,7 @@
   "user_notes_adapter": "synced_storage",
   "user_notes_app": true,
   "user_notes_wishlist": true,
-  "version": "4.0.1",
+  "version": "4.2.1",
   "version_show": true,
   "wlbuttoncommunityapp": true,
   "user_notes": {}
