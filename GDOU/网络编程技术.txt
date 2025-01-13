@@ -1,0 +1,1748 @@
+以下( )变量名是非法的。
+选择一项：
+a. 2_num 
+b. de2$f
+c. num_1
+d. sum
+正确答案是：2_num
+
+下列语句中，( )语句根据表达式的值进行匹配，然后执行其中的一个语句块。如果找不到匹配项，则执行默认语句块。
+选择一项：
+a. switch 
+b. 字符串运算符
+c. for
+d. if-else
+正确答案是：switch
+
+在JavaScript中，运行以下代码：
+    var flag=true;
+    document .write(typeof(flag));
+返回值是( )。
+选择一项：
+a. undefined
+b. number
+c. null
+d. boolean 
+正确答案是：boolean
+
+下面的代码( )能在页面中弹出提示框，并且输入框中默认无任何内容。
+选择一项：
+a. prompt("请输入你的姓名：","")； 
+b. alert("请输入你的姓名：","")；
+c. prompt("请输入你的姓名：")；
+d. alert("请输入你的姓名：")；
+正确答案是：prompt("请输入你的姓名：","")；
+
+在JavaScript中，运行以下代码后，sum的值是( )。
+     var sum=0;
+     for(i=1;i<10;i++){
+        if (i%5==0)
+          break;
+           sum=sum+i;
+     }
+选择一项：
+a. 5
+b. 50
+c. 40
+d. 10 
+正确答案是：10
+
+在HTML文件中编写JavaScript程序时，应使用标记( )。
+选择一项：
+a. <script> 
+b. <js>
+c. <javascript>
+d. <scripting>
+正确答案是：<script>
+
+在HTML文件中编写JavaScript程序时，使用标记<!--    //-->表示( )。
+选择一项：
+a. 重点突出语句
+b. 没有任何意义
+c. 注释语句
+d. 对于不支持JavaScript程序的浏览器，隐藏程序内容
+正确答案是：对于不支持JavaScript程序的浏览器，隐藏程序内容
+
+选择一项：
+a. <script href="xxx.js" type="text/javascript">
+b. <script name="xxx.js" type="text/javascript">
+c. <script file="xxx.js" type="text/javascript">
+d. <script src="xxx.js" type="text/javascript"> 
+正确答案是：<script src="xxx.js" type="text/javascript">
+
+在JavaScript程序中最常用的显示信息内容的语句格式是( )。
+选择一项：
+a. alertBox="Hello World"
+b. msgBox("Hello World")
+c. alert("Hello World")
+d. alertBox("Hello World") 
+正确答案是：alert("Hello World")
+
+下列JavaScript的声明变量语句中( )是正确的。
+选择一项：
+a. var i ;  j ;  k = 10;
+b. int i = 10;
+c. var i = 10; 
+d. int  i ;  j ;  k = 10 ;
+正确答案是：var i = 10;
+
+下列JavaScript的判断语句中( )是正确的。
+选择一项：
+a. if  i = = 0 then
+b. if (i = = 0) 
+c. if (i = 0)
+d. if  i = 0 then
+正确答案是：if (i = = 0)
+
+下列JavaScript的循环开始语句中( )是正确的。
+选择一项：
+a. for (var i = 0; i <= 10; i++) 
+b. for (var i <= 10; i++)
+c. for var i = 1 to 10
+d. for (var i = 0; i <= 10)
+正确答案是：for (var i = 0; i <= 10; i++)
+
+下列JavaScript的定义函数语句中( )是正确的。
+选择一项：
+a. function functionName() 
+b. function:=functionName()
+c. functionName()
+d. function=functionName()
+正确答案是：function functionName()
+
+下列调用JavaScript函数语句中( )是正确的。
+选择一项：
+a. functionName
+b. functionName() 
+c. call functionName()
+d. call functionName
+正确答案是：functionName()
+
+JavaScript的对象主要包括( )。
+选择一项：
+a. 以上三种都是 
+b. 浏览器内置对象
+c. JavaScript内置对象
+d. 自定义对象
+正确答案是：以上三种都是
+
+JavaScript中自定义对象时使用关键字( )。
+选择一项：
+a. Function 
+b. Define
+c. 以上三种都可以
+d. Object
+正确答案是：Function
+
+在JavaScript中，可以直接用函数的方法进行排序数组的操作。( )
+选择一项：
+对 
+错
+正确答案是“对”。
+
+有一个JavaScript数组长度是3，其中： x[0] = “a“; x[1] = “b“; x[2] = “c“;
+如果要在该数组后添加一项，只要x [3] = “d“; 就可以了( )。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+JavaScript中数组的序列号是从0开始的。
+选择一项：
+对 
+错
+正确答案是“对”。
+
+JavaScript语句“x = (i > 0) ? 1 : 0”表示( )。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+<!-- This is a comment line -->( )JavaScript的注释语句。
+选择一项：
+对
+错
+正确答案是“错”。
+var a=1.5 ,b; b=parseInt(a);
+选择一项：
+a. 1.5
+b. 0、5
+c. 2
+d. 1 
+正确答案是：1
+
+分析下面的JavaScript代码段，输出的结果是( )。
+emp=new Array(5);
+emp[1]=1
+emp[2]=2
+document .write(emp.length);
+选择一项：
+a. 5 
+b. 2
+c. 4
+d. 3
+正确答案是：5
+
+在使用var x=1声明变量x之后，赋值语句x="今天天气真好"将出错。
+选择一项：
+对
+错 
+正确答案是“错”。
+
+有关Window对象，下列说法正确的是( )。
+选择一项或多项：
+a. 代表一个浏览器的窗口或者框架 
+b. 窗口对象不能设置状态栏默认信息 
+c. 判断窗口是否关闭，可以使用窗口对象的closed属性 
+d. 设置窗口左边界的X坐标，可以使用窗口对象的screenX属性 
+e. 是一个文档，链接或历史对象组的顶层对象 
+正确答案是：代表一个浏览器的窗口或者框架, 判断窗口是否关闭，可以使用窗口对象的closed属性, 设置窗口左边界的X坐标，可以使用窗口对象的screenX属性
+
+窗口对象的事件处理程序有 ( )。
+选择一项或多项：
+a. offFocus 
+b. onError 
+c. onLoad 
+d. onFocus 
+e. offMove 
+正确答案是：onError, onLoad, onFocus
+
+Array对象的( )属性将返回表示数组长度的数值。
+选择一项：
+a. length属性 
+b. getsize属性
+c. size属性
+d. getLength属性
+正确答案是：length属性
+
+以下( )表达式产生一个0~7之间(含0,7)的随机整数、
+选择一项：
+a. Math.floor(Math.random()*8)  
+b. Math.floor(Math.random()*6) 
+c. Math.floor(Math.random()*7)
+d. Math.ceil(Math.random()*8)
+正确答案是：Math.floor(Math.random()*8) 
+
+JS语句
+var a1=10;
+var a2=20;
+alert(“a1+a2=”+a1+a2)
+将显示( )结果
+选择一项：
+a. a1+a2=30
+b. a1+a2=a1+a2
+c. a1+a2=1020 
+正确答案是：a1+a2=1020
+
+在JavaScript中，下列定义数组的方法正确的是( )。
+选择一项：
+a. emp=new Array[];
+b. emp=new Array(3); 
+c. emp=new ()array;
+d. emp=new Array[3];
+正确答案是：emp=new Array(3);
+
+作为if/else语句的第一行，下列选项中哪一个是有效的？( )
+选择一项：
+a. if (x==2&&)
+b. else
+c. if(x=2)
+d. if(y<7) 
+正确答案是：if(y<7)
+
+循环语句“for(var i=0，j=10; i=j=10;  i++, j）;”的循环次数是( )
+选择一项：
+a. 10
+b. 0
+c. 1
+d. 无限 
+正确答案是：无限
+
+下述break语句的描述中，( )是不正确的、
+选择一项：
+a. break语句用于if语句，它表示退出该if语句 
+b. break语句用于switch语句，它表示退出该switch语句
+c. break语句在一个循环体内可使用多次
+d. break语句用于循环体内，它将退出该重循环
+正确答案是：break语句用于if语句，它表示退出该if语句
+
+分析下面的JavaScript代码 ，经过运算后m的值为( )。
+x=11;
+y="number";
+m=x+y;
+选择一项：
+a. 11number 
+b. number
+c. 11
+d. 程序报错
+正确答案是：11number
+
+关于变量的命名规则，下列说法正确的是( )。
+选择一项或多项：
+a. 长度是任意。 
+b. 变量名称不能是保留字。 
+c. 首字符必须是大写，小写的字母，下划线(_)或美元符($)。 
+d. 区分大小写。 
+e. 后续的字符可以是字母，数字，下划线或美元符。 
+正确答案是：首字符必须是大写，小写的字母，下划线(_)或美元符($)。, 后续的字符可以是字母，数字，下划线或美元符。, 变量名称不能是保留字。, 长度是任意。, 区分大小写。
+
+在JavaScript函数的定义格式中，下面各组成部分中，哪些是不可以省略的( )
+选择一项或多项：
+a. 函数体 
+b. 函数名 
+c. 函数参数 
+d. 指明函数的一对圆括号() 
+正确答案是：指明函数的一对圆括号(), 函数体, 函数名
+
+页面中有一个id为pdate的文本框，下列代码中，( )能把文本框中的值改为“2016-10-12”。
+选择一项：
+a. document .getElementById("pdate").text="2016-10-12";
+b. document .getElementById("pdate").value="2016-10-12"; 
+c. document .getElementById("pdate").getAttribute("2016-10-12");
+d. document .getElementById("pdate").setAttribute("value","2016-10-12");
+正确答案是：document .getElementById("pdate").value="2016-10-12";
+
+页面中有一个id为main的div，div中有两个图片和一个文本框，下列代码中，( )能够完整地复制节点main及div中的所有内容。
+选择一项：
+a. main .cloneNode( );
+b. document .getElementById("main").cloneNode( );
+c. document .getElementById("main").cloneNode(false);
+d. document .getElementById("main").cloneNode(true); 
+正确答案是：document .getElementById("main").cloneNode(true);
+
+页面中有一个id为price的层，使用id选择器设置层price的样式，在IE浏览器中运行此页面，下列代码中，( )能正确获取层的背景颜色。
+选择一项：
+a. var divObj=document .getElementById("price");
+document .defaultView .getComputedStyle(divObj,null). background;
+b. document .getElementById("price").style .backgroundColor 
+c. document .getElementById("price").currentStyle .background-color
+d. document .getElementById("price").currentStyle .backgroundColor
+正确答案是：document .getElementById("price").style .backgroundColor
+
+在使用事件处理程序对页面进行操作时，最主要的是如何通过对象的事件来指定事件处理程序，其指定方式主要有( )。
+选择一项：
+a. 在JavaScript中说明
+b. 直接在HTML标记中指定
+c. 指定特定对象的特定事件
+d. 以上3种方法都具备 
+正确答案是：以上3种方法都具备
+
+当前元素失去焦点并且元素的内容发生改变时触发事件使用( )。
+选择一项：
+a. onblur事件
+b. onfocus事件
+c. onsubmit事件
+d. onchange事件 
+正确答案是：onchange事件
+
+下列( )不是document对象的属性。
+选择一项：
+a. location 
+b. images
+c. links
+d. forms
+正确答案是：location
+
+获取页面中超链接的数量的方法是( )。
+选择一项：
+a. document .links[0].length
+b. document .links.length 
+c. document .links[1].length
+d. document .length
+正确答案是：document .links.length
+
+某网页中有一个窗体对象mainForm，该窗体对象的第一个元素是文本框username，表述该按钮对象的方法是( )。
+选择一项：
+a. document .forms.UserName
+b. document .MainForm .UserName
+c. document .forms.username
+d. document .mainForm .username 
+正确答案是：document .mainForm .username
+
+以下代码，哪个结果是正确的？( )
+var a='123.5abc',b='100abc';
+alert(parseInt(a)+Number(b));
+选择一项：
+a. NaN 
+b. 123.5abc100abc
+c. 123100abc
+d. 223
+正确答案是：NaN
+
+以下哪个结果是正确的？( )
+var a=100,b="100.56",c="80";
+alert(Math.max(a , b ,c));
+选择一项：
+a. 100
+b. 80
+c. 100.56 
+d. NaN
+正确答案是：100.56
+
+为获取页面中多个同名对象，应使用document的( )方法；
+选择一项：
+a. getElementsByTagName()
+b. getElementsByName() 
+c. getElementById()
+正确答案是：getElementsByName()
+
+( )属性用于获取 HTML 文件的根节点。
+选择一项：
+a. documentElement 
+b. documentRoot
+c. rootElement
+d. documentNode
+正确答案是：documentElement
+
+下列关于css( )方法的写法正确的是( )。
+选择一项：
+a. css("#ccf","color")
+b. css("color":"#ccf","font-size":"14px")
+c. css("color","#ccf") 
+d. css(color:#ccf;)
+正确答案是：css("color","#ccf")
+
+当DOM加载完成后要执行的函数，下面哪个是正确的？( )
+选择一项：
+a. jQuery(callback) 
+b. jQuery(elements)
+c. jQuery(html, [ownerDocument])
+d. jQuery(expression, [context])
+正确答案是：jQuery(callback)
+
+下面哪一个是用来追加到指定元素的末尾的？( )
+选择一项：
+a. insertAfter()
+b. appendTo() 
+c. append()
+d. after()
+正确答案是：appendTo()
+
+在jquery中，如果想要获取当前窗口的宽度值，下面哪个是实现该功能的？ ( )
+选择一项：
+a. width
+b. width() 
+c. width(val)
+正确答案是：width()
+
+在jQuery中，能够为元素添加CSS样式的方法是( )。
+选择一项或多项：
+a. next( )
+b. ready( )
+c. css( )
+d. addClass( )
+正确答案是：css( ), addClass( )
+
+选择一项：
+对 
+错
+正确答案是“对”。
+
+在一个表单中，$(“div”).css(“color”,”green”)是将所有的div元素都设置为绿色。( )
+选择一项：
+对 
+错
+正确答案是“对”。
+
+当DOM加载完成后要执行的函数，下面哪个是正确的？彩蛋
+ 
+选择一项：
+a. jQuery(expression, [context])
+b. jQuery(callback)
+c. jQuery(html, [ownerDocument])
+d. jQuery(elements)
+正确答案是：jQuery(callback)
+
+选择一项：
+a. width() 
+b. innerWidth()
+c. width(val)
+d. width
+正确答案是：width()
+
+下面选项中哪一个是和$("#foo")等价的写法。( )
+选择一项：
+a. $(#"foo")
+b. $ ("foo")
+c. $("foo#")
+d. jQuery("#foo") 
+正确答案是：jQuery("#foo")
+
+写“Hello World”的正确JavaScript语法是？( )
+选择一项：
+a. response、write("Hello World")
+b. ("Hello World")
+c. "Hello World"
+d. document .write("Hello World") 
+正确答案是：document .write("Hello World")
+
+在HTML页面上包含如下创建层的语句，那么编写JavaScript语句实现显示该层的语句错误的是( )
+<html>
+<body>
+<div id=”imageLayer” style=”display:none;”>
+<img src=”images/Sunset、jpg” width=”200” height=”100”></div>
+</body>
+<html>
+选择一项：
+a. document .getElementById(“imageLayer”).style .display=”block”;
+b. document .getElementByName(“imageLayer”)[0].style .display=”block”; 
+c. document .getElementByTagName(“div”)[0].style .display=”block”
+d. document .getElementByName(“imageLayer”)、get(0).style .display=”block”;
+正确答案是：document .getElementByName(“imageLayer”)、get(0).style .display=”block”;
+
+在HTML中有如下代码，运行后页面显示结果为( )。
+<script language ="javaScript">
+    document .bgColor=“#FF0000”;
+</script>
+选择一项：
+a. 整个页面中用户访问过的链接的颜色为红色
+b. 整个网页背景为红色 
+c. 整个页面中的文字颜色为红色
+d. 整个网页中活动链接的颜色为红色
+正确答案是：整个网页背景为红色
+
+以下关于DOM说法不正确的是( )。
+选择一项：
+a. document对象代表浏览器加载的HTML文档，window对象代表浏览器的窗口，它们之间没有直接的联系 
+b. document对象是DOM模型的顶层对象
+c. 使用document .title可以更改当前HTML文档的标题
+d. DOM是一种与浏览器、平台、语言无关的接口
+正确答案是：document对象代表浏览器加载的HTML文档，window对象代表浏览器的窗口，它们之间没有直接的联系
+
+以下选项中，用来删除节点的函数是( )。
+选择一项：
+a. removeChild 
+b. insertBefore
+c. appendChild
+d. deleteChild
+正确答案是：removeChild
+
+下列关于DOM模型节点访问说法正确的有( )。
+选择一项：
+a. 可以根据节点ID访问DOM节点 
+b. nodeValue属性可以访问节点的value属性值
+c. getElementsByName方法的作用是获取一个指定name属性值的节点
+d. getElementsByTagName方法是根据节点的name属性访问节点
+正确答案是：可以根据节点ID访问DOM节点
+
+在JavaScript中，关于document对象的方法，下列说法正确的是( )。
+选择一项：
+a. getElementById()是通过元素Id获取元素对象的方法，其返回值为单个对象
+b. getElementbyNames()是通过元素name获取元素对象的方法，其返回值为对象组
+c. getElementbyId()是通过元素Id获取元素对象的方法，其返回值为单个对象
+d. getElementByNames()是通过元素name获取元素对象的方法，其返回值为单个对象
+正确答案是：getElementById()是通过元素Id获取元素对象的方法，其返回值为单个对象
+
+选择一项：
+a. 当一个鼠标指针从对象或区域之个移到对象或区域上时，调用的事件
+b. 当一个表单中的对象被点击时，执行的 JavaScript 事件
+c. 当用户提交一个表单时，需要执行的 JAVASCRIPT 事件 
+d. 当鼠标移出对象时发生的事件
+e. 对象发生改变时调用的事件
+正确答案是：当用户提交一个表单时，需要执行的 JAVASCRIPT 事件
+
+在DOM对象模型中，下列选项中的( )对象位于DOM对象模型的第二层。
+选择一项或多项：
+a. document
+b. button
+c. history
+d. text
+正确答案是：history, document
+
+function compute(op){ alert(op); }
+选择一项或多项：
+a. <input name=”b” type=”button” onclick=”compute(‘-‘)” value=”-”>
+b. <input name=”c” type=”button” onclick=”compute(“*”)” value=”*”>
+c. <input name=”d” type=”button” onclick=”compute(/ )” value=”/”>
+d. <input name=”a” type=”button” onclick=”compute(this、value)” value=”+”>
+正确答案是：<input name=”a” type=”button” onclick=”compute(this、value)” value=”+”>, <input name=”b” type=”button” onclick=”compute(‘-‘)” value=”-”>
+
+选择一项或多项：
+a. 当浏览器完成加载一个窗口或者加载完成框架集合中的所有框时，执行的 JavaScript事件是 onLoad
+b. 对象发生改变时调用的事件是 onChange
+c. 事件是用户对浏览器所做的特定的动作(操作)，是实现交互操作的一种机制
+d. 当一个表单中的对象被点击时，执行的 JavaScript 事件是 onClick
+e. 当 select事件发生时执行的 JavaScript事件是 onSelect
+正确答案是：事件是用户对浏览器所做的特定的动作(操作)，是实现交互操作的一种机制, 当一个表单中的对象被点击时，执行的 JavaScript 事件是 onClick, 当浏览器完成加载一个窗口或者加载完成框架集合中的所有框时，执行的 JavaScript事件是 onLoad, 当 select事件发生时执行的 JavaScript事件是 onSelect
+
+选择一项：
+对 
+错
+正确答案是“对”。
+在jQuery中，如果需要选取<p>元素里所有的<a>元素，则下列jQuery选择器写法正确的是( )。
+选择一项：
+a. $("p a")
+b. $("p>a")
+c. $("p~a")
+d. $("p+a")
+正确答案是：$("p a")
+
+选择一项：
+a. $("li:gt(2)")
+b. $("li:eq(2)")
+c. $("li:lt(3)")
+d. $("li:odd")
+正确答案是：$("li:eq(2)")
+
+选择一项：
+a. jQuery(html, [ownerDocument])
+b. jQuery(callback) 
+c. jQuery(expression, [context])
+d. jQuery(elements)
+正确答案是：jQuery(callback)
+
+下面哪一个不是jquery对象访问的方法？( )
+选择一项：
+a. click()
+b. each()
+c. size()
+d. write() 
+正确答案是：write()
+
+要找到一个hidden属性的元素，下面哪个是正确的？( )
+选择一项：
+a. hidden()
+b. visible
+c. hidden 
+d. visible()
+正确答案是：hidden
+
+如果需要匹配包含文本的元素，用下面哪种来实现？( )
+选择一项：
+a. attr(name)
+b. contains() 
+c. input()
+d. text()
+正确答案是：contains()
+
+如果想在一个指定的元素后添加内容，下面哪个是实现该功能的？( )
+选择一项：
+a. appendTo(content)
+b. insertAfter(content)
+c. append(content)
+d. after(content) 
+正确答案是：after(content)
+
+在jquey中，如果想要从DOM中删除所有匹配的元素，下面哪一个是正确的？( )
+选择一项：
+a. delete()
+b. removeAll()
+c. empty()
+d. remove() 
+正确答案是：remove()
+
+在jquery中，想要给第一个指定的元素添加样式，下面哪一个是正确的？( )
+选择一项：
+a. first
+b. eq(1)
+c. css(name)
+d. css(name,value) 
+正确答案是：css(name,value)
+
+在jquery中指定一个类，如果存在就执行删除功能，如果不存在就执行添加功能，下面哪一个是可以直接完成该功能的？( )
+选择一项：
+a. deleteClass()
+b. removeClass()
+c. addClass()
+d. toggleClass(class) 
+正确答案是：toggleClass(class)
+
+在jquery中想要找到所有元素的同辈元素，下面哪一个是可以实现的？( )
+选择一项：
+a. next()
+b. find(expr)
+c. siblings([expr]) 
+d. eq(index)
+正确答案是：siblings([expr])
+
+下列选项属于jQuery选择器的是( )。
+选择一项或多项：
+a. .document
+b. :visible
+c. *
+d. h1 span
+正确答案是：:visible, h1 span, .document
+
+选择一项或多项：
+a. 删除
+b. 内部和外部插入
+c. 替换
+d. 包裹
+正确答案是：包裹, 替换, 删除, 内部和外部插入
+
+选择一项或多项：
+a. $("div>span")
+b. $("img[src=xx.gif]") 
+c. $("[class=title]") 
+d. $("img")
+正确答案是：$("img[src=xx.gif]"), $("[class=title]")
+
+在一个表单中，查找所有选中的input元素，可以用jquery中的:not()来实现。( )
+选择一项：
+对 
+错
+正确答案是“对”。
+
+下面:checked、: enabled 、:hidden 、:selected 、:file 、: disabled都是jquery中表单的对象属性？( )
+选择一项：
+对
+错 
+正确答案是“错”。
+
+在jquery中如果将一个“名/值”形式的对象设置为所有指定元素的属性，可以用attr(pro)实现。( A )
+选择一项：
+对
+错 
+正确答案是“错”。
+
+彻底将jQuery变量还原，可以使用($ .noConflict(extreme)方法实现。( )
+选择一项：
+对
+错 
+正确答案是“对”。
+
+在jquery中，想让一个元素隐藏，用hide()实现，显示隐藏的元素用show()实现。( )
+选择一项：
+对 
+错
+正确答案是“对”。
+
+在一个表单中，用600毫秒缓慢的将段落滑上，用$(“p”).slideUp(“slow”)来实现。( )
+选择一项：
+对 
+错
+正确答案是“对”。
+
+在jquery中，如果想要自定义一个动画，用animate(params, options)函数来实现。( )
+选择一项：
+对 
+错
+正确答案是“对”。
+
+在jquery中，鼠标移动到一个指定的元素上，会触发指定的一个方法，实现该操作的是jquery的事件操作 (hover(over,out)) ( A )
+选择一项：
+对
+错 
+正确答案是“错”。
+
+在编写页面的时候，如果想要获取指定元素在当前窗口的相对偏移，用offset来实现. 该方法的返回值有两个属性，分别是top和top。( )
+选择一项：
+对 
+错
+正确答案是“对”。
+
+在一个表单里，想要找到指定元素的第2个元素可用eq()来实现。( )
+选择一项：
+对 
+错
+正确答案是“对”。
+
+jquery对象中的size()方法和jQuery对象的length属性不一样.( )
+选择一项：
+对
+错 
+正确答案是“错”。
+
+jquery中$(this).get(0)的写法和$(this)[0]是等价的。( )
+选择一项：
+对 
+错
+正确答案是“对”。
+
+下面哪种不是jquery的选择器？( )
+选择一项：
+a. 基本选择器
+b. 后代选择器
+c. 进一步选择器 
+d. 类选择器
+正确答案是：进一步选择器
+
+在jquery中想要找到所有元素的同辈元素，下面哪一个是可以实现的( )
+选择一项：
+a. nextAll([expr])
+b. siblings([expr]) 
+c. find([expr])
+d. next()
+正确答案是：siblings([expr])
+
+使用jquery检查<input type="hidden" id="id" name="id" />元素在网页上是否存在。( )
+选择一项：
+a. if($("#id").size > 0) {   //do someing...    }
+b. if($("#id").length > 0) {   //do someing...    }
+c. if($("#id")) {   //do someing...    }
+d. if($("#id").length() > 0) {   //do someing...    }
+正确答案是：if($("#id").length > 0) {   //do someing...    }
+
+选择一项：
+a. $("div >span")选取<div>元素下元素名是<span>的子元素。
+b. $("div :first")选取所有<div>元素中第一个<div>元素。
+c. $("input:gt(1)")选取索引值大于1的<input>元素。
+d. $(":hidden")选取<input>的type类型是hidden的不可见元素。
+正确答案是：$(":hidden")选取<input>的type类型是hidden的不可见元素。
+
+<body>    <form>    <div class="big">大字体</div>    <div class="small">小字体</div>    </form>  </body> 请选取文本是"大字体"的div对象。( )
+选择一项或多项：
+a. $("div  .big");
+b. $("form > div.big");
+c. $("div.big");
+d. $("div:contains('大字体')");
+正确答案是：$("div.big");, $("div:contains('大字体')");, $("form > div.big");
+
+Bind one unbind trigger
+选择一项：
+a. bind(type) 
+b. trigger(type)
+c. one(type)
+正确答案是：bind(type)
+
+当一个文本框中的内容被选中时，想要执行指定的方法时，可以使用下面哪个事件来实现？( )
+选择一项：
+a. change(fn) 
+b. bind(fn)
+c. click(fn)
+d. select(fn)
+正确答案是：select(fn)
+
+页面中有三个元素，如下：<div>div标签</div><span>span标签</span><p>p标签</p>，如果这三个标签要触发同一个事件，那么正确的写法是( )。
+选择一项：
+a. $("div,span,p").click(function(){   //…      });
+b. $("div + span + p").click(function(){   //…      });
+c. $("div ~ span ~ p").click(function(){   //…      });
+d. $("div || span || p").click(function(){   //…      });
+正确答案是：$("div,span,p").click(function(){   //…      });
+
+在jQuery中，能够操作HTML代码及其文本的方法是( )。
+选择一项：
+a. text( )
+b. val( )
+c. attr( )
+d. html( ) 
+正确答案是：html( )
+
+在jQuery中，用于获取和设置元素属性值的方法是( )。
+选择一项：
+a. attr( )
+b. val( )
+c. css( )
+d. removeAttr( ) 
+正确答案是：attr( )
+
+以下jQuery代码运行后，对应的HTML代码变为( )。
+HTML代码：
+  <p> 你好!</p> 
+jQuery 代码： 
+    $("p").append("快乐达人"); 
+选择一项：
+a. <p>你好！快乐达人</p>
+b. <p>快乐达人你好！</p> 
+c. 快乐达人<p>你好！</p>
+d. <p>你好！</p>快乐达人
+正确答案是：<p>你好！快乐达人</p>
+
+若需要对HTML代码片段1进行操作，得到代码片段2，则应选用jQuery代码( )。
+  代码片段1： 
+   <p id="hello"> 欢迎登录！</p> 
+   代码片段2： 
+   <p id="hello">
+    kisscat欢迎登录！</p> 
+选择一项：
+a. $("#hello"). after("kisscat");
+b. $("#hello").prepend("kisscat"); 
+c. $("p"). after ("kisscat");
+d. $("p").append("kisscat");
+正确答案是：$("#hello").prepend("kisscat");
+
+以下对show方法的调用错误的是( )
+选择一项：
+a. show(1000) 
+b. show(100,"fast")  
+c. show("fast")
+d. show("slow")
+正确答案是：show(100,"fast")  
+
+jQuery可以操作CSS样式？( )
+选择一项：
+对
+错 
+正确答案是“对”。
+
+jQuery不能操作DOM节点( )
+选择一项：
+对 
+错
+正确答案是“错”。
+
+jQuery不能遍历DOM节点( )
+选择一项：
+对 
+错
+正确答案是“错”。
+
+jQuery的html() : 获取第一个匹配元素的HTML内容或文本内容。( )
+选择一项：
+对 
+错
+正确答案是“对”。
+
+css()和addClass()都能改变元素的样式。( )
+选择一项：
+对 
+错
+正确答案是“对”。
+
+腾讯QQ号从10000开始，目前最高为10位，正则表达式( )可以匹配QQ号。
+选择一项：
+a. /^[1-9][0-9]{4,9}$/
+b. /^\d{5,10}$/ 
+c. /^[1-9][0-9]{4,10}$/
+d. /^\d[5,10]$/
+正确答案是：/^[1-9][0-9]{4,9}$/
+
+下列正则表达式中，( )可以匹配首位是小写字母，其他位是小写字母或数字的最少两位的字符串。
+选择一项：
+a. /^[a-z]\d+$/
+b. /^[a-z0-9]+$/
+c. /^[a-z][a-z0-9]+$/
+d. /^\w{2,}$/ 
+正确答案是：/^[a-z][a-z0-9]+$/
+
+类似于邮箱、年龄等常用的正则表达式都有成熟完善的写法，能减少开发的工作量。( )
+选择一项：
+对 
+错
+正确答案是“对”。
+
+$("input")是获取页面中所有input 元素。( )
+选择一项：
+对 
+错
+正确答案是“对”。
+
+$(":input")是获取所有input、textarea、select和button 元素。( )
+选择一项：
+对 
+错
+正确答案是“对”。
+
+("input")和(":input")没有区别( )
+选择一项：
+对
+错 
+正确答案是“错”。
+
+验证代码简洁是使用正则表达式验证表单内容的优点。( )
+选择一项：
+对 
+错
+正确答案是“对”。
+
+正则表达式能实现复杂的验证，并且验证结果准确( )
+选择一项：
+对 
+错
+正确答案是“对”。
+
+下面哪一个不是Ajax的不足？( )
+选择一项：
+a. 浏览器对XMLHttpRequest对象的支持度不足
+b. 对搜索引擎的支持不足
+c. 破坏浏览器前进，后退按钮的正常功能 
+d. 增加服务器的负担  
+正确答案是：增加服务器的负担  
+
+下面哪个写法可以被parseJSON( )正确解析
+选择一项：
+a. {age:"30"}
+b. {age:30}
+c. {'age':30} 
+d. {"age":30}  
+正确答案是：{"age":30}  
+
+以下不是Ajax选项卡和普通选项卡的区别是()？( )
+选择一项：
+a. 两者内容的来源不同
+b. 两者都可以动态的添加和删除
+c. 两者都需要创建内容面板  
+d. 两者的<a>元素的href属性设置不同 
+正确答案是：两者都需要创建内容面板  
+
+status等于200表示什么？( )
+选择一项：
+a. 表示服务器响应成功收到  
+b. 表示请求未初始化
+c. 表示服务器出现错误 
+d. 表示请求已完成
+正确答案是：表示服务器响应成功收到  
+
+JSON不支持以下哪种数据类型( )
+选择一项：
+a. 数值
+b. 泛型集合  
+c. 字符串 
+d. 对象
+正确答案是：泛型集合  
+
+Ajax请求对象的readyState值为多少的时候，表示请求处理已完成( )
+选择一项：
+a. 1.0
+b. 2.0
+c. 3.0
+d. 4.0   
+正确答案是：4.0  
+
+用方法ajax()发送请求时，参数中的哪个属性用于设定请求的地址？( )
+选择一项：
+a. data
+b. timeout 
+c. url  
+d. content-type
+正确答案是：url  
+
+在jquery中想要实现通过远程http get请求载入信息功能的是下面的哪一下事件？（ ）
+选择一项：
+a. $ .getScript(url) 
+b. $ .ajax()
+c. $ .get(url)
+d. load(url)
+正确答案是：$ .get(url)
+
+下面不属于ajax事件的是？彩蛋
+选择一项：
+a. ajaxSuccess(callback)
+b. $ .post(url)
+c. ajaxSend(callback)
+d. ajaxComplete(callback)
+正确答案是：$ .post(url)
+
+选择一项：
+a. insertAfter()
+b. appendUnder()
+c. appendTo() 
+d. after()
+正确答案是：appendTo()
+
+下面哪一个不是jquery对象访问的方法？( )
+选择一项：
+a. index()
+b. index(subject)
+c. size()
+d. each(callback)
+正确答案是：index()
+
+<input type="radio" name="sex"> 男
+<input type="radio" name="sex"> 女
+正确的是( )
+选择一项：
+a. $("[name=sex]:radio").attr("checked",true);
+b. $("sex[0]").attr("checked",true);
+c. $("#sex[0]").attr("checked",true); 
+d. $(":radio[name=sex]:eq(0)").attr("checked",true);
+正确答案是：$(":radio[name=sex]:eq(0)").attr("checked",true);
+
+关于ajax的说法，正确的是（ ）
+选择一项或多项：
+a. Ajax技术可以实现客户端的异步 
+b. Ajax可以减轻服务器的负担 
+c. Ajax可以无刷新更新页面 
+d. Ajax可以调用XML等外部数据，进一步促进Web页面显示和数据的分离 
+正确答案是：Ajax技术可以实现客户端的异步, Ajax可以减轻服务器的负担, Ajax可以无刷新更新页面, Ajax可以调用XML等外部数据，进一步促进Web页面显示和数据的分离
+
+获取<div id="content">内容…</div>标签里的文本内容。( )
+选择一项或多项：
+a. $("#content").html();
+b. $("#content").innerHTML();
+c. $("#content").val();
+d. $("#content").text();
+正确答案是：$("#content").html();, $("#content").text();
+
+<body>
+   <form>
+   用户名：<input type="text" id="username" name="username" />
+密码：<input type="password" id="pwd" name=" pwd "/>
+   </form>
+</body>
+请用jquery选择器选取username文本框输入值的内容：( )
+选择一项或多项：
+a. $("input[name=username]").val();
+b. $(":input[name=username]").val();
+c. $("#username").val();
+d. $("input")[0].value;
+正确答案是：$("#username").val();, $("input")[0].value;, $("input[name=username]").val();, $(":input[name=username]").val();
+
+<select id="sel">
+      <option value="0">请选择</option>
+      <option value="1">选项一</option>
+      <option value="2">选项二</option>
+      <option value="3">选项三</option>
+      <option value="4">选项四</option>
+ </select>，要使“选项四”选中的正确写法。( )
+选择一项或多项：
+a. $("#sel > option:eq(4)").checked; 
+b. $("#sel").val("选项四"); 
+c. $("#sel  option:eq(4)").attr("selected"); 
+d. $("#sel").val("4"); 
+正确答案是：$("#sel").val("选项四");, $("#sel").val("4");
+
+有这样一个表单元素，想要找到这个hidden元素，下面哪个是正确的？( )
+选择一项：
+a. visible()
+b. visible
+c. hidden() 
+d. hidden
+正确答案是：hidden
+
+在一个表单中，如果想要给输入框添加一个输入验证，可以用下面的哪个事件实现？( )
+选择一项：
+a. hover(over,out) 
+b. change(fn)
+c. keypress(fn)
+d. change()
+正确答案是：change(fn)
+
+单选题
+JavaScript语句：
+var a1 = 10; 
+var a2 = 20; 
+alert ("a1 + a2 = "+ a1 + a2 );
+将显示( )结果。
+A.a1 + a2 = 30
+B.a1 + a2 = 1020
+C.a1 + a2 = a1 + a2
+D.“a1 + a2 = 1020”
+正确答案是：B
+
+将字串s中的所有字母变为小写字母的方法是( )。
+A.s.toSmallCase()
+B.s.toLowerCase()
+C.s.toSmallChars()
+D.s.toLowerCases()
+正确答案是：B
+
+下列JavaScript的定义函数语句中( )是正确的。
+A.function=functionName()
+B.function functionName()
+C.function\:=functionName()
+D.functionName()
+正确答案是：B
+
+JavaScript中自定义对象时使用关键字( )。
+A.Object
+B.Function
+C.Define
+D.以上三种都可以
+正确答案是：B
+
+删除表单控件元素中列表元素第一项的语句是( )，其中，cityList= document .getElementById(‘cityList’)。
+A.cityList .options[0] = "";
+B.cityList .options[0] .value = "";
+C.cityList .options[0] .text = "";
+D.cityList .options[0]  = null;
+正确答案是：D
+
+制作级联菜单功能时调用的是下拉列表框的( )事件。
+A.onClick
+B.onChange
+C.selected
+D.onBlur
+正确答案是：B
+
+在jquery中，想要给第一个指定的元素添加样式，下面哪一个是正确的？( )
+A.first
+B.eq(1)
+C.css(name)
+D.css(name,value)
+正确答案是：C
+
+在jquery中，如果想要获取当前窗口的宽度值，下面哪个是实现该功能的？ ( )
+A.width()
+B.width(val)
+C.width
+正确答案是：A
+
+下面哪一种不属于Jquery的选择器：( )
+A.基本选择器
+B.层次选择器
+C.表单选择器
+D.节点选择器
+正确答案是：D
+
+下列jQuery方法中，哪个不可以用于事件处理程序的绑定( )
+A.click()  
+B.bind()  
+C.one()  
+D.fadeTo()
+正确答案是：D
+
+下列正则表达式中，( )可以匹配首位是小写字母，其他位是小写字母或数字的最少两位的字符串。
+A./^\\w\{2,\}$/
+B./^[a-z][a-z0-9]+$/
+C./^[a-z0-9]+$/
+D./^[a-z]\\d+$/
+正确答案是：B
+
+Ajax请求对象的readyState值为多少的时候，表示请求处理已完成( )
+A.1.0
+B.2.0
+C.3.0
+D.4.0
+正确答案是：D
+
+面哪一个不是jquery对象访问的方法？(  )
+A.each(callback)
+B.size()
+C.index()
+D.list()
+正确答案是：D
+
+在jquery中指定一个类，如果存在就执行删除功能，如果不存在就执行添加功能，下面哪一个是可以直接完成该功能的？( )
+A.removeClass()
+B.deleteClass()
+C.toggleClass(class)
+D.addClass()
+正确答案是：C
+
+当表单各项填写完毕，鼠标单击提交按钮时可以触发( )事件。
+A.onenter
+B.onsubmit
+C.onmouseDrag
+D.onmouseOver
+正确答案是：B
+
+在进行表单验证时，当填写的文本框信息有错误时，通常会在文本框后面用红色的特殊字体显示错误信息，那么这种即时错误信息是在文本框发生了( )事件后产生的。
+A.onfocus
+B.onblur
+C.onchange
+D.onclick
+正确答案是：B
+
+下面对于JavaScript中的单选按钮(Radio)，说法正确的是( )。
+A.单选按钮可以通过单击"选中"和"未选中"来进行切换
+B.单选按钮没有checked属性
+C.单选按钮支持onClick事件
+D.单选按钮的length属性返回一个选项组中单选项的个数
+正确答案是：C
+
+以下两个变量a和b，a+b的哪个结果是NaN？( )
+A.var a=undefind; b=NaN
+B.var a= ‘123’; b=NaN
+C.var a =undefined ,B=NaN
+D.var a=NaN , b='undefined'
+正确答案是：C
+
+当前元素失去焦点并且元素的内容发生改变时触发事件使用( )。
+A.onfocus事件
+B.onchange事件
+C.onblur事件
+D.onsubmit事件
+正确答案是：B
+
+以下代码，哪个结果是正确的？( )
+var a='125abc',b='100abc';
+alert(parseInt(a)+Number(b));
+A.123100abc
+B.125abc100abc
+C.NaN
+D.223
+正确答案是：C
+
+在jquery中，如果想要获取当前窗口的宽度值，下面哪个是实现该功能的？ ( )
+A.width()
+B.width(val)
+C.width
+D.innerWidth()
+正确答案是：A
+
+在jQuery中，用于获取和设置元素属性值的方法是( )。
+A.val( )
+B.attr( )
+C.removeAttr( )
+D.css( )
+正确答案是：B
+
+动画效果中，fadeToggle方法的作用是？( )
+A.使元素以淡出的效果隐藏
+B.使元素以淡入的效果显示
+C.如果元素隐藏，则以淡出效果将元素显示，如果元素显示，则以淡入的效果让元素隐藏  
+D.使元素以滑上或滑下的效果隐藏或显示
+正确答案是：C
+
+腾讯QQ号从10000开始，目前最高为10位，正则表达式( )可以匹配QQ号。
+A./^[1-9][0-9]\{4,10\}$/
+B./^[1-9][0-9]\{4,9\}$/
+C./^\\d\{5,10\}$/
+D./^\\d[5,10]$/
+正确答案是：B
+
+下面选项中哪一个是和$("\#foo")等价的写法。( )
+A.$("foo\#")
+B.$(\#"foo")
+C.$ ("foo")
+D.jQuery("\#foo")
+正确答案是：D
+
+在JavaScript中，要定义一个全局变最x，可以 ( )
+A.使用关键字public在函数中定义
+B.使用关键字public在任何函数之外定义
+C.使用关链字var在函教中定义
+D.使用关键宇var在任何函数之外定义
+正确答案是：D
+
+在JavaScript中，下列定义数组的方法正确的是( )。
+A.emp=new Array[3];
+B.emp=new Array(3);
+C.emp=new ()array;
+D.emp=new Array[];
+正确答案是：B
+
+在JavaScript中，命令按钮(Button)支持的事件包括( )。
+A.onclick
+B.onchange
+C.onselect
+D.onload
+正确答案是：A
+
+下面哪一个语句定义了一个名为pageNumber的变量并将它的值赋为240? ( )
+A.var PageNumber=240
+B.pagenumber=240
+C.var pageNumber=240
+D.var int named pageNumber=240
+正确答案是：C
+
+下面哪一个不是JavaScript运算符？( )
+A.=
+B.==
+C.&&
+D.$\#
+正确答案是：D
+
+比较运算符的作用是什么？( )
+A.执行数学计算
+B.处理二进制位，目前还不重要
+C.比较两个值或表达式，返回真或假
+D.只比较数字，不比较字符串
+正确答案是：C
+
+分析下面的JavaScript代码 ，经过运算后m的值为( )。
+x=11;y="number";m=x+y;
+A.11number
+B.number
+C.11
+D.程序报错
+正确答案是：A
+
+使用jquery检查元素在网页上是否存在。( )
+A.if($("\#id")) \{   //do someing...    \}
+B.if($("\#id").length > 0) \{   //do someing...    \}
+C.if($("\#id").length() > 0) \{   //do someing...    \}
+D.if($("\#id").size > 0) \{   //do someing...    \}
+正确答案是：B
+
+有一个submit按钮，在这个按钮控件上添加哪个事件不起作用？( )
+A.onMouseout
+B.onmouseover
+C.onclick
+D.onsubmit
+正确答案是：D
+
+JS特性不包括( )
+A.解释性
+B.用于客户端
+C.基于对象
+D.面向对象
+正确答案是：D
+
+在HTML页面中，CSS样式的属性名为background-image对应的style对象的属性名是( )
+A.background
+B.backgroungImage
+C.image
+D.back
+正确答案是：B
+
+下面哪一个表达式的返回值为True(  )
+A.!(3<=1)
+B.(1!=2)&&(2<0)
+C.!(20>3)
+D.(5!=3)&&(50<10)
+以下（　B　）变量名是非法的。
+A、 num_1
+B、 2_num
+C、 sum
+D、 de2$f
+下列JavaScript的声明变量语句中( )是正确的。
+A.int i = 10;
+B.var i ;  j ;  k = 10;
+C.int  i ;  j ;  k = 10 ;
+D.var i = 10;
+正确答案是：D
+
+下列语句中，（　A　）语句根据表达式的值进行匹配，然后执行其中的一个语句块。如果找不到匹配项，则执行默认语句块。
+A、 switch
+B、 if-else
+C、 for
+D、 字符串运算符
+要检测值是否为 NaN，应使用 ( )函数。
+A.Number
+B.parseInt
+C.IsNaN
+D.isNaN
+正确答案是：D
+
+在JavaScript中，运行以下代码： 
+    var flag=true;
+    document.write(typeof(flag));
+返回值是（　D　）。
+A、 undefined
+B、 null
+C、 number
+D、 boolean
+下列JavaScript的循环开始语句中( )是正确的。
+A.for (var i <= 10; i++)
+B.for (var i = 0; i <= 10)
+C.for var i = 1 to 10
+D.for (var i = 0; i <= 10; i++)
+正确答案是：D
+
+JavaScript是		B	 　。
+A、一种Java 编程语言，不同的是它可以用于网页开发
+B、一种解释性的、用于客户端的、基于对象的程序开发语言
+C、一种用于Mozilla的Firefox浏览器和Microsoft的Internet Explorer浏览器的网页开发语言
+D、一种用于制作网页动画效果的程序开发语言
+下列选项中，( )不是网页中的事件。
+A.onclick
+B.onmouseover
+C.onsubmit
+D.onpressbutton
+正确答案是：D
+
+页面中有一个id为pdate的文本框，下列代码中，（　B　）能把文本框中的值改为“2016-10-12”。
+A. document.getElementById("pdate").setAttribute("value","2016-10-12");
+B. document.getElementById("pdate").value="2016-10-12";
+C. document.getElementById("pdate").getAttribute("2016-10-12");
+D. document.getElementById("pdate").text="2016-10-12";
+页面中有一个id为price的层，使用id选择器设置层price的样式，在IE浏览器中运行此页面，下列代码中，( )能正确获取层的背景颜色。
+A.document .getElementById("price").currentStyle .backgroundColor
+B.document .getElementById("price").currentStyle .background-color
+C.document .getElementById("price").style .backgroundColor
+D.var divObj\=document .getElementById("price");
+\n
+document .defaultView .getComputedStyle(divObj,null). background;
+正确答案是：C
+
+页面中有一个id为price的层，使用id选择器设置层price的样式，在IE浏览器中运行此页面，下列代码中，（　C　）能正确获取层的背景颜色。
+A. document.getElementById("price").currentStyle.backgroundColor
+B. document.getElementById("price").currentStyle.background-color
+C. document.getElementById("price").style.backgroundColor
+D.var divObj=document.getElementById("price");
+
+判断指定元素内是否包含另一个元素，用下面哪种来实现？(  )
+A.text()
+B.contains()
+C.input()
+D.attr(name)
+正确答案是：B
+
+在使用事件处理程序对页面进行操作时，最主要的是如何通过对象的事件来指定事件处理程序，其指定方式主要有（  D  ）。
+    A．直接在HTML标记中指定			B．指定特定对象的特定事件
+    C．在JavaScript中说明					D．以上3种方法都具备
+1JavaScript中, 以下哪条语句一定会产生运行错误？(  )
+A.var a=();
+B.var 0bj = [];
+C.var obj = / /;
+D.var obj = { };
+正确答案是：A
+
+下面（  C ）不是鼠标键盘事件。
+    A．onclick事件						B．onmouseover事件
+    C．oncut事件 						D．onkeydown事件
+表达式123%7的计算结果是( )
+A.2
+B.3
+C.4
+D.5
+正确答案是：C
+
+（  A  ）是在浏览器中的内容被修改或移动时所执行的相关事件，主要是对浏览器中被选择的内容进行复制、剪切、粘贴时的触发事件，以及在用鼠标拖动对象时所触发的一系列事件的集合。
+    A．编辑事件							B．鼠标键盘事件
+    C．滚动字幕事件						D．表单相关事件
+下列 ( )可以得到用户浏览器的名字。
+A.browser.name
+B.client .navName
+C.navigator.appName
+D.user.appName
+正确答案是：C
+
+某网页中有一个窗体对象mainForm，该窗体对象的第一个元素是文本框username，表述该按钮对象的方法是（  B  ）。
+　　    A．document.forms.username				B．document.mainForm.username
+　　    C．document.forms.UserName				D．document.MainForm.UserName
+ JavaScript是( )。
+A.一种Java 编程语言，不同的是它可以用于网页开发
+B.一种解释性的、用于客户端的、基于对象的程序开发语言
+C.一种用于Mozilla的Firefox浏览器和Microsoft的Internet Explorer浏览器的网页开发语言
+D.一种用于制作网页动画效果的程序开发语言
+正确答案是：B
+
+在下列描述表单控件元素中的列表元素语句中，( )是正确的，其中，cityList= document .getElementById(‘cityList’)
+A.得到列表的长度var listLength =cityList .options.length;
+B.选择列表中的第一项cityList .options[0].click();
+C.得到第一项的值var val = cityList .options[0].value;
+D.以上全部
+正确答案是：D
+
+在使用事件处理程序对页面进行操作时，最主要的是如何通过对象的事件来指定事件处理程序，其指定方式主要有( )。
+A.直接在HTML标记中指定
+B.指定特定对象的特定事件
+C.在JavaScript中说明
+D.以上3种方法都具备
+正确答案是：D
+
+下列( )不是document对象的属性。
+A.forms
+B.links
+C.function
+D.images
+正确答案是：C
+
+( )属性用于获取 HTML 文件的根节点。
+A.documentElement
+B.rootElement
+C.documentNode
+D.documentRoot
+正确答案是：A
+
+当DOM加载完成后要执行的函数，下面哪个是正确的？( )
+A.jQuery(expression, [context])
+B.jQuery(html, [ownerDocument])
+C.jQuery(callback)
+D.jQuery(elements)
+正确答案是：C
+
+要找到一个hidden属性的元素，下面哪个是正确的？( )
+A.:visible
+B.:hidden
+C.visible()
+D.hidden()
+正确答案是：B
+
+如果想在一个指定的元素后添加内容，下面哪个是实现该功能的？( )
+A.append(content)
+B.appendTo(content)
+C.insertAfter(content)
+D.after(content)
+正确答案是：D
+
+使用jquery检查元素在网页上是否存在。正确的是( )
+A.if($("\#id")) \{   //do someing...    \}
+B.if($("\#id").length > 0) \{   //do someing...    \}
+C.if($("\#id").length() > 0) \{   //do someing...    \}
+D.if($("\#id").size > 0) \{   //do someing...    \}
+正确答案是：B
+
+下面不属于Jquery的ajax全局事件的是  ( )
+A.ajaxComplete(callback)
+B.ajaxSuccess(callback)
+C.$ .post(url)
+D.ajaxSend(callback)
+正确答案是：C
+
+以下对show方法的调用错误的是( )
+A.show(1000)
+B.show("fast")
+C.show("slow")
+D.show(100,"fast")  
+正确答案是：D
+
+对字符串str="welcome to china"进行下列处理，描述结果正确的是( )。
+A.str.substring(1,5)的返回值是"elcom"
+B.str.length的返回值是16
+C.str.indexOf("come",4)的返回值为4
+D.str.toUpperCase( )的返回值是"Welcome To China"
+正确答案是：B
+
+如果想要禁用交互组件，通常使用下列中的哪个命令( )
+A.destroy
+B.enable
+C.option
+D.disable  
+正确答案是：D
+
+下面不属于ajax事件的是？( )
+A.ajaxComplete(callback)
+B.ajaxSuccess(callback)
+C.$ .post(url)
+D.ajaxSend(callback)
+正确答案是：C
+
+有语句“var x=0; while( )x+=2\:"，要使while循环体执行10次，空白处的循环判定式应写为：
+A.x＜10
+B.x＜=10
+C.x＜20
+D.x＜=20
+正确答案是：A
+
+在JavaScript中对1.25进行取整的方法是( )。
+A.Math.round(1.25)
+B.Math.floor(1.25)
+C.Math.ceil(1.25)
+D.Math.int(1.25)
+正确答案是：ABC
+
+下面哪几种是属于jquery文档处理的？ ( )
+A.包裹
+B.替换
+C.删除
+D.内部和外部插入
+正确答案是：ABD
+
+下列选项中，( )是属性选择器。
+A.$("img[src=xx.gif]")
+B.$("img")
+C.$("[class=title]")
+D.$("div>span")
+正确答案是：AC
+
+JavaScript运算符包括( )。
+A.==
+B.+=
+C.%=
+D.++
+E.
+||
+正确答案是：ABCDE
+
+有关窗口对象的方法，下列说法正确的是( )。
+A.弹出警告信息用 alert(信息字串)
+B.显示确认信息对话框用 confirm(信息字串)
+C.显示提示信息，并提供可输入的字段用 prompt(提示字串[，默认值])
+D.将焦点移到该窗口，是用 focus()
+E.进入浏览器设置的主页，可以使用 home()
+正确答案是：ABCDE
+
+下述break语句的描述中，正确的有( )
+A.break语句用于循环体内，它将退出该重循环
+B.break语句用于switch语句，它表示退出该switch语句
+C.break语句用于if语句，它表示退出该if语句
+D.break语句在一个循环体内可使用多次
+正确答案是：ABD
+
+在JavaScript函数的定义格式中，下面各组成部分中，哪些是不可以省略的( )
+A.指明函数的一对圆括号()
+B.函数体
+C.函数参数
+D.函数名
+正确答案是：ABD
+
+案例代码如下：          
+<body>    
+<form>    
+<div class="big">大字体</div>    
+<div class="small">小字体</div>    
+</form>  
+</body> 
+请选取文本是"大字体"的div对象。(  )
+A.$("div.big");
+B.$("div  .big");
+C.$("div:contains('大字体')");
+D.$("form>div.big");
+正确答案是：ACD
+
+JavaScript的数据类型主要有(  ) 。
+A.字符串
+B.数字
+C.对象
+D.undefined
+E.布尔值
+正确答案是：ABCDE
+
+有关JavaScript语句，下列说法正确的是( ) 。
+A.单行注释语句是在需要注释的行前面用//
+B.多行注释语句是在需要注释的文字两端加/* 注释文字*/
+C.with语句的功能是为一段程序建立默认对象
+D.JavaScript中没有if...else语句
+E.
+JavaScript中只有while语句，而没有do ...while语句
+正确答案是：ABC
+
+下面哪几个不是属于jquery的事件处理?( )
+A.bind(type)
+B.click()
+C.change()
+D.one(type)
+正确答案是：BC
+
+选择对象的属性主要有( )。
+A.form表示该对象所在的表单
+B.name 表示该对象的 name 属性
+C.length 表示该对象的选项的数目
+D.options表示该对象的标记
+E.selectedIndex 表示该对象的所选项目的索引值
+正确答案是：ABCDE
+
+下列说法正确的是( )
+A.onload事件发生于装载网页后
+B.onSubmit事件发生于装载网页后
+C.onunload事件发生于离开网页前
+D.onReset事件发生于离开网页前
+正确答案是：AC
+
+案例代码如下
+<body>
+   <form>
+   用户名：<input type="text" id="username" name="username" />
+密码：<input type="password" id="pwd" name=" pwd "/>
+   </form>
+</body>
+请用jquery选择器选取username文本框输入值的内容：(  )
+A.$("#username").val();
+B.$("input")[0].value;
+C.$("input[name='username']").val();
+D.$(":input[name='username']").val();
+正确答案是：ABCD
+
+下列哪些是JavaScript中的关键字
+A.if
+B.break
+C.while
+D.for
+正确答案是：ABCD
+
+关于JAVASCRIPT事件，下列说法正确的是(  ) 。
+A.事件是用户对浏览器所做的特定的动作(操作)，是实现交互操作的一种机制
+B.对象发生改变时触发的事件是 onhavechanged
+C.当一个表单中的对象被点击时，执行的 JavaScript 事件是 onclick
+D.当浏览器完成加载一个窗口或者加载完成框架集合中的所有框时，执行的 JavaScript事件是 onload
+E.当 select事件发生时执行的 JavaScript事件是 onselect
+正确答案是：ACDE
+
+以下生成对象的方法中，正确的是(  )。
+A.var z = new "true";
+B.var str = "JavaScript";
+C.fruit=new Array(3);
+D.today1=new Date(2008,10,1);
+E.today=new Date("October 1,2008");
+正确答案是：BCDE
+
+在jQuery中，能够为元素添加CSS样式的方法是（　BD　）。
+A. ready( )
+B. css( )
+C. next( )
+D. addClass( )
+若要求隐藏元素，则下列选项正确的是( )。
+A.$("span").css("display","none")
+B.$("span").addClass("display","none")
+C.$("span").show( )
+D.$("span").hide( )
+正确答案是：AD
+
+窗口对象的事件处理程序有 ( )。
+A.onError
+B.onLoad
+C.onFocus
+D.offMove
+E.offFocus
+正确答案是：ABC
+
+三、判断题
+JavaScript程序在不同的浏览器上运行时，将不一定得到相同的效果。( )
+正确答案是：正确
+
