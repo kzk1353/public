@@ -2,30 +2,26 @@ let crawler = require('./utils/crawler');
 
 let base = 'https://www.dlsite.com/maniax/info/sellend/=/month/';
 
-let start = ((date) => {
-  let y = date.getUTCFullYear();
-  let m = date.getUTCMonth() + 1;
+let sta = [2011, 2];
+let end = [2010, 4];
+
+let format = (date) => {
+  let y = date.getFullYear();
+  let m = date.getMonth() + 1;
   return `${y}-${m.toString().padStart(2, '0')}`;
-})(new Date(2008, 1));
+};
 
-let end = ((date) => {
-  let lastMonth = new Date(date.getFullYear(), date.getMonth());
-  let y = lastMonth.getFullYear();
-  let m = lastMonth.getMonth();
-  return `${y}-${m.toString().padStart(2, '0')}`;
-})(new Date());
+let urls = [];
+let endUrl = base + format(new Date(end));
+for (let i = 0; urls.at(-1) !== endUrl; i++) {
+  let date = new Date(sta[0], sta[1] - 1 - i);
+  let current = format(date);
+  let url = base + current;
+  urls.push(url);
+}
 
-let url = base + start;
-
-crawler(url, ($) => {
-  let elements = [
-    [
-      '<span>日付</span>',
-      '<span>作品ID</span>',
-      '<span>作品名</span>',
-      '<span>サークル名</span>',
-    ],
-  ];
+crawler(urls, ($, current) => {
+  let elements = [];
 
   let list = $('.work_update_history').find('tr');
   list.each((index, element) => {
@@ -45,5 +41,6 @@ crawler(url, ($) => {
     }
   });
 
+  console.log(current, list.length);
   return elements;
 });
