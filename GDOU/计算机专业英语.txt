@@ -1,0 +1,720 @@
+The first generation computers,such as ENIAC, introduced in the early 1950s,were based on()
+选择一项：
+a. VLSI（超大规模集成电路）
+b. transistors（晶体管）
+c. vacuum tubes(真空管） 
+d. IC(集成电路)
+正确答案是：vacuum tubes(真空管）
+
+A group of eight bits is called a ()
+选择一项：
+a. byte 
+b. number
+c. digit
+d. word
+正确答案是：byte
+
+A digital computer is generally made up of five distinct elements（独立部件）: a central processing unit, input devices, memory storage devices,（） devices, and a bus.
+选择一项：
+a. output 
+b. keyboard
+c. monitor
+d. mouse
+正确答案是：output
+
+Modern digital computers can be classified as (), minicomputers, workstations, or microcomputers on the basis of cost and performance（性能）.
+选择一项：
+a. PDA (个人数字助理)
+b. laptop(膝上型电脑)
+c. mainframes(大型机) 
+d. notebooks(笔记本)
+正确答案是：mainframes(大型机)
+
+One megabyte equals approximately ()
+选择一项：
+a. 65,535 KB
+b. 1024 KB 
+c. 1,000,000 KB
+d. 10,000KB
+正确答案是：1024 KB
+
+（） have the fastest speed and the largest storage space.
+选择一项：
+a. minicomputers
+b. workstations
+c. microcomputers
+d. supercompute 
+正确答案是：supercompute
+
+Computer science can be divided into four main fields:software development,computer architecture,human-computer ( ),and artificial intelligence。
+选择一项：
+a. interfacial
+b. interflow
+c. interfacing 
+d. interface
+正确答案是：interfacing
+
+The first generation of computers is based on ()
+选择一项：
+a. vacuum tubes（真空管） 
+b. IC（集成电路）
+c. VLSI（超大规模集成电路）
+d. transistors（晶体管）
+正确答案是：vacuum tubes（真空管）
+
+One of trends in computer development is ( ),the effort to compress more circuit elements into smaller an smaller chip space.。
+选择一项：
+a. huge
+b. samll
+c. massive
+d. microminiaturization 
+正确答案是：microminiaturization
+
+A program is a sequence of () that tells the hardware of a computer what operations to perform on data.
+选择一项：
+a. instructions 
+b. digits
+c. circuits
+d. wires
+正确答案是：instructions
+
+A computer program consists of a set of ( ).
+选择一项：
+a. characters
+b. instructions 
+c. numbers
+d. words
+正确答案是：instructions
+
+We can classify programming languages under two types: low-level languages and ( ) languages.
+选择一项：
+a. C
+b. machine
+c. high-level 
+d. Java
+正确答案是：high-level
+
+( ) is an object-oriented language.
+选择一项：
+a. Pascal
+b. Java 
+c. Basic
+d. C
+正确答案是：Java
+
+A/An ( ) is a low-level language in binary code (二进制代码) that the computer can understand and execute directly.
+选择一项：
+a. machine language 
+b. high-level language
+c. assembly language
+d. object-oriented language
+正确答案是：machine language
+
+() is a program that is often used to help find problems in other programs.
+选择一项：
+a. An assembler(汇编程序)
+b. A linker (连接程序)
+c. A loader (装入程序)
+d. A debugger (调试程序) 
+正确答案是：A debugger (调试程序)
+
+High-level languages must first be translated into machine languages before they can be understood and processed by a computer. This job is often done by ( ).
+选择一项：
+a. a compiler(编译程序） 
+b. a linker(连接程序)
+c. a loader(装入程序)
+d. an assembler(汇编程序)
+正确答案是：a compiler(编译程序）
+
+A/An （） is a sequence of code in a program executed repeatedly, either for a fixed number of times or until a certain condition is met.
+选择一项：
+a. loop 
+b. statement
+c. instruction
+d. block
+正确答案是：loop
+
+A/An () is a fixed-size, sequenced collection of elements of the same data type.
+选择一项：
+a. integer
+b. real number
+c. string
+d. array 
+正确答案是：array
+
+网吧可以翻译为network
+选择一项：
+对
+错 
+正确答案是“错”。
+助记地址可以翻译为mnemonic address
+选择一项：
+对 
+错
+正确答案是“对”。
+宽带因特网访问可以翻译为broadband Internet access
+选择一项：
+对 
+错
+正确答案是“对”。
+硬件与软件支持可以翻译为hardware and software support
+选择一项：
+对 
+错
+正确答案是“对”。
+因特网编址可以翻译为Internet addressing
+选择一项：
+对 
+错
+正确答案是“对”。
+A ( ) spans a large geographical area.
+选择一项：
+a. MAN
+b. LAN
+c. CAN
+d. WAN 
+正确答案是：WAN
+
+TCP的完整单词拼写是（ ）。
+选择一项：
+a. Transfer Carry Protocol
+b. Transfer Control Practice
+c. Transmission Control Protocol 
+d. Transmission Control Practice
+正确答案是：Transmission Control Protocol
+
+A否 彩蛋 can connect two independent networks: a LAN to a WAN, a LAN to a MAN, a WAN to another WAN, and so on.
+选择一项：
+a. router 
+b. gateway
+c. bridge
+d. switch
+正确答案是：router
+
+Among the following domain names, which domain belongs to government?
+选择一项：
+a. www.zgks.org
+b. www.whitehouse.gov 
+c. www.hust.edu.cn
+d. www.baidu.com
+正确答案是：www.whitehouse.gov
+
+ISO对应的中文是（ ）。
+选择一项：
+a. 国际化标准组织 
+b. 意大利标准化组织
+c. 开放系统互连
+d. 国家标准化组织
+正确答案是：国际化标准组织
+
+顶级域名可以翻译为top-level domain (TLD)
+选择一项：
+对 
+错
+正确答案是“对”。
+FTP对应的中文是（ ）。
+选择一项：
+a. 文件传输协议 
+b. 文件控制协议
+c. 传输控制协议
+d. 食品安全标准
+正确答案是：文件传输协议
+
+In the domain name "www.hust.edu.cn", "cn" refers to ( ).
+选择一项：
+a. China 
+b. Chile
+c. Congo
+d. Canada
+正确答案是：China
+
+server farm短语可以翻译为多类型服务器
+选择一项：
+对
+错 
+正确答案是“错”。
+access protocol术语可以翻译为存取协议
+选择一项：
+对 
+错
+正确答案是“对”。
+storage area network短语可以翻译为存储区域网
+选择一项：
+对 
+错
+正确答案是“对”。
+high-throughput computing短语可以翻译为高吞吐（量）计算
+选择一项：
+对 
+错
+正确答案是“对”。
+云计算提供商可以翻译为cloud computing provider
+选择一项：
+对 
+错
+正确答案是“对”。
+存储芯片可以翻译为storage chip
+选择一项：
+对
+错 
+正确答案是“错”。
+基于内部网的私有云可以翻译为intranet-based private cloud
+选择一项：
+对 
+错
+正确答案是“对”。
+The architecture of a cloud is developed at three layers: infrastructure, platform, and application. The infrastructure （ ） is deployed first to support IaaS (Infrastructure as a Service) services. This layer serves as the （ ） for building the platform layer of the cloud for supporting PaaS (Platform as a Service) （ ）. In turn, the platform layer is a foundation for implementing the layer for SaaS applications. 1.layer 2.foundation 3.services 4.application
+选择一项：
+a. 4321
+b. 3214
+c. 1234 
+d. 1324
+正确答案是：1234
+
+The application layer is formed with a collection of all needed software modules for ( ) applications. Service applications in this layer include daily office ( ) work. The application layer is also heavily used by enterprises in business ( ) and sales, consumer relationship management, financial transactions, and ( ) chain management. 1.marketing 2.management 3.SaaS 4.supply
+选择一项：
+a. 4123
+b. 3214 
+c. 1234
+d. 3412
+正确答案是：3214
+
+Cloud computing applies a virtualized platform with elastic resources on demand by provisioning hardware，software，and data sets dynamically. 对上面句子翻译最准确的是（ ）
+选择一项：
+a. 云计算静态供应硬件、软件和数据集，以此方式按需应用一个拥有弹性资源的虚拟化平台.
+b. 云计算动态供应硬件、软件和数据集，以此方式按需应用一个拥有弹性资源的虚拟化平台. 
+c. 以上都不正确
+d. 云计算动态供应硬件、软件和数据集，以此方式按需应用一个拥有弹性资源的真实的平台.
+正确答案是：云计算动态供应硬件、软件和数据集，以此方式按需应用一个拥有弹性资源的虚拟化平台.
+
+The fourth generation computers, such as microcomputers, appearing in the mid-1970s, were based on().
+选择一项：
+a. vacuum tubes(真空管）
+b. transistors（晶体管）
+c. VLSI（超大规模集成电路）
+d. IC(集成电路)
+正确答案是：VLSI（超大规模集成电路）
+
+The third generation computers, dating from the 1960s, were based on().
+选择一项：
+a. IC(集成电路)
+b. vacuum tubes(真空管）
+c. VLSI（超大规模集成电路）
+d. transistors（晶体管）
+正确答案是：IC(集成电路)
+
+Accroding to the text,it was the ( ) that made possible the advent of the personal computer.
+选择一项：
+a. central processing unit
+b. processor
+c. Graphics Processing Unit
+d. microprocessor
+正确答案是：microprocessor
+
+The first generation computers,such as ENIAC, introduced in the early 1950s,were based on()
+选择一项：
+a. IC(集成电路)
+b. transistors（晶体管）
+c. VLSI（超大规模集成电路）
+d. vacuum tubes(真空管）
+正确答案是：vacuum tubes(真空管）
+
+A digital computer is generally made up of five distinct elements（独立部件）: a central processing unit, input devices, memory storage devices,（） devices, and a bus.
+选择一项：
+a. keyboard
+b. output
+c. mouse
+d. monitor
+正确答案是：output
+
+（） have the fastest speed and the largest storage space.
+选择一项：
+a. supercompute
+b. microcomputers
+c. minicomputers
+d. workstations
+正确答案是：supercompute
+
+Modern digital computers can be classified as mainframes,(), workstations, or microcomputers on the basis of cost and performance（性能）.
+选择一项：
+a. laptops（膝上型电脑）
+b. notebooks(笔记本）
+c. PDA(个人数字助理)
+d. minicomputers(小型机)
+正确答案是：minicomputers(小型机)
+
+Modern digital computers can be classified as mainframes,minicomputers, workstations, or 彩蛋 on the basis of cost and performance（性能）.
+选择一项：
+a. microcomputers（微型计算机）
+b. vacuum tubes(真空管）
+c. personal computer(个人电脑)
+d. transistors（晶体管）
+正确答案是：microcomputers（微型计算机）
+
+A digital computer is generally made up of five distinct elements:a central processing unit,( )devices,memory storage devices,( )devices,and a bus。
+选择一项：
+a. hardware,input
+b. hardware,output
+c. software,input
+d. input,output
+正确答案是：input,output
+
+Accroding to the text,it was the ( ) that made possible the advent of the personal computer.
+选择一项：
+a. microprocessor
+b. processor
+c. central processing unit
+d. Graphics Processing Unit
+正确答案是：microprocessor
+
+The smallest unit of information handled by a computer is ().
+选择一项：
+a. word
+b. byte
+c. bit
+d. KB
+正确答案是：bit
+
+Whereas the decimal system（十进制）is based on 10,the () system is based on 2. There are only two digits in the latter system, 0 and 1.
+选择一项：
+a. binary（二进制）
+b. byte
+c. octal（八进制）
+d. hexadecimal(十六进制)
+正确答案是：binary（二进制）
+
+The third generation computers, dating from the 1960s, were based on().
+选择一项：
+a. VLSI（超大规模集成电路）
+b. transistors（晶体管）
+c. vacuum tubes(真空管）
+d. IC(集成电路)
+正确答案是：IC(集成电路)
+
+Computer science can be divided into four main fields:software development,computer architecture,human-computer ( ),and artificial intelligence。
+选择一项：
+a. interflow
+b. interfacing
+c. interfacial
+d. interface
+正确答案是：interfacing
+
+Modern digital computers can be classified as mainframes,(), workstations, or microcomputers on the basis of cost and performance（性能）.
+选择一项：
+a. PDA(个人数字助理)
+b. laptops（膝上型电脑）
+c. minicomputers(小型机)
+d. notebooks(笔记本）
+正确答案是：minicomputers(小型机)
+
+We can define a computer as a device that accepts input, processes data, （ ）, and produces output。
+选择一项：
+a. stores data
+b. store data
+c. record data
+d. records data
+正确答案是：stores data
+
+（） have the fastest speed and the largest storage space.
+选择一项：
+a. minicomputers
+b. microcomputers
+c. supercompute
+d. workstations
+正确答案是：supercompute
+
+A group of eight bits is called a ()
+选择一项：
+a. byte
+b. word
+c. number
+d. digit
+正确答案是：byte
+
+One megabyte equals approximately ()
+选择一项：
+a. 1024 KB
+b. 65,535 KB
+c. 1,000,000 KB
+d. 10,000KB
+正确答案是：1024 KB
+
+According to the mode of processing, computers are either（ ）or digital.。
+选择一项：
+a. anoloy
+b. analog
+c. simulation
+d. simulate
+正确答案是：analog
+
+A digital computer is generally made up of five distinct elements（独立部件）: a central processing unit, input devices, memory storage devices,（） devices, and a bus.
+选择一项：
+a. mouse
+b. monitor
+c. keyboard
+d. output
+正确答案是：output
+
+The smallest unit of information handled by a computer is bit,which is the abbreviation of binary digit.A group of ( ) bits is called a byte。
+选择一项：
+a. ten
+b. tow
+c. eight
+d. four
+正确答案是：eight
+
+One of trends in computer development is ( ),the effort to compress more circuit elements into smaller an smaller chip space.。
+选择一项：
+a. huge
+b. massive
+c. microminiaturization
+d. samll
+正确答案是：microminiaturization
+
+One megabyte equals approximately ()
+选择一项：
+a. 10,000KB
+b. 65,535 KB
+c. 1,000,000 KB
+d. 1024 KB
+正确答案是：1024 KB
+
+Modern digital computers can be classified as (), minicomputers, workstations, or microcomputers on the basis of cost and performance（性能）.
+选择一项：
+a. mainframes(大型机)
+b. notebooks(笔记本)
+c. laptop(膝上型电脑)
+d. PDA (个人数字助理)
+正确答案是：mainframes(大型机)
+
+Whereas the decimal system（十进制）is based on 10,the () system is based on 2. There are only two digits in the latter system, 0 and 1.
+选择一项：
+a. byte
+b. octal（八进制）
+c. binary（二进制）
+d. hexadecimal(十六进制)
+正确答案是：binary（二进制）
+
+Modern digital computers can be classified as mainframes,minicomputers, workstations, or 彩蛋 on the basis of cost and performance（性能）.
+选择一项：
+a. microcomputers（微型计算机）
+b. vacuum tubes(真空管）
+c. personal computer(个人电脑)
+d. transistors（晶体管）
+正确答案是：microcomputers（微型计算机）
+
+The third generation computers, dating from the 1960s, were based on().
+选择一项：
+a. IC(集成电路)
+b. vacuum tubes(真空管）
+c. transistors（晶体管）
+d. VLSI（超大规模集成电路）
+正确答案是：IC(集成电路)
+
+The second generation computers, introduced in the early 1960s, were based on().
+选择一项：
+a. IC(集成电路)
+b. transistors（晶体管）
+c. VLSI（超大规模集成电路）
+d. vacuum tubes(真空管）
+正确答案是：transistors（晶体管）
+
+系统设计范例可以翻译为system design paradigm
+选择一项：
+对
+错
+正确答案是“对”。
+需求分析与定义可以翻译为requirements analysis and definition
+选择一项：
+对
+错
+正确答案是“对”。
+探索式编程方法可以翻译为exploratory programming approach
+选择一项：
+对
+错
+正确答案是“对”。
+系统文件编制可以翻译为system documentation
+选择一项：
+对
+错
+正确答案是“对”。
+瀑布模型可以翻译为water model
+选择一项：
+对
+错
+正确答案是“错”。
+system specification短语可以翻译为系统规格说明
+选择一项：
+对
+错
+正确答案是“对”。
+unit testing短语可以翻译为单位（或单元、部件）测试
+选择一项：
+对
+错
+正确答案是“对”。
+software life cycle短语可以翻译为软件生命周期
+选择一项：
+对
+错
+正确答案是“对”。
+system validation testing短语可以翻译为系统验证测试
+选择一项：
+对
+错
+正确答案是“对”。
+evolutionary development process短语可以翻译为演化开发过程
+选择一项：
+对
+错
+正确答案是“对”。
+点分十进制记数法可以翻译为dotted notation
+选择一项：
+对
+错
+正确答案是“错”。
+Among the following domain names, which domain belongs to government?
+选择一项：
+a. www.zgks.org
+b. www.baidu.com
+c. www.hust.edu.cn
+d. www.whitehouse.gov
+正确答案是：www.whitehouse.gov
+
+A否 彩蛋 can connect two independent networks: a LAN to a WAN, a LAN to a MAN, a WAN to another WAN, and so on.
+选择一项：
+a. switch
+b. gateway
+c. bridge
+d. router
+正确答案是：router
+
+Among the following domain names, which domain belongs to school?
+选择一项：
+a. www.baidu.com
+b. www.zgks.org
+c. www.whitehouse.gov
+d. www.hust.edu.cn
+正确答案是：www.hust.edu.cn
+
+TCP的完整单词拼写是（ ）。
+选择一项：
+a. Transfer Control Practice
+b. Transfer Carry Protocol
+c. Transmission Control Practice
+d. Transmission Control Protocol
+正确答案是：Transmission Control Protocol
+
+FTP对应的中文是（ ）。
+选择一项：
+a. 文件控制协议
+b. 传输控制协议
+c. 文件传输协议
+d. 食品安全标准
+正确答案是：文件传输协议
+
+宽带因特网访问可以翻译为broadband Internet access
+选择一项：
+对
+错
+正确答案是“对”。
+点分十进制记数法可以翻译为dotted notation
+选择一项：
+对
+错
+正确答案是“错”。
+因特网服务提供商可以翻译为Internet service provider (ISP)
+选择一项：
+对
+错
+正确答案是“对”。
+主机地址可以翻译为host address
+选择一项：
+对
+错
+正确答案是“对”。
+硬件与软件支持可以翻译为hardware and software support
+选择一项：
+对
+错
+正确答案是“对”。
+A否 彩蛋allows two networks, each with a different set of protocols for all seven OSI layers, to be connected to each other and communicate.
+选择一项：
+a. router
+b. hub
+c. switch
+d. gateway
+正确答案是：gateway
+
+The ISO/OSI reference model has( )layers.
+选择一项：
+a. 6
+b. 7
+c. 4
+d. 5
+正确答案是：7
+
+HTTP对应的中文是（ ）。
+选择一项：
+a. 下载协议
+b. 传输控制协议
+c. 超文本标记语言
+d. 超文本传输协议
+正确答案是：超文本传输协议
+
+A ( ) spans a large geographical area.
+选择一项：
+a. MAN
+b. WAN
+c. LAN
+d. CAN
+正确答案是：WAN
+
+An IP address is a () address.
+选择一项：
+a. 64-bit
+b. 8-bit
+c. 16-bit
+d. 32-bit
+正确答案是：32-bit
+
+The ISO/OSI reference model has( )layers.
+选择一项：
+a. 5
+b. 6
+c. 4
+d. 7
+正确答案是：7
+
+An IP address is a () address.
+选择一项：
+a. 64-bit
+b. 32-bit
+c. 16-bit
+d. 8-bit
+正确答案是：32-bit
+
+In the domain name "www.hust.edu.cn", "cn" refers to ( ).
+选择一项：
+a. China
+b. Chile
+c. Congo
+d. Canada
+正确答案是：China
+
+Among the following domain names, which domain belongs to school?
+选择一项：
+a. www.hust.edu.cn
+b. www.baidu.com
+c. www.whitehouse.gov
+d. www.zgks.org
+正确答案是：www.hust.edu.cn
+
+"www.hust.edu.cn" is a/an () name.
+选择一项：
+a. symbolic
+b. good
+c. domain
+d. decimal-dotted
+正确答案是：domain

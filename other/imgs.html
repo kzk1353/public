@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+  <meta name="author" content="KAZUKI" />
+  <meta name="description" content="" />
+  <title></title>
+  <link rel="icon" href="" />
+</head>
+
+<body class="loading">
+  <div class="page" id="app" v-cloak>
+    <div class="wrap">
+
+      <header>
+
+      </header>
+
+      <section>
+
+      </section>
+
+      <footer>
+
+      </footer>
+
+    </div>
+  </div>
+  <!--<a href="#" class="return">TOP</a>-->
+  <!--<aside class="aside">
+    <div class="asides to_top">|<</div>
+    <div class="asides to_bottom">>|</div>
+</aside>-->
+  <!--<div class="transparent"></div>-->
+</body>
+
+<script>
+  var domain = 'https://static.zuiqiangyingyu.cn/wechatApp/banma_DrawGuess/src/public/images/';
+  var urls = [
+'https://img.imoutomoe.net/image/O6qELG',
+'https://img.imoutomoe.net/image/O6q762',
+'https://img.imoutomoe.net/image/O6qFfr',
+'https://img.imoutomoe.net/image/O6qYKo',
+'https://img.imoutomoe.net/image/O6qCQq',
+'https://img.imoutomoe.net/image/O6qNy6',
+'https://img.imoutomoe.net/image/O6qpBI',
+'https://img.imoutomoe.net/image/O6q6WL',
+'https://img.imoutomoe.net/image/O6qA3C',
+'https://img.imoutomoe.net/image/O6qZma',
+'https://img.imoutomoe.net/image/O6qr6c',
+'https://img.imoutomoe.net/image/O6qDME',
+'https://img.imoutomoe.net/image/O6qWf0',
+'https://img.imoutomoe.net/image/O6qkKu',
+'https://img.imoutomoe.net/image/O6qtbB',
+'https://img.imoutomoe.net/image/O6quyT',
+'https://img.imoutomoe.net/image/O6qQBW',
+'https://img.imoutomoe.net/image/O6qbg4',
+'https://img.imoutomoe.net/image/O6qc3n',
+'https://img.imoutomoe.net/image/O6qioz',
+'https://img.imoutomoe.net/image/O6q1Ad',
+'https://img.imoutomoe.net/image/O6qLMU',
+'https://img.imoutomoe.net/image/O6qMhS',
+'https://img.imoutomoe.net/image/O6qVKh',
+'https://img.imoutomoe.net/image/O6qqbi',
+'https://img.imoutomoe.net/image/O6qR0K',
+'https://img.imoutomoe.net/image/O6q3BJ',
+'https://img.imoutomoe.net/image/O6qGgQ',
+'https://img.imoutomoe.net/image/O6qHGl',
+'https://img.imoutomoe.net/image/O6qvow',
+'https://img.imoutomoe.net/image/O6qwAk',
+'https://img.imoutomoe.net/image/O6qyU2',
+'https://img.imoutomoe.net/image/O6q0hG',
+'https://img.imoutomoe.net/image/O6qJYr',
+'https://img.imoutomoe.net/image/O6qPco',
+'https://img.imoutomoe.net/image/O6qa0q',
+  ];
+  var suffix = '.png';
+
+  var imgs = document.getElementById("app");
+  var doc = document.createDocumentFragment();
+
+  urls.forEach(function (v) {
+    var img = document.createElement("iframe");
+    img.src = domain + v + suffix;
+    doc.appendChild(img);
+  });
+  imgs.appendChild(doc);
+
+  console.log(imgs)
+</script>
+
+</html>

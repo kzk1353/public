@@ -1,0 +1,333 @@
+{
+  "Gestures": [
+    {
+      "pattern": [
+        [
+          0,
+          1
+        ]
+      ],
+      "command": {
+        "name": "ScrollBottom",
+        "settings": {
+          "duration": 100
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          0,
+          -1
+        ]
+      ],
+      "command": {
+        "name": "ScrollTop",
+        "settings": {
+          "duration": 100
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          1,
+          0
+        ]
+      ],
+      "command": {
+        "name": "PageForth"
+      }
+    },
+    {
+      "pattern": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "command": {
+        "name": "PageBack"
+      }
+    },
+    {
+      "pattern": [
+        [
+          5,
+          -66
+        ],
+        [
+          8,
+          -7
+        ],
+        [
+          60,
+          -1
+        ]
+      ],
+      "command": {
+        "name": "FocusLastTab"
+      }
+    },
+    {
+      "pattern": [
+        [
+          1,
+          -54
+        ],
+        [
+          -20,
+          -6
+        ],
+        [
+          -40,
+          0
+        ]
+      ],
+      "command": {
+        "name": "FocusFirstTab",
+        "settings": {
+          "includePinned": false
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          -1,
+          67
+        ],
+        [
+          58,
+          5
+        ]
+      ],
+      "command": {
+        "name": "DuplicateTab",
+        "settings": {
+          "position": "default",
+          "focus": true
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          -6,
+          43
+        ],
+        [
+          -39,
+          2
+        ]
+      ],
+      "command": {
+        "name": "ToggleMute"
+      }
+    },
+    {
+      "pattern": [
+        [
+          249,
+          -15
+        ],
+        [
+          48,
+          -32
+        ],
+        [
+          47,
+          -84
+        ],
+        [
+          11,
+          -92
+        ]
+      ],
+      "command": {
+        "name": "URLLevelUp"
+      }
+    },
+    {
+      "pattern": [
+        [
+          -238,
+          -10
+        ],
+        [
+          -52,
+          -41
+        ],
+        [
+          -20,
+          -69
+        ],
+        [
+          -3,
+          -79
+        ]
+      ],
+      "command": {
+        "name": "ReloadAllTabs",
+        "settings": {
+          "cache": true
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          249,
+          6
+        ],
+        [
+          74,
+          41
+        ],
+        [
+          35,
+          64
+        ],
+        [
+          26,
+          208
+        ]
+      ],
+      "command": {
+        "name": "CloseRightTabs"
+      }
+    },
+    {
+      "pattern": [
+        [
+          -153,
+          8
+        ],
+        [
+          -46,
+          22
+        ],
+        [
+          -40,
+          58
+        ],
+        [
+          -22,
+          114
+        ]
+      ],
+      "command": {
+        "name": "CloseLeftTabs"
+      }
+    },
+    {
+      "pattern": [
+        [
+          -182,
+          0
+        ],
+        [
+          179,
+          -4
+        ]
+      ],
+      "command": {
+        "name": "RestoreTab",
+        "settings": {
+          "currentWindowOnly": true
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          201,
+          -3
+        ],
+        [
+          -214,
+          0
+        ]
+      ],
+      "command": {
+        "name": "CloseTab",
+        "settings": {
+          "nextFocus": "default",
+          "closePinned": true
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          -11
+        ]
+      ],
+      "command": {
+        "name": "ReloadFrame",
+        "settings": {
+          "cache": true
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          0,
+          -11
+        ],
+        [
+          0,
+          17
+        ]
+      ],
+      "command": {
+        "name": "MinimizeWindow"
+      }
+    }
+  ],
+  "Settings": {
+    "General": {
+      "updateNotification": false
+    },
+    "Rocker": {
+      "active": true,
+      "leftMouseClick": {
+        "name": "DecreaseURLNumber",
+        "settings": {
+          "regex": ""
+        }
+      },
+      "rightMouseClick": {
+        "name": "IncreaseURLNumber",
+        "settings": {
+          "regex": ""
+        }
+      }
+    },
+    "Wheel": {
+      "active": true,
+      "mouseButton": "2",
+      "wheelUp": {
+        "name": "FocusLeftTab",
+        "settings": {
+          "cycling": true,
+          "excludeDiscarded": false
+        }
+      },
+      "wheelDown": {
+        "name": "FocusRightTab",
+        "settings": {
+          "cycling": true,
+          "excludeDiscarded": false
+        }
+      },
+      "wheelSensitivity": 3
+    }
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "key": "F6",
+    "action": "prevtab",
+    "sites": "",
+    "sitesArray": [
+      ""
+    ]
+  },
+  {
+    "key": "F7",
+    "action": "nexttab",
+    "sites": "",
+    "sitesArray": [
+      ""
+    ]
+  },
+  {
+    "key": "F8",
+    "action": "closetab",
+    "sites": "",
+    "sitesArray": [
+      ""
+    ]
+  },
+  {
+    "key": "F9",
+    "action": "reopentab",
+    "sites": "",
+    "sitesArray": [
+      ""
+    ]
+  }
+]

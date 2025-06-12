@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-CN" ng-app="app" ng-controller="ctrl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" content="KAZUKI">
+	<meta name="copyright" content="KAZUKI">
+	<title>筛选商品</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
+		}
+		img{
+			max-width:100%;
+		}
+		ul{
+			list-style:none;
+		}
+		ol{
+			list-style-position:inside;
+		}
+		button{
+			border:0;
+			cursor:pointer;
+			background:transparent;
+		}
+		a{
+			color:black;
+			text-decoration:none;
+			display:inline-block;
+			transition:all .2s;
+		}
+		a:hover{
+			color:red;
+		}
+		a:active{
+			transform:scale(0.9);
+		}
+		.center{
+			display:table;
+			margin:auto;
+		}
+		.body1{
+			width:100%;
+			height:100%;
+			position:absolute;
+			background:#c0c0c0;
+		}
+		.body2{
+			font-size:14px;
+			font-family:"微软雅黑";
+			background:#fff;
+			transform-origin:left top;
+			max-width: 800px;
+			position:absolute;
+			top:0;
+			right:0;
+			bottom:0;
+			left:0;
+			margin:auto;
+		}
+		section{
+			margin: 10vh 0;
+		}
+		input{
+			text-align: center;
+		}
+		section>p{
+			padding: 0 10vw;
+		}
+		.filter{
+			text-align: center;
+		}
+		.filter input{
+			width: 23%;
+			margin: 0 10px;
+		}
+		.filter button{
+			width:60px;
+			height:30px;
+			border-radius: 20px;
+			margin: 20px 10px 0;
+		}
+		.btn{
+			background: lime;
+		}
+		.clear{
+			background: red;
+		}
+		.total{
+			height:44px;
+			line-height: 44px;
+			vertical-align: middle;
+		}
+		.inputArea>div{
+			width: 33%;
+			display: inline-block;
+		}
+		.inputArea span{
+			width: 20%;
+			text-align: right;
+			display: inline-block;
+		}
+		.inputArea input{
+			width: 70%;
+			margin:10px 5%;
+			max-width: 105px;
+		}
+		.add{
+			display: block;
+			width: 80%;
+			height: 40px;
+			margin: 2vh auto 5vh;
+			background: aqua;
+			border-radius: 30px;
+		}
+	</style>
+</head>
+<body>
+<div class="body1">
+<div class="body2">
+	<section class="index1 row">
+<!-- 		<p>您遇到过超市搞120减30活动吗?</p>
+		<p>您是否希望能挑选出接近120元的商品</p>
+		<p>现在,这里就能实现您梦寐以求的功能</p> -->
+		<form action="" name="form" id="form" onsubmit="return false">
+			<div class="filter">
+				<span>总额的上限值:</span>
+				<input type="number" name="max" step="0.01">
+				<br>
+				<button class="clear" name="clear" form="form">清空</button>
+				<button class="btn" name="btn" form="form">挑选</button>
+			</div>
+			<div class="total center"></div>
+			<div class="inputArea"></div>
+			<button class="add" name="add" form="form">新增9个价格栏目</button>
+		</form>
+		<p>使用说明：</p>
+		<br>
+		<p>在您设定总额的上限值后，在下面的价格栏目里填写各商品的价格，最后点击挑选即可</p>
+		<br>
+		<p>您甚至可以在价格栏目里填写公式，例如：30*0.75</p>
+	</section>
+</div>
+</div>
+
+<script>
+	var form=document.form;
+	var add=form.add;
+	var spanInner=0;
+	var inputArea=document.querySelector(".inputArea");
+
+	// 增加10个
+	addInput();
+	add.onclick=addInput;
+	function addInput(){
+		for(var i=0;i<9;i++){
+			var span=document.createElement("span");
+			spanInner+=1;
+			span.innerHTML=spanInner+":";
+
+			var numInput=document.createElement("input");
+			numInput.type="tel";
+			numInput.name="num";
+			// 获取本地存储
+			numInput.value=localStorage.getItem(spanInner-1);
+			numInput.index=spanInner;
+			numInput.onblur=function(){
+				this.style.background="";
+				var value=this.value,
+					index=this.index-1;
+				if(value.length!=0){
+					try{
+						localStorage.setItem(index,eval(value));
+					}catch(err){
+						this.style.background="deeppink";
+					}
+				}else{
+					localStorage.removeItem(index);
+				}
+			}
+
+			var div=document.createElement("div");
+			div.appendChild(span);
+			div.appendChild(numInput);
+			div.onclick=function(){
+				this.lastChild.select();
+			}
+			inputArea.appendChild(div);
+		}
+		if(localStorage.length>spanInner){
+			addInput();
+		}
+	}
+
+	// 清除本地存储
+	var clear=form.clear;
+	var total=document.querySelector(".total");
+	clear.onclick=function(){
+		if(confirm("请问是否清除所有商品")){
+			localStorage.clear();
+			var	nums=form.num,
+				i=nums.length;
+			for(;i--;){
+				nums[i].style.background="";
+				nums[i].value="";
+			}
+			total.innerHTML="";
+		}
+	}
+
+	// 挑选
+	var btn=form.btn;
+	btn.onclick=function(){
+		var	nums=form.num,
+			i=nums.length,
+			json=[],
+			storage;
+		for(;i--;){
+			// 重置价格的颜色
+			nums[i].style.background="";
+
+			// 创建json
+			storage=localStorage.getItem(i);
+			if(storage){
+				json.push({span:i,num:storage});
+			}
+		}
+		json.sort(function(a,b){return a.num-b.num;});
+		
+		// 挑选价格
+		var jsonL=json.length,
+			filter=0,
+			max=form.max.value;
+		while(jsonL--){
+			if(filter + +json[jsonL].num<=max){
+				filter += +json[jsonL].num;
+
+				// 给符合的价格填色
+				nums[json[jsonL].span].style.background="lime";
+			}
+		}
+		total.innerText="总额:"+filter.toFixed(2)+"　相差:"+(max-filter).toFixed(2);
+	}
+</script>
+</body>
+</html>

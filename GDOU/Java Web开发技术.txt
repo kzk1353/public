@@ -1,0 +1,1399 @@
+当多个用户请求同一个JSP页面时，Tomcat服务器为每个客户启动一个_____。
+选择一项：
+a.服务
+b.程序
+c.线程
+d.进程
+正确答案是：线程
+
+以下_____不是JSP运行所必须的条件。
+选择一项：
+a.操作系统
+b.支持Jsp的Web服务器
+c.JavaJDK
+d.数据库
+正确答案是：数据库
+
+Tomcat服务器的默认端口为_____。
+选择一项：
+a.8001
+b.8888
+c.80
+d.8080
+正确答案是：8888
+
+如果想在tomcat服务器启动时将jar包加载到内存，且该jar包可以被tomcat服务器上所有的应用使用，应该将该jar包复制到tomcat的_____目录。
+选择一项：
+a.server
+b.common
+c.server\lib
+d.common\lib
+正确答案是：server\lib
+
+下列变量声明在
+<%! Date dateTime;
+int countNum; %>_____范围内有效。
+选择一项：
+a.从定义开始处有效，被多个客户共享
+b.在整个页面内有效，客户之间不共享
+c.在整个页面内有效，被多个客户共享
+d.从定义开始处有效，客户之间不共享
+正确答案是：在整个页面内有效，被多个客户共享
+
+在“<%!”和“%>”标记之间声明的Java的方法称为页面的成员方法，其在_____范围内有效。
+选择一项：
+a.不确定。
+b.从定义处之前有效。
+c.从定义处之后有效。
+d.在整个页面内有效。
+正确答案是：从定义处之前有效。
+
+JSP页面可以在“<%=”和“%>”标记之间放置Java表达式，直接输出Java表达式的值。组成“<%=”标记的各字符之间_____。
+选择一项：
+a.不确定
+b.可以有空格
+c.必须有空格
+d.不可以有空格
+正确答案是：不可以有空格
+
+JSP的Page编译指令的属性Language的默认值是_____。
+选择一项：
+a.Java
+b.C
+c.C
+d.SQL
+正确答案是：Java
+
+JSP页面经过编译之后，将创建一个_____。
+选择一项：
+a.exe文件
+b.servlet
+c.application
+d.applet
+正确答案是：servlet
+
+对于声明的说法错误的是:_____。
+选择一项：
+a.声明的变量将在JSP页面初始化时初始化
+b.一个声明仅在一个页面中有效
+c.声明的变量将作为局部变量
+d.一次可声明多个变量和方法
+正确答案是：声明的变量将作为局部变量
+
+配置JSP运行环境，若WEB应用服务器选用TOMCAT，以下说法正确的是：_____。
+选择一项：
+a.不需安装JDK，安装TOMCAT就可以了
+b.先安装TOMCAT，再安装 JDK
+c.JDK和TOMCAT只要都安装就可以了，安装顺序没关系
+d.先安装JDK，再安装TOMCAT
+正确答案是：先安装JDK，再安装TOMCAT
+
+下列关于JSP的说法错误的是_____。
+选择一项：
+a.JSP是一种与Java无关的程序设计语言；
+b.在JSP中可以使用脚本控制HTML的标签生成；
+c.JSP可以处理动态内容和静态内容；
+d.JSP程序的运行需要JSP引擎的支持。
+正确答案是：JSP是一种与Java无关的程序设计语言；
+
+JSP文件在第一次运行的时候被JSP引擎编译为_____文件。
+选择一项：
+a.Class
+b.HTML
+c.XML
+d.Servlet
+正确答案是：Servlet
+
+以下_____不属于B/S结构特点。
+选择一项：
+a.节约成本
+b.方便
+c.安全
+d.维护成本高且投资大
+正确答案是：维护成本高且投资大
+
+在<a href=http://www.hljsp-edu.cn * >标记中，*号位置会写上窗口的打开方式。若将内容显示在新的浏览窗口中，应选择_____。
+选择一项：
+a.target=_top
+b.target=_parent
+c.target=_blank
+d.target=_self
+正确答案是：target=_blank
+
+CSS指的是
+_____。
+选择一项：
+a.标记语言
+b.扩展标记语言
+c.脚本语言
+d.层叠样式表
+正确答案是：层叠样式表
+
+Web开发技术包括客户端和服务器端的技术。
+选择一项：
+对
+错
+正确的答案是“对”。
+
+在网页中图形文件与网页文件是分别存储的。
+选择一项：
+对
+错
+正确的答案是“对”。
+
+超级链接可以将文本作为链接对象，但不允许将图像作为链接对象。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+表单域可以单独使用，不一定非要放在
+窗体顶端
+元素中。
+窗体底端
+选择一项：
+对
+错
+正确的答案是“错”。
+
+当样式定义重复出现的时候，最先定义的样式起作用。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+一个表单只能有一个提交按钮。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+JSP也可以使用C#等语言实现。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+JSP页面是采用JavaScript语言实现在服务端代码。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+表格在网页中常用于网页的布局排版，下面_____不是表格的标记。
+选择一项：
+a.<tr>
+b.<th>
+c.<table>
+d.<td>
+正确答案是：<th>
+
+以下JSP代码片断：
+<% int x=5; %>
+<%!
+private int m(int a)
+{
+return a+1;
+}
+%>
+<% x=3; %>x=<%=x%>,<%=m(x)%>
+运行结果是_____。
+选择一项：
+a.编译错误
+b.x=5,4
+c.x=3,6
+d.x=3,4
+正确答案是：x=3,4
+
+page指令用于定义JSP文件中的全局属性，下列关于该指令用法的描述错误的是_____。
+选择一项：
+a.指令中的属性只能出现一次
+b.可以在一个页面中使用多个指令
+c.为增强程序的可读性，建议将指令放在JSP文件的开头，但不是必须的
+d.作用于整个JSP页面
+正确答案是：指令中的属性只能出现一次
+
+在一个JSP文件中，有表达式<%=2+3 %>，它将输出_____。
+选择一项：
+a.不会输出因为表达式错误
+b.5
+c.23
+d.2+3
+正确答案是：5
+
+下列表单 <p> <form> <input type=”submit” value=”提交”></form> </p> 如果单击提交按钮时，表单_____。
+选择一项：
+a.使用post方式提交
+b.不确定
+c.提交到当前页
+d.没有指定action属性，所以不做提交
+正确答案是：提交到当前页
+
+对于预定义<%!预定义%>的说法错误的是：
+选择一项：
+a.一次可声明多个变量和方法，只要以“;”结尾就行
+b.一个声明仅在一个页面中有效
+c.在预定义中声明的变量将在JSP页面初始化时初始化
+d.声明的变量将作为局部变量
+正确答案是：声明的变量将作为局部变量
+
+page指令的import属性的作用是_____ 。
+选择一项：
+a.定义JSP页面使用的脚本语言
+b.定义JSP页面字符的编码
+c.定义JSP页面响应的HTML类型
+d.为JSP页面引入JAVA包中的类
+正确答案是：为JSP页面引入JAVA包中的类
+
+对于“<%!”、“%>”之间声明的变量，以下说法正确的是：_____ 。
+选择一项：
+a.多个用户同时访问该页面时，每个用户对这些变量的操作都是互相独立的，不会互相影响
+b.是JSP页面的局部变量
+c.多个用户同时访问该页面时，任何一个用户对这些变量的操作，都会影响到其他用户
+d.不是JSP页面的成员变量
+正确答案是：多个用户同时访问该页面时，任何一个用户对这些变量的操作，都会影响到其他用户
+
+jsp最终被运行的是_____文件。
+选择一项：
+a.java
+b.HTML
+c.class
+d.JSP
+正确答案是：class
+
+include指令用于在JSP页面静态插入一个文件，插入文件可以是JSP页面、HTML网页、文本文件或一段Java代码，但必须保证插入后形成的文件是_____。
+选择一项：
+a.是一个完整的HTML文件
+b.是一个完整的Java源文件
+c.是一个完整的JSP文件
+d.是一个完整的TXT文件
+正确答案是：是一个完整的JSP文件
+
+jsp中java表达式的语法格式为_____。
+选择一项：
+a.<%= %>
+b.<%@ %>
+c.<% %>
+d.<%! %>
+正确答案是：<%= %>
+
+下列_____注释为隐藏型注释。
+选择一项：
+a.<!-- 注释内容 -->
+b.<!—[<%= 表达式 %>] -->
+c.<!-- 注释内容 [<%= 表达式 %>] -->
+d.<%-- 注释内容 --%>
+正确答案是：<%-- 注释内容 --%>
+
+能在浏览器的地址栏中看到提交数据的表单提交方式是_____。
+选择一项：
+a.submit
+b.get
+c.post
+d.out
+正确答案是：get
+
+在JSP页面中通过<jsp:forward page=urlname/>将本页面请求转发至指定URL指定的文件，则在该URL组件(JSP页面)中，除了_____范围，其余均可接收数据。
+选择一项：
+a.request
+b.session
+c.page
+d.application
+正确答案是：page
+
+JSP中包括2种指令:page指令和include指令。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+JSP页面中一定要包含jsp代码。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+在HTML页面文件中加入JSP脚本元素、JSP标记等就构成了一个JSP页面。
+选择一项：
+对
+错
+正确的答案是“对”。
+
+在“<%!”和“%>”标记之间声明的Java的变量在整个页面内有效，不同的客户之间不可以共享。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+jsp:include动作标记与include指令标记包含文件的处理时间和方式不同。
+选择一项：
+对
+错
+正确的答案是“对”。
+
+JSP页面只能在客户端执行。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+JSP页面中不能包含脚本元素。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+在JSP中如果要导入java.io.*包，应该使用_____指令。
+选择一项：
+a.include
+b.page
+c.forward
+d.taglib
+正确答案是：page
+
+如果当前JSP页面不能显示中文，需要设置page指令的_____属性。
+选择一项：
+a.error
+b.contentType
+c.errorPage
+d.Exception
+正确答案是：contentType
+
+要设置某个JSP页面为错误处理页面，以下page指令正确的是_____。
+选择一项：
+a.<%@ page errorPage="true"%>
+b.<%@ page info="error"%>
+c.<%@ page isErrorPage="true"%>
+d.<%@ page extends="javax.servlet.jsp.JspErrorPage"%>
+正确答案是：<%@ page isErrorPage="true"%>
+
+在inc.jsp中包含数行代码与一张图片，现在要创建一个home.jsp，每次浏览home.jsp时都能够以最快的速度显示inc.jsp中的所有内容以及home.jsp自身要显示的内容，应该在home.jsp中使用的语句是_____。
+选择一项：
+a.<%@include page="inc.jsp" flush="true">
+b.<%@include file="inc.jsp"%>
+c.<jsp:include file="inc.jsp" flush="false">
+d.<jsp:forward page="inc.jsp"/>
+正确答案是：<%@include file="inc.jsp"%>
+
+Post属于表单的隐式提交信息方法。
+选择一项：
+对
+错
+正确的答案是“对”。
+
+从HTTP请求中，获得请求参数，应该调用_____。
+选择一项：
+a.session对象的getParameter()方法
+b.request对象的getParameter()方法
+c.session对象的getAttribute()方法
+d.request对象的getAttribute()方法
+正确答案是：request对象的getParameter()方法
+
+下面关于JSP作用域对象的说法错误的是_____。
+选择一项：
+a.request对象可以得到请求中的参数
+b.session对象可以保存用户信息
+c.application对象是只读对象
+d.作用域范围从小到大是request、session、application
+正确答案是：application对象是只读对象
+
+以下对象中作用域最大的是_____。
+选择一项：
+a.request
+b.session
+c.application
+d.page
+正确答案是：application
+
+下边哪个不是JSP的内置对象？
+选择一项：
+a.cookie
+b.out
+c.request
+d.session
+正确答案是：cookie
+
+jsp:forward和sendRedirect都是用来做页面跳转的，描述错误的是？
+选择一项：
+a.sendRedirect之后不可以使用原来的request对象，而且效率较低。
+b.forward地址栏变化，可以跳转到任何页面和机器。
+c.forward之后可以使用原来的request对象，而且效率较高。
+d.forward地址栏不变化，只能在Web应用程序内的页面间跳转。
+正确答案是：forward地址栏变化，可以跳转到任何页面和机器。
+
+以下哪个对象提供了访问和放置页面中共享数据的方式_____。
+选择一项：
+a.response
+b.pageContext
+c.session
+d.request
+正确答案是：session
+
+在JSP页面中，能够完成输出操作的内置对象是_____。
+选择一项：
+a.out
+b.config
+c.request
+d.response
+正确答案是：out
+
+out对象是一个输出流，其输出各种类型数据并换行的方法是_____。
+选择一项：
+a.out.println()
+b.out.print()
+c.out.newLine()
+d.out.write()
+正确答案是：out.println()
+
+如果只希望在多个页面间共享数据，可以使用_____作用域。
+选择一项：
+a.request,session
+b.pageContxt,request
+c.application,session
+d.request,application
+正确答案是：request,session
+
+sesson对象的_____方法用于判断是否为开始新会话。
+选择一项：
+a.invalidate()
+b.begin()
+c.isNew()
+d.isNewSessionID()
+正确答案是：isNew()
+
+调用getCreationTime()可以获取session对象创建的时间，该时间的单位是_____。
+选择一项：
+a.分秒
+b.秒
+c.微秒
+d.毫秒
+正确答案是：毫秒
+
+可以利用JSP动态改变客户端的响应，使用的语法是_____。
+选择一项：
+a.response.handlerHeader()
+b.response.setHeader()
+c.response.writeHeader()
+d.response.outHeader()
+正确答案是：response.setHeader()
+
+JSP中有三大类标签，分别是_____。
+选择一项：
+a.CSS标记 HTML标记 Javascript标记
+b.指令标记 脚本标记 HTML标记
+c.动作标记 脚本标记 指令标记
+d.HTML标记 JSP标记 Servlet标记
+正确答案是：动作标记 脚本标记 指令标记
+
+在JSP中，_____动作用于将请求转发给其他JSP页面。
+选择一项：
+a.forward
+b.setProperty
+c.include
+d.useBean
+正确答案是：forward
+
+以下_____陈述是错误的。
+选择一项：
+a.当在JSP页面中通过<jsp:forward>指令将页面请求转发到的页面中，可以共享一个page范围内的数据
+b.在WEB项目的共享数据范围内，application是范围最广泛的
+c.当用户重新打开一个浏览器窗口时，原session对象不再有效
+d.当我们在一个JSP页面新开窗口时，新开窗口的页面也共享session范围内的数据
+正确答案是：当在JSP页面中通过<jsp:forward>指令将页面请求转发到的页面中，可以共享一个page范围内的数据
+
+给定一个JSP程序源代码如下：
+<jsp:include page="two.jsp" flush="true">
+<jsp:param name="location" value="bejing"/>
+</jsp:include>
+在two.jsp中使用_____代码片段可以输出参数location的值。
+选择一项：
+a.<%=request.getAttribute("location")%>
+b.<%=request.getParameter("location")%>
+c.<jsp:getParam name="location">
+d.<jsp:getParameter name="location">
+正确答案是：<%=request.getParameter("location")%>
+
+给定include1.jsp文件代码片断，如下：
+<% pageContext.setAttribute("User","HAHA");%>
+__ //此处填写代码
+给定include2.jsp文件代码片断，如下：
+<%=pageContext.getAttribute("User")%>
+要求运行include1.jsp时，浏览器上输出：HAHA
+要满足以上条件，jsp1.jsp中下划线处应填入以下_____语句。
+选择一项：
+a.<jsp:include page="include2.jsp" flush="true"/> null
+b.<%@ include file="include2.jsp"%> HAHA
+c.<% response.sendRedirect("include2.jsp");%> null
+d.<jsp:forward page="include2.jsp"/> null
+正确答案是：<%@ include file="include2.jsp"%> HAHA
+
+out对象是一个输出流，它实现了javax.servlet.JspWriter接口，用来向客户端输出数据。
+选择一项：
+对
+错
+正确的答案是“对”。
+
+利用response对象的sendRedirect方法只能实现本网站内的页面跳转，但不能传递参数。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+respone对象主要用于向客户端发送数据。
+选择一项：
+对
+错
+正确的答案是“对”。
+
+不可以用一个page指令指定多个属性的取值。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+jsp:param动作标记不能单独使用，必须作为jsp:include、jsp:forward标记等的子标记使用，并为它们提供参数。
+选择一项：
+对
+错
+正确的答案是“对”。
+
+Tomcat服务器支持直接使用application对象。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+contentType属性用来设置JSP页面的MIME类型和字符编码集，取值格式为"MIME类型"或"MIME类型;charset=字符编码集"，response对象调用addHeader方法修改该属性的值。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+request.getRequestDispatcher().forward(request,response)称之为_____。
+选择一项：
+a.流转
+b.导航
+c.重定向
+d.转发
+正确答案是：转发
+
+一个典型的HTTP请求消息包括请求行、多个请求头和_____。
+选择一项：
+a.响应头
+b.信息体
+c.响应行
+d.信息头
+正确答案是：信息体
+
+JavaBean的作用域按从大到小排列正确的是_____。
+选择一项：
+a.application page request response
+b.session page request application
+c.application session request page
+d.public application session request
+正确答案是：application session request page
+
+在JSP中，使用<jsp:useBean>动作可以将javaBean嵌入JSP页面，对JavaBean的访问范围不能是_____。
+选择一项：
+a.request
+b.page
+c.application
+d.response
+正确答案是：response
+
+关于JavaBean正确的说法是_____。
+选择一项：
+a.Bean文件放在任何目录下都可以被引用
+b.被引用的Bean文件的文件名后缀为.java
+c.Java文件与Bean所定义的类名可以不同，但一定要注意区分字母的大小写
+d.在JSP文件中引用Bean，其实就是用<jsp:useBean>语句
+正确答案是：Java文件与Bean所定义的类名可以不同，但一定要注意区分字母的大小写
+
+使用格式<jsp:setProperty name="beanid" property="bean的属性" value="<%= expression %>" />给Bean的属性赋值，expression的数据类型和bean的属性类型_____。
+选择一项：
+a.必须不同
+b.无要求
+c.必须一致
+d.可以不一致
+正确答案是：必须一致
+
+http://localhost:8080/web/show.jsp?name=aaa下列_____可以正确取得请求参数值。
+选择一项：
+a.{name}
+b.{parameter.name}
+c.{param.get("name")}
+d.{param.name}
+正确答案是：{param.name}
+
+JSP的_____指令允许页面使用者自定义标签库。
+选择一项：
+a.Include指令
+b.Taglib指令
+c.Include指令
+d.Plugin指令
+正确答案是：Taglib指令
+
+假设在myServlet应用中有一个MyServlet类，在web.xml文件中对其进行如下配置：
+<servlet>
+<servlet-name> mysrvlet </servlet-name>
+<servlet-class> com.wgh.MyServlet </servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name> myservlet </servlet-name>
+<servlet-pattern> /welcome </url-pattern>
+</servlet-mapping>
+则以下选项可以访问到MyServlet的是_____。
+选择一项：
+a.http://localhost:8080/welcome
+b.http://localhost:8080/com/wgh/MyServlet
+c.http://localhost:8080/myservlet
+d.http://localhost:8080/MyServlet
+正确答案是：http://localhost:8080/welcome
+
+完整的配置一个Servlet需要_____标签。
+选择一项：
+a.<servlet></servlet>和<servlet-mapping></servlet-mapping>
+b.<webapp></webapp>
+c.<servlet-mapping><servlet-name>
+d.<servlet-name/>和<servlet-class>
+正确答案是：<servlet></servlet>和<servlet-mapping></servlet-mapping>
+
+给定一个Servlet的代码片段如下：
+Public void doGet(HttpServletRequest request,HttpServletResponse response)
+throws ServletException,IOException{
+______
+out.println("hi kitty! ");
+out.close(); }
+运行次Servlet时输出：hi kitty!
+则应在此Servlet下划线处填充如下_____代码。
+选择一项：
+a.PrintWriter out = response.getWriter();
+b.PrintWriter out = request.getWriter();
+c.OutputStream out = request.getWriter();
+d.OutputStream out = response.getOutputStream();
+正确答案是：PrintWriter out = response.getWriter();
+
+给定一个Servlet程序的代码片段，如下：
+Public void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException {
+request.getSession().getAttribute("A"); //第二行
+}
+假定第二行返回的对象引用不是null，那么这个对象存储在_____范围中。
+选择一项：
+a.session
+b.request
+c.application
+d.page
+正确答案是：session
+
+在Servlet中有一段代码如下
+public void doPost(HttpServletRequest request, HttpServletResponse response)
+throws ServletException, IOException {
+request.setAttribute("name", new Integer(100));
+response.sendRedirect("show.jsp");
+}
+在show.jsp中
+<%=request.getAttribute("name")%>
+页面结果为_____。
+选择一项：
+a.null
+b.java.lang.Integer
+c.100
+d.Integer
+正确答案是：null
+
+Servlet的运行过程是_____。
+选择一项：
+a.Servlet是一个具有接受请求和响应功能的类,在被请求时，Servlet早就被实例化好了，可以直接处理请求
+b.在服务器启动时,会加载Servlet，然后在处理请求的时候，实例化Servlet对象处理请求
+c.当请求Servlet时，服务器会即时加载Servlet类，然后对该类进行实例化，调用相应的方法处理请求
+d.首先对Servlet 进行配置，然后服务器在处理请求时，将配置过的Servlet类找到，然后实例化处理请求
+正确答案是：在服务器启动时,会加载Servlet，然后在处理请求的时候，实例化Servlet对象处理请求
+
+有关servlet的生命周期说法错误的是_____。
+选择一项：
+a.servlet的生命周期由servlet实例控制
+b.init()方法在创建完servlet实例后对其进行初始化，传递的参数为实现servletContext借口的对象
+c.service()方法响应客户端的请求
+d.destroy()方法释放servlet实例
+正确答案是：servlet的生命周期由servlet实例控制
+
+阅读下面代码片段：
+RequestDispatcher dispatcher=request.getRequestDispatcher("a.jsp");
+dispatcher.forward(request,response);
+关于该段代码的作用，下列_____叙述是正确的。
+选择一项：
+a.将请求转发到a.jsp页面
+b.页面重定向到a.jsp页面
+c.从a.jsp转发到当前页面
+d.从a.jsp定向到当前页面
+正确答案是：将请求转发到a.jsp页面
+
+JavaBean的属性必须声明为public，方法必须声明为private访问类型。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+表单信息的验证只能放在服务器端执行。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+public long session.setMaxInactiveInterval() 设置最长发呆时间，单位毫秒。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+session对象可以用来保存用户会话期间需要保存的数据信息。
+选择一项：
+对
+错
+正确的答案是“对”。
+
+url重写可以把session对象的id作为url参数传带过去，可以使用request对象的encodeURL("")。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+application对象对所有用户都是共享的，任何对它的操作都会影响到所有的用户。
+选择一项：
+对
+错
+正确的答案是“对”。
+
+JSP代码可以直接执行，所以不会被翻译成JAVA代码。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+如果两个不同的JSP页面有相同的SessionID,则这两个页面一定是同一个会话。
+选择一项：
+对
+错
+正确的答案是“对”。
+
+在helloapp应用中hello.jsp和welcome.jsp在同一目录中，index.jsp在应用的根路径，index.jsp使用下面的代码可以跳转到hello.jsp页面，request.getRequestDispatcher("/hello.jsp").forward(request,response); 用下列哪种方式可以代替上述代码后，可以跳转到welcome.jsp页面。
+选择一项：
+a.response.sendRedirect('//welcome.jsp');
+b.response.sendRedirect('/welcome.jsp');
+c.response.sendRedirect('helloapp/welcome.jsp');
+d.response.sendRedirect('welcome.jsp');
+正确答案是：response.sendRedirect('welcome.jsp');
+
+关于get请求和post请求的说法，错误的是_____。
+选择一项：
+a.Form表单可以发送post请求，也可以发送get请求
+b.URL形式的请求是get请求
+c.post请求有长度限制
+d.post请求比get请求安全
+正确答案是：post请求有长度限制
+
+MVC中的“M、V、C”分别用_____表示。
+选择一项：
+a.HTmljavabeanjsp
+b.jspservletjavabean
+c.servlethtml jsp
+d.javabeanjspservlet
+正确答案是：javabeanjspservlet
+
+下列代码中rs为查询得到的结果集，代码运行后表格的每一行有_____单元格。
+while(rs.next()){
+out.print("<tr>");
+out.print("<td>"+rs.getString(1)+"</td>");
+out.print("<td>"+rs.getString(2)+"</td>");
+out.print("<td>"+rs.getString(3)+"</td>");
+out.print("<td>"+rs.getString("publish")+"</td>");
+out.print("<td>"+rs.getFloat("price")+"</td>");
+out.print("</tr>");
+}
+选择一项：
+a.6
+b.5
+c.4
+d.不确定
+正确答案是：5
+
+下面对jdbc api描述错误的是_____。
+选择一项：
+a.ResultSet接口表示执行insert语句后得到的结果集
+b.Connection接口的createStatement()方法可以创建一个Statement对象
+c.Statement接口的executeQuery()方法可以发送select语句给数据库
+d.DriverManager接口的getConnection()方法可以建立和数据库的连接
+正确答案是：ResultSet接口表示执行insert语句后得到的结果集
+
+在JDBC连接数据库编程应用开发中，利用_____可以实现连接数据库。
+选择一项：
+a.Statement类
+b.Connection类
+c.CallableStatement类
+d.PreparedStatement类
+正确答案是：Connection类
+
+针对下述JSP页面，在Servlet中需要得到用户选择的爱好的数量，最合适的代码时_____。
+<input type="checkbox" name="aihao" value="网络"/>网络；
+<input type="checkbox" name="aihao" value="朋友推荐"/>朋友推荐；
+<input type="checkbox" name="aihao" value="报纸"/>报纸；
+<input type="checkbox" name="aihao" value="其他"/>其他；
+选择一项：
+a.request.getParameterValues("aihao").size
+b.request.getParameter("aihao").size
+c.request.getParameterValues("aihao").length
+d.request.getParameter("aihao").length
+正确答案是：request.getParameterValues("aihao").length
+
+下列不属于JSP构成元素的是_____。
+选择一项：
+a.表达式
+b.JavaScript
+c.脚本
+d.声明
+正确答案是：JavaScript
+
+下列注释方式可以在JSP中使用，并且客户端无法查看的是_____。
+选择一项：
+a.<!—注释-->
+b.<%注释%>
+c.<%!注释%>
+d.<%--注释--%>
+正确答案是：<%--注释--%>
+
+在JSP页面中有下述代码，第二次访问此页面的输出是_____
+<%! int x=0; %>
+<% Int y=0; %>
+<%=x++>,<%=y++>
+选择一项：
+a.0,0
+b.1,0
+c.1,1
+d.0,1
+正确答案是：1,0
+
+下列useBean标准动作使用正确的是
+选择一项：
+a.<jsp:useBean id="a" class="java.util.Date" scope="request"></jsp:useBean>
+b.<jsp:UseBean name="a" class="java.util.Date" scope="local"></jsp:useBean>
+c.<jsp:useBean id="a" class="Date" ></jsp:useBean>
+d.<jsp:useBean name="a" class="java.util.Date" scope="request"></jsp:useBean>
+正确答案是：<jsp:useBean id="a" class="java.util.Date" scope="request"></jsp:useBean>
+
+JSP程序在第一次载入时被JSP引擎翻译成_____。
+选择一项：
+a.html文件
+b.servlet文件
+c.java文件
+d.class文件
+正确答案是：servlet文件
+
+JSP页面在执行时是以_____方式进行的。
+选择一项：
+a.编译式
+b.翻译式
+c.解释式
+d.转换式
+正确答案是：编译式
+
+JSP和客户端交互的过程中，Web应用程序将处理结果以_____对象的方式返回给JSP引擎。
+选择一项：
+a.Request
+b.Response
+c.HTML
+d.Servlet
+正确答案是：Response
+
+两个JSP文件中的代码如下，执行后的输出为_____。
+1.jsp
+<% request.setAttribute("name","JSP");
+session.setAttribute("name","JSP");
+response.sendRedirect("2.jsp"); %>
+2.jsp
+<% out.print(request.getAttribute("name"));
+out.print(session.getAttribute("name")); %>
+选择一项：
+a.JSP JSP
+b.null JSP
+c.null null
+d.null JSP
+正确答案是：null null
+
+设在表单中有一组复选钮标记，如下列代码：
+<form action="register.jsp">选择城市
+<input type="checkbox" name="city" value="长春">长春<br>
+<input type="checkbox" name="city" value="北京">北京<br>
+<input type="checkbox" name="city" value="大连">大连<br>
+<input type="checkbox" name="city" value="上海">上海<br></form>
+如果在register.jsp是取city的值，最适合的方法为_____。
+选择一项：
+a.String city=request.getParameter("city");
+b.String []cities=request.getParameterValues("city");
+c.String []cities=request.getParameter("city");
+d.String city=request.getAttribute("city");
+正确答案是：String []cities=request.getParameterValues("city");
+
+JDBC是用来连接数据的。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+Servlet是单线程的。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+executeUpdate()是Statement接口的方法。
+选择一项：
+对
+错
+正确的答案是“对”。
+
+Servlet可以运行在客户端。
+选择一项：
+对
+错
+正确的答案是“错”。
+
+http是一个_____协议。
+选择一项：
+a.有状态
+b.局域网
+c.状态良好的
+d.无状态
+正确答案是：无状态
+
+Http协议的状态码_____表示文件没有创建。
+选择一项：
+a.400
+b.200
+c.500
+d.404
+正确答案是：404
+
+配置JSP运行环境，若WEB应用服务器选用TOMCAT，以下说法正确的是：
+_____。
+选择一项：
+a.不需安装JDK，安装TOMCAT就可以了
+b.先安装JDK，再安装TOMCAT
+c.JDK和TOMCAT只要都安装就可以了，安装顺序没关系
+d.先安装TOMCAT，再安装 JDK
+正确答案是：先安装JDK，再安装TOMCAT
+
+在开发Java Web应用程序的时候，HTTP请求消息使用Get或POET方法以便在WEB上传输数据，下列关于GET和POST 方法描述正确的是_____。
+选择一项：
+a.POST请求的数据在地址栏不可见
+b.GET请求提交数据更加安全
+c.POST请求对发送的数据的长度限制在240——255个字符
+d.GET请求提交的数据在理论上没有长度限制
+正确答案是：POST请求的数据在地址栏不可见
+
+<p> 下列表单
+</p><p>
+<p> <form> <input type=”submit” value=”提交”></form> </p>
+如果单击提交按钮时，表单_____。
+选择一项：
+a.没有指定action属性，所以不做提交
+b.不确定
+c.使用post方式提交
+d.提交到当前页
+正确答案是：提交到当前页
+
+下面_____不是JSP本身已加载的基本类。
+选择一项：
+a.javax.servlet.jsp.*
+b.java.lang.*
+c.javax.servlet.*
+d.java.io.*
+正确答案是：java.io.*
+
+在Jsp页面中，Java程序代码应插入在_____标记之间。
+选择一项：
+a.<% 和 %>
+b.<% 和 />
+c.<% 和 !>
+d.</ 和 %>
+正确答案是：<% 和 %>
+
+在JSP中，<%="3+4"%>将输出_____。
+选择一项：
+a.34
+b.7
+c.3+4
+d.不会输出，因为表达式是错误的
+正确答案是：3+4
+
+在JSP中，要定义一个方法，需要用到以下_____元素。
+选择一项：
+a.<%! %>
+b.<%@ %>
+c.<% %>
+d.<= %>
+正确答案是：<%! %>
+MVC中的“M、V、C”分别用_____表示。
+选择一项：
+a. servlet html jsp
+b. javabean jsp servlet
+c. jsp servlet javabean
+d. HTml javabean jsp
+正确答案是：javabean jsp servlet
+
+关于MVC模式说法正确的是_____。
+选择一项：
+a. 只用java才有的模型
+b. 将显示、流程控制、业务逻辑分开，提高维护性和分离复杂度
+c. 用来将代码分开的方法
+d. 视图 模型 控制器模型
+正确答案是：将显示、流程控制、业务逻辑分开，提高维护性和分离复杂度
+
+在MVC模式中，核心内容为_____。
+选择一项：
+a. model
+b. view
+c. control
+d. 不确认
+正确答案是：control
+
+下面关于MVC的说法不正确的是_____。
+选择一项：
+a. M表示Model层，是存储数据的地方
+b. View表示视图层，负责向用户显示外观
+c. Controller是控制层，负责控制流程
+d. 在MVC架构中，jsp通常做控制层
+正确答案是：在MVC架构中，jsp通常做控制层
+
+MVC设计模式将应用程序分为_____部分。
+选择一项：
+a. 3
+b. 4
+c. 5
+d. 2
+正确答案是：3
+
+MVC中的M是指（）。
+选择一项：
+a. mac地址
+b. Mapping
+c. Model
+d. Method
+正确答案是：Model
+
+Servlet用于充当MVC设计模式中的()模块
+选择一项：
+a. 容器
+b. Model
+c. View
+d. Controller
+正确答案是：Controller
+
+下列选项中，哪个是MVC设计模式中的V（视图）充当的？
+选择一项：
+a. JavaBean
+b. Action
+c. Servlet
+d. JSP
+正确答案是：JSP
+
+在设计基于多层体系结构的大型web应用时，JSP充当界面并且系统要不断进行升级，下面选项中最适合的开发模式是（）
+选择一项：
+a. DAO
+b. Value Object
+c. MVC
+d. Proxy
+正确答案是：MVC
+
+下面技术中，用于显示JavaBean中的数据信息的是（ ）
+选择一项：
+a. Servlet
+b. JS
+c. JSP
+d. JavaBean
+正确答案是：JSP
+
+要在jsp中使用ArrayList,，_____做法是正确的。
+选择一项：
+a. <% import java.util.ArrayList%>
+b. <%@ page import="java.util.ArrayList"%>
+c. <%@ page package="java.util.ArrayList"%>
+d. <%@ import "java.util.ArrayList"%>
+正确答案是：<%@ page import="java.util.ArrayList"%>
+
+在JSP中，page指令的_____属性用来引入需要的包或类。
+选择一项：
+a. contentType
+b. import
+c. extends
+d. languge
+正确答案是：import
+
+用户需要在数据库添加数据行，使用_____方法向服务器发送请求。
+选择一项：
+a. 以上都不对
+b. method
+c. get
+d. post
+正确答案是：post
+
+<jsp:param>动作元素经常与_____元素一起使用。
+选择一项：
+a. <jsp:useBean>
+b. <jsp:setProperty>
+c. <jsp:include>
+d. <jsp:import>
+正确答案是：<jsp:include>
+
+jsp指令不包括_____指令。
+选择一项：
+a. include
+b. taglib
+c. import
+d. page
+正确答案是：import
+
+下面_____不属于jsp动作标记。
+选择一项：
+a. <jsp:useBean/>
+b. <jsp:include/>
+c. <jsp:attribute/>
+d. <jsp:forwards/>
+正确答案是：<jsp:forwards/>
+
+下列_____不属于JSP动作指令标记。
+选择一项：
+a. <jsp:param>
+b. <jsp:javaBean>
+c. <jsp:plugin>
+d. <jsp:useBean>
+正确答案是：<jsp:javaBean>
+
+在JSP中可动态导入其他页面的标签是_____。
+选择一项：
+a. <% include/></textarea>
+b. <jsp:include/>
+c. <jsp:importPage/>
+d. <%@ include%>
+正确答案是：<jsp:include/>
+
+在JSP中如果要导入java.io.*包，应该使用_____指令。
+选择一项：
+a. forward
+b. page
+c. taglib
+d. include
+正确答案是：page
+关于JavaBean正确的说法是_____。
+选择一项：
+a. 被引用的Bean文件的文件名后缀为.java。
+b. 在JSP文件中引用Bean，其实就是用<jsp:useBean>语句。
+c. Bean文件放在任何目录下都可以被引用。
+d. Java文件与Bean所定义的类名可以不同，但一定要注意区分字母的大小写。
+正确答案是：Java文件与Bean所定义的类名可以不同，但一定要注意区分字母的大小写。
+
+JSTL包含的各种标签可用于_____页面中。
+选择一项：
+a. asp
+b. xml
+c. html
+d. jsp
+正确答案是：jsp
+
+自定义标签的配置文件放在_____。
+选择一项：
+a. WEB-INF
+b. classes
+c. WebRoot
+d. lib
+正确答案是：WEB-INF
+
+自定义标签的作用是_____。
+选择一项：
+a. 规定是这样的，如果不用，别人会说我们不专业
+b. 可以减少jsp中的java代码,将代码与界面标签分离,简化前台开发
+c. 连数据库
+d. 编写和使用方便
+正确答案是：可以减少jsp中的java代码,将代码与界面标签分离,简化前台开发
+
+在J2EE中，标签库中文件(*.tld)存放在_____目录下的。
+选择一项：
+a. WEB—INF
+b. WEB—INF/classes
+c. WEB—INF/lib
+d. WEB—INF/tags
+正确答案是：WEB—INF
+
+以下四个选项中不属于Servlet生命周期的是_____。
+选择一项：
+a. start()
+b. init()
+c. service()
+d. destroy()
+正确答案是：start()
+
+哪个不是Servlet接口的方法？
+选择一项：
+a. forward方法
+b. init方法
+c. doPost方法
+d. doGet方法
+正确答案是：forward方法
+
+下述有关JSP和Servlet关系的论述正确的有：
+选择一项：
+a. JSP能够实现功能均可由HTML实现。
+b. JSP适合做控制层。
+c. JSP能够实现功能可由Servlet实现。
+d. Servlet更适合做表现层。
+正确答案是：JSP能够实现功能可由Servlet实现。
+
+Servlet程序的入口点是：
+选择一项：
+a. main()
+b. service()
+c. doGet()
+d. init()
+正确答案是：init()
+
+在J2EE 中，Servlet从实例化到消亡是一个生命周期。下列描述正确的是_____。
+选择一项：
+a. 在典型的Servlet生命周期模型中，每次Web请求就会创建一个Servlet实例，请求结束Servlet就消亡了
+b. init()方法是包容器调用的Servlet实例的第一个方法
+c. 在Servlet 实例消亡之前，容器调用Servlet实例的service()方法
+d. 在包容器把请求传送给Servlet之后，和在调用Servlet实例的doGet或者doPost方法之前，包容器不会调用Servlet实例的其他方法
+正确答案是：init()方法是包容器调用的Servlet实例的第一个方法
+
+在JSP中，以下的page指令设置了使用的脚本语言是Java，且导入了java.rmi.*和java．util．*包．正确的是_____。
+选择一项：
+a. <%＠ page language=“Java” import=”java.rmi.* ,java.uitl.* ”%>
+b. <%＠ page language=“Java”;import=”java.rmi.*;java.uitl.* ”%”>
+c. <%＠ page Language=“Java”,import=”java.rmi.*;java.uitl.* ”%”>
+d. <%＠ page language=“Java” Import=”java.rmi.*,java.uitl.* ”%”>
+正确答案是：<%＠ page language=“Java” Import=”java.rmi.*,java.uitl.* ”%”>
+
+下面哪一个不是JSP本身已加载的基本类？
+选择一项：
+a. java.io.*
+b. javax.servlet.jsp.*
+c. javax.servlet.*
+d. java.lang.*
+正确答案是：java.io.*
+
+当访问一个Servlet时，以下Servlet中的哪个方法先被执行？
+选择一项：
+a. init()
+b. service()
+c. destroy()
+d. doGet()
+正确答案是：init()
+
+只能够传递字符串类型数据的方式是_____。
+选择一项：
+a. 表单 URL重写
+b. 隐藏域 setParameter方法
+c. 都可以
+d. session对象 表单
+正确答案是：表单 URL重写
+
+在HTTP协议中，用于发送大量数据的方法是_____。
+选择一项：
+a. get
+b. put
+c. post
+d. options
+正确答案是：post
+
+_____标记指定访问servlet的路径。
+选择一项：
+a. <url-pattern>
+b. <context-param>
+c. <servlet-class>
+d. <servlet-name>
+正确答案是：<servlet-class>
+
+下列_____类是抽象类。
+选择一项：
+a. Cookie
+b. HttpServlet
+c. ServletConfig
+d. HttpServletRequest
+正确答案是：HttpServlet
+
+完整的配置一个Servlet需要_____标签。
+选择一项：
+a. <webapp></webapp>
+b. <servlet></servlet>和<servlet-mapping></servlet-mapping>
+c. <servlet-name/>和<servlet-class>
+d. <servlet-mapping><servlet-name>
+正确答案是：<servlet></servlet>和<servlet-mapping></servlet-mapping>
+在helloapp应用中hello.jsp和welcome.jsp在同一目录中，index.jsp在应用的根路径，index.jsp使用下面的代码可以跳转到hello.jsp页面，request.getRequestDispatcher("/hello.jsp").forward(request,response); 用下列哪种方式可以代替上述代码后，可以跳转到welcome.jsp页面。
+选择一项：
+a. response.sendRedirect('//welcome.jsp');
+b. response.sendRedirect('welcome.jsp');
+c. response.sendRedirect('helloapp/welcome.jsp');
+d. response.sendRedirect('/welcome.jsp');
+正确答案是：response.sendRedirect('welcome.jsp');
+
+在WEB应用程序的目录结构中，在WEB-INF文件夹包含的文件为_____。
+选择一项：
+a. jsp文件
+b. .class文件
+c. .jar文件
+d. web.xml文件
+正确答案是：web.xml文件
+
+_____充当应用程序视图对象和模型对象的中间对象。
+选择一项：
+a. JSP
+b. C
+c. V
+d. M
+正确答案是：C
+
+下面_____不是ResultSet接口的方法。
+选择一项：
+a. close()
+b. getString(int i)
+c. next()
+d. getString(string str)
+正确答案是：getString(string str)
+
+下述选项中不属于JDBC基本功能的是_____。
+选择一项：
+a. 与数据库建立连接
+b. 提交SQL语句
+c. 处理查询结果
+d. 数据库维护管理
+正确答案是：数据库维护管理
+
+Tomcat的默认端口是_____。
+选择一项：
+a. 8088
+b. 8080
+c. 80
+d. 8000
+正确答案是：8080
+
+可以利用request对象的哪个方法获取客户端的表单信息_____。
+选择一项：
+a. request.outParameter()
+b. request.writeParameter()
+c. request.handlerParameter()
+d. request.getParameter()
+正确答案是：request.getParameter()
+
+关于get和post两种请求，下列说法正确的是？
+选择一项：
+a. get请求是默认的。
+b. post请求地址栏里是能看到数据的。
+c. post请求可以由doGet方法处理。
+d. get请求处理的数据量大小不受到限制。
+正确答案是：get请求是默认的。
+
+关于session的使用，下列说话正确的是_____。
+选择一项：
+a. session可能超时间
+b. Session永远不可能超时
+c. 浏览器与session没有关系
+d. 不同的浏览器具有相同的session
+正确答案是：session可能超时间
